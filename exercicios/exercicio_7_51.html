@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 7-51: Introdução à óptica · WebFísica</title>
+    <title>Lista de exercícios 7-51: Introdução à óptica</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 7-51: Introdução à óptica">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -43,7 +43,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: c)</p>
 </div>
@@ -56,7 +56,7 @@
 <p>c) aos fenômenos de interferência da luz depois de tangenciar os bordos do pilar;</p>
 <p>d) aos fenômenos de difração;</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios7-51/r2.png"/>
@@ -87,7 +87,7 @@
 </tbody>
 </table>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios7-51/r3.png"/>
@@ -103,7 +103,7 @@
 <p>d) Uma vela acessa numa sala inicialmente escura –  o Sol – um vaga-lume que brilha na escuridão;</p>
 <p>e) Um quadro de Van Gogh – Os planetas do sistema solar – uma fogueira.</p>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -117,7 +117,7 @@
 <p>d) Lâmpadas fluorecentes funcionam a partir da excitação de gases como o argônio, e materiais fosforescentes funcionam por meio da excitação do fósforo.</p>
 <p>e) Os termos fluorecentes e fosforescentes são sinônimos.</p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: c)</p>
 </div>
@@ -148,7 +148,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <p>GABARITO: b)</p>
 </div>
@@ -176,7 +176,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <p>Gabarito: e)</p>
 </div>
@@ -204,7 +204,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')">▼ Exibir resposta</button>
 <div class="questao" id="div-08" style="display:none">
 <p>Gabarito: c)</p>
 </div>
@@ -219,10 +219,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

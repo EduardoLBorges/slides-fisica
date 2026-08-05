@@ -13,7 +13,7 @@
         document.documentElement.setAttribute('data-tema', tema);
         localStorage.setItem(CHAVE, tema);
         document.querySelectorAll('#btn-tema').forEach(btn => {
-            btn.textContent = ICONES[tema] + ' ' + LABELS[tema];
+            btn.innerHTML = ICONES[tema] + ' <span>' + LABELS[tema] + '</span>';
             btn.setAttribute('aria-label', LABELS[tema]);
         });
     }
@@ -26,7 +26,20 @@
             const atual = document.documentElement.getAttribute('data-tema') || 'escuro';
             aplicarTema(atual === 'escuro' ? 'claro' : 'escuro');
         });
-        document.body.appendChild(btn);
+
+        // Tenta inserir no .site-header (index), senão appenda ao body (slides/exercícios)
+        const header = document.querySelector('.site-header');
+        if (header) {
+            header.appendChild(btn);
+        } else {
+            // Para páginas sem header (slides e exercícios): posição fixa via CSS
+            btn.style.position = 'fixed';
+            btn.style.top = '16px';
+            btn.style.right = '16px';
+            btn.style.zIndex = '9999';
+            document.body.appendChild(btn);
+        }
+
         return btn;
     }
 

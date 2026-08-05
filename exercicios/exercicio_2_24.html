@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 2-24: Momento linear e impulso · WebFísica</title>
+    <title>Lista de exercícios 2-24: Momento linear e impulso</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 2-24: Momento linear e impulso">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-24/r1.png"/>
@@ -64,10 +64,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

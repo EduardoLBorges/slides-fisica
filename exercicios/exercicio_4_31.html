@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 4-31: Centro de massa e centro de gravidade · WebFísica</title>
+    <title>Lista de exercícios 4-31: Centro de massa e centro de gravidade</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 4-31: Centro de massa e centro de gravidade">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
                                 (Enem 2012) O mecanismo que permite articular uma porta (de um móvel ou de acesso) é a dobradiça. Normalmente, são necessárias duas ou mais dobradiças para que a porta seja fixada no móvel ou no portal, permanecendo em equilíbrio e podendo ser articulada com facilidade. No plano, o diagrama vetorial das forças que as dobradiças exercem na porta está representado em:
 <p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/ex1.png"/></p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/r1.png"/>
@@ -46,7 +46,7 @@
 <p>d) a Terra e a Lua giram em torno de um ponto comum, o centro de massa do sistema Terra=Lua,, localizado no meio da distância entre os centros de massa da Terra e da Lua.</p>
 <p>e) a Terra e a Lua giram em torno de um ponto comum, o centro de massa do sistema Terra-Lua, localizado no interior da Lua.</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/r2.png"/>
@@ -62,7 +62,7 @@
 <p>d) Na parte inferior da porca.</p>
 <p>e) Na borda interna da porca.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/r3.png"/>
@@ -79,10 +79,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

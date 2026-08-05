@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 13-101: Efeito Compton · WebFísica</title>
+    <title>Lista de exercícios 13-101: Efeito Compton</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 13-101: Efeito Compton">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -35,10 +35,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

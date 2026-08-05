@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 2-11: Introdução à dinâmica e primeira lei de Newton · WebFísica</title>
+    <title>Lista de exercícios 2-11: Introdução à dinâmica e primeira lei de Newton</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 2-11: Introdução à dinâmica e primeira lei de Newton">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
 <p>d) A inércia de um objeto independe de sua massa.</p>
 <p>e) Uma partícula tende a permanecer em aceleração constante.</p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: a</p>
 </div>
@@ -47,7 +47,7 @@
 <p>c) para manter o corpo, em movimento reto e uniforme.</p>
 <p>d) para encurvar a trajetória, mesmo quando o movimento é uniforme.</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: c</p>
 </div>
@@ -60,7 +60,7 @@
 <p>c) um objeto de grande massa tem mais inércia que um de pequena massa.</p>
 <p>d) objetos que se movem rapidamente têm mais inércia que os que se movem lentamente</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <p>GABARITO: c</p>
 </div>
@@ -73,7 +73,7 @@
 <p>c) Quanto maior a massa de um corpo, mais fácil será alterar sua velocidade.</p>
 <p>d) O estado de repouso e o de movimento retilíneo independem do referencial adotado.</p>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <p>GABARITO: b</p>
 </div>
@@ -104,7 +104,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: b</p>
 </div>
@@ -119,7 +119,7 @@
 <p>c) a discussão é pertinente, pois, no caso, o navio se comporta como um referencial inercial, afetando o movimento da bola.</p>
 <p>d) a discussão não é pertinente, pois, no caso, o navio se comporta como um referencial inercial, não afetando o movimento da bola.</p>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <p>GABARITO: a</p>
 </div>
@@ -134,10 +134,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

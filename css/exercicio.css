@@ -186,10 +186,13 @@ body {
 }
 
 /* Botão exibir resposta */
-input.exibir {
-    display: block;
-    margin: -12px 0 0;
-    padding: 8px 18px;
+input.exibir,
+button.exibir {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 4px 0 0;
+    padding: 7px 16px;
     background: transparent;
     border: 1px solid var(--primary);
     border-radius: 8px;
@@ -198,9 +201,16 @@ input.exibir {
     font-size: 0.82rem;
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s, transform 0.15s;
 }
-input.exibir:hover { background: rgba(108,99,255,0.15); }
+input.exibir:hover,
+button.exibir:hover {
+    background: rgba(108,99,255,0.15);
+    transform: translateY(-1px);
+}
+button.exibir[data-aberto="true"] {
+    background: rgba(108,99,255,0.15);
+}
 
 /* Div da resposta */
 .questao {

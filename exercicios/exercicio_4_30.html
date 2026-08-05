@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 4-30: Introdução à estática · WebFísica</title>
+    <title>Lista de exercícios 4-30: Introdução à estática</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 4-30: Introdução à estática">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
 <p>a) Qual é o peso do homem?</p>
 <p>b) O gancho da parede foi mal instalado e resiste apenas até 130 N. Quantas crianças de 30 kg a rede suporta? (suponha que o ângulo não mude).</p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-30/r1.png"/>
@@ -62,7 +62,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-30/r2.png"/>
@@ -92,7 +92,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-30/r3.png"/>
@@ -104,7 +104,7 @@
                                 A figura mostra um peso de 44 N suspenso no ponto P de uma corda. Os trechos AP e BP da corda formam um ângulo de 90°, e o ângulo entre BP e o teto é igual a 60°. Qual é o valor, e newtons, da tração no trecho AP da corda?
 <p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-30/ex4.png"/></p>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-30/r4.png"/>
@@ -121,10 +121,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

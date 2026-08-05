@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 8-70: Efeito doppler · WebFísica</title>
+    <title>Lista de exercícios 8-70: Efeito doppler</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 8-70: Efeito doppler">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
 <p>[  ] Dois instrumentos musicais, emitindo a mesma nota musical, são diferenciados um do outro pela altura do som.</p>
 <p>[  ] A refração é caracterizada pela mudança de direção de propagação da onda ao mudar de meio.</p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>[ V ] A variação da frequência das ondas percebidas por um observador, devido ao movimento relativo entre este e a fonte geradora das ondas, é explicada pelo efeito Doppler.</p>
 <p>[ V ] A velocidade de uma onda em um determinado meio é de 120 m/s, para uma frequência de 60 Hz. Dobrando a frequência, a velocidade da onda neste meio também dobra.</p>
@@ -56,7 +56,7 @@
 <p>d) nos eventos II e III, com diminuição da frequência em II e aumento em III.</p>
 <p>e) nos eventos II e III, com aumento da frequência em II e diminuição em III.</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: e)</p>
 </div>
@@ -70,7 +70,7 @@
 <p>d) aumenta na aproximação e diminui no afastamento do trem.</p>
 <p>e) diminui na aproximação e aumenta no afastamento do trem.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -84,7 +84,7 @@
 <p>d) Na aproximação, o som percebido é mais alto.</p>
 <p>e) No afastamento, a frequência será maior que a frequência real emitida pelos trompetistas.</p>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -99,7 +99,7 @@
 <p>c) a velocidade do avião B aumenta bruscamente.</p>
 <p>d) a velocidade do avião B diminui bruscamente.</p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: b)</p>
 </div>
@@ -114,10 +114,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

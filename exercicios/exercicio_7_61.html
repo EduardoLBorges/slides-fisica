@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 7-61: Olho humano e ametropias · WebFísica</title>
+    <title>Lista de exercícios 7-61: Olho humano e ametropias</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 7-61: Olho humano e ametropias">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
 <p>d) causar dificuldade de visualização de objetos próximos.</p>
 <p>e) acarretar a perda da capacidade de alterar o diâmetro da pupila.</p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: a)</p>
 </div>
@@ -67,7 +67,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: e)</p>
 </div>
@@ -81,7 +81,7 @@
 <p>d) divergente, formando imagens reais, direitas e diminuídas.</p>
 <p>e) divergente, formando imagens reais, invertidas e de mesmo tamanho.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <p>GABARITO: a)</p>
 </div>
@@ -105,7 +105,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -120,7 +120,7 @@ Um indivíduo que, por alguma deficiência, não consegue captar as informac�
 <p>d) um objeto cinza, pois os bastonetes captam luminosidade, porém não diferenciam cor.</p>
 <p>e) um objeto vermelho, pois a retina capta a luz refletida pelo objeto, transformando-a em vermelho.</p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -135,10 +135,12 @@ Um indivíduo que, por alguma deficiência, não consegue captar as informac�
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

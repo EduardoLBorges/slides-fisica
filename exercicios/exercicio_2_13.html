@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 2-13: Força elástica, lei de Hooke e associação de molas · WebFísica</title>
+    <title>Lista de exercícios 2-13: Força elástica, lei de Hooke e associação de molas</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 2-13: Força elástica, lei de Hooke e associação de molas">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -29,7 +29,7 @@
 <b>01. </b>
                                 Uma pessoa com massa de 80 kg está sobre uma plataforma cuja base é formada por molas idênticas. Calcule a constante elástica das molas, sabendo que as molas sofreram deformação de 2 cm.
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r1.png"/>
@@ -58,7 +58,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r2.png"/>
@@ -69,7 +69,7 @@
 <b>03. </b>
                                 Uma bolinha pendurada na extremidade de uma mola vertical executa um movimento oscilatório. Na situação da figura, a mola encontra-se comprimida e a bolinha está subindo com velocidade V. Indicando por F a força da mola e por P a força peso, aplicadas na bolinha, o único esquema que pode representar tais forças na situação descrita é:
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r3.png"/>
@@ -104,7 +104,7 @@
 </tbody>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r4.png"/>
@@ -116,7 +116,7 @@
                                 Encontre a constante elástica equivalente Keq do sistema em função de K1 e K2:
 <p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/ex5.png"/></p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r5.png"/>
@@ -147,7 +147,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r6.png"/>
@@ -178,7 +178,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-13/r7.png"/>
@@ -195,10 +195,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 10-82: Capacitores e associação de capacitores · WebFísica</title>
+    <title>Lista de exercícios 10-82: Capacitores e associação de capacitores</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 10-82: Capacitores e associação de capacitores">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r1.png"/>
@@ -77,7 +77,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r2.png"/>
@@ -93,7 +93,7 @@
 <p>d) a carga e a capacitância do capacitor são reduzidas à metade dos valores iniciais.</p>
 <p>e) a carga do capacitor é duplicada, e sua capacitância é dividida pela metade.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r3.png"/>
@@ -122,7 +122,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r4.png"/>
@@ -138,7 +138,7 @@
 <p>d) diminui a sua capacitância, por causa da sua maior permissividade elétrica.</p>
 <p>e) não afeta a formação do campo elétrico entre as placas do capacitor.</p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r5.png"/>
@@ -154,7 +154,7 @@
 <p>d) quanto maior for a capacitância de um capacitor, menos carga ele pode armazenar para uma determinada tensão elétrica.</p>
 <p>e) quanto menor for a capacitância de um capacitor, menos carga ele pode armazenar para uma determinada tensão elétrica.</p>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r6.png"/>
@@ -175,7 +175,7 @@
 <p>d) Somente as afirmativas 2, 3 e 4 são verdadeiras.</p>
 <p>e) As afirmativas 1, 2, 3 e 4 são verdadeiras.</p>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <p>GABARITO: c)</p>
 </div>
@@ -220,7 +220,7 @@ sendo a velocidade de propagação dessa radiação no meio 1 ______ à sua velo
 <p>(C) inferior ... inferior</p>
 <p>(D) superior ... inferior</p>
 </div>
-<input class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')">▼ Exibir resposta</button>
 <div class="questao" id="div-08" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios10-82/r8.png"/>
@@ -237,10 +237,12 @@ sendo a velocidade de propagação dessa radiação no meio 1 ______ à sua velo
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

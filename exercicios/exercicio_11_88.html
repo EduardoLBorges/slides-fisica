@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 11-88: Transformadores · WebFísica</title>
+    <title>Lista de exercícios 11-88: Transformadores</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 11-88: Transformadores">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -52,7 +52,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: c)</p>
 </div>
@@ -66,7 +66,7 @@
 <p>d) Um transformador consiste em uma bobina enrolada em dois núcleos de ferro.</p>
 <p>e) Em transformadores com dois enrolamentos, é comum denominá-los de enrolamento primário e enrolamento secundário.</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -80,7 +80,7 @@
 <p>d) a diferença de potencial é maior e a corrente elétrica é alternada.</p>
 <p>e) a diferença de potencial é maior e a corrente elétrica é contínua.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios11-88/r3.png"/>
@@ -114,7 +114,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios11-88/r4.png"/>
@@ -125,7 +125,7 @@
 <b>05. </b>
                                 A tensão elétrica fornecida pelas empresas energéticas em alguns estados do Brasil é 220V, porém muitos aparelhos domésticos trabalham com tensões bem inferiores e já possuem transformadores integrados. Supondo que um aparelho funcione com tensão elétrica de 20V e possua um transformador integrado com 1500 espiras no enrolamento primário. Quantas espiras são necessárias no enrolamento secundário para que a tensão não supere os 20V?
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios11-88/r5.png"/>
@@ -136,7 +136,7 @@
 <b>06. </b>
                                 A corrente elétrica que passa pelo enrolamento primário do transformador, que tem 800 espiras, é iP = 15A. Calcule a corrente no enrolamento secundário do transformador, sabendo que ele possui 100 espiras.
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios11-88/r6.png"/>
@@ -165,7 +165,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios11-88/r7.png"/>
@@ -182,10 +182,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

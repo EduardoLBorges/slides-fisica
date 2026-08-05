@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 6-50: Ciclos termodinâmicos: ciclo de Carnout · WebFísica</title>
+    <title>Lista de exercícios 6-50: Ciclos termodinâmicos: ciclo de Carnout</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 6-50: Ciclos termodinâmicos: ciclo de Carnout">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r1.png"/>
@@ -76,7 +76,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r2.png"/>
@@ -92,7 +92,7 @@
 <p>d) na exaustão, quando gases quentes são expelidos para trás.</p>
 <p>e) na carburação, com a difusão do combustível no ar.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <p>GABARITO: a)</p>
 </div>
@@ -123,7 +123,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r4.png"/>
@@ -152,7 +152,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r5.png"/>
@@ -183,7 +183,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r6.png"/>
@@ -212,7 +212,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r7.png"/>
@@ -229,7 +229,7 @@
 <p>d) A máquina contraria a primeira lei da Termodinâmica (conservação da energia), pois está transformando integralmente a energia recebida em trabalho, mas não contraria a segunda lei da Termodinâmica, pois possui rendimento de 100%</p>
 <p>e) A máquina contraria as duas leis da Termodinâmica, pois transforma integralmente a energia recebida em trabalho.</p>
 </div>
-<input class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')">▼ Exibir resposta</button>
 <div class="questao" id="div-08" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-50/r8.png"/>
@@ -246,10 +246,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

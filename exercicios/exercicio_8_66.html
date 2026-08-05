@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 8-66: Velocidade, reflexão e refração de ondas em cordas · WebFísica</title>
+    <title>Lista de exercícios 8-66: Velocidade, reflexão e refração de ondas em cordas</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 8-66: Velocidade, reflexão e refração de ondas em cordas">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
 <p>Supondo que a superfície reflita perfeitamente o pulso, deve-se esperar que no retorno, após uma reflexão, o pulso assuma a configuração indicada em:</p>
 <p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios8-66/exr1.png" style="width:80%"/></p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios8-66/r1.png"/>
@@ -49,7 +49,7 @@
 <p>d) os fenômenos da refração do pulso na corda mais fina e o da reflexão do pulso na corda mais grossa, ambos com inversão de fase tanto do pulso refletido quanto do pulso refratado e ambos com a mesma velocidade v do pulso incidente.</p>
 <p>e) os fenômenos da refração do pulso na corda mais fina, com inversão de fase do pulso refratado e manutenção da velocidade v do pulso incidente, e o da reflexão do pulso na corda mais grossa, sem inversão de fase do pulso refletido e com velocidade diferente da do pulso incidente.</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: b)</p>
 </div>
@@ -76,7 +76,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios8-66/r3.png"/>
@@ -93,7 +93,7 @@
 <p>d) Da próxima vez que o pulso voltar à extremidade livre, sua fase será a mesma daquela apresentada na figura.</p>
 <p>e) Todas as alternativas estão incorretas.</p>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios8-66/r4.png"/>
@@ -109,7 +109,7 @@
 <p>d) Na passagem de uma onda entre uma corda grossa e uma corda fina, o pulso, além da refração, sofrerá reflexão com inversão de fase.</p>
 <p>e) Todas as alternativas estão incorretas.</p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -121,7 +121,7 @@
 <p>a) determine a razão entre as frequências das ondas nas duas cordas e justifique sua resposta;</p>
 <p>b) determine a razão entre os comprimentos de onda das ondas nas duas cordas.</p>
 </img></div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios8-66/r6.png"/>
@@ -138,10 +138,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

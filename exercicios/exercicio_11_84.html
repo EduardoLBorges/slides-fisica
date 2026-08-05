@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 11-84: Magnetismo · WebFísica</title>
+    <title>Lista de exercícios 11-84: Magnetismo</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 11-84: Magnetismo">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
 <p>d) A barra de ferro atrai o ímã.</p>
 <p>e) A força que a barra de ferro exerce sobre o ímã é maior que a força que o ímã exerce sobre a barra de ferro.</p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: a)</p>
 </div>
@@ -47,7 +47,7 @@
 <p>c) A concentração de linhas de indução magnética está relacionada com a intensidade do campo magnético na região.</p>
 <p>d) Não é possível separar, em nenhuma ocasião, os polos norte e sul magnéticos.</p>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: b)</p>
 </div>
@@ -70,7 +70,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <p>GABARITO: d)</p>
 </div>
@@ -97,7 +97,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <p>GABARITO: e)</p>
 </div>
@@ -124,7 +124,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: b)</p>
 </div>
@@ -141,7 +141,7 @@
 <p>d) Somente os cortes transversais podem rejuntar.</p>
 <p>e) Ambos podem se rejuntar, porém, o corte transversal se juntam os lados conforme eles estavam originalmente e, o corte longitudinal, temos que inverter um dos ímãs.</p>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <p>GABARITO: e)</p>
 </div>
@@ -156,10 +156,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 2-17: Plano inclinado com atrito · WebFísica</title>
+    <title>Lista de exercícios 2-17: Plano inclinado com atrito</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 2-17: Plano inclinado com atrito">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
                                 (UFLA) Um bloco de gelo desprende-se de uma geleira e desce um plano inclinado com atrito. Qual o diagrama que representa corretamente as forças que atuam sobre o bloco? 
 <p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-17/ex1.png"/></p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: a</p>
 </div>
@@ -58,7 +58,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-17/r2.png"/>
@@ -73,7 +73,7 @@
 <p>c) vinha freando desde o trecho no plano inclinado.</p>
 <p>d) não reduziu a velocidade até o choque.</p>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-17/r3.png"/>
@@ -91,7 +91,7 @@
 <p>d) três forças, mas só duas realizam trabalho.</p>
 <p>e) três forças, mas só uma realiza trabalho.</p>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios2-17/r4.png"/>
@@ -102,7 +102,7 @@
 <b>05. </b>
                                 (EXAME NACIONAL 2020) Qual dos diagramas pode representar, na mesma escala, as forças que atuam na esfera durante a descida no plano inclinado?
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>Gabarito: b)</p>
 </div>
@@ -117,10 +117,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

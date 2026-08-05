@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 6-40: Dilatação térmica dos líquidos · WebFísica</title>
+    <title>Lista de exercícios 6-40: Dilatação térmica dos líquidos</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 6-40: Dilatação térmica dos líquidos">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
 <p>d) O líquido dilatará mais que o recipiente.</p>
 <p>e) O líquido e o recipiente dilatarão na mesma medida.</p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <p>GABARITO: b</p>
 </div>
@@ -58,7 +58,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <p>GABARITO: a</p>
 </div>
@@ -67,7 +67,7 @@
 <b>03. </b>
                                 Um líquido é colocado em um recipiente a uma temperatura inicial de 20ºC. Em seguida, ele é aquecido até atingir a temperatura de 80 °C. Sabendo que o coeficiente de dilatação volumétrica desse líquido é 3,8 . 10<sup>-4</sup> e que o volume inicial é 500 ml, calcule a dilatação sofrida pelo líquido. Despreze a dilatação do recipiente.
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-40/r3.png"/>
@@ -78,7 +78,7 @@
 <b>04. </b>
                                 Em um recipiente de vidro, foram colocados 800 mL de álcool, cujo coeficiente de dilatação volumétrica é 1,8 . 10<sup>-4</sup>  ºC<sup>-1</sup>, preenchendo-o totalmente. Em seguida, o conjunto foi aquecido e sofreu uma variação de temperatura correspondente a 70º C. Calcule a dilatação aparente do álcool, sabendo que o coeficiente de dilatação volumétrica do vidro é 24 . 10<sup>-5</sup>  ºC<sup>-1</sup>.
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-40/r4.png"/>
@@ -108,7 +108,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-40/r5.png"/>
@@ -125,7 +125,7 @@
 <p>d) regula a temperatura do densímetro de acordo com a do ambiente.</p>
 <p>e) corrige a altura de referência de acordo com a densidade do líquido.</p>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <p>GABARITO: e)</p>
 </div>
@@ -152,7 +152,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-40/r7.png"/>
@@ -169,10 +169,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de exercícios 9-73: Lei de Coulomb · WebFísica</title>
+    <title>Lista de exercícios 9-73: Lei de Coulomb</title>
     <meta name="description" content="Lista de exercícios: Lista de exercícios 9-73: Lei de Coulomb">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
                                 (UFPE) Duas partículas de mesma massa têm cargas Q e 3Q. Sabendo-se que a força gravitacional é desprezível em comparação com a força elétrica, indique qual das figuras melhor representa as acelerações vetoriais das partículas.
 <p style="text-align: left"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/ex1.png" style="width: "/></p>
 </div>
-<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')">▼ Exibir resposta</button>
 <div class="questao" id="div-01" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/r1.png"/>
@@ -60,7 +60,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')">▼ Exibir resposta</button>
 <div class="questao" id="div-02" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/r2.png"/>
@@ -89,7 +89,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')">▼ Exibir resposta</button>
 <div class="questao" id="div-03" style="display:none">
 <p>GABARITO: c)</p>
 </div>
@@ -116,7 +116,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')">▼ Exibir resposta</button>
 <div class="questao" id="div-04" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/r4.png"/>
@@ -132,7 +132,7 @@
 <p>d) A força eletrostática é diretamente proporcional à distância entre as cargas;</p>
 <p>e) A constante eletrostática K é a mesma para qualquer meio material.</p>
 </div>
-<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')">▼ Exibir resposta</button>
 <div class="questao" id="div-05" style="display:none">
 <p>GABARITO: c)</p>
 </div>
@@ -144,7 +144,7 @@
 <p>Qual das alternativas seguintes representa mais corretamente a direção e o sentido da força que atuaria sobre uma terceira carga +q colocada em B:</p>
 <p style="text-align: left"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/ex06.png" style="width:"/></p>
 </div>
-<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')">▼ Exibir resposta</button>
 <div class="questao" id="div-06" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/r6.png"/>
@@ -173,7 +173,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')">▼ Exibir resposta</button>
 <div class="questao" id="div-07" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/r7.png"/>
@@ -199,7 +199,7 @@
 </tr>
 </table>
 </div>
-<input class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')" type="button" value="Exibir resposta"/>
+<button class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')">▼ Exibir resposta</button>
 <div class="questao" id="div-08" style="display:none">
 <a class="light">
 <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios9-73/r8.png"/>
@@ -216,10 +216,12 @@
             var btn = document.getElementById(botao);
             if (el.style.display === 'none' || el.style.display === '') {
                 el.style.display = 'block';
-                btn.textContent = 'Ocultar resposta';
+                btn.innerHTML = '&#9650; Ocultar resposta';
+                btn.setAttribute('data-aberto', 'true');
             } else {
                 el.style.display = 'none';
-                btn.textContent = 'Exibir resposta';
+                btn.innerHTML = '&#9660; Exibir resposta';
+                btn.setAttribute('data-aberto', 'false');
             }
         }
     </script>
