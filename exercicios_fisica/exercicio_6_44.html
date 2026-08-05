@@ -1,0 +1,2502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="xU4YiNHVZZIWFH41HkbeERKxEPXrAIVhLgkly5OT">
+
+                <link rel="icon" href="https://webfisica.com/images/favicon/azul/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://webfisica.com/images/favicon/azul/favicon-32x32.png">
+        <link rel="apple-touch-icon" href="https://webfisica.com/">
+        <meta name="theme-color" content="#ffffff">
+    
+    <title>Lista 6-44: Propagação de calor</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.4.1/js/dataTables.rowGroup.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/rowgroup/1.4.1/css/rowGroup.dataTables.min.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/app-CE_6XwF5.css" /><link rel="preload" as="style" href="https://webfisica.com/build/assets/responsiveness-B54DYr2V.css" /><link rel="preload" as="style" href="https://webfisica.com/build/assets/login-Br8Xn0hy.css" /><link rel="modulepreload" as="script" href="https://webfisica.com/build/assets/app-IXMVDP3H.js" /><link rel="stylesheet" href="https://webfisica.com/build/assets/app-CE_6XwF5.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/responsiveness-B54DYr2V.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/login-Br8Xn0hy.css" /><script type="module" src="https://webfisica.com/build/assets/app-IXMVDP3H.js"></script>
+        <link rel="preload" as="style" href="https://webfisica.com/build/assets/aula-format-DjWyFoM2.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/aula-format-DjWyFoM2.css" />    <link rel="preload" as="style" href="https://webfisica.com/build/assets/aula-exercicio-subheader-Coc6IKjr.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/aula-exercicio-subheader-Coc6IKjr.css" />    <link rel="preload" as="style" href="https://webfisica.com/build/assets/exercicios-BI9_JJ4-.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/exercicios-BI9_JJ4-.css" />
+    <style>
+        .page-name {
+            background-color: #4bbd97;
+            padding: 10px;
+            border-radius: .2em;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .page-name a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .page-name img {
+            height: 15px;
+        }
+
+        .table-wrap {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+        }
+
+        table.minimal-table {
+            width: 100% !important;
+            margin: auto;
+            border-collapse: collapse !important;
+            font-size: 13px;
+            color: #1f2937;
+        }
+
+        table.minimal-table thead {
+            display: none;
+        }
+
+        table.minimal-table thead th {
+            background: #f9fafb !important;
+            color: #374151;
+            font-weight: 600;
+            border-bottom: 1px solid #e5e7eb !important;
+            padding: 14px 16px !important;
+        }
+
+        table.minimal-table tbody td {
+            padding: 5px !important;
+            border-bottom: 1px solid #f1f5f9 !important;
+            vertical-align: middle;
+        }
+
+        table.minimal-table tbody a {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        table.minimal-table tbody a img {
+            height: 16px;
+        }
+
+        table.minimal-table tbody tr:hover {
+            background: #fafafa;
+        }
+
+        .is-restricted-row {
+            opacity: .6;
+        }
+
+        tr.dtrg-group th,
+        tr.dtrg-group td {
+            background: #ffffff !important;
+            color: #111827;
+            font-weight: 700;
+            padding: 12px !important;
+            border-top: 1px solid #e5e7eb !important;
+            border-bottom: 1px solid #e5e7eb !important;
+            text-align: center !important;
+        }
+
+        .dataTables_wrapper .dataTables_filter {
+            padding: 16px;
+            border-bottom: 1px solid #f3f4f6;
+            background: #fff;
+        }
+
+        .dataTables_wrapper .dataTables_filter label {
+            font-weight: 500;
+            color: #4b5563;
+        }
+
+        .dataTables_wrapper .dataTables_filter input {
+            margin-left: 8px;
+            padding: 8px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 10px;
+            outline: none;
+            background: #fff;
+        }
+
+        .dataTables_wrapper .dataTables_filter input:focus {
+            border-color: #9ca3af;
+            box-shadow: 0 0 0 3px rgba(156, 163, 175, 0.15);
+        }
+
+        .dataTables_wrapper .dataTables_info,
+        .dataTables_wrapper .dataTables_paginate,
+        .dataTables_wrapper .dataTables_length {
+            display: none !important;
+        }
+
+        table.dataTable.no-footer {
+            border-bottom: none !important;
+        }
+
+        table.minimal-table tbody tr:nth-child(even):not(.dtrg-group) {
+            background: #f3f4f6;
+        }
+
+        table.minimal-table tbody tr:nth-child(odd):not(.dtrg-group) {
+            background: #e5e7eb;
+        }
+
+        .mobile {
+            display: none;
+        }
+
+        @media (max-width: 700px) {
+            .desktop {
+                display: none;
+            }
+
+            .mobile {
+                display: block;
+            }
+        }
+
+        .aula-container {
+            position: relative;
+        }
+
+        .aula-content {
+            transition: filter .25s ease, opacity .25s ease;
+        }
+
+        .aula-content.locked {
+            filter: blur(6px);
+            pointer-events: none;
+            user-select: none;
+        }
+
+        .aula-content.locked {
+            filter: blur(6px);
+            pointer-events: none;
+            user-select: none;
+            transition: filter .25s ease;
+        }
+
+        .paywall-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.35);
+            backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 999999;
+            padding: 20px;
+        }
+
+        .paywall-overlay.hidden {
+            display: none;
+        }
+
+        .paywall-box {
+            max-width: 460px;
+            width: 100%;
+            padding: 32px;
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .paywall-badge {
+            display: inline-block;
+            margin-bottom: 14px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: #111827;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .08em;
+            text-transform: uppercase;
+        }
+
+        .paywall-title {
+            margin: 0 0 10px;
+            font-size: 26px;
+            color: #111827;
+        }
+
+        .paywall-text {
+            margin: 0 0 20px;
+            color: #4b5563;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .btn-paywall {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 10px;
+            background: #111827;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all .2s ease;
+        }
+
+        .btn-paywall:hover {
+            transform: translateY(-1px);
+            opacity: 0.95;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header no-select">
+        <div class="logo">
+            <a href="https://webfisica.com" aria-label="Ir para a página inicial">
+                <img src="https://webfisica.com/images/logo.png" alt="Logo da empresa">
+            </a>
+        </div>
+
+        
+                    <div class="menu-direito">
+                <div class="login" id="planos">PLANOS</div>
+                <div class="login" id="btnLogin">LOGIN</div>
+            </div>
+            </div>
+    <script>
+        document.getElementById('planos').addEventListener('click', () => {
+            link = "https:\/\/webfisica.com\/planos";
+            location.href = link;
+        })
+    </script>
+
+    
+        
+    <div class="conteudo-principal">
+        
+            <div class="content-wrapper">
+        <div class="before-column"></div>
+
+        <div class="column-1 no-select">
+            <div class="page-name">
+                <a href="https://webfisica.com/curso-de-fisica-basica">CURSO DE FÍSICA BÁSICA</a>
+                <img src="https://webfisica.com/images/icones/right-arrow.png">
+                                    EXERCÍCIOS
+                            </div>
+
+            <div class="table-wrap">
+                <table id="tabela-aulas" class="minimal-table">
+                    <thead>
+                        <tr>
+                            <th>Tópico</th>
+                            <th>Aula</th>
+                            <th>Título</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                    <tr >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-1</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-1">
+                                                                                        Grandezas físicas, unidades de medida e SI
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-2</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-2">
+                                                                                        Vetores
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-3</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-3">
+                                                                                        Introdução à cinemática
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-4</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-4">
+                                                                                        Movimento retilíneo uniforme (MRU)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-5</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-5">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Movimento retilíneo uniformemente variado (MRUV)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-6</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-6">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Movimento círcular uniforme (MCU)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-7</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-7">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Movimento círcular uniformemente variado (MCUV)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-8</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-8">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Queda livre e lançamento vertical no vácuo
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-9</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-9">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Lançamento horizontal e oblíquo
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>CINEMÁTICA</td>
+                                <td>Exercicios 1-10</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-10">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Movimento harmônico simples (MHS)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-11</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-11">
+                                                                                        Introdução à dinâmica e primeira lei de Newton
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-12</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-12">
+                                                                                        A segunda e a terceira leis de Newton
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-13</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-13">
+                                                                                        Força elástica, lei de Hooke e associação de molas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-14</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-14">
+                                                                                        Polias e máquinas de Atwood
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-15</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-15">
+                                                                                        Plano inclinado sem atrito
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-16</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-16">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Força de atrito estático e dinâmico
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-17</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-17">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Plano inclinado com atrito
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-18</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-18">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Aceleração e força centrípeta
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-19</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-19">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Trabalho
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-20</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-20">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Energia cinética
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-21</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-21">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Energia potencial
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-22</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-22">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Energia mecânica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-23</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-23">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Potência
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-24</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-24">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Momento linear e impulso
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>DINÂMICA</td>
+                                <td>Exercicios 2-25</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/2-25">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Colisões
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>GRAVITAÇÃO</td>
+                                <td>Exercicios 3-26</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/3-26">
+                                                                                        Introdução à astronomia
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>GRAVITAÇÃO</td>
+                                <td>Exercicios 3-27</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/3-27">
+                                                                                        Leis de Kepler
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>GRAVITAÇÃO</td>
+                                <td>Exercicios 3-28</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/3-28">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Lei da gravitação universal
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>GRAVITAÇÃO</td>
+                                <td>Exercicios 3-29</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/3-29">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Campo gravitacional e satélites
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ESTÁTICA</td>
+                                <td>Exercicios 4-30</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/4-30">
+                                                                                        Introdução à estática
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ESTÁTICA</td>
+                                <td>Exercicios 4-31</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/4-31">
+                                                                                        Centro de massa e centro de gravidade
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ESTÁTICA</td>
+                                <td>Exercicios 4-32</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/4-32">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Torque, alavancas e equilíbrio de corpos extensos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>MECÂNICA DOS FLUIDOS</td>
+                                <td>Exercicios 5-33</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/5-33">
+                                                                                        Introdução à mecânica dos fluidos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>MECÂNICA DOS FLUIDOS</td>
+                                <td>Exercicios 5-34</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/5-34">
+                                                                                        Teorema de Stevin
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>MECÂNICA DOS FLUIDOS</td>
+                                <td>Exercicios 5-35</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/5-35">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Teorema de Pascal
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>MECÂNICA DOS FLUIDOS</td>
+                                <td>Exercicios 5-36</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/5-36">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Teorema de Arquimedes
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>MECÂNICA DOS FLUIDOS</td>
+                                <td>Exercicios 5-37</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/5-37">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Hidrodinâmica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-38</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-38">
+                                                                                        Introdução à termologia e escalas termométricas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-39</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-39">
+                                                                                        Dilatação térmica dos sólidos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-40</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-40">
+                                                                                        Dilatação térmica dos líquidos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-41</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-41">
+                                                                                        Calor sensível e calor latente
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-42</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-42">
+                                                                                        Troca de calor entre substâncias
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-43</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-43">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Estados físicos da matéria
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-44</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-44">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Propagação de calor
+                                                                                            <img src="https://webfisica.com/images/icones/point.png">
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-45</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-45">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Transformações gasosas e equação geral dos gases
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-46</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-46">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Leis dos gases ideais (equação de Clapeyron)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-47</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-47">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Trabalho nas transformações gasosas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-48</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-48">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Leis da termodinâmica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-49</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-49">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Máquinas térmicas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>TERMOLOGIA</td>
+                                <td>Exercicios 6-50</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-50">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Ciclos termodinâmicos: ciclo de Carnout
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-51</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-51">
+                                                                                        Introdução à óptica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-52</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-52">
+                                                                                        Cores: síntese adtiva e síntese subtrativa
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-53</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-53">
+                                                                                        Princípios da óptica geométrica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-54</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-54">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Ângulo visual, eclipses e fases da lua
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-55</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-55">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Reflexão e refração
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-56</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-56">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Espelhos planos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-57</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-57">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Espelhos esféricos: côncavos e convexos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-58</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-58">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Análise algébrica dos espelhos esféricos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-59</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-59">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Lentes esféricas: côncavas e convexas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-60</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-60">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Análise algébrica das lentes esféricas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ÓPTICA</td>
+                                <td>Exercicios 7-61</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/7-61">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Olho humano e ametropias
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-62</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-62">
+                                                                                        Introdução à ondas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-63</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-63">
+                                                                                        Equação fundamental da ondulatória
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-64</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-64">
+                                                                                        Velocidade e frequência das ondas eletromagnéticas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-65</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-65">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Fenômenos ondulatórios
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-66</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-66">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Velocidade, reflexão e refração de ondas em cordas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-67</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-67">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Ondas estacionárias
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-68</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-68">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        A dual natureza da luz
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-69</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-69">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        O som e suas qualidades fisiológicas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ONDAS</td>
+                                <td>Exercicios 8-70</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/8-70">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Efeito doppler
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETROSTÁTICA</td>
+                                <td>Exercicios 9-71</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/9-71">
+                                                                                        Introdução ao eletromagnetismo e a atomística
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETROSTÁTICA</td>
+                                <td>Exercicios 9-72</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/9-72">
+                                                                                        Cargas elétricas e processos de eletrização
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETROSTÁTICA</td>
+                                <td>Exercicios 9-73</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/9-73">
+                                                                                        Lei de Coulomb
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETROSTÁTICA</td>
+                                <td>Exercicios 9-74</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/9-74">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Campo elétrico e gaiola de Faraday
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETROSTÁTICA</td>
+                                <td>Exercicios 9-75</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/9-75">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Energia potencial elétrica, Potencial elétrico e D.D.P
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETROSTÁTICA</td>
+                                <td>Exercicios 9-76</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/9-76">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Trabalho da força elétrica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-77</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-77">
+                                                                                        Introdução à eletrodinâmica
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-78</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-78">
+                                                                                        Primeira lei de Ohm
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-79</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-79">
+                                                                                        Segunda lei de Ohm
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-80</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-80">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Circuitos elétricos e associação de resistores
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-81</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-81">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Geradores elétricos e associação de geradores
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-82</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-82">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Capacitores e associação de capacitores
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETRODINÂMICA</td>
+                                <td>Exercicios 10-83</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/10-83">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Leis de Kirchhoff
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETROMAGNETISMO</td>
+                                <td>Exercicios 11-84</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/11-84">
+                                                                                        Magnetismo
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETROMAGNETISMO</td>
+                                <td>Exercicios 11-85</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/11-85">
+                                                                                        Força magnética sobre cargas em movimento
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>ELETROMAGNETISMO</td>
+                                <td>Exercicios 11-86</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/11-86">
+                                                                                        Campo magnético em fio retilíneo longo e bobinas
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETROMAGNETISMO</td>
+                                <td>Exercicios 11-87</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/11-87">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Indução magnética (lei de Faraday e lei de Lenz)
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr  class="is-restricted-row" >
+                                <td>ELETROMAGNETISMO</td>
+                                <td>Exercicios 11-88</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/11-88">
+                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
+                                                                                        Transformadores
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-89</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-89">
+                                                                                        Espaço e tempo absolutos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-90</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-90">
+                                                                                        Éter luminífero e a velocidade da luz
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-91</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-91">
+                                                                                        Experimento de Michelson &amp; Morley
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-92</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-92">
+                                                                                        Transformadas de Galileu
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-93</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-93">
+                                                                                        Transformadas de Lorentz
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-94</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-94">
+                                                                                        Transformadas de Lorentz para velocidades
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-95</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-95">
+                                                                                        Efeito Doppler relativístico
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-96</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-96">
+                                                                                        Momento e energia relativísticos
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
+                                <td>Exercicios 12-97</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/12-97">
+                                                                                        Conversão massa-energia
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-98</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-98">
+                                                                                        Radiação de corpo negro
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-99</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-99">
+                                                                                        Efeito fotoelétrico
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-100</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-100">
+                                                                                        Raios X
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-101</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-101">
+                                                                                        Efeito Compton
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-102</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-102">
+                                                                                        Espectroscopia e fórmula de Balmer
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-103</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-103">
+                                                                                        O átomo de Bohr
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                                    <tr >
+                                <td>FÍSICA MODERNA — QUÂNTICA</td>
+                                <td>Exercicios 13-104</td>
+                                <td>
+                                                                            <a
+                                            href="https://webfisica.com/curso-de-fisica-basica/exercicios/13-104">
+                                                                                        Ondas de matéria
+                                                                                    </a>
+                                                                    </td>
+                            </tr>
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="column-2">
+            <div class="aula-menu no-select">
+                <div class="navegacao">
+
+                                            <div class="before">
+                                                            <a
+                                    href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-43">
+                                    <img src="https://webfisica.com/images/icones/btn-before.png">
+                                </a>
+                                                    </div>
+                        <div class="texto">
+                                                            Lista
+                                                    </div>
+                        <div class="after">
+                                                            <a
+                                    href="https://webfisica.com/curso-de-fisica-basica/exercicios/6-45">
+                                    <img src="https://webfisica.com/images/icones/btn-next.png">
+                                </a>
+                                                    </div>
+                                    </div>
+
+                <div class="lista-de-exercicios">
+                                            <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-44">
+                            <div class="texto">Material da aula</div>
+                            <div class="ex-icone"><img src="https://webfisica.com/images/icones/conteudo.png"></div>
+                        </a>
+                                    </div>
+            </div>
+
+            
+                            <div class="aula-titulo">
+                    <p>Lista de exercícios 6-44: Propagação de calor</p>
+                    <img src="https://webfisica.com/images/icones/ornamento.png">
+                </div>
+
+                <div id="aula-container" class="aula-container">
+                    <div id="conteudo-aula" class="aula-content "
+                        data-paywall-enabled="1"
+                        data-remaining-seconds="3">
+                                                    
+                            <div class="item-exercicio">
+                                <b>01. </b>
+                                Marque a alternativa correta a respeito dos processos de propagação de calor.</p>
+	<p>a) Os processos de propagação de calor por condução e convecção ocorrem em todos os tipos de meios.</p>
+	<p>b) O processo de irradiação de calor ocorre somente no vácuo.</p>
+	<p>c) A convecção é o processo de propagação de calor que proporciona o efeito das brisas marítimas.</p>
+	<p>d) A condução térmica ocorre somente em líquidos.</p>
+	<p>e) A irradiação é um processo de transferência de calor que ocorre por meio de ondas eletromagnéticas pertencentes ao espectro visível.</p>
+                            </div>
+
+                            <input id="botao-01" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-01')" />
+
+                            <div class="questao" id="div-01" style="display:none">
+                                                                    <p>GABARITO: c)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>02. </b>
+                                (Enem 2016) Num experimento, um professor deixa duas bandejas de mesma massa, uma de plástico e outra de alumínio, sobre a mesa do laboratório. Após algumas horas, ele pede aos alunos que avaliem a temperatura das duas bandejas, usando para isso o tato. Seus alunos afirmam, categoricamente, que a bandeja de alumínio encontra-se numa temperatura mais baixa. Intrigado, ele propõe uma segunda atividade, em que coloca um cubo de gelo sobre cada uma das bandejas, que estão em equilíbrio térmico com o ambiente, e os questiona em qual delas a taxa de derretimento do gelo será maior.</p>
+	<p>O aluno que responder corretamente ao questionamento do professor dirá que o derretimento ocorrerá</p>
+	<p>a) mais rapidamente na bandeja de alumínio, pois ela tem uma maior condutividade térmica que a de plástico.</p>
+	<p>b) mais rapidamente na bandeja de plástico, pois ela tem inicialmente uma temperatura mais alta que a de alumínio.</p>
+	<p>c) mais rapidamente na bandeja de plástico, pois ela tem uma maior capacidade térmica que a de alumínio.</p>
+	<p>d) mais rapidamente na bandeja de alumínio, pois ela tem um calor específico menor que a de plástico.</p>
+	<p>e) com a mesma rapidez nas duas bandejas, pois apresentarão a mesma variação de temperatura.</p>
+                            </div>
+
+                            <input id="botao-02" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-02')" />
+
+                            <div class="questao" id="div-02" style="display:none">
+                                                                    <p>GABARITO: a)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>03. </b>
+                                (UFAL 85) Selecione a alternativa que supre as omissões das afirmações seguintes:</p>
+	<p>I - O calor do Sol chega até nós por _____________.</p>
+	<p>II - Uma moeda bem polida fica ____________ quente do que uma moeda revestida de tinta preta, quando ambas são expostas ao sol.</p>
+	<p>III - Numa barra metálica aquecida numa extremidade, a propagação do calor se dá para a outra extremidade por ___________.</p>
+	<table class="opc">
+		<th></th>
+		<th></th>
+		<tr>
+			<td>
+				<p>a) radiação - menos - convecção.</p>
+				<p>b) convecção - mais - radiação.</p>
+				<p>c) radiação - menos - condução.</p>
+			</td>
+			<td>
+				<p>d) convecção - mais - condução.</p>
+				<p>e) condução - mais – radiação.</p>
+			</td>
+		</tr>
+	</table>
+                            </div>
+
+                            <input id="botao-03" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-03')" />
+
+                            <div class="questao" id="div-03" style="display:none">
+                                                                    <p>GABARITO: c)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>04. </b>
+                                (PUC-RS) No inverno, usamos roupas de lã baseados no fato de a lã:</p>
+	<table class="opc">
+		<th></th>
+		<th></th>
+		<tr>
+			<td>
+				<p>a) ser uma fonte de calor.</p>
+				<p>b) ser um bom absorvente de calor.</p>
+				<p>c) ser um bom condutor de calor.</p>
+			</td>
+			<td>
+				<p>d) impedir que o calor do corpo se propague para o meio exterior.</p>
+				<p>e) Nenhuma das alternativas.</p>
+			</td>
+		</tr>
+	</table>
+                            </div>
+
+                            <input id="botao-04" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-04')" />
+
+                            <div class="questao" id="div-04" style="display:none">
+                                                                    <p>GABARITO: d)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>05. </b>
+                                Julgue as afirmações a seguir:</p>
+	<p>I – A transferência de calor de um corpo para outro ocorre em virtude da diferença de temperatura entre eles;</p>
+	<p>II – A convecção térmica é um processo de propagação de calor que ocorre apenas nos sólidos;</p>
+	<p>III – O processo de propagação de calor por irradiação não precisa de um meio material para ocorrer.</p>
+	<p>Estão corretas:</p>
+	<table class="opc">
+		<th></th>
+		<th></th>
+		<th></th>
+		<tr>
+			<td>
+				<p>a) Apenas I.</p>
+				<p>b) Apenas I e II.</p>
+			</td>
+			<td>
+				<p>c) I, II e III.</p>
+				<p>d) Apenas I e II.</p>
+			</td>
+			<td>
+				<p>e) Apenas II e III.</p>
+			</td>
+		</tr>
+	</table>
+                            </div>
+
+                            <input id="botao-05" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-05')" />
+
+                            <div class="questao" id="div-05" style="display:none">
+                                                                    <p>GABARITO: d)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>06. </b>
+                                Sobre os processos de propagação de calor, analise as alternativas a seguir e marque a incorreta:</p>
+	<p>a) a convecção é observada em líquidos e gases.</p>
+	<p>b) a condução de calor pode ocorrer em meios materiais e no vácuo.</p>
+	<p>c) o processo de propagação de calor por irradiação pode ocorrer sem a existência de meio material;</p>
+	<p>d) o calor é uma forma de energia que pode se transferir de um corpo para outro em virtude da diferença de temperatura entre eles.</p>
+	<p>e) O processo de convecção térmica consiste na movimentação de partes do fluido dentro do próprio fluido em razão da diferença de densidade entre as partes do fluido.</p>
+                            </div>
+
+                            <input id="botao-06" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-06')" />
+
+                            <div class="questao" id="div-06" style="display:none">
+                                                                    <p>GABARITO: b)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>07. </b>
+                                (UFSCar) Um recipiente cilíndrico de vidro tem área da base relativamente pequena se comparada com sua altura. Ele contém água em temperatura ambiente até quase a sua borda e é colocado sobre a chama de um fogão, como ilustra a figura.</p>
+<p>A transmissão do calor por meio das moléculas da água durante seu aquecimento ocorre apenas por</p>
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex7.png"></p>
+<table class="opc">
+	<th></th>
+	<th></th>
+	<th></th>
+	<tr>
+		<td>
+			<p>a) condução.</p>
+			<p>b) convecção.</p>
+		</td>
+		<td>
+			<p>c) irradiação.</p>
+			<p>d) condução e convecção.</p>
+		</td>
+		<td>
+			<p>e) convecção e irradiação.</p>
+		</td>
+	</tr>
+</table>
+                            </div>
+
+                            <input id="botao-07" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-07')" />
+
+                            <div class="questao" id="div-07" style="display:none">
+                                                                    <p>GABARITO: b)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>08. </b>
+                                (Enem PPL 2013) É comum nos referirmos a dias quentes como dias “de calor”. Muitas vezes ouvimos expressões como “hoje está calor” ou “hoje o calor está muito forte” quando a temperatura ambiente está alta.</p>
+	<p>No contexto científico, é correto o significado de “calor” usado nessas expressões?</p>
+	<p>a) Sim, pois o calor de um corpo depende de sua temperatura.</p>
+	<p>b) Sim, pois calor é sinônimo de alta temperatura.</p>
+	<p>c) Não, pois calor é energia térmica em trânsito.</p>
+	<p>d) Não, pois calor é a quantidade de energia térmica contida em um corpo.</p>
+	<p>e) Não, pois o calor é diretamente proporcional à temperatura, mas são conceitos diferentes.</p>
+                            </div>
+
+                            <input id="botao-08" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-08')" />
+
+                            <div class="questao" id="div-08" style="display:none">
+                                                                    <p>GABARITO: c)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>09. </b>
+                                (Acafe-SC) Preparar um bom churrasco é uma arte e, em todas as famílias, sempre existe um que se diz bom no preparo. Em algumas casas, a quantidade de carne assada é grande e se come no almoço e no jantar. Para manter as carnes aquecidas o dia todo, alguns utilizam uma caixa de isopor revestida de papel alumínio. A figura a seguir mostra, em corte lateral, uma caixa de isopor revestida de alumínio com carnes no seu interior.</p>
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex9.png"></p>
+<p>Considerando o exposto, assinale a alternativa correta que completa as lacunas das frases a seguir.
+A caixa de isopor funciona como recipiente adiabático. O isopor tenta ______ a troca de calor com o meio por ________ e o alumínio tenta impedir _________.</p>
+<table class="opc">
+	<th></th>
+	<th></th>
+	<tr>
+		<td>
+			<p>a) impedir - convecção - irradiação do calor</p>
+			<p>b) facilitar - condução - convecção</p>
+		</td>
+		<td>
+			<p>c) impedir - condução - irradiação do calor</p>
+			<p>d) facilitar - convecção - condução</p>
+		</td>
+	</tr>
+</table>
+                            </div>
+
+                            <input id="botao-09" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-09')" />
+
+                            <div class="questao" id="div-09" style="display:none">
+                                                                    <p>GABARITO: c)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>10. </b>
+                                (Enem PPL 2013)</p>
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex10.png"></p>
+<p>Quais são os processos de propagação de calor relacionados à fala de cada personagem?</p>
+<table class="opc">
+	<th></th>
+	<th></th>
+	<th></th>
+	<tr>
+		<td>
+			<p>a) Convecção e condução.</p>
+			<p>b) Convecção e irradiação.</p>
+		</td>
+		<td>
+			<p>c) Condução e convecção.</p>
+			<p>d) Irradiação e convecção.</p>
+		</td>
+		<td>
+			<p>e) Irradiação e condução.</p>
+		</td>
+	</tr>
+</table>
+                            </div>
+
+                            <input id="botao-10" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-10')" />
+
+                            <div class="questao" id="div-10" style="display:none">
+                                                                    <p>GABARITO: e)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>11. </b>
+                                (UFSM) Em 2009, foi construído na Bolívia um hotel com a seguinte peculiaridade: todas as suas paredes são formadas por blocos de sal cristalino. Uma das características físicas desse material é sua condutividade térmica relativamente baixa, igual a 6 W/(m.°C). A figura a seguir mostra como a temperatura varia através da parede do prédio.</p>
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex11.png"></p>
+<p>Qual é o valor, em W/m2, do módulo do fluxo de calor por unidade de área que atravessa a parede?</p>
+<table class="opc">
+	<th></th>
+	<th></th>
+	<th></th>
+	<tr>
+		<td>
+			<p>a) 125.</p>
+			<p>b) 800.</p>
+		</td>
+		<td>
+			<p>c) 1200.</p>
+			<p>d) 2400.</p>
+		</td>
+		<td>
+			<p>e) 3000.</p>
+		</td>
+	</tr>
+</table>
+                            </div>
+
+                            <input id="botao-11" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-11')" />
+
+                            <div class="questao" id="div-11" style="display:none">
+                                                                    <a class="light">
+                                        <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/r11.png">
+                                    </a>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>12. </b>
+                                (UNICAMP) Um isolamento térmico eficiente é um constante desafio a ser superado para que o homem possa viver em condições extremas de temperatura. Para isso, o entendimento completo dos mecanismos de troca de calor é imprescindível. Em cada uma das situações descritas a seguir, você deve reconhecer o processo de troca de calor envolvido.</p>
+	<p>I. As prateleiras de uma geladeira doméstica são grades vazadas, para facilitar fluxo de energia térmica até o congelador por […]</p>
+	<p>II. O único processo de troca de calor que pode ocorrer no vácuo é por […].</p>
+	<p>II. Em uma garrafa térmica, é mantido vácuo entre as paredes duplas de vidro para evitar que o calor saia ou entre por [….].</p>
+	<p>Na ordem, os processos de troca de calor utilizados para preencher as lacunas corretamente são:</p>
+	<table class="opc">
+		<th></th>
+		<th></th>
+		<tr>
+			<td>
+				<p>a) Condução, convecção e radiação.</p>
+				<p>b) Condução, radiação e convecção.</p>
+			</td>
+			<td>
+				<p>c) Convecção, condução e radiação.</p>
+				<p>d) Convecção, radiação e condução.</p>
+			</td>
+		</tr>
+	</table>
+                            </div>
+
+                            <input id="botao-12" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-12')" />
+
+                            <div class="questao" id="div-12" style="display:none">
+                                                                    <p>GABARITO: d)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>13. </b>
+                                (EXAME NACIONAL 2012) Qualquer que seja a temperatura a que se encontre, um corpo emite sempre radiação eletromagnética, devido aos movimentos de agitação térmica das partículas que o constituem.
+<p>O espectro da radiação térmica emitida por um corpo é um espectro contínuo em que o comprimento de onda da radiação de máxima intensidade emitida depende da temperatura a que o corpo se encontra: à medida que a temperatura, T, do corpo aumenta, o comprimento de onda ao qual ocorre a emissão de radiação de máxima intensidade, λ máxima , diminui proporcionalmente.</p>
+<p>A taxa temporal de emissão de energia de um corpo, sob a forma de radiação térmica, a partir da sua superfície, é proporcional à quarta potência da temperatura absoluta da superfície do corpo, dependendo também da sua área superficial e de uma constante chamada emissividade.</p>
+<p>Ao mesmo tempo que emite, um corpo também absorve radiação eletromagnética da sua vizinhança.</p>
+<p>Quando um corpo está em equilíbrio com a sua vizinhança, emite e absorve energia, como radiação, à mesma taxa temporal.</p>
+<div class="cit"><p>R. A. Serway, J. W. Jewett, Jr., Princípios de Física, vol. II,
+Pioneira Thomson Learning, 2004 (adaptado)</p></div>
+
+<br>
+<p><b>13.1. </b> A Figura 1 apresenta uma parte do gráfico da intensidade da radiação
+emitida por um corpo, a uma determinada temperatura, em função do comprimento de onda.</p>
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex13.png" style="width:60%"></p>
+<p>À temperatura considerada, o corpo emite</p>
+<p>(A) apenas radiação visível.</p>
+<p>(B) radiação de máxima intensidade no visível.</p>
+<p>(C) apenas radiação ultravioleta.</p>
+<p>(D) radiação de máxima intensidade no ultravioleta.</p>
+
+<br>
+<div class="row50"></div>
+<br>
+<p><b>13.2.</b> Traduza por uma expressão matemática a lei enunciada no final do segundo
+parágrafo do texto.</p>
+<br>
+<div class="row50"></div>
+<br>
+<p><b>13.3.</b> Qual é a unidade do Sistema Internacional em que se exprime a taxa temporal de emissão de energia de um corpo?</p>
+
+<br>
+<div class="row50"></div>
+<br>
+<p><b>13.4.</b> Se a temperatura absoluta da superfície de um corpo aumentar duas vezes, a taxa temporal de emissão de energia do corpo, sob a forma de radiação térmica, a partir da sua superfície, aumentará</p>
+<p>(A) duas vezes.</p>
+<p>(B) quatro vezes.</p>
+<p>(C) oito vezes.</p>
+<p>(D) dezasseis vezes.</p>
+
+<br>
+<div class="row50"></div>
+<br>
+<p><b>13.5.</b> A Terra emite e absorve radiação a uma taxa temporal __________, pelo
+que a temperatura média da sua superfície __________.</p>
+<p>(A) igual ... varia</p>
+<p>(B) diferente ... varia</p>
+<p>(C) igual ... não varia</p>
+<p>(D) diferente ... não varia</p>
+                            </div>
+
+                            <input id="botao-13" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-13')" />
+
+                            <div class="questao" id="div-13" style="display:none">
+                                                                    <p>13.1. (D)</p>
+	
+	<br>
+	<br>
+	<p>13.2. &lambda; = K/T</p>
+	
+	<br>
+	<br>
+	<p>13.3. W (watt), no SI</p>
+	
+	<br>
+	<br>
+	<p>13.4. (D)</p>
+	
+	<br>
+	<br>
+	<p>13.5. (C)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>14. </b>
+                                (EXAME NACIONAL 2010) Os astronautas da missão Apollo 15 implantaram sensores que permitiram medir, num dado local, os valores de condutividade térmica da camada mais superficial da Lua (camada A) e de uma camada mais profunda (camada B).</p>
+<p>Esses valores encontram-se registados na tabela seguinte.</p>
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex14.png" style="width:70%"></p>
+<p>Comparando porções das camadas A e B, de igual área e submetidas à mesma diferença de temperatura, mas, sendo a espessura da camada B dupla da espessura da camada A, é de prever que a taxa temporal de transmissão de energia como calor seja cerca de...</p>
+<p>(A) 2 vezes superior na camada B.</p>
+<p>(B) 4 vezes superior na camada B.</p>
+<p>(C) 8 vezes superior na camada B.</p>
+<p>(D) 16 vezes superior na camada B.</p>
+                            </div>
+
+                            <input id="botao-14" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-14')" />
+
+                            <div class="questao" id="div-14" style="display:none">
+                                                                    <a class="light">
+                                        <img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/r14.png">
+                                    </a>
+                                                            </div>
+
+                            <div class="row"></div>
+                                                    
+                            <div class="item-exercicio">
+                                <b>15. </b>
+                                (EXAME NACIONAL 2009) A placa de cobre, maciça e homogénea, de espessura l, representada na figura 3, permite a dissipação de energia de uma fonte quente (placa metálica X), mantida a uma temperatura constante, Τ X , para uma fonte fria (placa metálica Y), mantida a uma temperatura constante, Τ Y.</p>
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex15.png" style="width:40%"></p>
+<p><b>15.1. </b> Identifique o mecanismo de transferência de energia como calor entre as placas X e Y, através da placa de cobre.</p>
+<br>
+<p><b>15.2. </b> Identifique a propriedade física que permite distinguir bons e maus condutores de calor.</p>
+
+<br>
+<p><b>15.3. </b> Selecione a única alternativa que permite obter uma afirmação correta.</p>
+<p>Se a placa de cobre for substituída por outra, idêntica, mas com metade da espessura, a energia transferida por unidade de tempo, entre as placas X e Y,</p>
+<p>(A) reduz-se a 1/2.</p>
+<p>(B) quadruplica.</p>
+<p>(C) duplica.</p>
+<p>(D) Reduz-se a 1/4.</p>
+
+<br>
+<p><b>15.4. </b> Selecione a única alternativa que contém os termos que preenchem, sequencialmente, os espaços seguintes, de modo a obter uma afirmação correta.</p>
+<p>A placa X encontra-se a uma temperatura _____ à temperatura da placa Y, sendo o comprimento de onda da radiação mais intensa emitida pela placa X _____ do que o comprimento de onda da radiação mais intensa emitida pela placa Y.</p>
+<p>(A) superior ... maior</p>
+<p>(B) inferior ... menor</p>
+<p>(C) superior ... menor</p>
+<p>(D) inferior ... maior</p>
+                            </div>
+
+                            <input id="botao-15" type="button" value="Exibir resposta" class="exibir"
+                                onclick="mostrar(this.id, 'div-15')" />
+
+                            <div class="questao" id="div-15" style="display:none">
+                                                                    <p>15.1. Condução.</p>
+	
+	<br>
+	<p>15.2. Condutividade térmica.</p>
+	
+	<br>
+	<p>15.3. duplica.</p>
+	
+	<br>
+	<p>15.4. (C)</p>
+                                                            </div>
+
+                            <div class="row"></div>
+                                            </div>
+
+                                            <div id="paywall-overlay" class="paywall-overlay hidden">
+                            <div class="paywall-box">
+                                <span class="paywall-badge">Conteúdo restrito</span>
+                                <h2 class="paywall-title">Continue acessando com sua conta</h2>
+                                <p class="paywall-text">
+                                    Esta lista de exercícios faz parte do conteúdo restrito. Entre ou crie sua conta para
+                                    liberar o acesso.
+                                </p>
+
+                                <div class="paywall-actions">
+                                    <a href="https://webfisica.com/planos" class="btn-paywall btn-paywall-primary">
+                                        Entrar / criar conta
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            
+                    </div>
+
+        <div class="after-column"></div>
+    </div>
+    </div>
+    
+    
+
+    
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- ESQUERDA -->
+            <div class="footer-left">
+                <span class="footer-copy">
+                    &copy; 2020 - 2026 WebFísica
+                </span>
+            </div>
+
+            <!-- DIREITA -->
+            <div class="footer-right">
+
+                <a href="https://www.youtube.com/@webfisica" target="_blank" rel="noopener noreferrer" class="footer-link">
+                    <span class="icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M21.58 7.19a2.98 2.98 0 0 0-2.1-2.11C17.62 4.6 12 4.6 12 4.6s-5.62 0-7.48.48a2.98 2.98 0 0 0-2.1 2.11A31.2 31.2 0 0 0 2 12a31.2 31.2 0 0 0 .42 4.81 2.98 2.98 0 0 0 2.1 2.11c1.86.48 7.48.48 7.48.48s5.62 0 7.48-.48a2.98 2.98 0 0 0 2.1-2.11A31.2 31.2 0 0 0 22 12a31.2 31.2 0 0 0-.42-4.81ZM10 15.5v-7l6 3.5-6 3.5Z" />
+                        </svg>
+                    </span>
+                    <span>YouTube</span>
+                </a>
+
+                <a href="https://instagram.com/viniciuslazareti" target="_blank" rel="noopener noreferrer"
+                    class="footer-link">
+                    <span class="icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.8A3.95 3.95 0 0 0 3.8 7.75v8.5a3.95 3.95 0 0 0 3.95 3.95h8.5a3.95 3.95 0 0 0 3.95-3.95v-8.5a3.95 3.95 0 0 0-3.95-3.95h-8.5Zm8.95 1.35a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.8A3.2 3.2 0 1 0 12 15.2 3.2 3.2 0 0 0 12 8.8Z" />
+                        </svg>
+                    </span>
+                    <span>Instagram</span>
+                </a>
+
+                <a href="suporte@webfisica.com" class="footer-link email">
+                    <span class="icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2.2-.5L12 11l7.8-5H4.2ZM20 8.2l-8 5-8-5V17.5c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V8.2Z" />
+                        </svg>
+                    </span>
+                    <span>suporte@webfisica.com</span>
+                </a>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btnLogin = document.getElementById('btnLogin');
+            const btnPerfil = document.getElementById('btnPerfil');
+            const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
+            const usuario = null;
+
+            if (btnPerfil && usuario) {
+                btnPerfil.addEventListener('click', function() {
+                    abrirModalPerfil();
+                });
+
+                btnPerfil.addEventListener('keydown', function(event) {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        abrirModalPerfil();
+                    }
+                });
+            }
+
+            if (btnLogin) {
+                btnLogin.addEventListener('click', function() {
+                    abrirModalLogin();
+                });
+            }
+
+            function abrirModalCarregamento(titulo, texto) {
+                Swal.fire({
+                    html: `
+                        <div class="wf-loading-wrap">
+                            <div class="wf-loader" aria-hidden="true">
+                                <span class="wf-loader-ring ring-1"></span>
+                                <span class="wf-loader-ring ring-2"></span>
+                                <span class="wf-loader-ring ring-3"></span>
+                                <span class="wf-loader-dot"></span>
+                            </div>
+                            <h3 class="wf-loading-title">${titulo}</h3>
+                            <p class="wf-loading-text">${texto}</p>
+                        </div>
+                    `,
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    allowEscapeKey: false,
+                    background: '#ffffff',
+                    width: 360,
+                    customClass: {
+                        popup: 'wf-loading-popup'
+                    }
+                });
+            }
+
+            function abrirModalSucesso(titulo, texto, corBotao = '#004aab') {
+                Swal.fire({
+                    html: `
+                        <div class="wf-success-wrap">
+                            <div class="wf-success-icon" aria-hidden="true">
+                                <span class="wf-success-check"></span>
+                            </div>
+                            <h3 class="wf-success-title">${titulo}</h3>
+                            <p class="wf-success-text">${texto}</p>
+                        </div>
+                    `,
+                    confirmButtonText: 'OK',
+                    background: '#ffffff',
+                    width: 360,
+                    customClass: {
+                        popup: 'wf-success-popup',
+                        confirmButton: 'wf-swal-confirm'
+                    },
+                    didOpen: () => {
+                        const confirmButton = Swal.getConfirmButton();
+                        if (confirmButton) {
+                            confirmButton.style.backgroundColor = corBotao;
+                        }
+                    }
+                });
+            }
+
+            function abrirModalErro(titulo, texto) {
+                Swal.fire({
+                    icon: 'error',
+                    title: titulo,
+                    text: texto,
+                    confirmButtonText: 'OK',
+                    background: '#ffffff',
+                    color: '#000000',
+                    width: 380,
+                    customClass: {
+                        popup: 'wf-swal-popup',
+                        confirmButton: 'wf-swal-confirm'
+                    }
+                });
+            }
+
+            function abrirModalLogin() {
+                Swal.fire({
+                    title: 'Entrar',
+                    html: `
+                        <div class="wf-swal-wrap">
+                            <input id="swal-email" class="swal2-input wf-input" type="email" placeholder="Seu e-mail">
+
+                            <div class="wf-password-wrap">
+                                <input id="swal-password" class="swal2-input wf-input wf-password-input" type="password" placeholder="Sua senha">
+                                <button type="button" id="togglePassword" class="wf-toggle-password" aria-label="Mostrar ou ocultar senha">👁</button>
+                            </div>
+
+                            <div class="wf-forgot-wrap">
+                                <a href="javascript:void(0)" id="forgotPasswordLink" class="wf-forgot-link">Esqueci minha senha</a>
+                            </div>
+                        </div>
+                    `,
+                    showCancelButton: true,
+                    confirmButtonText: 'Entrar',
+                    cancelButtonText: 'Cancelar',
+                    focusConfirm: false,
+                    background: '#ffffff',
+                    color: '#000000',
+                    width: 460,
+                    customClass: {
+                        popup: 'wf-swal-popup',
+                        title: 'wf-swal-title',
+                        confirmButton: 'wf-swal-confirm',
+                        cancelButton: 'wf-swal-cancel'
+                    },
+                    didOpen: () => {
+                        const passwordInput = document.getElementById('swal-password');
+                        const togglePassword = document.getElementById('togglePassword');
+                        const forgotPasswordLink = document.getElementById('forgotPasswordLink');
+
+                        if (togglePassword && passwordInput) {
+                            togglePassword.addEventListener('click', function() {
+                                const isPassword = passwordInput.type === 'password';
+                                passwordInput.type = isPassword ? 'text' : 'password';
+                                togglePassword.textContent = isPassword ? '🙈' : '👁';
+                            });
+                        }
+
+                        if (forgotPasswordLink) {
+                            forgotPasswordLink.addEventListener('click', function() {
+                                Swal.close();
+                                abrirModalRedefinirSenha();
+                            });
+                        }
+                    },
+                    preConfirm: () => {
+                        const email = document.getElementById('swal-email').value.trim();
+                        const password = document.getElementById('swal-password').value.trim();
+
+                        if (!email || !password) {
+                            Swal.showValidationMessage('Preencha e-mail e senha.');
+                            return false;
+                        }
+
+                        return {
+                            email,
+                            password
+                        };
+                    }
+                }).then(async (result) => {
+                    if (!result.isConfirmed) return;
+
+                    const {
+                        email,
+                        password
+                    } = result.value;
+
+                    abrirModalCarregamento(
+                        'Entrando...',
+                        'Estamos validando suas credenciais.'
+                    );
+
+                    try {
+                        const response = await fetch("https://webfisica.com/user-auth", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-CSRF-TOKEN": csrfToken,
+                                "X-Requested-With": "XMLHttpRequest",
+                                "Accept": "application/json"
+                            },
+                            body: JSON.stringify({
+                                email,
+                                password
+                            })
+                        });
+
+                        const data = await response.json().catch(() => ({}));
+
+                        if (!response.ok) {
+                            if (response.status === 422 && data.errors) {
+                                const primeiraMensagem =
+                                    data.errors.email?.[0] ||
+                                    data.errors.password?.[0] ||
+                                    data.message ||
+                                    'Dados inválidos.';
+                                throw new Error(primeiraMensagem);
+                            }
+
+                            throw new Error(data.message || 'E-mail ou senha inválidos.');
+                        }
+
+                        await abrirModalSucesso(
+                            'Login realizado',
+                            data.message || 'Você será redirecionado.',
+                            '#4bbd97'
+                        );
+
+                        window.location.href = data.redirect || "https://webfisica.com";
+                    } catch (error) {
+                        abrirModalErro(
+                            'Erro no login',
+                            error.message || 'Não foi possível entrar.'
+                        );
+                    }
+                });
+            }
+
+            function abrirModalRedefinirSenha() {
+                Swal.fire({
+                    title: 'Redefinir senha',
+                    html: `
+                        <div class="wf-swal-wrap">
+                            <input id="reset-email" class="swal2-input wf-input" type="email" placeholder="Digite seu e-mail">
+                        </div>
+                    `,
+                    showCancelButton: true,
+                    confirmButtonText: 'Enviar link',
+                    cancelButtonText: 'Voltar',
+                    background: '#ffffff',
+                    color: '#000000',
+                    width: 430,
+                    customClass: {
+                        popup: 'wf-swal-popup',
+                        title: 'wf-swal-title',
+                        confirmButton: 'wf-swal-confirm',
+                        cancelButton: 'wf-swal-cancel'
+                    },
+                    preConfirm: () => {
+                        const email = document.getElementById('reset-email').value.trim();
+
+                        if (!email) {
+                            Swal.showValidationMessage('Digite seu e-mail.');
+                            return false;
+                        }
+
+                        return {
+                            email
+                        };
+                    }
+                }).then(async (result) => {
+                    if (result.dismiss === Swal.DismissReason.cancel) {
+                        abrirModalLogin();
+                        return;
+                    }
+
+                    if (!result.isConfirmed) {
+                        return;
+                    }
+
+                    const {
+                        email
+                    } = result.value;
+
+                    abrirModalCarregamento(
+                        'Enviando link...',
+                        'Estamos preparando a redefinição da sua senha.'
+                    );
+
+                    try {
+                        const response = await fetch(
+                            "https://webfisica.com/primeiro-acesso-recuperar-senha", {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                    "X-CSRF-TOKEN": csrfToken,
+                                    "Accept": "application/json"
+                                },
+                                body: JSON.stringify({
+                                    email: email
+                                })
+                            });
+
+                        const data = await response.json().catch(() => ({}));
+
+                        if (!response.ok) {
+                            throw new Error(data.message ||
+                                'Não foi possível enviar o link de redefinição.');
+                        }
+
+                        abrirModalSucesso(
+                            'Link enviado',
+                            data.message ||
+                            `Se o e-mail ${email} existir, você receberá o link de redefinição.`,
+                            '#4bbd97'
+                        );
+                    } catch (error) {
+                        abrirModalErro(
+                            'Erro ao enviar',
+                            error.message || 'Ocorreu um erro ao tentar enviar o link.'
+                        );
+                    }
+                });
+            }
+
+            function abrirModalPerfil() {
+                Swal.fire({
+                    html: `
+                        <div class="wf-profile-wrap">
+                            <div class="wf-profile-header">
+                                <div class="wf-profile-avatar">${usuario.inicial}</div>
+                                <div>
+                                    <h3 class="wf-profile-name">${usuario.name}</h3>
+                                    <p class="wf-profile-email">${usuario.email}</p>
+                                </div>
+                            </div>
+
+                            <div class="wf-profile-info">
+                                <div class="wf-profile-card">
+                                    <span class="wf-profile-label">Nome</span>
+                                    <div class="wf-profile-value">${usuario.name}</div>
+                                </div>
+
+                                <div class="wf-profile-card">
+                                    <span class="wf-profile-label">E-mail</span>
+                                    <div class="wf-profile-value">${usuario.email}</div>
+                                </div>
+                            </div>
+                            <a href="https://webfisica.com/meu-perfil" class="wf-profile-config" id="btnConfig">
+                                Configurações
+                            </a> 
+                            <br>
+                            <a href="#" class="wf-profile-logout" id="btnLogout">
+                                Sair da conta
+                            </a>
+                        </div>
+                    `,
+                    showConfirmButton: false,
+                    showCloseButton: true,
+                    background: '#ffffff',
+                    color: '#000000',
+                    width: 430,
+                    customClass: {
+                        popup: 'wf-swal-popup',
+                        title: 'wf-swal-title'
+                    },
+                    didOpen: () => {
+                        const btnLogout = document.getElementById('btnLogout');
+
+                        if (btnLogout) {
+                            btnLogout.addEventListener('click', async function(event) {
+                                event.preventDefault();
+
+                                abrirModalCarregamento(
+                                    'Saindo...',
+                                    'Encerrando sua sessão com segurança.'
+                                );
+
+                                try {
+                                    const response = await fetch(usuario.logoutUrl, {
+                                        method: 'POST',
+                                        headers: {
+                                            'X-CSRF-TOKEN': csrfToken,
+                                            'X-Requested-With': 'XMLHttpRequest',
+                                            'Accept': 'application/json'
+                                        }
+                                    });
+
+                                    const data = await response.json().catch(() => ({}));
+
+                                    if (!response.ok) {
+                                        throw new Error(data.message ||
+                                            `Erro HTTP ${response.status}`);
+                                    }
+
+                                    window.location.href = data.redirect || '/';
+                                } catch (error) {
+                                    abrirModalErro(
+                                        'Erro ao sair',
+                                        error.message ||
+                                        'Ocorreu um erro ao encerrar a sessão.'
+                                    );
+                                }
+                            });
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+        <script>
+        $(document).ready(function() {
+            $('#tabela-aulas').DataTable({
+                paging: false,
+                info: false,
+                searching: true,
+                ordering: true,
+                order: [],
+                columnDefs: [{
+                    targets: 0,
+                    visible: false
+                }],
+                rowGroup: {
+                    dataSrc: 0
+                },
+                language: {
+                    search: "Buscar:",
+                    zeroRecords: "Nenhum resultado encontrado",
+                    emptyTable: "Nenhum dado disponível na tabela"
+                }
+            });
+        });
+    </script>
+
+    <script>
+        function mostrar(botao, div) {
+            if (document.getElementById(div).style.display == 'none') {
+                document.getElementById(div).style.display = 'block';
+                document.getElementById(botao).value = "Ocultar resposta";
+            } else {
+                document.getElementById(div).style.display = 'none';
+                document.getElementById(botao).value = "Exibir resposta";
+            }
+        }
+
+                    if (!window.matchMedia("(min-width: 500px)").matches) {
+                let vetor = document.querySelectorAll('.light');
+                for (let i = 0; i < vetor.length; i++) {
+                    vetor[i].setAttribute('data-title', 'Arraste para dar zoom');
+                }
+            }
+
+            let itens = document.querySelectorAll('.light');
+            let itensImg = document.querySelectorAll('.light > img');
+
+            for (let i = 0; i < itens.length; i++) {
+                if (i % 2 !== 0) {
+                    itens[i].setAttribute('href', itensImg[i - 1].src);
+                    itens[i].setAttribute('data-lightbox', 'A' + itensImg[i - 1].src);
+                    continue;
+                }
+
+                itens[i].setAttribute('href', itensImg[i].src);
+                itens[i].setAttribute('data-lightbox', itensImg[i].src);
+            }
+            </script>
+
+            <script>
+            (function() {
+                const content = document.getElementById('conteudo-aula');
+                const overlay = document.getElementById('paywall-overlay');
+
+                if (!content || !overlay) {
+                    return;
+                }
+
+                const remainingSeconds = parseInt(content.dataset.remainingSeconds || '0', 10);
+                const paywallEnabled = content.dataset.paywallEnabled === '1';
+                const atividade = "exercicios";
+
+                if (!paywallEnabled) {
+                    return;
+                }
+
+                function bloquearConteudo() {
+                    const texto = (content.innerText || '').trim();
+                    const limiteResumo = atividade === 'exercicios' ? 1200 : 700;
+                    const resumo = texto ? texto.slice(0, limiteResumo) + '...' : '';
+
+                    if (resumo) {
+                        content.innerHTML = `<p>${resumo.replace(/\n/g, '<br>')}</p>`;
+                    }
+
+                    content.classList.add('locked');
+                    overlay.classList.remove('hidden');
+                }
+
+                if (remainingSeconds > 0) {
+                    setTimeout(bloquearConteudo, remainingSeconds * 1000);
+                } else {
+                    bloquearConteudo();
+                }
+            })();
+        </script>
+    </body>
+
+</html>
