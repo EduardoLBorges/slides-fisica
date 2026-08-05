@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="z3kibha99SfzDeSJOuc5Pm1yQAkqrx2oQjQS9BOz">
 
-                <link rel="icon" href="https://webfisica.com/images/favicon/azul/favicon.ico">
-        <link rel="icon" type="image/png" sizes="32x32" href="https://webfisica.com/images/favicon/azul/favicon-32x32.png">
-        <link rel="apple-touch-icon" href="https://webfisica.com/">
-        <meta name="theme-color" content="#ffffff">
-    
+    <link rel="icon" href="https://webfisica.com/images/favicon/azul/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://webfisica.com/images/favicon/azul/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="https://webfisica.com/">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Aula 1-4: Movimento retilíneo uniforme (MRU)</title>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -22,11 +22,27 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/rowgroup/1.4.1/css/rowGroup.dataTables.min.css">
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js" integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css" integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
+        integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css"
+        integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="preload" as="style" href="https://webfisica.com/build/assets/app-CE_6XwF5.css" /><link rel="preload" as="style" href="https://webfisica.com/build/assets/responsiveness-B54DYr2V.css" /><link rel="preload" as="style" href="https://webfisica.com/build/assets/login-Br8Xn0hy.css" /><link rel="modulepreload" as="script" href="https://webfisica.com/build/assets/app-IXMVDP3H.js" /><link rel="stylesheet" href="https://webfisica.com/build/assets/app-CE_6XwF5.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/responsiveness-B54DYr2V.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/login-Br8Xn0hy.css" /><script type="module" src="https://webfisica.com/build/assets/app-IXMVDP3H.js"></script>
-        <link rel="preload" as="style" href="https://webfisica.com/build/assets/aula-format-DjWyFoM2.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/aula-format-DjWyFoM2.css" />    <link rel="preload" as="style" href="https://webfisica.com/build/assets/aula-exercicio-subheader-Coc6IKjr.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/aula-exercicio-subheader-Coc6IKjr.css" />    <link rel="preload" as="style" href="https://webfisica.com/build/assets/exercicios-BI9_JJ4-.css" /><link rel="stylesheet" href="https://webfisica.com/build/assets/exercicios-BI9_JJ4-.css" />
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/app-CE_6XwF5.css" />
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/responsiveness-B54DYr2V.css" />
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/login-Br8Xn0hy.css" />
+    <link rel="modulepreload" as="script" href="https://webfisica.com/build/assets/app-IXMVDP3H.js" />
+    <link rel="stylesheet" href="https://webfisica.com/build/assets/app-CE_6XwF5.css" />
+    <link rel="stylesheet" href="https://webfisica.com/build/assets/responsiveness-B54DYr2V.css" />
+    <link rel="stylesheet" href="https://webfisica.com/build/assets/login-Br8Xn0hy.css" />
+    <script type="module" src="https://webfisica.com/build/assets/app-IXMVDP3H.js"></script>
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/aula-format-DjWyFoM2.css" />
+    <link rel="stylesheet" href="https://webfisica.com/build/assets/aula-format-DjWyFoM2.css" />
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/aula-exercicio-subheader-Coc6IKjr.css" />
+    <link rel="stylesheet" href="https://webfisica.com/build/assets/aula-exercicio-subheader-Coc6IKjr.css" />
+    <link rel="preload" as="style" href="https://webfisica.com/build/assets/exercicios-BI9_JJ4-.css" />
+    <link rel="stylesheet" href="https://webfisica.com/build/assets/exercicios-BI9_JJ4-.css" />
     <style>
         .page-name {
             background-color: #4bbd97;
@@ -275,12 +291,12 @@
             </a>
         </div>
 
-        
-                    <div class="menu-direito">
-                <div class="login" id="planos">PLANOS</div>
-                <div class="login" id="btnLogin">LOGIN</div>
-            </div>
-            </div>
+
+        <div class="menu-direito">
+            <div class="login" id="planos">PLANOS</div>
+            <div class="login" id="btnLogin">LOGIN</div>
+        </div>
+    </div>
     <script>
         document.getElementById('planos').addEventListener('click', () => {
             link = "https:\/\/webfisica.com\/planos";
@@ -288,1159 +304,1053 @@
         })
     </script>
 
-    
-        
+
+
     <div class="conteudo-principal">
-        
-            <div class="content-wrapper">
-        <div class="before-column"></div>
 
-        <div class="column-1 no-select">
-            <div class="page-name">
-                <a href="https://webfisica.com/curso-de-fisica-basica">CURSO DE FÍSICA BÁSICA</a>
-                <img src="https://webfisica.com/images/icones/right-arrow.png">
-                                    AULAS
-                            </div>
+        <div class="content-wrapper">
+            <div class="before-column"></div>
 
-            <div class="table-wrap">
-                <table id="tabela-aulas" class="minimal-table">
-                    <thead>
-                        <tr>
-                            <th>Tópico</th>
-                            <th>Aula</th>
-                            <th>Título</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                                                    <tr >
+            <div class="column-1 no-select">
+                <div class="page-name">
+                    <a href="https://webfisica.com/curso-de-fisica-basica">CURSO DE FÍSICA BÁSICA</a>
+                    <img src="https://webfisica.com/images/icones/right-arrow.png">
+                    AULAS
+                </div>
+
+                <div class="table-wrap">
+                    <table id="tabela-aulas" class="minimal-table">
+                        <thead>
+                            <tr>
+                                <th>Tópico</th>
+                                <th>Aula</th>
+                                <th>Título</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-1</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-1">
-                                                                                        Grandezas físicas, unidades de medida e SI
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-1">
+                                        Grandezas físicas, unidades de medida e SI
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-2</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-2">
-                                                                                        Vetores
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-2">
+                                        Vetores
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-3</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-3">
-                                                                                        Introdução à cinemática
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-3">
+                                        Introdução à cinemática
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-4</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-4">
-                                                                                        Movimento retilíneo uniforme (MRU)
-                                                                                            <img src="https://webfisica.com/images/icones/point.png">
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-4">
+                                        Movimento retilíneo uniforme (MRU)
+                                        <img src="https://webfisica.com/images/icones/point.png">
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-5</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-5">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Movimento retilíneo uniformemente variado (MRUV)
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-5">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Movimento retilíneo uniformemente variado (MRUV)
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-6</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-6">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Movimento círcular uniforme (MCU)
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-6">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Movimento círcular uniforme (MCU)
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-7</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-7">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Movimento círcular uniformemente variado (MCUV)
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-7">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Movimento círcular uniformemente variado (MCUV)
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-8</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-8">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Queda livre e lançamento vertical no vácuo
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-8">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Queda livre e lançamento vertical no vácuo
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-9</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-9">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Lançamento horizontal e oblíquo
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-9">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Lançamento horizontal e oblíquo
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>CINEMÁTICA</td>
                                 <td>Aula 1-10</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/1-10">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Movimento harmônico simples (MHS)
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-10">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Movimento harmônico simples (MHS)
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-11</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-11">
-                                                                                        Introdução à dinâmica e primeira lei de Newton
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-11">
+                                        Introdução à dinâmica e primeira lei de Newton
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-12</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-12">
-                                                                                        A segunda e a terceira leis de Newton
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-12">
+                                        A segunda e a terceira leis de Newton
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-13</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-13">
-                                                                                        Força elástica, lei de Hooke e associação de molas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-13">
+                                        Força elástica, lei de Hooke e associação de molas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-14</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-14">
-                                                                                        Polias e máquinas de Atwood
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-14">
+                                        Polias e máquinas de Atwood
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-15</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-15">
-                                                                                        Plano inclinado sem atrito
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-15">
+                                        Plano inclinado sem atrito
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-16</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-16">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Força de atrito estático e dinâmico
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-16">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Força de atrito estático e dinâmico
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-17</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-17">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Plano inclinado com atrito
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-17">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Plano inclinado com atrito
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-18</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-18">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Aceleração e força centrípeta
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-18">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Aceleração e força centrípeta
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-19</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-19">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Trabalho
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-19">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Trabalho
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-20</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-20">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Energia cinética
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-20">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Energia cinética
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-21</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-21">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Energia potencial
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-21">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Energia potencial
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-22</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-22">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Energia mecânica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-22">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Energia mecânica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-23</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-23">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Potência
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-23">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Potência
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-24</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-24">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Momento linear e impulso
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-24">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Momento linear e impulso
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>DINÂMICA</td>
                                 <td>Aula 2-25</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/2-25">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Colisões
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/2-25">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Colisões
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>GRAVITAÇÃO</td>
                                 <td>Aula 3-26</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/3-26">
-                                                                                        Introdução à astronomia
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/3-26">
+                                        Introdução à astronomia
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>GRAVITAÇÃO</td>
                                 <td>Aula 3-27</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/3-27">
-                                                                                        Leis de Kepler
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/3-27">
+                                        Leis de Kepler
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>GRAVITAÇÃO</td>
                                 <td>Aula 3-28</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/3-28">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Lei da gravitação universal
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/3-28">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Lei da gravitação universal
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>GRAVITAÇÃO</td>
                                 <td>Aula 3-29</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/3-29">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Campo gravitacional e satélites
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/3-29">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Campo gravitacional e satélites
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ESTÁTICA</td>
                                 <td>Aula 4-30</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/4-30">
-                                                                                        Introdução à estática
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/4-30">
+                                        Introdução à estática
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ESTÁTICA</td>
                                 <td>Aula 4-31</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/4-31">
-                                                                                        Centro de massa e centro de gravidade
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/4-31">
+                                        Centro de massa e centro de gravidade
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ESTÁTICA</td>
                                 <td>Aula 4-32</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/4-32">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Torque, alavancas e equilíbrio de corpos extensos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/4-32">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Torque, alavancas e equilíbrio de corpos extensos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>MECÂNICA DOS FLUIDOS</td>
                                 <td>Aula 5-33</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/5-33">
-                                                                                        Introdução à mecânica dos fluidos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/5-33">
+                                        Introdução à mecânica dos fluidos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>MECÂNICA DOS FLUIDOS</td>
                                 <td>Aula 5-34</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/5-34">
-                                                                                        Teorema de Stevin
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/5-34">
+                                        Teorema de Stevin
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>MECÂNICA DOS FLUIDOS</td>
                                 <td>Aula 5-35</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/5-35">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Teorema de Pascal
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/5-35">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Teorema de Pascal
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>MECÂNICA DOS FLUIDOS</td>
                                 <td>Aula 5-36</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/5-36">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Teorema de Arquimedes
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/5-36">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Teorema de Arquimedes
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>MECÂNICA DOS FLUIDOS</td>
                                 <td>Aula 5-37</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/5-37">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Hidrodinâmica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/5-37">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Hidrodinâmica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-38</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-38">
-                                                                                        Introdução à termologia e escalas termométricas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-38">
+                                        Introdução à termologia e escalas termométricas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-39</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-39">
-                                                                                        Dilatação térmica dos sólidos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-39">
+                                        Dilatação térmica dos sólidos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-40</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-40">
-                                                                                        Dilatação térmica dos líquidos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-40">
+                                        Dilatação térmica dos líquidos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-41</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-41">
-                                                                                        Calor sensível e calor latente
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-41">
+                                        Calor sensível e calor latente
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-42</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-42">
-                                                                                        Troca de calor entre substâncias
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-42">
+                                        Troca de calor entre substâncias
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-43</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-43">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Estados físicos da matéria
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-43">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Estados físicos da matéria
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-44</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-44">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Propagação de calor
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-44">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Propagação de calor
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-45</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-45">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Transformações gasosas e equação geral dos gases
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-45">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Transformações gasosas e equação geral dos gases
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-46</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-46">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Leis dos gases ideais (equação de Clapeyron)
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-46">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Leis dos gases ideais (equação de Clapeyron)
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-47</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-47">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Trabalho nas transformações gasosas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-47">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Trabalho nas transformações gasosas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-48</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-48">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Leis da termodinâmica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-48">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Leis da termodinâmica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-49</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-49">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Máquinas térmicas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-49">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Máquinas térmicas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>TERMOLOGIA</td>
                                 <td>Aula 6-50</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/6-50">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Ciclos termodinâmicos: ciclo de Carnout
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/6-50">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Ciclos termodinâmicos: ciclo de Carnout
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-51</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-51">
-                                                                                        Introdução à óptica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-51">
+                                        Introdução à óptica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-52</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-52">
-                                                                                        Cores: síntese adtiva e síntese subtrativa
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-52">
+                                        Cores: síntese adtiva e síntese subtrativa
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-53</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-53">
-                                                                                        Princípios da óptica geométrica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-53">
+                                        Princípios da óptica geométrica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-54</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-54">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Ângulo visual, eclipses e fases da lua
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-54">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Ângulo visual, eclipses e fases da lua
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-55</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-55">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Reflexão e refração
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-55">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Reflexão e refração
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-56</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-56">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Espelhos planos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-56">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Espelhos planos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-57</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-57">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Espelhos esféricos: côncavos e convexos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-57">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Espelhos esféricos: côncavos e convexos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-58</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-58">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Análise algébrica dos espelhos esféricos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-58">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Análise algébrica dos espelhos esféricos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-59</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-59">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Lentes esféricas: côncavas e convexas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-59">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Lentes esféricas: côncavas e convexas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-60</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-60">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Análise algébrica das lentes esféricas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-60">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Análise algébrica das lentes esféricas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ÓPTICA</td>
                                 <td>Aula 7-61</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/7-61">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Olho humano e ametropias
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/7-61">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Olho humano e ametropias
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ONDAS</td>
                                 <td>Aula 8-62</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-62">
-                                                                                        Introdução à ondas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-62">
+                                        Introdução à ondas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ONDAS</td>
                                 <td>Aula 8-63</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-63">
-                                                                                        Equação fundamental da ondulatória
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-63">
+                                        Equação fundamental da ondulatória
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ONDAS</td>
                                 <td>Aula 8-64</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-64">
-                                                                                        Velocidade e frequência das ondas eletromagnéticas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-64">
+                                        Velocidade e frequência das ondas eletromagnéticas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ONDAS</td>
                                 <td>Aula 8-65</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-65">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Fenômenos ondulatórios
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-65">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Fenômenos ondulatórios
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ONDAS</td>
                                 <td>Aula 8-66</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-66">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Velocidade, reflexão e refração de ondas em cordas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-66">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Velocidade, reflexão e refração de ondas em cordas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ONDAS</td>
                                 <td>Aula 8-67</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-67">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Ondas estacionárias
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-67">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Ondas estacionárias
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ONDAS</td>
                                 <td>Aula 8-68</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-68">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        A dual natureza da luz
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-68">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        A dual natureza da luz
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ONDAS</td>
                                 <td>Aula 8-69</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-69">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        O som e suas qualidades fisiológicas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-69">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        O som e suas qualidades fisiológicas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ONDAS</td>
                                 <td>Aula 8-70</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/8-70">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Efeito doppler
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/8-70">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Efeito doppler
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETROSTÁTICA</td>
                                 <td>Aula 9-71</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/9-71">
-                                                                                        Introdução ao eletromagnetismo e a atomística
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/9-71">
+                                        Introdução ao eletromagnetismo e a atomística
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETROSTÁTICA</td>
                                 <td>Aula 9-72</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/9-72">
-                                                                                        Cargas elétricas e processos de eletrização
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/9-72">
+                                        Cargas elétricas e processos de eletrização
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETROSTÁTICA</td>
                                 <td>Aula 9-73</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/9-73">
-                                                                                        Lei de Coulomb
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/9-73">
+                                        Lei de Coulomb
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETROSTÁTICA</td>
                                 <td>Aula 9-74</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/9-74">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Campo elétrico e gaiola de Faraday
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/9-74">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Campo elétrico e gaiola de Faraday
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETROSTÁTICA</td>
                                 <td>Aula 9-75</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/9-75">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Energia potencial elétrica, Potencial elétrico e D.D.P
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/9-75">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Energia potencial elétrica, Potencial elétrico e D.D.P
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETROSTÁTICA</td>
                                 <td>Aula 9-76</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/9-76">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Trabalho da força elétrica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/9-76">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Trabalho da força elétrica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-77</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-77">
-                                                                                        Introdução à eletrodinâmica
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-77">
+                                        Introdução à eletrodinâmica
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-78</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-78">
-                                                                                        Primeira lei de Ohm
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-78">
+                                        Primeira lei de Ohm
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-79</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-79">
-                                                                                        Segunda lei de Ohm
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-79">
+                                        Segunda lei de Ohm
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-80</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-80">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Circuitos elétricos e associação de resistores
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-80">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Circuitos elétricos e associação de resistores
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-81</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-81">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Geradores elétricos e associação de geradores
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-81">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Geradores elétricos e associação de geradores
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-82</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-82">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Capacitores e associação de capacitores
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-82">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Capacitores e associação de capacitores
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETRODINÂMICA</td>
                                 <td>Aula 10-83</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/10-83">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Leis de Kirchhoff
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/10-83">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Leis de Kirchhoff
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETROMAGNETISMO</td>
                                 <td>Aula 11-84</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/11-84">
-                                                                                        Magnetismo
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/11-84">
+                                        Magnetismo
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETROMAGNETISMO</td>
                                 <td>Aula 11-85</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/11-85">
-                                                                                        Força magnética sobre cargas em movimento
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/11-85">
+                                        Força magnética sobre cargas em movimento
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>ELETROMAGNETISMO</td>
                                 <td>Aula 11-86</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/11-86">
-                                                                                        Campo magnético em fio retilíneo longo e bobinas
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/11-86">
+                                        Campo magnético em fio retilíneo longo e bobinas
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETROMAGNETISMO</td>
                                 <td>Aula 11-87</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/11-87">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Indução magnética (lei de Faraday e lei de Lenz)
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/11-87">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Indução magnética (lei de Faraday e lei de Lenz)
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr  class="is-restricted-row" >
+                            <tr class="is-restricted-row">
                                 <td>ELETROMAGNETISMO</td>
                                 <td>Aula 11-88</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/11-88">
-                                                                                            <img src="https://webfisica.com/images/icones/restrito.png">
-                                                                                        Transformadores
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/11-88">
+                                        <img src="https://webfisica.com/images/icones/restrito.png">
+                                        Transformadores
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-89</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-89">
-                                                                                        Espaço e tempo absolutos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-89">
+                                        Espaço e tempo absolutos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-90</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-90">
-                                                                                        Éter luminífero e a velocidade da luz
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-90">
+                                        Éter luminífero e a velocidade da luz
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-91</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-91">
-                                                                                        Experimento de Michelson &amp; Morley
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-91">
+                                        Experimento de Michelson &amp; Morley
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-92</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-92">
-                                                                                        Transformadas de Galileu
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-92">
+                                        Transformadas de Galileu
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-93</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-93">
-                                                                                        Transformadas de Lorentz
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-93">
+                                        Transformadas de Lorentz
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-94</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-94">
-                                                                                        Transformadas de Lorentz para velocidades
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-94">
+                                        Transformadas de Lorentz para velocidades
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-95</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-95">
-                                                                                        Efeito Doppler relativístico
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-95">
+                                        Efeito Doppler relativístico
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-96</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-96">
-                                                                                        Momento e energia relativísticos
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-96">
+                                        Momento e energia relativísticos
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA  — RELATIVIDADE RESTRITA</td>
                                 <td>Aula 12-97</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/12-97">
-                                                                                        Conversão massa-energia
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/12-97">
+                                        Conversão massa-energia
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-98</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-98">
-                                                                                        Radiação de corpo negro
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-98">
+                                        Radiação de corpo negro
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-99</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-99">
-                                                                                        Efeito fotoelétrico
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-99">
+                                        Efeito fotoelétrico
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-100</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-100">
-                                                                                        Raios X
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-100">
+                                        Raios X
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-101</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-101">
-                                                                                        Efeito Compton
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-101">
+                                        Efeito Compton
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-102</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-102">
-                                                                                        Espectroscopia e fórmula de Balmer
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-102">
+                                        Espectroscopia e fórmula de Balmer
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-103</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-103">
-                                                                                        O átomo de Bohr
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-103">
+                                        O átomo de Bohr
+                                    </a>
+                                </td>
                             </tr>
-                                                    <tr >
+                            <tr>
                                 <td>FÍSICA MODERNA — QUÂNTICA</td>
                                 <td>Aula 13-104</td>
                                 <td>
-                                                                            <a
-                                            href="https://webfisica.com/curso-de-fisica-basica/aula/13-104">
-                                                                                        Ondas de matéria
-                                                                                    </a>
-                                                                    </td>
+                                    <a href="https://webfisica.com/curso-de-fisica-basica/aula/13-104">
+                                        Ondas de matéria
+                                    </a>
+                                </td>
                             </tr>
-                                            </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
 
-        <div class="column-2">
-            <div class="aula-menu no-select">
-                <div class="navegacao">
+            <div class="column-2">
+                <div class="aula-menu no-select">
+                    <div class="navegacao">
 
-                                            <div class="before">
-                                                            <a
-                                    href="https://webfisica.com/curso-de-fisica-basica/aula/1-3">
-                                    <img src="https://webfisica.com/images/icones/btn-before.png">
-                                </a>
-                                                    </div>
+                        <div class="before">
+                            <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-3">
+                                <img src="https://webfisica.com/images/icones/btn-before.png">
+                            </a>
+                        </div>
                         <div class="texto">
-                                                            Aula
-                                                    </div>
+                            Aula
+                        </div>
                         <div class="after">
-                                                            <a
-                                    href="https://webfisica.com/curso-de-fisica-basica/aula/1-5">
-                                    <img src="https://webfisica.com/images/icones/btn-next.png">
-                                </a>
-                                                    </div>
-                                    </div>
+                            <a href="https://webfisica.com/curso-de-fisica-basica/aula/1-5">
+                                <img src="https://webfisica.com/images/icones/btn-next.png">
+                            </a>
+                        </div>
+                    </div>
 
-                <div class="lista-de-exercicios">
-                                            <a href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-4">
+                    <div class="lista-de-exercicios">
+                        <a href="https://webfisica.com/curso-de-fisica-basica/exercicios/1-4">
                             <div class="texto">Lista de exercicios</div>
                             <div class="ex-icone"><img src="https://webfisica.com/images/icones/exercicios.png"></div>
                         </a>
-                                    </div>
-            </div>
+                    </div>
+                </div>
 
-            
+
 
 
                 <div class="aula-titulo">
@@ -1449,93 +1359,154 @@
                 </div>
 
                 <div id="aula-container" class="aula-container">
-                    <div id="conteudo-aula" class="aula-content "
-                        data-paywall-enabled="0"
-                        data-remaining-seconds="0">
-                        <p>Dizemos que um corpo est&aacute; em movimento sempre que, a cada instante, ele muda de posi&ccedil;&atilde;o com respeito a um referencial. Chamamos este movimento de retil&iacute;neo quando esta altera&ccedil;&atilde;o de movimento acontece numa &uacute;nica dimen&ccedil;&atilde;o, isto &eacute;, em cima de uma linha. Quando o movimento, al&eacute;m de ser retil&iacute;neo, ocorre sob uma velocidade constante, ou seja, ele percorre espa&ccedil;os iguais em intervalos de tempos iguais, dizemos, ent&atilde;o, que &eacute; movimento retil&iacute;neo uniforme.</p>
-<p style="text-align: center;"><img style="width: 90%;" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/mu.gif" alt="Anima&ccedil;&atilde;o de ve&iacute;culo em movimento retil&iacute;neo uniforme"></p>
-<p><br><br></p>
-<div class="row-deg">&nbsp;</div>
-<p>&nbsp;</p>
-<h3>Velocidade m&eacute;dia</h3>
-<p>Trata-se da grandeza f&iacute;sica que indica a agilidade, a ligeireza com que o corpo percorre os espa&ccedil;os. Podemos calcul&aacute;-la fazendo-se a raz&atilde;o de um deslocamento percorrido pelo m&oacute;vel <img src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;S"> pela quantidade de tempo necess&aacute;rio para percorr&ecirc;-lo <img src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;t">.</p>
-<p>&nbsp;</p>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}"></p>
-<p>&nbsp;</p>
-<p>A unidade de medida para a velocidade de acordo como o sistema internacional &eacute; o &ldquo;metros por segundo&rdquo;, entretanto tamb&eacute;m usa-se, ami&uacute;de, o &ldquo;quil&ocirc;metros por hora&rdquo;:</p>
-<p>&nbsp;</p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{m}{s}"> &nbsp;&nbsp; ou &nbsp;&nbsp; <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{km}{m}"></p>
-<p>&nbsp;</p>
-<div class="adendo">
-<h3>Convers&atilde;o entre as unidades de medida</h3>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{1&amp;space;km}{1&amp;space;h}&amp;space;=&amp;space;\frac{1000&amp;space;m}{&amp;space;3600&amp;space;s}&amp;space;=\frac{1&amp;space;m}{3,6s}"> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\frac{m}{s}=\frac{3,6km}{h}"></p>
-<p>Conforme nos anuncia a rela&ccedil;&atilde;o acima, para converter de &ldquo;metros por segundo&rdquo; para &ldquo;quil&ocirc;metros por horas&rdquo;, devemos multiplicar por 3,6. E para converter de &ldquo;quil&ocirc;metros por horas&rdquo; para &ldquo;metros por segundo&rdquo;, devemos dividir por este valor.</p>
-<p style="text-align: center;"><img style="width: 40%;" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/conver.png" alt="Diagrama de convers&atilde;o de m/s em km/h"></p>
-</div>
-<p>&nbsp;</p>
-<div class="row-deg">&nbsp;</div>
-<p>&nbsp;</p>
-<h3>Equa&ccedil;&atilde;o hor&aacute;ria do espa&ccedil;o</h3>
-<p>&Eacute; a equa&ccedil;&atilde;o capaz de nos fornece o espa&ccedil;o em fun&ccedil;&atilde;o percorrido pelo m&oacute;vel em fun&ccedil;&atilde;o do tempo, do hor&aacute;rio. Para deduzi-la, basta manipularmos algebricamente a equa&ccedil;&atilde;o da velocidade, apresentada anteriormente:</p>
-<p>&nbsp;</p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}&amp;space;=&amp;space;\frac{S&amp;space;-&amp;space;S_0}{t}&amp;space;\rightarrow">&nbsp;<img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;S&amp;space;-&amp;space;S_0&amp;space;=v.t\rightarrow&amp;space;S&amp;space;=&amp;space;S_o&amp;space;+&amp;space;v.t&amp;space;\rightarrow"> <img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;S&amp;space;=&amp;space;S_0&amp;space;+&amp;space;v.t"></p>
-<p>&nbsp;</p>
-<div class="row-deg">&nbsp;</div>
-<p>&nbsp;</p>
-<h3>Gr&aacute;ficos do MRU</h3>
-<table>
-<tbody>
-<tr>
-<th style="width: 30%;">&nbsp;</th>
-<th style="width: 4%;">&nbsp;</th>
-<th style="width: 30%;">&nbsp;</th>
-<th style="width: 4%;">&nbsp;</th>
-<th style="width: 30%;">&nbsp;</th>
-</tr>
-<tr>
-<td style="vertical-align: super;">
-<p style="text-align: center;">ACELERA&Ccedil;&Atilde;O X TEMPO</p>
-<br>
-<p>Acelera&ccedil;&atilde;o &eacute; a taxa de varia&ccedil;&atilde;o do tempo em fun&ccedil;&atilde;o da velocidade. Como estamos lidando com MRU e, portanto, a velocidade &eacute; constante, n&atilde;o muda, logo esta grandeza valer&aacute; sempre 0. Por isto este gr&aacute;fico sempre apresentar&aacute; uma reta horizontal na marca do valor zero para a acelera&ccedil;&atilde;o.</p>
-</td>
-<td>&nbsp;</td>
-<!--******** -->
-<td style="vertical-align: super;">
-<p style="text-align: center;">VELOCIDADE X TEMPO</p>
-<br>
-<p>Como a velocidade &eacute; constante, n&atilde;o se altera com o tempo, o gr&aacute;fico apresentar&aacute; sempre uma reta horizontal que corta o eixo da velocidade no valor de velocidade correspondente.</p>
-</td>
-<td>&nbsp;</td>
-<!--******** -->
-<td style="vertical-align: super;">
-<p style="text-align: center;">ESPA&Ccedil;O X TEMPO</p>
-<br>
-<p>O gr&aacute;fico do espa&ccedil;o pelo tempo ser&aacute; caracterizado por uma reta obl&iacute;qua que corta o eixo do espa&ccedil;o no ponto correspondente a posi&ccedil;&atilde;o inicial do m&oacute;vel. Se esta reta dor acendente, estamos a falar de m&oacute;vel regido por velocidade positiva. Se a reta for decrescente, trata-se de uma velocidade negativa. O grau de inclina&ccedil;&atilde;o da reta &eacute; proporcional ao m&oacute;dulo desta velocidade.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><img style="width: 100%;" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/ac.png" alt="Gr&aacute;fico caracter&iacute;stico da acelera&ccedil;&atilde;o por tempo em MRU"></p>
-</td>
-<td>&nbsp;</td>
-<!--******** -->
-<td>
-<p><img style="width: 100%;" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/vel.png" alt="Gr&aacute;fico caracter&iacute;stico da velocidade por tempo em MRU"></p>
-</td>
-<td>&nbsp;</td>
-<!--******** -->
-<td>
-<p><img style="width: 100%;" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/pos.png" alt="Gr&aacute;fico caracter&iacute;stico do espa&ccedil;o por tempo em MRU"></p>
-</td>
-</tr>
-</tbody>
-</table>
+                    <div id="conteudo-aula" class="aula-content " data-paywall-enabled="0" data-remaining-seconds="0">
+                        <p>Dizemos que um corpo est&aacute; em movimento sempre que, a cada instante, ele muda de
+                            posi&ccedil;&atilde;o com respeito a um referencial. Chamamos este movimento de
+                            retil&iacute;neo quando esta altera&ccedil;&atilde;o de movimento acontece numa &uacute;nica
+                            dimen&ccedil;&atilde;o, isto &eacute;, em cima de uma linha. Quando o movimento, al&eacute;m
+                            de ser retil&iacute;neo, ocorre sob uma velocidade constante, ou seja, ele percorre
+                            espa&ccedil;os iguais em intervalos de tempos iguais, dizemos, ent&atilde;o, que &eacute;
+                            movimento retil&iacute;neo uniforme.</p>
+                        <p style="text-align: center;"><img style="width: 90%;"
+                                src="https://webfisica.com/imagens-fisica/aulas/aula1-4/mu.gif"
+                                alt="Anima&ccedil;&atilde;o de ve&iacute;culo em movimento retil&iacute;neo uniforme">
+                        </p>
+                        <p><br><br></p>
+                        <div class="row-deg">&nbsp;</div>
+                        <p>&nbsp;</p>
+                        <h3>Velocidade m&eacute;dia</h3>
+                        <p>Trata-se da grandeza f&iacute;sica que indica a agilidade, a ligeireza com que o corpo
+                            percorre os espa&ccedil;os. Podemos calcul&aacute;-la fazendo-se a raz&atilde;o de um
+                            deslocamento percorrido pelo m&oacute;vel <img
+                                src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;S">
+                            pela quantidade de tempo necess&aacute;rio para percorr&ecirc;-lo <img
+                                src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;t">.
+                        </p>
+                        <p>&nbsp;</p>
+                        <p><img class="formula_imp"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}">
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>A unidade de medida para a velocidade de acordo como o sistema internacional &eacute; o
+                            &ldquo;metros por segundo&rdquo;, entretanto tamb&eacute;m usa-se, ami&uacute;de, o
+                            &ldquo;quil&ocirc;metros por hora&rdquo;:</p>
+                        <p>&nbsp;</p>
+                        <p><img class="formula"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{m}{s}">
+                            &nbsp;&nbsp; ou &nbsp;&nbsp; <img class="formula"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{km}{m}">
+                        </p>
+                        <p>&nbsp;</p>
+                        <div class="adendo">
+                            <h3>Convers&atilde;o entre as unidades de medida</h3>
+                            <p><img class="formula"
+                                    src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{1&amp;space;km}{1&amp;space;h}&amp;space;=&amp;space;\frac{1000&amp;space;m}{&amp;space;3600&amp;space;s}&amp;space;=\frac{1&amp;space;m}{3,6s}">
+                                <img class="formula"
+                                    src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\frac{m}{s}=\frac{3,6km}{h}">
+                            </p>
+                            <p>Conforme nos anuncia a rela&ccedil;&atilde;o acima, para converter de &ldquo;metros por
+                                segundo&rdquo; para &ldquo;quil&ocirc;metros por horas&rdquo;, devemos multiplicar por
+                                3,6. E para converter de &ldquo;quil&ocirc;metros por horas&rdquo; para &ldquo;metros
+                                por segundo&rdquo;, devemos dividir por este valor.</p>
+                            <p style="text-align: center;"><img style="width: 40%;"
+                                    src="https://webfisica.com/imagens-fisica/aulas/aula1-4/conver.png"
+                                    alt="Diagrama de convers&atilde;o de m/s em km/h"></p>
+                        </div>
+                        <p>&nbsp;</p>
+                        <div class="row-deg">&nbsp;</div>
+                        <p>&nbsp;</p>
+                        <h3>Equa&ccedil;&atilde;o hor&aacute;ria do espa&ccedil;o</h3>
+                        <p>&Eacute; a equa&ccedil;&atilde;o capaz de nos fornece o espa&ccedil;o em fun&ccedil;&atilde;o
+                            percorrido pelo m&oacute;vel em fun&ccedil;&atilde;o do tempo, do hor&aacute;rio. Para
+                            deduzi-la, basta manipularmos algebricamente a equa&ccedil;&atilde;o da velocidade,
+                            apresentada anteriormente:</p>
+                        <p>&nbsp;</p>
+                        <p><img class="formula"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}&amp;space;=&amp;space;\frac{S&amp;space;-&amp;space;S_0}{t}&amp;space;\rightarrow">&nbsp;<img
+                                class="formula"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;S&amp;space;-&amp;space;S_0&amp;space;=v.t\rightarrow&amp;space;S&amp;space;=&amp;space;S_o&amp;space;+&amp;space;v.t&amp;space;\rightarrow">
+                            <img class="formula_imp"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;S&amp;space;=&amp;space;S_0&amp;space;+&amp;space;v.t">
+                        </p>
+                        <p>&nbsp;</p>
+                        <div class="row-deg">&nbsp;</div>
+                        <p>&nbsp;</p>
+                        <h3>Gr&aacute;ficos do MRU</h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th style="width: 30%;">&nbsp;</th>
+                                    <th style="width: 4%;">&nbsp;</th>
+                                    <th style="width: 30%;">&nbsp;</th>
+                                    <th style="width: 4%;">&nbsp;</th>
+                                    <th style="width: 30%;">&nbsp;</th>
+                                </tr>
+                                <tr>
+                                    <td style="vertical-align: super;">
+                                        <p style="text-align: center;">ACELERA&Ccedil;&Atilde;O X TEMPO</p>
+                                        <br>
+                                        <p>Acelera&ccedil;&atilde;o &eacute; a taxa de varia&ccedil;&atilde;o do tempo
+                                            em fun&ccedil;&atilde;o da velocidade. Como estamos lidando com MRU e,
+                                            portanto, a velocidade &eacute; constante, n&atilde;o muda, logo esta
+                                            grandeza valer&aacute; sempre 0. Por isto este gr&aacute;fico sempre
+                                            apresentar&aacute; uma reta horizontal na marca do valor zero para a
+                                            acelera&ccedil;&atilde;o.</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <!--******** -->
+                                    <td style="vertical-align: super;">
+                                        <p style="text-align: center;">VELOCIDADE X TEMPO</p>
+                                        <br>
+                                        <p>Como a velocidade &eacute; constante, n&atilde;o se altera com o tempo, o
+                                            gr&aacute;fico apresentar&aacute; sempre uma reta horizontal que corta o
+                                            eixo da velocidade no valor de velocidade correspondente.</p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <!--******** -->
+                                    <td style="vertical-align: super;">
+                                        <p style="text-align: center;">ESPA&Ccedil;O X TEMPO</p>
+                                        <br>
+                                        <p>O gr&aacute;fico do espa&ccedil;o pelo tempo ser&aacute; caracterizado por
+                                            uma reta obl&iacute;qua que corta o eixo do espa&ccedil;o no ponto
+                                            correspondente a posi&ccedil;&atilde;o inicial do m&oacute;vel. Se esta reta
+                                            dor acendente, estamos a falar de m&oacute;vel regido por velocidade
+                                            positiva. Se a reta for decrescente, trata-se de uma velocidade negativa. O
+                                            grau de inclina&ccedil;&atilde;o da reta &eacute; proporcional ao
+                                            m&oacute;dulo desta velocidade.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p><img style="width: 100%;"
+                                                src="https://webfisica.com/imagens-fisica/aulas/aula1-4/ac.png"
+                                                alt="Gr&aacute;fico caracter&iacute;stico da acelera&ccedil;&atilde;o por tempo em MRU">
+                                        </p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <!--******** -->
+                                    <td>
+                                        <p><img style="width: 100%;"
+                                                src="https://webfisica.com/imagens-fisica/aulas/aula1-4/vel.png"
+                                                alt="Gr&aacute;fico caracter&iacute;stico da velocidade por tempo em MRU">
+                                        </p>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <!--******** -->
+                                    <td>
+                                        <p><img style="width: 100%;"
+                                                src="https://webfisica.com/imagens-fisica/aulas/aula1-4/pos.png"
+                                                alt="Gr&aacute;fico caracter&iacute;stico do espa&ccedil;o por tempo em MRU">
+                                        </p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    
+
                     <div class="complementos-header">
                         MATERIAL COMPLEMENTAR
                     </div>
-                                        <style>
+                    <style>
                         .complementos-header {
                             font-size: 13px;
                             font-weight: 700;
@@ -1592,18 +1563,18 @@
                         }
                     </style>
 
-                                    </div>
-            
-            
-                    </div>
+                </div>
 
-        <div class="after-column"></div>
-    </div>
-    </div>
-    
-    
 
-    
+            </div>
+
+            <div class="after-column"></div>
+        </div>
+    </div>
+
+
+
+
     <footer class="site-footer">
         <div class="footer-container">
 
@@ -1617,7 +1588,8 @@
             <!-- DIREITA -->
             <div class="footer-right">
 
-                <a href="https://www.youtube.com/@webfisica" target="_blank" rel="noopener noreferrer" class="footer-link">
+                <a href="https://www.youtube.com/@webfisica" target="_blank" rel="noopener noreferrer"
+                    class="footer-link">
                     <span class="icon">
                         <svg viewBox="0 0 24 24">
                             <path
@@ -1654,20 +1626,20 @@
     </footer>
 
 
-    
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const btnLogin = document.getElementById('btnLogin');
             const btnPerfil = document.getElementById('btnPerfil');
             const csrfToken = document.querySelector('meta[name="csrf-token"]')?.getAttribute('content') || '';
             const usuario = null;
 
             if (btnPerfil && usuario) {
-                btnPerfil.addEventListener('click', function() {
+                btnPerfil.addEventListener('click', function () {
                     abrirModalPerfil();
                 });
 
-                btnPerfil.addEventListener('keydown', function(event) {
+                btnPerfil.addEventListener('keydown', function (event) {
                     if (event.key === 'Enter' || event.key === ' ') {
                         event.preventDefault();
                         abrirModalPerfil();
@@ -1676,7 +1648,7 @@
             }
 
             if (btnLogin) {
-                btnLogin.addEventListener('click', function() {
+                btnLogin.addEventListener('click', function () {
                     abrirModalLogin();
                 });
             }
@@ -1785,7 +1757,7 @@
                         const forgotPasswordLink = document.getElementById('forgotPasswordLink');
 
                         if (togglePassword && passwordInput) {
-                            togglePassword.addEventListener('click', function() {
+                            togglePassword.addEventListener('click', function () {
                                 const isPassword = passwordInput.type === 'password';
                                 passwordInput.type = isPassword ? 'text' : 'password';
                                 togglePassword.textContent = isPassword ? '🙈' : '👁';
@@ -1793,7 +1765,7 @@
                         }
 
                         if (forgotPasswordLink) {
-                            forgotPasswordLink.addEventListener('click', function() {
+                            forgotPasswordLink.addEventListener('click', function () {
                                 Swal.close();
                                 abrirModalRedefinirSenha();
                             });
@@ -1926,16 +1898,16 @@
                     try {
                         const response = await fetch(
                             "https://webfisica.com/primeiro-acesso-recuperar-senha", {
-                                method: "POST",
-                                headers: {
-                                    "Content-Type": "application/json",
-                                    "X-CSRF-TOKEN": csrfToken,
-                                    "Accept": "application/json"
-                                },
-                                body: JSON.stringify({
-                                    email: email
-                                })
-                            });
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-CSRF-TOKEN": csrfToken,
+                                "Accept": "application/json"
+                            },
+                            body: JSON.stringify({
+                                email: email
+                            })
+                        });
 
                         const data = await response.json().catch(() => ({}));
 
@@ -2004,7 +1976,7 @@
                         const btnLogout = document.getElementById('btnLogout');
 
                         if (btnLogout) {
-                            btnLogout.addEventListener('click', async function(event) {
+                            btnLogout.addEventListener('click', async function (event) {
                                 event.preventDefault();
 
                                 abrirModalCarregamento(
@@ -2045,8 +2017,8 @@
         });
     </script>
 
-        <script>
-        $(document).ready(function() {
+    <script>
+        $(document).ready(function () {
             $('#tabela-aulas').DataTable({
                 paging: false,
                 info: false,
@@ -2080,8 +2052,8 @@
             }
         }
 
-            </script>
+    </script>
 
-    </body>
+</body>
 
 </html>

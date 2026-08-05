@@ -1,0 +1,9 @@
+# Pastas geradas com o download e processamento de dados
+aulas_fisica/
+aulas_marp/
+aulas_slides/
+site/
+
+# Arquivos temporários Python
+__pycache__/
+*.pyc
