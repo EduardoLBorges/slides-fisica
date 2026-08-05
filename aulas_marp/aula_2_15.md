@@ -1,0 +1,69 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula2-15: Plano inclinado sem atrito
+
+---
+
+<p>O plano inclinado é um sistema mecânico que se compõe de um corpo que é colocado sobre uma superfície não paralela à superfície terrestre. Essa obliquidade da superfície com respeito à Terra faz com que o peso e a normal não se equilibrem, gerando, então, na ausência de forças de atrito e outras forças externas, sempre uma força resultante.</p>
+<p> </p>
+<p>Planos inclinados muito representam para a física experimental, uma vez que foi deste engenho que se serviu Galileu para elaborar suas terias acerca do movimento dos corpos (veremos isto mais adiante). Além disto, planos inclinados são costumeiramente usados por todos nós sem nos darmos conta. Às vezes, ao precisarmos escalar um degrau demasiado alto, optamos por substituí-lo por uma rampa mais ou menos íngrime, um plano inclinado, e isto se justifica, pois a rampa permite que nós direcionemos nossos esforços de sorte a torná-los mais cômodos.</p>
+<p style="text-align: center;"><img alt="Homem usando plano inclinado para levantar peso" src="https://webfisica.com/imagens-fisica/aulas/aula2-15/util.png" style="width: 100%;"/></p>
+<p> </p>
+
+---
+
+### Como resolver problemas de plano inclinado
+
+<p>I. Faça um desenho do problema representando todas as forças atuantes no corpo estudado.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-15/1.png" style="width: 40%;"/></p>
+<p> </p>
+<p>II. Adote como referencial um plano cartesiano de eixos direcionados da maneira que melhor convir ao estudo do problema. Neste caso analisado, o mais conveniente é aquele cujo eixo das abcissas é paralelo ao plano. Observe que, neste caso, o ângulo de inclinação do eixo com respeito ao solo pode ser transposto para a região demarcada.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-15/2.png" style="width: 57%;"/></p>
+<p> </p>
+<p>III. Decomponha as forças que não se encontram sobre os eixos de seu referêncial. Neste nosso exemplo, precisamos decompor apenas a força peso.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-15/3.png" style="width: 57%;"/></p>
+<p> </p>
+<p>IV. Com todas as componentes de forças dispostas sobre os eixos de nosso referencial, analise o problema em um eixo de cada vez, aplicando as leis de Newton para dinâmica.</p>
+<p> </p>
+<div class="caixa_externa">
+<div class="pri_coluna">
+<p style="text-align: center;">EIXO Y</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-15/eixoy.png" style="width: 80%;"/></p>
+<p>Como a força normal é igual em módulo e de sentido oposto a força peso no eixo y, a força resultante será nula e, consequentemente, a aceleração também será nula.</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;F_R=m.a"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;N-P_y=m.a=0"/></p>
+<br/><br/></div>
+<div class="sec_coluna" style="border: none;">
+<p style="text-align: center;">EIXO X</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-15/eixox.png" style="width: 80%;"/></p>
+<p>Como existe apenas uma força atuante no eixo x, a força peso neste eixo, tal força será igual a força resultante. Neste caso teremos aceleração diferente de 0.</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;F_R=P_x=P.sen(\theta)"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;P.sen(\theta)=m.a&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;a=\frac{P.sen(\theta)}{m}"/></p>
+</div>
+</div>
+<p><br/><br/></p>
+<div class="addend w70r">
+<h3>Os planos inclinados de Galileu</h3>
+<p>Galileu viveu numa época em que os instrumentos de medição de tempo eram precários, bastante imprecisos; deste modo, analisar o movimento de objetos em queda na atmosfera era tarefa árdua.</p>
+<p>Para contornar este obstáculo, ele concebeu a ideia de pôr esferas para deslizarem em planos inclinados e, assim, estudá-los detidamente e com maior precisão.</p>
+<br/>
+<p class="img_row"><img alt="Galileu demonstra a lei da queda dos corpos a Don Giovanni de Medici, afresco de Giuseppe Bezzuoli" src="https://webfisica.com/imagens-fisica/aulas/aula2-15/gal.jpg" style="width: 100%;" title="Galileo dimostra la legge della caduta dei gravi a Don Giovanni de' Medici, affresco di Giuseppe Bezzuoli, Tribuna di Galileo, Firenze - 1841"/></p>
+<br/>
+<p>O plano de Galileu dispunha de sinos móveis, para que a esfera, ao passar por eles, fizesse-os tilintar.</p>
+<br/>
+<p class="img_row"><img alt="Réplica do plano inclinado usado por Galileu" src="https://webfisica.com/imagens-fisica/aulas/aula2-15/plano-gal.png" style="width: 80%;"/></p>
+<br/>
+<p>Primeiro Galileu dispõs os sinos igualmente espaçados uns dos outros. Assim ele percebeu que o intervalo entre os sinais sonoros diminuiam progressivamente. De seguida, resolveu ir organizando o espaçamento entre os sinos até que eles soassem em intervalos regulares de tempo. De último, mediu o espaçamento entre os sinos e percebeu que o espaço percorrido dependia do quadrado do tempo.</p>
+<br/>
+<p>Galileu também pôde estender esta observação a queda dos corpos na atmosfera, pois suas medidas comprovavam que os resultados não dependiam do ângulo de inclinação do plano, logo o mesmo aconteceria para o ângulo reto.</p>
+<p class="img_row"><img alt="Planos inclinados em diferentes níveis de inclinação" src="https://webfisica.com/imagens-fisica/aulas/aula2-15/inc.png" style="width: 100%;"/></p>
+<p> </p>
+<p> </p>
+</div>
+<div style="clear: both;"> </div>

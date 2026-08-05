@@ -1,0 +1,130 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula9-72: Cargas elétricas e processos de eletrização
+
+---
+
+
+---
+
+### Cargas elétricas
+
+<p>A carga de um corpo é dada pela soma de todas as cargas que o compõe, dos elétrons somados aos nêutrons. Como a carga de um elétron em módulo é igual a de um nêutron, concluímos o seguinte:</p>
+<p> </p>
+<ul>
+<ul>
+<li>
+<p><strong>Corpo neutro:</strong> quando um corpo possui o mesmo número de elétrons e de prótons (N<sub>e</sub> = N<sub>p</sub>), sua carga é zero; e, portanto, dizemos que o corpo é neutro, sem carga.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul>
+<ul>
+<li>
+<p><strong>Corpo negativamente carregado:</strong> quando um corpo possui mais elétrons do que nêutrons (N<sub>e</sub> &gt; N<sub>p</sub>), sua carga será negativa; e, portanto, dizemos que é corpo é negativamente carregado.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul>
+<li>
+<p><strong>Corpo positivamente carregado:</strong> quando um corpo possui mais prótons do que nêutrons, (N<sub>e</sub> &lt; N<sub>p</sub>). Sua carga será positiva; e, portanto, dizemos que o corpo é positivamente carregado.</p>
+</li>
+</ul>
+<p> </p>
+<p>Considerando que a carga de um corpo é igual a carga do excesso de elétrons ou de prótons nele, e que a carga de um elétrons vale <em>e = -1,6 . 10<sup>-19</sup> C</em>; podemos então encontrar a carga do corpo através da seguinte expressão:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;Q&amp;space;=&amp;space;n.e"/></p>
+<p>Em que:</p>
+<p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;Q"/> é a carga;</p>
+<p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;n"/> é o número de elétrons ou prótons em excesso;</p>
+<p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;e"/> é a carga fundamental.</p>
+<p>Obs.: Note que a carga é uma gradeza quantizada, isto é, não pode expressar qualquer valor, mas apenas valores múltiplos da energia fundamental <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;e"/>.</p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Lei de Du Fay (princípio da atração e repulsão)
+
+<p class="formula_imp">Cargas de mesmos sinais se repelem e cargas de sinais opostos se atraem.</p>
+<p> </p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula9-72/dufay.png" style="width: 30%;"/></p>
+<p> </p>
+<div class="row50"> </div>
+<p> </p>
+
+---
+
+### Condutores e isolantes
+
+<p>Quanto a capacidade de transmitir cargas elétricas, os materiais podem ser classificados em pelo menos 4 grupos, são eles: Isolantes, semicondutor, condutor e supercondutores. Destes grupos, nos ateremos a discutir dois deles:</p>
+<p> </p>
+<ul>
+<li>
+<p><strong>Isolantes:</strong> São os materiais que não possuem elétrons livres (elétrons fracamente aprisionados aos núcleos do átomos) e, portanto, estes materiais oferecem uma maior resistência ao transito de elétrons. São exemplos de materiais isolantes:</p>
+<p>◦ Ar;</p>
+<p>◦ Cerâmica;</p>
+<p>◦ Madeira seca;</p>
+<p>◦ Vidro;</p>
+<p>◦ Penugem e pelagem.</p>
+</li>
+<li>
+<p><strong>Condutores:</strong> São os materiais que possuem elétrons livres e, assim sendo, eles oferecem uma baixa resistência ao transito de elétrons. Os metais geralmente são bons condutores; os melhores condutores elétricos naturais, em ordem de condutividade, são a prata, o cobre e o ouro. Alguns outros exemplos destes materiais são:</p>
+<p>◦ Corpo humano;</p>
+<p>◦ Alumínio;</p>
+<p>◦ Ferro;</p>
+<p>◦ Silício;</p>
+<p>◦ Grafite.</p>
+</li>
+</ul>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Processos de eletrização
+
+<p>São os processos que promovem a retirada ou a entrega de elétrons de/para um corpo. Como consequência destes processos, a carga do corpo é alterada. Existem diferentes meios de se eletrizadas um corpo:</p>
+<p> </p>
+<ul>
+<li>
+<p><strong>Eletrização por atrito:</strong> este processo ocorre sempre que esfregamos dois corpos de constituição material diferente. Isso decorre do fato de que corpos constituídos a partir de diferentes materiais, possuirão diferentes níveis de afinidade por elétrons. É possível, por meio da experimentação, se criar uma tabela que põe em hierarquia uma série de materiais, organizados do menos eletronegativo (que possui uma menor afinidade, um menor poder de atração, por elétrons) ao mais eletronegativo (que possui uma maior afinidade).</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 40%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula9-72/tribo.png" style="width: 60%;"/></p>
+</td>
+<td>
+<p>A tabela ao lado lista alguns materiais, do menos ao mais eletronegativo. Na prática, esta tabela está nos dizendo que se atritarmos, por exemplo, isopor na pele humana, como o isopor é mais eletronegativo, ele tenderá a roubar elétrons da pele humana, deixando-a positivamente carregada, enquanto ele, o isopor, ganha carga negativa.</p>
+<br/><br/>
+<p>DO QUE DECORRE A ELETRONEGATIVIDADE DE UM MATERIAL?</p>
+<p>Analogamente a eletronegatividade de um átomo, que depende de seu raio atômico e da quantidade de cargas que o constitue; em se tratando de materiais como os listados ao lado, a eletronegatividade dependerá dos átomos que compõe as moléculas dos materiais e da própria geometria destas moléculas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><strong>Eletrização por contato:</strong> Ocorre sempre que dois corpos passíveis de trocarem elétrons são colocados em contato físico. Para ilustrar este processo, pense num par de corpos, um neutro e o outro positivamente carregado. Como em um dos corpos há uma escassez de elétrons, o corpo nutro cederá ao corpo positivo alguns elétrons, de modo a estabelecer um balanceamento de cargas.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula9-72/contato.png" style="width: 60%;"/></p>
+<p>Obs.: Num sistema isolado, o somatório algébrico das cargas é constante, ou seja, as cargas não são criadas, tampouco destruídas, mas, tão somente, transferidas de um corpo a outro. A este fato é dado o nome de princípio da conservação de cargas.</p>
+</li>
+<li>
+<p><strong>Eletrização por indução:</strong> Para eletrizarmos um corpo por meio da indução; primeiramente, é preciso I) aproximarmos uma carga (objeto indutor) de um objeto propício a polarização. A presença desta carga fará com que o objeto se polariza, em seguida, II) darmos vazão a chegada ou saída de elétrons do corpo induzido por meio de um condutor ligado a terra. Por fim, III) interrompemos o condutor fazendo com que o objeto permaneça eletrizado (IV).</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula9-72/ind.png" style="width: 90%;"/></p>
+</li>
+</ul>

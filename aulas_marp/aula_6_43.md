@@ -1,0 +1,258 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula6-43: Estados físicos da matéria
+
+---
+
+
+---
+
+### Fases (estados físicos da matéria)
+
+<p>Por ora, estudaremos três estados físicos da matéria:</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 70%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<ul class="lista">
+<li>
+<p><strong>Estado sólido:</strong></p>
+<p>⚛ Forma e volume bem definidos;</p>
+<p>⚛ Partículas próximas umas das outras e ligadas por forças elétricas intensas;</p>
+<p>⚛ Em virtude da ligação intensa, não há movimentação de partículas umas em relação as outras no interior do corpo.</p>
+</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-43/solido.png" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<th style="width: 70%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<ul class="lista">
+<li>
+<p><strong>Estado líquido:</strong></p>
+<p>⚛ Volume bem definido;</p>
+<p>⚛ A forma da massa líquida é a mesma do recipiente que a contém</p>
+<p>⚛ Partículas não tão próximas, mas ainda com atuação de forças entre elas;</p>
+<p>⚛ Há movimentação das partículas no interior do líquido.</p>
+</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-43/liquido.png" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<th style="width: 70%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<ul class="lista">
+<li>
+<p><strong>Estado gasoso:</strong></p>
+<p>⚛ Volume e forma do recipiente que contém a massa gasosa;</p>
+<p>⚛ Partículas praticamente livres umas das outras;</p>
+<p>⚛ Movimentação desorganizada das partículas no interior do recipiente.</p>
+</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-43/gasoso.png" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Processos de mudança de fases
+
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>Uma substância, ao receber ou ceder energia, poderá alterar a maneira com que os seus atomos se organizam para compô-la, ao acontecer isso, ela poderá ir de uma fasa a outra. A imagem ao lado fornece as nomenclaturas que distinguem os processos de troca</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-43/troca.png" style="width: 80%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>VAPORIZAÇÃO: Uma substância pode ir de uma fase a outra de diferentes modos. O processo que conduz uma substância do estado liquido ao gasoso é genericamente chamado vaporização. Este processo pode ocorrer de pelo menos 3 modos distintos; a cada um destes modos damos um nome diferente:</p>
+<p> </p>
+<p>◦ EVAPORAÇÃO: Processo em que o líquido se converte em gás espontaneamente, normalmente por influência do calor solar. Neste processo, a água se converte em gás mesmo em temperatura ambiente.</p>
+<p> </p>
+<p>◦ EBULIÇÃO: Processo não espontâneo, forçado, em que submetemos o líquido elevadas quantidades de calor e ele se converte ao largo de um intervalo de tempo considerável (Ex.: Água fervendo na chaleira)</p>
+<p> </p>
+<p>◦ CALEFAÇÃO: Neste processo, transfere-se muita energia para o líquido e muito rapidamente, Este processo de conversão é, pois, praticamente instantâneo.</p>
+<p><br/><br/></p>
+<p>LIQUEFAÇÃO OU CONDENSAÇÃO</p>
+<p> </p>
+<p>◦ LIQUEFAÇÃO: Chamamos liquefação o processo que conduz um gás do estado gasoso ao estado líquido.</p>
+<p> </p>
+<p>◦ CONDENSAÇÃO: Chamamos condensação o processo que conduz um vapor do estado gasos ao estado líquido.</p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Fatores que influenciam nos pontos de mudança de fase
+
+<p>Pelo menos dois fatores influenciam nos pontos de fusão e ebulição de determinada substância:</p>
+<p> </p>
+<p>➔ PRESSÃO EXTERNA: Os pontos de fusão e ebulição variam de acordo com a pressão externa à substância analisada, pois quanto maior for a pressão agindo sobre a substância, maior será a quantidade de energia necessária para fazer com que um arranjo molecular se modifique.</p>
+<p> </p>
+<p>➔ IMPUREZAS: As impurezas na substância podem modificar o arranjo molecular dela, fazendo com os pontos de fusão e ebulição variem.</p>
+<p> </p>
+<p>Abaixo temos uma tabela que apresenta algumas substâncias, sem impurezas, e os seus respectivos pontos de mudanças de fase, na pressão de 1 atm.</p>
+<p> </p>
+<table class="table-model-1">
+<thead>
+<tr>
+<th>
+<p>Substância</p>
+</th>
+<th>
+<p>Ponto de fusão (°C)</p>
+</th>
+<th>
+<p>Ponto de ebulição (°C)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oxigênio</p>
+</td>
+<td>
+<p>- 218</p>
+</td>
+<td>
+<p>- 183</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Metano</p>
+</td>
+<td>
+<p>- 183</p>
+</td>
+<td>
+<p>- 162</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Água</p>
+</td>
+<td>
+<p>0</p>
+</td>
+<td>
+<p>100</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alumínio</p>
+</td>
+<td>
+<p>660</p>
+</td>
+<td>
+<p>2519</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Prata</p>
+</td>
+<td>
+<p>692</p>
+</td>
+<td>
+<p>2162</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Ouro</p>
+</td>
+<td>
+<p>1064</p>
+</td>
+<td>
+<p>2856</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Ferro</p>
+</td>
+<td>
+<p>1568</p>
+</td>
+<td>
+<p>2861</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Sobrefusão
+
+<p>Sobrefusão é um estado físico metaestável (não estável) da matéria. Em algumas ocasiões, quando resfriamos um líquido a uma temperatura a baixo do seu ponto de fusão, sem submetê-lo a perturbações, pode acontecer de que o líquido permaneça líquido numa temperatura de fusão.</p>
+<p>Para fazermos com que este líquido em sobrefusão se solidifique basca aplicarmos sobre ele uma perturbação.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-43/sobre.png"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Diagrama de fases
+
+<p>Diagrama de fases é um gráfico que nos indica a fase de uma substância em função de sua temperatura e pressão. Cada substância possui, obviamente, um diagrama de fases diferente. Abaixo vemos o diagrama de fases da água:</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-43/diagrama.png" style="width: 40%;"/></p>
+<p>Obs.: O ponto triplo da água ocorre quando a submetemos a uma pessão de 0,0006 atm e a uma temperatura de 0,01 °C. Nestas condições, encontraremos água nos três estados físicos da matéria: água sólida, líquida e gasosa.</p>

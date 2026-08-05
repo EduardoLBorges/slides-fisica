@@ -1,0 +1,348 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula8-65: Fenômenos ondulatórios
+
+---
+
+<p>Uma onda, ao encontrar um obstáculo ou outra onda, se comportará de um modo cuja descrição a física já bem conhece. Estes modos são chamados fenômenos ondulatórios. Nesta aula, estudaremos sete fenômenos ondulatórios:</p>
+<div class="desktop">
+<table>
+<tbody>
+<tr>
+<th style="width: 25%;"> </th>
+<th style="width: 25%;"> </th>
+<th style="width: 25%;"> </th>
+<th style="width: 25%;"> </th>
+</tr>
+<tr>
+<td>
+<ul>
+<li>
+<p><strong>Absorção</strong></p>
+</li>
+<li>
+<p><strong>Reflexão</strong></p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p><strong>Refração</strong></p>
+</li>
+<li>
+<p><strong>Difração</strong></p>
+</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>
+<p><strong>Polarização</strong></p>
+</li>
+<li>
+<p><strong>Ressonância</strong></p>
+</li>
+</ul>
+</td>
+<td style="vertical-align: super;">
+<ul>
+<li>
+<p><strong>Interferência</strong></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mobile">
+<ul>
+<li>
+<p><strong>Absorção</strong></p>
+</li>
+<li>
+<p><strong>Reflexão</strong></p>
+</li>
+<li>
+<p><strong>Refração</strong></p>
+</li>
+<li>
+<p><strong>Difração</strong></p>
+</li>
+<li>
+<p><strong>Polarização</strong></p>
+</li>
+<li>
+<p><strong>Ressonância</strong></p>
+</li>
+<li>
+<p><strong>Interferência</strong></p>
+</li>
+</ul>
+</div>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Absorção
+
+<p>É o fenômeno ondulatório responsável por retirar energia das ondas, fazendo decair as suas amplitudes. Tal fenômeno acomete a todos os tipos de ondas.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/ab.png" style="width: 40%;"/></p>
+<p>Ex.:</p>
+<p>    I. Os raios solares perdem energia, tendo as suas ampllitudes mitigadas, à medida em que percorrem a atmosfera;</p>
+<p> </p>
+<div class="row2"> </div>
+
+---
+
+### Reflexão
+
+<p>Uma onda, trafegando num determinado meio, ao encontrar um obstáculo, poderá não conseguir atravessá-lo e, então, permanecerá no mesmo meio, mantendo o mesmo módulo de sua velocidade, mais não o mesmo sentido. A este fenômeno chamamos reflexão.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/ref.png" style="width: 80%;"/></p>
+<p> </p>
+<div class="row2"> </div>
+<p> </p>
+
+---
+
+### Refração
+
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>É o fenômeno físico responsável por fazer com que a luz (ou qualquer outra onda eletromagnética) altere a sua velocidade ao passar de um meio a outro.</p>
+<p>Observe a figura ao lado. Uma onda eletromagnética possui uma “largura”, e quando esta onda penetra um outro meio, parte da frente de onda penetra primeiro, enquanto que a outra parte se mantém no meio originário. A parte já adentrada ao novo meio passará a ter a velocidade deste meio e, fará, portanto, com que a onda desvie, em muitos casos, a sua trajetória, mudando de direção.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/refra.png" style="width: 70%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>➔ DISPERSÃO LUMINOSA (REFRAÇÃO DE LUZ POLICROMÁTICA)</p>
+<p>As ondas eletromagnéticas, ao trafegar no vácuo, possuem, independentemente da frequência, a mesma velocidade; no entanto, ao trafegarem nos demais meios, a velocidade varia de acordo com a frequência em que vibram: a velocidade é, nestes casos, inversamente proporcional a frequência. Se, excetuando o vácuo, a velocidade da luz varia de acordo com a frequência, então o índice de refração para a luz naquela frequência também variará, pois <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;n&amp;space;=&amp;space;\frac{c}{v}"/></p>
+<p>Ex.:</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/vidro.png" style="width: 80%;"/></p>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 40%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>Considerando então que as ondas de diferentes frequências passarão para um outro meio com velocidades diferentes entre si, então podemos afirmar que estas ondas difratarão diferentemente. As ondas, ao passar por um dioptro (superfície que separa dois meios) obliquamente, deflexionarão, então, com maior ou menor acentuação. Este fenômeno é chamado dispersão luminosa. Veja a figura ao lado:</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/ref.gif" style="width: 55%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Difração
+
+<p>É o fenômeno óptico responsável por fazer com que ondas contornem obstáculos.</p>
+<p> </p>
+<p>➔ PRINCÍPIO DE HUYGENS</p>
+<p>Este princípio nos revela que todos os pontos de onda comportam-se como fontes de ondas (secundárias) que se propagam em todas as direções e com velocidade igual à velocidade da onda principal.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/fresnel.png" style="width: 70%;"/></p>
+<p>Observe a imagem e note como este princípio explica o fenômeno da difração. No momento em que uma frente de onda encontra um obstáculo, muitos pontos desta frente serão barrados; no entanto, aqueles que não o forem se comportarão como emissores de ondas, as quais se propagarão em todas as direções, conforme o enunciado acima.</p>
+<p> </p>
+<p>Obs.: As frentes de ondas só produzirão difração visível quando a elas é interposto um friso/orifício de largura que possue ordem de grandeza semelhante a do comprimento de onda. Assim sendo, a luz, que tem um comprimento de onda muito pequeno, só difratará perante orifícios minúsculos; já o som, que tem comprimento de onda grande, difratará perante orifícios grandes; o som será então capaz de contornar, por exemplo, janelas, prédios etc.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/dif1.gif" style="width: 60%;"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/dif2.gif" style="width: 60%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>Ex.:</p>
+<p>    I. Duas pessoas conversam através de um muro que as separam.</p>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Polarização
+
+<p>É o fenômeno óptico responsável pela canalização de ondas (mecânicas ou eletromagnéticas) em uma determinada direção.</p>
+<p>As ondas podem trafegar oscilando difusamente, isto é, oscilando em inúmeras e aleatórias direções (caso comum às ondas eletromagnéticas). Quando isto ocorre e desejamos obter ondas oscilantes em uma única direção, podemos nos servir de diferentes tipos de instrumentos (os polarizadores) para alcançarmos este propósito. O fenômeno físico explorado pelos polarizadores e capaz de reduzir as inúmeras direções de oscilação a uma única é denominado polarização.</p>
+<p>Ex.:</p>
+<p>    I. Alguns óculos possuem lentes polarizadoras, que impõe restrição à passagem de ondas vibrantes em direções aleatórias. Com isto estes óculos eliminam reflexos indesejáveis.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 46%;"> </th>
+<th style="width: 27%;"> </th>
+<th style="width: 27%;"> </th>
+</tr>
+<tr>
+<td>
+<p style="twxt-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/pol1.gif" style="width: 100%;"/></p>
+</td>
+<td>
+<p style="twxt-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/pol2.gif" style="width: 100%;"/></p>
+</td>
+<td>
+<p style="twxt-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/pol3.gif" style="width: 100%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/pol4.png" style="width: 95%;"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Ressonância
+
+<p>Todo corpo possui uma frequência de oscilação natural, a saber, os corpos estão em constante estado de oscilação (embora, na maioria das vezes, isso nos foge à percepção, pois a amplitude de oscilação da imensa maioria das coisas é de magnitude imperceptível). Esta frequência é determinada por características específicas dos corpos, no caso de, por exemplo, um pendulo, depende da intensidade da aceleração gravitacional e do comprimento de corda; no caso de um prédio, dependerá, dentre outras coisas, de sua altura.</p>
+<p>Se uma onda que oscila em frequência equivalente a frequência natural de oscilação de um corpo o atingir, a onda passará a vibrar em concordância com este corpo e, consequentemente, às amplitudes das oscilações serão amplificadas. A este fenômeno descrito damos o nome de ressonância.</p>
+<p> </p>
+<p>Ex.:</p>
+<p>    I. Uma taça de cristal colapsa ao ser atingida por ondas (som) que vibram na mesma faixa de frequência da frequência de oscilação natural dela;</p>
+<p>    II. Terremotos produzem ondas mecânicas que vibram em torno de 0 a 15 Hz; se estas ondas encontrarem um prédio que possui uma frequência de oscilação natural igual a frequência da onda proveniente do terremoto, a amplitude de oscilação do prédio será maximizada e a estrutura dele poderá ser danificada;</p>
+<p>    III. Caso da ponte Broughton: Em 14 de abril de 1831, a ponte de Broughton, na Inglaterra, caiu enquanto tropas marchavam sobre ela. As investigações concluíram que a ponte estava prestes a ruir, situação que foi agravada quando a vibração da marcha dos soldados se aproximaram da vibração de ressonância da ponte;</p>
+<p>    IV. A ponte Tacoma Narrows sofreu colapso total em 1940, após ser atingida por fortes rajadas de vento que provocaram oscilações na estrutura;</p>
+<p>    V. Lockheed Electra II foi uma aeronave que começou a ser comercializada no final da década de 50. Este avião possuía ajustes em seu motor que o fazia vibrar e entrar em ressonância com a fuselagem do avião; e este fenômeno fazia com que o avião literalmente se desmantela-se em pleno voo, causando acidentes fatais. Os aviões foram reajustados após os engenheiros perceberem o problema.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/balanco.gif" style="width: 60%;"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/takoma.gif" style="width: 70%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Interferência (princípio da superposição de ondas)
+
+<p>Duas ondas, ao sobreporem-se, a cada ponto de encontro, somam-se algebricamente, formando uma onda com esta amplitude resultante. Se as ondas sobrepostas possuírem fases opostas, elas se “aniquilarão”. Se andas sobrepostas possuírem fases iguais, elas se intensificarão. Em casos alternativos, em que as fases nem são exatamente as mesmas nem opostas, ocorrerá uma soma ou destruição parcial das ondas.</p>
+<p> </p>
+<p>➔ INTERFERÊNCIA DE PULSOS UNIDIMENSIONAIS</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 45%;"> </th>
+<th style="width: 10%;"> </th>
+<th style="width: 45%;"> </th>
+</tr>
+<tr>
+<td>
+<p>Pulsos sobrepostos de fases opostas</p>
+</td>
+<td> </td>
+<td>
+<p>Pulsos sobrepostos de fases concordantes</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/pulso1.png" style="width: 50%;"/></p>
+</td>
+<td> </td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/pulso2.png" style="width: 50%;"/></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Este tipo de interferência é, também, chamado de interferência destrutiva.</p>
+</td>
+<td> </td>
+<td>
+<p>Este tipo de interferência é, também, chamado de interferência construtiva.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>➔ INTERFERÊNCIA DE ONDAS UNIDIMENSIONAIS</p>
+<p>A diferença de fase entre ondas é a distância, normalmente dada em graus, entre pontos iguais e consecutivos de duas ondas.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/inter1.png" style="width: 80%;"/></p>
+<p> </p>
+<p>As diferenças de fases entre ondas é proveniente da disparidade das emissões das ondas pelas fontes.</p>
+<p>Quando as ondas são alinhadamente emitidas (caso 1), não há diferença de fases entre elas, dizemos então que as ondas possuem a mesma fase e, como podemos perceber, formam uma padrão de interferência construtivo. Quando as ondas são emitidas com um atraso de um comprimento de onda inteiro (caso 4), dizemos que uma onda está defasada em relação a outra em <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;2\pi"/> e, neste caso, também, formam um padrão de interferência construtivo (na verdade, qualquer defasem <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;2n.\frac{\lambda}{2},&amp;space;n\in&amp;space;\mathbb{R}"/>, gerará este tipo de interferência).</p>
+<p>Nos casos em que uma onda encontra-se defasa em relação a outra em <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\pi}{2}"/> (caso 4), as ondas formam um padrão de onda destrutivo (na verdade, haverá interferência destrutiva sempre que a defasagem for tal qual <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(2n&amp;space;+&amp;space;1).\frac{\lambda}{2},n\in&amp;space;\mathbb{R}"/>). Note, também, que, embora a interferência seja destrutiva, só haverá cancelamento total da onda se as amplitudes forem iguais, caso contrário, haverá um cancelamento parcial das ondas.</p>
+<p> </p>
+<p>➔ INTERFERÊNCIA DE ONDAS BIDIMENSIONAIS</p>
+<p>Na imagem abaixo, A e B são fontes de ondas circulares de mesma frequência que se propagam num mesmo meio. As linhas cheias representam os picos das ondas e, portanto, o cruzamento destas linhas indicam as interferências construtivas. As linhas tracejadas representam os vales das ondas e, portanto, o cruzamento de linhas cheias com tracejadas indicam as interferências destrutivas.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/inter2.png" style="width: 80%;"/></p>
+<p> </p>
+<p>➔ INTERFERÊNCIA DE ONDAS TRIDIMENSIONAIS</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/inter4.png" style="width: 80%;"/></p>
+<p> </p>
+<p>➔ BATIMENTO</p>
+<p>Chamamos de batimento o fenômeno da interferência quando duas ondas, em fase e de frequências muito parecidas, se sobrepõe. O resultato desta superposição é uma onda resultante de amplitude que varia de modo a formar pacotes de onda. A impressão sonora que temos ao capitar estas ondas é de que o som oscila em intensidade.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/bat.png" style="width: 80%;"/></p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/bat.gif" style="width: 80%;"/></p>
+<p> </p>
+<p>➔ IRIDESCÊNCIA</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>É o fenômeno observado quando a luz incide sobre um película fina. Neste fenômeno, quando um raio de luz incide sobre uma película, parte da onda penetra a película e parte é refletida (invertendo ou não a fase), a parte que adentra a película sofrerá uma nova reflexão parcial ao encontrar o meio externo e então refletirá novamente. O primeiro raio refletido encontrará o segundo, que pode ou não estar defasado em relação ao primeiro. Esta possibilidade de defasagem pode fazer com que haja interferências construtivas ou destrutivas. Geralmente, quando luz branca incide sobre uma película, há um reforço de ondas de determinadas frequên cias e um enfraquecimento de ondas de outras frequências.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/irid.jpg" style="width: 70%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula8-65/irid2.png" style="width: 100%;"/></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><br/><br/></p>

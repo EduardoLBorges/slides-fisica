@@ -1,0 +1,150 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula6-38: Introdução à termologia e escalas termométricas
+
+---
+
+
+---
+
+### Temperatura
+
+<p>Temperatura é a grandeza física que indica o grau de agitação das partículas (átomos e moléculas). Dizemos que um corpo possui uma temperatura mais elevada do que o outro quando as partículas daquele corpo encontram-se mais agitadas que as deste.</p>
+<p><br/><img alt="Animação da agitação microscópica de corpos submetidos a diferentes temperaturas" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/corpos-temp.gif" style="width: 100%;"/></p>
+<p style="font-size: 9pt;">Imagem extaída, com permissão concedida, do site <a href="https://www.tec-science.com/thermodynamics/temperature/temperature-and-particle-motion/" rel="noopener" target="_blank"><em><u>www.tec-science.com</u></em></a></p>
+<p><br/><br/></p>
+<div class="vsc-controller"> </div>
+<p> </p>
+<div class="vsc-controller"> </div>
+<p> </p>
+<div class="vsc-controller"> </div>
+<p> </p>
+<div class="vsc-controller"> </div>
+<p> </p>
+<div class="vsc-controller"> </div>
+<p><video controls="controls" height="150" style="width: 100%;">
+<source src="https://webfisica.com/imagens-fisica/aulas/aula6-38/temp.mp4" type="video/mp4"/></video> <br/><br/></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p style="font-size: 9pt;">Imagem extaída, com a devida permissão, do site <a href="https://www.tec-science.com/thermodynamics/temperature/temperature-and-particle-motion/" rel="noopener" target="_blank"><em><u>www.tec-science.com</u></em></a></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Calor
+
+<table>
+<tbody>
+<tr>
+<th style="width: 65%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>Calor é energia térmica em transito que flui espontaneamente de um corpo de maior temperatura a outro de menor temperatura.</p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="o calor fluindo atraves de uma barra metálica" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/calor.png" style="width: 70%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Equilíbrio térmico
+
+<p>Se permitirmos que duas substâncias, de diferentes temperaturas, troquem calor entre si por tempo o bastante, estas substâncias invariavelmente atingirão em estado térmico chamado equilíbrio termodinâmico. O equilíbrio termodinâmico é caracterizado pela ausência de troca de calor entre os corpos, consequentemente, pela igualdade de temperatura das substâncias em questão.</p>
+<p> </p>
+<p>⚛ OUTRO MODO DE SE DEFINIR TEMPERATURA</p>
+<p>Agora que sabemos o que é equilíbrio termodinâmico, podemos arriscar uma nova (e mais básica) definição para o conceito de temperatura: temperatura é, portanto, a propriedade que corpos em equilíbrio termodinâmico possuem em comum.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 65%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>⚛ LEI ZERO DA TERMODINÂMICA<br/>Esta lei estabelece a transmissividade do equilíbrio termodinâmico: se um corpo A encontra-se em equilíbrio termodinâmico simultaneamente com B e C, então B e C estão em equilíbrio termodinâmico entre si.</p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="Dois corpos em equilíbrio térmico com um termômetro e, consequetemente, em equilíbrio térmico entre si" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/lei.png" style="width: 70%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Escalas termométricas
+
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Escala centígrada (Grau celsius – °C):</strong> No século XVIII, o astrônomo sueco Anders Celsius (★ 1701 <strong>—</strong> 1735 ✝) permitiu que um tubo preenchido de mercúrio trocasse calor com uma mistura de água e gelo. O mercúrio incialmente comprimiu-se e, em seguida, atingiu o equilíbrio térmico, marcando determinada altura do recipiente, a qual foi marcada como altura 0. Após isto, Celsius deixou o tubo entrar em equilíbrio térmico com água em ebulição; o mercúrio então dilatou e atingiu uma nova marca, a qual recebeu por atribuição o número 100. O astrônomo então dividiu em 100 partes iguais o intervalo de altura dado pela variação de 0 a 100; a cada uma destas partes foi conferido o valor de um grau celsius. Nascia assim o grau celsius.</p>
+<p style="text-align: center;"><img alt="Escala centígrada e retrado de Anders Celsius" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/escala-celsius.png" style="width: 100%;"/></p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Escala fahrenheit (Grau fahrenheit - °F):</strong> É uma escala desenvolvida pelo físico alemão Daniel Gabriel Fahrenheit (★ 1686 <strong>—</strong> 1736 ✝). Atualmente, amplamente usada em países que conservam forte tradição anglo saxônica, como os Estados unidos e Inglaterra. Fahrenheit, para engendrar sua escala, definiu como 0 (0 °F) o ponto de fusão de uma mistura química composta de água, sal e amônia, e definiu como 100 (100 °F) o ponto em que entram em equilíbrio térmico o termômetro e o corpo humano em estado natural.</p>
+<p style="text-align: center;"><img alt="Escala fahrenheit e retrato de Daniel Fahrenheit" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/escala-far.png" style="width: 100%;"/></p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Escala Kelvin (Reconhecida pelo SI [Kelvin - K]):</strong> William Thomson, também conhecido como Lord Kelvin, estudando os gases a partir da escala centígrada (Celsius), percebeu que elevando suas termperaturas em 273 °C, o volume inicial destes gases dobrava, e que aquecendo-os a mais 273°C (Fazendo-os chegar a 546°C) o volume inicial triplicava (veja o gráfico abaixo). Kelvin concluiu então que o volume dos gases variava linearmente com a mudança de temperatura e que se resfriássemos o gás suficientemente, haveria de existir uma temperatura limite a qual o corpo não poderia atingir (porque que isto representaria a ausência total de volume – o que é improvável). A seguir o cientista calculou esta temperatura limite e a definiu em sua escala como sendo a temperatura zero (também conhecida como zero absoluto). A escala Kelvin é, portanto, uma escala cujo zero situa-se na tmenor temperatura ‘concebível’ na natureza, e que progride em intervalos de temperatura iguais aos aos intervalos da escala centígrada.</p>
+</li>
+</ul>
+</ul>
+<table>
+<tbody>
+<tr>
+<th style="width: 60%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img alt="gráfico comparativo entre escalas centígrada e kelvin." src="https://webfisica.com/imagens-fisica/aulas/aula6-38/kelvin.gif" style="width: 100%;"/></p>
+</td>
+<td>
+<p style="text-align: right;"><img alt="Fotografia de Lord Kelvin em sua última palestra" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/kelvin-class.png" style="width: 100%;" title="Fotografia de Lord Kelvin em sua última aula"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p><br/><br/></p>
+<p>⚛ CONVERSÕES DE CELSIUS E FAHRENHEIT PARA KELVIN</p>
+<p>Para formularmos expressões para conversão de unidades das escalas termométricas, podemos nos valer das seguintes relações:</p>
+<p style="text-align: center;"><img alt="Gráfico comparativo de escalas termométricas" src="https://webfisica.com/imagens-fisica/aulas/aula6-38/conv.png" style="width: 70%;"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{A}{B}=\frac{C}{D}=\frac{E}{F}\rightarrow"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\theta_C-0}{100-0}=\frac{\theta_F&amp;space;-&amp;space;32}{212-32}=\frac{\theta_K&amp;space;-&amp;space;273}{373-273}\rightarrow"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\theta_C}{100}=\frac{\theta_F&amp;space;-&amp;space;32}{180}=\frac{\theta_K&amp;space;-&amp;space;273}{100}"/></p>
+<p> </p>
+<p>De celsius para kelvin:<br/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\theta_C}{100}=\frac{\theta_K&amp;space;-&amp;space;273}{100}\rightarrow"/><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\theta_K&amp;space;=&amp;space;\theta_C&amp;space;+&amp;space;273"/></p>
+<p> </p>
+<p>De fahrenheint para kelvin:<br/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\theta_F&amp;space;-&amp;space;32}{180}=\frac{\theta_K&amp;space;-&amp;space;273}{100}\rightarrow"/><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\theta_K&amp;space;=&amp;space;\frac{\theta_F&amp;space;-&amp;space;32}{1,8}+273"/></p>

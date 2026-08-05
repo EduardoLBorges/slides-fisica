@@ -1,0 +1,278 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula7-51: Introdução à óptica
+
+---
+
+
+---
+
+### Luz
+
+<p>A luz é um ente físico visível (que é capaz de sensibilizar a retina) de natureza simultaneamente corpuscular e ondulatória.</p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Raio de luz / raio luminoso
+
+<p>Raio de luz é uma linha imaginária usada para fins de representação da trajetória da luz.</p>
+
+---
+
+### 
+
+<div class="row-deg"> </div>
+
+---
+
+### Feixe de luz
+
+<p>Feixe de luz é um conjunto de raios luminosos. Estes arranjos de raios de luz podem ser classificados em:</p>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 33%;"> </th>
+<th style="width: 33%;"> </th>
+<th style="width: 33%;"> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center; padding: auto 10px;">Divergente</p>
+</td>
+<td>
+<p style="text-align: center; padding: auto 10px;">Cilíndrico</p>
+</td>
+<td>
+<p style="text-align: center; padding: auto 10px;">Convergente</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-51/feixe.png" style="width: 95%;"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Fenômenos ópticos
+
+<p>Por ora, em óptica geométrica, estudaremos três fenônomenos ópticos:</p>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Reflexão:</strong> É o fenômeno físico responsável por fazer com que um feixe de luz (ou qualquer outra onda eletromagnética) altere a sua trajetória ao se deparar com um obstáculo. Este obstáculo bloqueará a passagem do feixe, pelo menos parcialmente, fazendo com que a direção da sua trajetória seja alterada.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Absorção:</strong> É o fenômeno físico capaz de bloquear a luz, de determinada frequência, retendo sua energia, e sem refleti-la.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<li>
+<p><strong>Refração:</strong> É o fenômeno físico responsável por fazer com que a luz (ou qualquer outra onda eletromagnética) altere a sua velocidade ao passar de um meio a outro.</p>
+</li>
+</ul>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Meios materiais
+
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Meio transparente:</strong> É o meio que viabiliza a passagem integral ou quase integral da luz. Em meios desta espécie, praticamente toda a luz que incíde sobre ele o atravessa sem prejuízo algum.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Meio translúcido:</strong> É o meio que permite a passagem parcial da luz. A luz, ao tencionar atravessar este meio, é, em parte, bloqueada, em parte desviada e, também, tem uma parcela que consegue o traspassar sem prejuizo.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<li>
+<p><strong>Meios opacos:</strong> É o meio que impede completamente a passagem de luz.</p>
+</li>
+</ul>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 33%;"> </th>
+<th style="width: 33%;"> </th>
+<th style="width: 33%;"> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center; padding: auto 10px;">Transparente</p>
+</td>
+<td>
+<p style="text-align: center; padding: auto 10px;">Translúcido</p>
+</td>
+<td>
+<p style="text-align: center; padding: auto 10px;">Opaco</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-51/meios.png" style="width: 95%;"/></p>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Fontes de luz
+
+<p>Chamamos de fonte de luz todo corpo que irradia luminosidade. Assim sendo, todo corpo que é visível é fonte de luz. Podemos classificar as fontes luminosas em dois tipos:</p>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Fontes primárias:</strong> São as fontes que “fabricam” a luz. São exemplos deste tipo de fonte</p>
+<p>◦ O sol e todas as outras estrelas visíveis;</p>
+<p>◦ O pavio aceso de uma vela.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<li>
+<p><strong>Fontes secundárias:</strong> São as fontes que recebem luz de uma fonte primária e a reflete. São exemplos deste tipo de fonte</p>
+<p>◦ A lua;</p>
+<p>◦ Uma tela de pintura.</p>
+</li>
+</ul>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Tipos de luz
+
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 80%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<ul class="lista">
+<li>
+<p><strong>Luz incandescente</strong> Brilha em decorrência do fenômeno da incandescência: neste fenômeno, algum material é excitado por meio da absorvição de calor e, em seguida, irradia ondas no espectro do visível. Obs.: dentre todas as lampadas, as lâmpadas incandescentes são as que possuem o menor rendimento (cerca de 5%), ou seja, apenas cerca de 5% da energia elétrica consumida é convertida em luz visível, pois o restante se perde em forma de calor.</p>
+</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-51/lampada1.png" style="width: 40%;"/></p>
+</td>
+</tr>
+<tr>
+<td>
+<ul class="lista">
+<li>
+<p><strong>luz luminescente:</strong> Brilha em decorrência do fenômeno da luminescência: neste fenômeno, alguma substância quimicamente luminescente absorve energia via radiação eletromagnética, não necessariamente na faixa do visível, e, em seguida, reemite esta energia na forma de luz visível. O rendimento de lâmpada luminescentes tende a ser superior ao rendimento de lâmpadas incandescentes, além de esquentarem consideravelmente menos também.</p>
+<br/>
+<p>⚛ fluorescente: são os materiais luminescentes que emitem luz apenas enquanto estiverem sendo estimulados; pois a partir do momento em deixam de absorver energia, deixam também de irradiar.</p>
+<br/>
+<p>⚛ fosforescente: são os materiais luminescentes que emitem luz mesmo quando já não estão mais sendo estimulados, por um certo período de tempo, é claro; pois materiais desta natureza são capazes de armazenar energia e emiti-la posteriormente.</p>
+<br/>
+<p>⚛ Luz quimioluminescente: Brilha devido ao fenômeno da quimioluminescência; fenômeno no qual algum material é excitado por meio de reações químicas</p>
+<br/>
+<p>⚛ Bioluminescente: Tipo de luz produzida através da quimioluminescência por seres viventes. Alguns organismos que produzem este tipo de luz são:</p>
+<p>    ◦ Vaga-lume;</p>
+<p>    ◦ Peixe diabo-negro (anglerfish);</p>
+<p>    ◦ Água viva cristal;</p>
+<p>    ◦ Safira marítima;</p>
+<p>    ◦ Algumas espécies de cavalos-marinhos;</p>
+<p>    ◦ Algumas espécies de escorpião.</p>
+</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-51/sub.png" style="width: 65%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Classificação da fonte de luz quanto a sua dimensão
+
+<p>As fonte luz podem ser enquadradas em duas categorias, fontes pontuais ou extensas, de acordo com a relevância de suas proporções:</p>
+<p> </p>
+<ul class="lista">
+<ul class="lista">
+<li>
+<p><strong>Fonte de luz pontual:</strong> É fonte de luz pontual a fontes que, para fins de cálculos, faz emanar raios luminosos a partir de um único ponto. Noutras palavras: este tipo de fonte possuirá dimensão despresível. Serão exemplos deste tipo de fonte:</p>
+<p>    ◦ As estrelas (excetuando o sol) quando observadas aqui do planeta terra;</p>
+<p>    ◦ Uma vela quando suficientemente distante do observador.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul class="lista">
+<li>
+<p><strong>Fontes de luz extensa:</strong> É fonte de luz extensa a fonte que, para fins de cálculos, faz emanar raios luminosos a partir de mais de um ponto. Noutras palavras: este tipo de fonte possui dimensões não despresíveis. São exemplos deste tipo de fonte:</p>
+<p>    ◦ O sol quando observado a partir do planeta terra;</p>
+<p>    ◦ Uma lâmpada quando próxima do objeto iluminado.</p>
+</li>
+</ul>
+<p> </p>
+<div class="externa">
+<div class="interna_esq" style="width: 45%;"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-51/sombra.png"/></div>
+<p>Atenção: perceba que a classificação da fonte em pontual ou extensa dependerá, dentre outros fatores, da distância desta fonte aos objetos que interagem com a sua luz.</p>
+<br/>
+<p><strong>Caso 1:</strong> Trata-se claramente de uma fonte extensa. Observe que, neste caso, em decorrência de a luz emanar de diferentes pontos da fonte, tal luz origina, ao passar pelo anteparro, três regiões de características diferentes:</p>
+<br/>
+<p><strong>Região iluminada (I):</strong> Região comtemplada por raios que emergem de todos os pontos da fonte;</p>
+<br/>
+<p><strong>Região de sombra (S):</strong> Área em que nenhum raio de luz proveniente da fonte penetra;</p>
+<br/>
+<p><strong>Região de penumbra (P):</strong> Área em que raios emanados de apenas alguns pontos da fonte.</p>
+<br/><br/>
+<p><strong>Caso 2:</strong> Observe que os raios partem todos de um único ponto. Trata-se, logo, de uma fonte pontual. Neste caso temos apenas região de sombra, sem região de penumbra.</p>
+<br/><br/>
+<p><strong>Caso 3:</strong> Trata-se de uma fonte extensa.</p>
+<p> </p>
+</div>
+<p> </p>
+<div class="addend w70r">
+<h3>O sol, quando observado da Terra, é fonte extensa</h3>
+<p>Um dos argumentos que validam tal afirmação consiste em relatarmos que, em situação de eclípse lunar ou solar, este fenômeno astronômico faz surgir uma expressiva região de penumbra; coisa característica de fontes extensas.</p>
+<br/>
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-51/planet.jpg" style="width: 90%;"/></p>
+</div>
+<div style="clear: both;"> </div>

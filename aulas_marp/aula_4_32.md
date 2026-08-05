@@ -1,0 +1,108 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula4-32: Torque, alavancas e equilíbrio de corpos extensos
+
+---
+
+
+---
+
+### Torque
+
+<div class="externa">
+<div class="interna_dir" style="width: 50%;"><img alt="Força e torque sendo aplicados sobre uma chave" src="https://webfisica.com/imagens-fisica/aulas/aula4-32/torque.png"/></div>
+<p>Torque é a grandeza física que indica a tendência de rotação de um corpo. Observe a figura ao lado, o torque é a grandeza que indicará a tendência de rotação do parafuso (neste caso). Esta grandeza é, evidentemente, proporcional a força aplicada na chave e será, também – e isso não é tão evidente –, proporcional ao comprimento do braço de alavanca.</p>
+<p>O torque em módulo pode ser obtido através da fórmula:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;T&amp;space;=&amp;space;F&amp;space;.d&amp;space;.&amp;space;sen(\theta)"/></p>
+<p>Em que d é a distância entre o ponto de aplicação da força e o polo (comprimento do braço de alavanca) e F é a força. O seno está na expressão para garantir-nos que estaremos a considerar apenas a componente da força perpendicular ao braço de alavanca (a componente paralela, se houver, não gera torque)</p>
+<br/>
+<p>⚛ UNIDADE DE MEDIDA:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[T]&amp;space;=&amp;space;N.m"/></p>
+</div>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Equilíbrio de corpos extensos
+
+<p>O equilíbrio estático de um corpo extenso dar-se-á sempre que o ocorrer simultaneamente os equilíbrios rotacional e translacional:</p>
+<p> </p>
+<ul>
+<ul>
+<li>
+<p><strong>Equilíbrio Rotacional:</strong> Para que ocorra o equilíbrio translacional, é imprescindível que a somatória dos torques que agem sobre o sistema seja nulo. Quando o sistema tende a girar num determinado sentido, o torque terá valor de sinal oposto ao torque que o faz pender para o sentido oposto. É convencional adotarmos como torque positivo aquele que faz o corpo tender a se deslocar em sentido anti-horário, e negativo o torque que o faz pender em sentido horário.</p>
+<p style="text-align: center;"><img alt="Corpos em equilíbrio sobre uma rampa que encontra-se sobre uma cunha" src="https://webfisica.com/imagens-fisica/aulas/aula4-32/equi.png" style="width: 80%;"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\sum_{i=1}^{n}&amp;space;T&amp;space;=&amp;space;0"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;T_a&amp;space;+&amp;space;(-T_p)+(-T_B)=0"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;P_a.d_a&amp;space;-P.d&amp;space;-P_b.d_b=0"/></p>
+<br/>
+<p>Obs.: Outra maneira de se pensar, agora desvinculando-se deste jogo de sinais, consiste em igualarmos a soma dos torques que agem num sentido à soma dos torques que agem no sentido oposto:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\sum_{i=1}^{n}&amp;space;T_{hor}=\sum_{i=1}^{n}&amp;space;T_{ant}"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;T_a=T_p+T_b"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;P_a.d_a=P.d+P_b.d_b"/></p>
+</li>
+</ul>
+</ul>
+<p><br/><br/></p>
+<ul>
+<ul>
+<li>
+<p><strong>Equilíbrio Translacional:</strong> Para que ocorra o equilíbrio estático, não basta que os torques se equilibrem, é preciso também que as forças que atuam na vertical e horizontal se equilibrem. Normalmente o esquema destes problemas são todos muito semelhantes ao esquema que nos serve de exemplo e, portanto, nestes casos, basta nos certificarmos de que a força normal (a única que aponta para cima) se equilibre com as forças (normalmente pesos) que apontam para baixo.</p>
+</li>
+</ul>
+</ul>
+<p style="text-align: center;"><img alt="Dois corpos em equilíbrio sobre uma prancha" src="https://webfisica.com/imagens-fisica/aulas/aula4-32/equi_tra.png" style="width: 65%;"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\sum_{i=1}^{n}F_i=0"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;N=P_a+P+P_b"/></p>
+<p> </p>
+<div class="addend w70r">
+<h3>Brincando de gangorra</h3>
+<p class="img_row"><img alt="Animação de dois seres brincando de gangorra" src="https://webfisica.com/imagens-fisica/aulas/aula4-32/gangorra.gif" style="width: 70%;"/></p>
+<br/>
+<p>Quando brincamos de gangorra, podemos contralar se subiremos ou desceremos apenas alterando-se a posição de nosso corpo. Ao jogá-lo para trás, deslocamos o centro de massa para mais longe do ponto de rotação do sistema, aumentando, portanto, o braço de alavanca e o torque que tenderá a fazer o sistema girar parar determinado sentido.</p>
+</div>
+<div style="clear: both;"> </div>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Alavancas
+
+<p>Alavanca é um dispositivo mecânico que posssui um ponto em que aplicamos uma força e um ponto em que exercermos força sobre um objeto. Por intermédio deste dispositivo, podemos, aplicando forças pequenas, exercermos forças grandes em outros objetos. O contrário também pode ser executado.</p>
+<p> </p>
+<div class="externa">
+<div class="interna_esq" style="width: 50%;"><img alt="Trabalhador usando uma alavanca para levantar pedra" src="https://webfisica.com/imagens-fisica/aulas/aula4-32/al.png"/></div>
+<p>Veja o exemplo ao lado. Consideremos apenas as componentes verticais das forças do problema. Nele, um homem aplica, na barra, uma força para baixo (força potente). A barra tenderá a girar em sentido anti-horário, devolvendo uma força maior, na extremidade oposta, e para cima (força resistente). Caso a força resistente seja maior do que a força peso do objeto considerado, o objeto será levantado.</p>
+</div>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Tipos de alavancas
+
+<p>Existem três categorias de alavancas. São elas: interfixas, interresistentes e interpotentes. O nome de cada categoria faz alusão ao tipo de força que aloja-se na parte intermediária do instrumento.</p>
+<p style="text-align: center;"><img alt="Tipos (nomenclaturas) de alavancas" src="https://webfisica.com/imagens-fisica/aulas/aula4-32/alavancas.png" style="width: 90%;"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Vantagem mecânica
+
+<p>Indica o aproveitamento, a eficiência, com que age a força potente face à força resistente. Esta grandeza pode ser extraída da razão entre a força resistente e a força potênte ou, então, entre braço resistente e braço potente:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;T_{hor}=T_{ant}\rightarrow&amp;space;F_P.B_P=F_R.B_R\rightarrow"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{B_P}{B_R}=\frac{F_R}{F_P}"/></p>
+<p> </p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;V_m&amp;space;=&amp;space;\frac{F_R}{F_P}&amp;space;=&amp;space;\frac{B_P}{B_R}"/></p>

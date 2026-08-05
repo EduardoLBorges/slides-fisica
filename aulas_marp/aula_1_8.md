@@ -1,0 +1,120 @@
+---
+marp: true
+theme: gaia
+class: lead
+paginate: true
+backgroundColor: #fdfdfd
+---
+
+# Aula1-8: Queda livre e lançamento vertical no vácuo
+
+---
+
+
+---
+
+### Queda livre
+
+<div class="externa">
+<div class="interna_esq" style="width: 30%;"><img alt="Um corpo é abandonado do alto da torre de Pisa" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/fall.png"/></div>
+<p>Chamamos de queda livre o movimento de um objeto que, quando abandonado numa altura h, precipita rumo ao solo passando por um meio livre de forças de atrito. Este movimento será sempre retílineo e uniformemente acelerado, pois o objeto estará sempre sujeitado a ação da aceleração gravitacional, que é constante, g ≅ 9,8 m/s<sup>2</sup>.</p>
+<br/>
+<p>Para analisarmos este tipo de movimento, geralmente é muito conveniente nos servirmos de um sistema de referências análogo ao esboçado na figura ao lado.</p>
+<br/>
+<p>Uma vez definido o referencial, basta que apliquemos as já estudas leis cinemáticas para movimento retilíneo uniformemente acelerado (MRUV).</p>
+</div>
+<p> </p>
+<div class="addend w70r">
+<h3>Os planos inclinados de Galileu</h3>
+<p>Galileu viveu numa época em que os instrumentos de medição de tempo eram precários, bastante imprecisos; deste modo, analisar o movimento de objetos em queda na atmosfera era tarefa árdua.</p>
+<p>Para contornar este obstáculo, ele concebeu a ideia de pôr esferas para deslizarem em planos inclinados e, assim, estudá-los detidamente e com maior precisão.</p>
+<br/>
+<p class="img_row"><img alt="Galileu demonstra a lei da queda dos corpos a Don Giovanni de Medici, afresco de Giuseppe Bezzuoli" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/gal.jpg" style="width: 100%;" title="Galileo dimostra la legge della caduta dei gravi a Don Giovanni de' Medici, affresco di Giuseppe Bezzuoli, Tribuna di Galileo, Firenze - 1841"/></p>
+<br/>
+<p>O plano de Galileu dispunha de sinos móveis, para que a esfera, ao ultrapassá-los, fizesse-os tilintar.</p>
+<br/>
+<p class="img_row"><img alt="Réplica do plano usado por Galileu" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/plano-gal.png" style="width: 80%;"/></p>
+<br/>
+<p>Primeiro Galileu dispõs os sinos igualmente espaçados uns dos outros. Assim ele percebeu que o intervalo entre os sinais sonoros diminuiam progressivamente. De seguida, resolveu ir organizando o espaçamento entre os sinos até que eles soassem em intervalos regulares de tempo. De último, mediu o espaçamento entre os sinos e percebeu que o espaço percorrido dependia do quadrado do tempo.</p>
+<br/>
+<p>Galileu também pôde estender esta observação a queda dos corpos na atmosfera, pois suas medidas comprovavam que os resultados não dependiam do ângulo de inclinação do plano, logo o mesmo aconteceria para o ângulo reto.</p>
+<p class="img_row"><img alt="Planos inclinados em diferentes níveis" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/inc.png" style="width: 100%;"/></p>
+<br/>
+<p>Outra coisa que Galileu percebeu, por meio deste e doutros meios de análise, foi que a aceleração de um objeto não dependia de sua massa. Com efeito, dois objetos de diferentes massas e a uma mesma altura, quando abandonados para queda no mesmo instante, chegarão juntos ao solo.</p>
+<div class="externa">
+<div class="interna_esq" style="width: 50%;"><img alt="Vídeo de plumas e uma bola de boliche caindo juntas dentro de uma câmara de vácuo" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/queda.gif"/></div>
+<p>No experimento ao lado, uma bola de boliche e algumas penas são abandonadas ao mesmo tempo de uma mesma altura numa câmara de vácuo. Todos os objetos atingem o solo conjuntamente.</p>
+</div>
+<h3>Experimento da Torre de Pisa</h3>
+<p>De acordo com o aluno e biógrafo de Galileu Vincenzo Viviane (★ 1622 <strong>—</strong> 1703 ✝), Galileu fez com que esferas de diferentes massas fossem liberadas do alto da torre de Pisa, para com isto medir o tempo com que estas chegassem ao solo. Tal experimento corroborou a tese de que a aceleração gracitacional independia das massas dos corpos, como pressupunha os estudos galileanos. Tal experimento entrou para a história como <em>O experimento da Torre de Pisa de Galileu</em>.</p>
+<br/>
+<p>Recentemente, opondo-se aos relatos de Vincenzo Viviane, o consagrado historiador da ciência Alexandre Koyré (★ 1892 <strong>—</strong> 1964 ✝) afirmou que tal empreendimento nunca foi realizado por Galileu, sendo ele, portanto, apenas uma lenda.</p>
+<p style="text-align: center;"><img alt="Pintura do experimento da torre de pisa de Galileu" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/torredepisa.jpg" style="width: 100%;" title="Tempera de gesso por Luigi Catani , 1816 (Palazzo Pitti, Firenze, Quartiere Borbonico o Nuovo Palatino, sala 15)"/></p>
+<p>A pintura retrata Galileu, em presença do Grão-Duque, realizando a experiência da queda dos corpos na Torre Inclinada de Pisa.</p>
+</div>
+<div style="clear: both;"> </div>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Lançamento vertical no vácuo
+
+<div class="externa">
+<div class="interna_esq" style="width: 30%;"><img alt="Uma bola é arremessada verticalmente para cima" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/vertical.png"/></div>
+<p>Chamamos lançamento vertical no vácuo o movimento do objeto que, estando no vácuo ou em ambiente sem forças de atrito, sendo impelido verticalmente para cima com uma velocidade incial, v<sub>0</sub>, viaja em movimento retardado (aceleração negativa) até o ponto em que atinge sua altura máxima. Neste ponto, o objeto para num instante. A seguir, o objeto cai em movimento análogo ao movimento de queda livre.</p>
+<br/>
+<p>Para analisarmos este tipo de movimento, geralmente é muito conveniente nos servirmos de um sistema de referências análogo ao esboçado na figura ao lado.</p>
+<br/>
+<p>Uma vez definido o referencial, basta que apliquemos as já estudas leis cinemáticas para movimento retilíneo uniformemente acelerado (MRUV).</p>
+<br/>
+<p>Uma rápida análise do problema nos permite extrair algumas relações importantes, que são verdadeiras para todos os casos de lançamentos verticais no vácuo:</p>
+<br/>
+<p>➔ O tempo de subida do móvel será igual ao tempo de descida (até o ponto de lançamento).</p>
+<br/>
+<p>➔ A velocidade, para uma determida altitude, será igual em módulo tanto na subida quanto na descida, mas seus sentidos serão opostos.</p>
+<p> </p>
+</div>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Gráficos característicos do lançamento vertical
+
+<p style="text-align: center;"><img alt="Gráficos característicos do lançamento vertical" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/graph.png" style="width: 100%;"/></p>
+<p>Os gráficos acima representam a ascenção e queda de um corpo: lançamento vertical no vácuo seguido da queda livre.</p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+
+---
+
+### Queda com atrito
+
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 40%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img alt="Desenho de um corpo movendo-se em região de ar" src="https://webfisica.com/imagens-fisica/aulas/aula1-8/queda.png" style="width: 65%;"/></p>
+</td>
+<td>
+<p>Se considerarmos o atrito do ar na queda de um corpo, devemos, então, incluir em nossa análise a força de arrasto, por vezes também chamada de força de viscosidade ou força de atrito aerodinâmico.</p>
+<p> </p>
+<p><strong>A força de arrasto (ou arraste)</strong> é uma força que resiste ao movimento de objetos sólidos que tencionam deslocar-se por um fluido. Esta força é dada pela seguinte expressão:</p>
+<br/>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\vec&amp;space;F_a&amp;space;=&amp;space;K&amp;space;.&amp;space;v^n"/></p>
+<br/>
+<p>Em que k e n são constantes que dependem do meio e do corpo estudado.</p>
+<p>Observe que esta força depende da velocidade com que o corpo se desloca no meio; consequentemente, um corpo que cai por um intervalo de tempo suficientemente grande, fará com que a força de arrasto cresça de modo a se equilibrar com a força gravitacional, fazendo, então, com que o corpo pare de acelerar, atingindo o que chamamos de<strong> velocidade limite</strong>. A velocidade limite é, portanto, a velocidade do corpo (agora constante) a partir do momento em que a força de arrasto se iguala a força gravitacional.</p>
+</td>
+</tr>
+</tbody>
+</table>
