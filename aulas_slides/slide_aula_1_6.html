@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Aula1-6: Movimento círcular uniforme (MCU)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/simple.min.css">
+    <style>
+        .reveal h3 { text-transform: none; color: #2c3e50; font-size: 1.2em; }
+        .reveal p, .reveal td, .reveal th { font-size: 0.6em; text-align: left; }
+        .reveal table { margin: auto; border-collapse: collapse; width: 90%; }
+        .reveal th, .reveal td { border: 1px solid #ccc; padding: 10px; }
+        .formula { vertical-align: middle; max-height: 80px; }
+        .addend { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section><h2>Aula1-6: Movimento círcular uniforme (MCU)</h2></section>
+<section>
+<p>Chamamos de movimento circular o movimento que se dá sobre uma circunferência ou um arco de circunferência. Iniciaremos os nossos estudos em movimento circular analisando os casos em que este movimento é regido por uma velocidade angular e tangencial constantes. Antes, porém, de falarmos propriamente do movimento, precisamos nos familiarizarmos com o conceito de ângulo e aprender a como manipulá-lo adequadamente para os nossos fins.</p><table>
+<tbody>
+<tr>
+<th style="width: 24%;"> </th>
+<th style="width: 25%;"> </th>
+<th style="width: 25%;"> </th>
+<th style="width: 24%;"> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img alt="Animação da lua girando em movimento circular ao redor da Terra" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/1.gif" style="width: 90%;"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="Animação dos ponteiros de um relógio girando em movimento circular" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/2.gif" style="width: 80%;"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="Animação das helices de um helicoptero girando em movimento circular" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/3.gif" style="width: 90%;"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="Animação das pás de um ventilador girando em movimento circular" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/4.gif" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table><p> </p><p> </p><p> </p><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Ângulo</h3><p>O ângulo é medida da inclinação relativa entre dois seguimentos de retas. Ao decorrer de milênios, os humanos convencionaram diferentes modos de se medir esta inclinação, sendo que dois deles se destacaram com singular notoriedade, um deles em virtude de sua simplicidade, o outro, em decorrência de sua utilidade matemática:</p><p style="text-align: center;"><img alt="Conjunto de pares de retas inclinadas entre si, representando diferentes ângulos" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/inclinacao.png" style="width: 100%;"/></p><p> </p><table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th style="width: 50%;"> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p><strong>Os sumérios:</strong> Há muito tempo, os Sumérios, para se referirem a uma determinada medida angular, convencionaram que quando não há inclinação entre os seguimentos de retas (elas estão, então, paralelas entre si) o valor desta medida seria 0 grau, ao passo que quando a inclinação é máxima, na localização em que, após uma das retas varrer uma circunferência e elas voltarem a ficar paralelas, essa medida valeria 360<sup>°</sup> (360 graus) . Após isto, dividiram a circunferência varrida pela reta inclinada em 360 partes iguais, cada qual valeria 1<sup>°</sup>. Ainda, cada grau poderia ser divido em 360 partes, cada qual valeria 1' (1 minuto); e os minutos, quando também dividos em 360 partes, dariam origem as frações chamadas segundos. Cada minuto valeria então 1'' (1 segundo). A este sistema descrito chamaremos <strong>sistema dos graus</strong>.</p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="circulo com marcações em ângulos no sistema de graus" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/sum-a.png" style="width: 80%;"/></p>
+</td>
+</tr>
+</tbody>
+</table><div class="adendo">
+<h3>Conversão entre graus, minutos e segundos</h3>
+<p>Para convertermos <em>graus</em> em <em>minutos</em> ou <em>segundos</em> e vice-versa, basta aplicarmos a relação descrita abaixo em regra de três.</p>
+<p style="text-align: center;"><img alt="Diagrama para conversão de ângulos de graus para radianos" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/conv.png" style="width: 90%;"/></p>
+</div><p> </p><div class="row-deg"> </div><p> </p><table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th style="width: 50%;"> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p><strong>Os matemáticos da renascença: </strong>Mais tarde, afetados pela então criação do cálculo diferencial e integral, os matemáticos, movidos por necessidade inarredável – as quais não convém descrever aqui –, chamaram aquela primeira medida de 0 radiano e a outra de 2π radianos; fazendo nascer assim um novo sistema métrico angular. A este sistema descrito chamaremos <strong>sistema dos radianos</strong>.</p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="circulo com marcações em ângulos no sistema de radianos" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/ren-a.png" style="width: 90%;"/></p>
+</td>
+</tr>
+<tr></tr>
+</tbody>
+</table><p>Em física e matemática, hoje, damos prioridade ao sistema de radianos, pois ele é mais versátil do que o anterior. As formulas apresentadas a seguir são prova cabal disto, pois só é valida quando lidamos com ângulos em radianos.</p><p> </p><table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th style="width: 50%;"> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p><strong>Ângulo em função do arco</strong>: O ângulo (θ) é igual a razão do arco de circunferência (S) pelo raio (R) da circunferência:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\theta&amp;space;=&amp;space;\frac{S}{R}"/></p>
+<br/>
+<p><strong>Circunferência em função do raio</strong>: A circunferência (C) é igual ao produto de 2π pelo raio (R):</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;C&amp;space;=&amp;space;2.\pi.R"/></p>
+<p> </p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="Circulo com raio, arco de circunferência e ângulo representados" src="https://webfisica.com/imagens-fisica/aulas/aula1-6/form.png" style="width: 90%;"/></p>
+</td>
+</tr>
+<tr></tr>
+</tbody>
+</table><p><br/><br/></p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Frequência e perído</h3><ul class="tabela">
+<ul class="tabela">
+<li>
+<p><strong>Frequência:</strong> É a quantidade de ciclos, voltas, eventos etc. por intervalo de tempo.</p>
+<br/>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;f&amp;space;=&amp;space;\frac{n}{\Delta&amp;space;t}"/></p>
+<br/>
+<p>Veja os exemplos abaixo:</p>
+<p>I. A terra rotaciona, ao redor do próprio eixo, 365 vezes por ano (rotações por intervalo de tempo);</p>
+<p>II. As lâmpadas piscam 60 vezes por segundo (lampejos por intervalo de tempo);</p>
+<p>III. Os alunos têm 5 dias de aula por semana (dias de aulas por intervalo de tempo);</p>
+<p>IV. O pêndulo oscila duas vezes por segundo (oscilações por intervalo de tempo);</p>
+<p>V. A velocidade do motor é de 1000 RPM (rotações por minuto) (rotações por intervalo de tempo);</p>
+</li>
+</ul>
+</ul><p> </p><ul class="tabela">
+<li>
+<p><strong>Período:</strong> é o tempo necessário para que ocorra um ciclo, uma volta, um evento etc.</p>
+<br/>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;T&amp;space;=&amp;space;\frac{\Delta&amp;space;t}{n}"/></p>
+<br/>
+<p>I. A terra leva 1/365 anos para rotacionar uma vez ao redor do próprio eixo (intervalo de tempo para uma rotação).</p>
+<p>II. A cada 1/60 segundos as lâmpadas pistam uma vez (intervalo de tempo para um evento).</p>
+<p>III. A cada 7/5 semanas os alunos têm uma aula (intervalo de tempo para um evento).</p>
+<p>IV. a cada 1/2 segundo o pêndulo oscila uma vez (intervalo de tempo para uma oscilação).</p>
+<p>V. A cada 1/1000 minutos é completado uma rotação no motor (intervalo de tempo para rotação).</p>
+</li>
+</ul><p> </p><div class="addend w70r">
+<h3>Conversão de frequência em período e vice-versa</h3>
+<p style="text-align: center;"><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;T&amp;space;=&amp;space;\frac{1}{f}"/>    ou    <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;f&amp;space;=&amp;space;\frac{1}{T}"/></p>
+</div><div style="clear: both;"> </div><p><br/><br/></p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Velocidade angular média</h3><table>
+<tbody>
+<tr>
+<th style="width: 35%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula1-6/vel-ang.gif" style="width: 95%;"/></p>
+</td>
+<td style="vertical-align: super;">
+<p>A velocidade angular média é a grandeza que indica a quantidade de variação do ângulo por intervalo de tempo. Logo, a fórmula que nos fornece ela é:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\omega&amp;space;=&amp;space;\frac{\Delta&amp;space;\theta}{\Delta&amp;space;t}"/> ou <img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;w&amp;space;=&amp;space;\frac{2.\pi}{T}"/></p>
+<br/>
+<p>Teremos como unidade de medida:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[w]&amp;space;=&amp;space;\frac{rad}{s}"/></p>
+<br/>
+<p>Obs.: No MCU esta grandeza se mantém constante.</p>
+</td>
+</tr>
+</tbody>
+</table><p> </p><p> </p><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Velcidade linear média (velocidade tangencial)</h3><table>
+<tbody>
+<tr>
+<th style="width: 35%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula1-6/vel-t.gif" style="width: 95%;"/></p>
+</td>
+<td style="vertical-align: super;">
+<p>É a grandeza que indica como a posição, sobre a circunferência percorrida, se altera com o tempo. É uma velocidade que se projeta tangencialmente a trajetória. Na imagem ao lado, está representada pelo vetor vermelho. Para calculá-la, aplicamos a fórmula:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}"/> ou <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v=\frac{2.\pi.r}{T}&amp;space;=&amp;space;\frac{2.\pi}{T}.r&amp;space;\rightarrow"/><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\omega.R"/></p>
+</td>
+</tr>
+</tbody>
+</table><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Equação horária do espaço angular</h3><p>Equação que fornece o ângulo em função do tempo.</p></section>
+<section>
+<h3> </h3><p>Demonstração:</p></section>
+<section>
+<h3> </h3><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;w=\frac{\Delta&amp;space;\theta}{\Delta&amp;space;t}=\frac{\theta-\theta_0}{t}\rightarrow\theta-\theta_o=w.t"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\theta=\theta_o+w.t"/></p></section>
+<section>
+<h3> </h3><p>Fórmula final:</p><p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\theta&amp;space;=&amp;space;\theta_0&amp;space;+&amp;space;\omega&amp;space;.t"/></p></section>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>

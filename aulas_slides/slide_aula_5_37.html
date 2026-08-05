@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Aula5-37: Hidrodinâmica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/simple.min.css">
+    <style>
+        .reveal h3 { text-transform: none; color: #2c3e50; font-size: 1.2em; }
+        .reveal p, .reveal td, .reveal th { font-size: 0.6em; text-align: left; }
+        .reveal table { margin: auto; border-collapse: collapse; width: 90%; }
+        .reveal th, .reveal td { border: 1px solid #ccc; padding: 10px; }
+        .formula { vertical-align: middle; max-height: 80px; }
+        .addend { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section><h2>Aula5-37: Hidrodinâmica</h2></section>
+<section>
+<h3>Lúquido ideal</h3><p>É um líquido ideal aquele líquido que possui as seguintes características:</p><p>◦ Incompressível (volume invariável);</p><p>◦ Não viscoso (não pegajoso);</p><p>◦ Escoamento estacionário (a velocidade de escoamento pode mudar de acordo com a posição, mas não muda com o tempo).</p><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Vazão</h3><p>Vazão é a grandeza física que mede o volume de líquido escoado por unidade de tempo:</p><p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\Phi&amp;space;=&amp;space;\frac{\Delta&amp;space;V}{\Delta&amp;space;t}"/></p><p> </p><p>⚛ UNIDADE DE MEDIDA:unidade de medida, reconhecida no SI, é:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[\Phi]&amp;space;=&amp;space;\frac{m^3}{s}"/></p><p>Mas também é possível se medir a vazão através da massa escoar (em vez do volume), usa-se, então, como unidade de medida o:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[\Phi]&amp;space;=&amp;space;\frac{Kg}{s}"/></p><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Equação da continuidade</h3><div class="externa">
+<div class="interna_dir" style="width: 65%;"><img alt="Diagrama que representaa cada um dos termos envolvidos nas equações abaixo" src="https://webfisica.com/imagens-fisica/aulas/aula5-37/cont.png"/></div>
+<p>Observe a figura ao lado, como consequência da incompressibilidade do líquido, podemos afirmar que, para um intervalo de tempo qualquer, o volume de líquido que entra numa extremidade do tubo é igual ao volume que sai na outra extremidade; com isto podemos, também, afirmar que a vazão é a mesma. Logo:</p>
+</div><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\Phi_1&amp;space;=&amp;space;\Phi_2&amp;space;\rightarrow&amp;space;\frac{V_1}{\Delta&amp;space;t}&amp;space;=&amp;space;\frac{V_2}{\Delta&amp;space;t}\rightarrow"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{A_1.d_1}{\Delta&amp;space;t}=\frac{A_2.d_2}{\Delta&amp;space;t}\rightarrow&amp;space;A_1&amp;space;.&amp;space;v_1&amp;space;=&amp;space;A_2&amp;space;.&amp;space;v_2"/></p><p>Fórmula final:</p><p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;A_1&amp;space;.&amp;space;v_1&amp;space;=&amp;space;A_2&amp;space;.&amp;space;v_2"/></p><p>Corolário:<br/>A mais meritória de destaque dentre as consequências derivadas desta equação é o fato de que a área através da qual escoa um fluido é inversamente proporcional a sua velocidade, isto é: – A velocidade do fluido aumenta na medida em que o tubo se afina. A velocidade do fluido diminui quando o tubo se engrossa.</p><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Equação de Bernoulli</h3><p class="img_row"><img alt="Diagrama que mostra as grandezas físicas envolvidas no processo discutido" src="https://webfisica.com/imagens-fisica/aulas/aula5-37/berno.png" style="width: 80%;"/></p><p>Uma porção de matéria é impelida a entrar pela ponta de baixo do tubo pela força F<sub>1</sub>. Uma porção de matéria é expelida pela ponta de cima da tubulação sofrendo a resistência de uma força F<sub>2</sub>.</p><p>Sabemos, do teorema da energia cinética, que o trabalho da força resultante é igual a variação da energia cinética:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;F_1.d_1&amp;space;\&amp;space;-&amp;space;\&amp;space;F_2&amp;space;.&amp;space;d_2&amp;space;\&amp;space;-&amp;space;\&amp;space;P.\Delta&amp;space;h&amp;space;="/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{m.v_2^2}{2}&amp;space;\&amp;space;-&amp;space;\&amp;space;\frac{m.v_1^2}{2}"/></p><p>Após isto, façamos algum algebrismo:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;F_1.d_1.\frac{A_1}{A_1}&amp;space;\&amp;space;-&amp;space;\&amp;space;F_2.d_2.\frac{A_2}{A_2}&amp;space;\&amp;space;-&amp;space;\&amp;space;\left&amp;space;(&amp;space;\mu&amp;space;.&amp;space;\Delta&amp;space;V&amp;space;.&amp;space;g&amp;space;\right&amp;space;).\Delta&amp;space;h&amp;space;="/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\left&amp;space;(&amp;space;\mu&amp;space;\Delta&amp;space;V&amp;space;\right&amp;space;).v_2^2}{2}&amp;space;-&amp;space;\frac{\left&amp;space;(&amp;space;\mu&amp;space;\Delta&amp;space;V&amp;space;\right&amp;space;).v_1^2}{2}"/></p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;P_1&amp;space;.&amp;space;\Delta&amp;space;V&amp;space;\&amp;space;-&amp;space;\&amp;space;P_2&amp;space;.&amp;space;\Delta&amp;space;V&amp;space;\&amp;space;-&amp;space;\&amp;space;\mu&amp;space;.&amp;space;g&amp;space;.&amp;space;\Delta&amp;space;h.&amp;space;\Delta&amp;space;V&amp;space;="/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\left&amp;space;(&amp;space;\frac{\mu&amp;space;.&amp;space;v_2^2}{2}&amp;space;-&amp;space;\frac{\mu&amp;space;.&amp;space;v_1^2}{2}&amp;space;\right&amp;space;)&amp;space;.&amp;space;\Delta&amp;space;V"/></p><p>Rearranjando os termos da expressão, obteremos a equação de Bernoulli:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;P_1&amp;space;+&amp;space;\mu&amp;space;.&amp;space;g&amp;space;.&amp;space;h_1&amp;space;+&amp;space;\frac{\mu&amp;space;.&amp;space;v_1^2}{2}&amp;space;="/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;P_2&amp;space;+&amp;space;\mu&amp;space;.&amp;space;g&amp;space;.&amp;space;h_2&amp;space;+&amp;space;\frac{\mu&amp;space;.&amp;space;v_2^2}{2}"/></p><p>Podemos ainda escrever:</p><p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;P&amp;space;+&amp;space;\mu&amp;space;.&amp;space;g&amp;space;.&amp;space;h&amp;space;+&amp;space;\frac{\mu&amp;space;.&amp;space;v^2}{2}&amp;space;\&amp;space;=&amp;space;\&amp;space;cte"/></p><p> </p><p>Em que:</p><p> </p><p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;P"/> é Pressão estática;</p><p> </p><p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\mu&amp;space;.&amp;space;g&amp;space;.&amp;space;h"/> é Pressão atmosférica;</p><p> </p><p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{\mu&amp;space;.&amp;space;v^2}{2}&amp;space;\"/> é Pressão dinâmica.</p><p> </p><p> </p></section>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>

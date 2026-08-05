@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Aula10-82: Capacitores e associação de capacitores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/simple.min.css">
+    <style>
+        .reveal h3 { text-transform: none; color: #2c3e50; font-size: 1.2em; }
+        .reveal p, .reveal td, .reveal th { font-size: 0.6em; text-align: left; }
+        .reveal table { margin: auto; border-collapse: collapse; width: 90%; }
+        .reveal th, .reveal td { border: 1px solid #ccc; padding: 10px; }
+        .formula { vertical-align: middle; max-height: 80px; }
+        .addend { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section><h2>Aula10-82: Capacitores e associação de capacitores</h2></section>
+<section>
+<h3>Capacitores</h3><p>Capacitores são dispositivos eletrônicos capazes de armazenar cargas em função de promover uma descarga energética praticamente instantânea de elevada tensão num circuito elétrico. Existem diversos modelos de capacitores, aqui nós nos ateremos ao modelo de placas planas e paralelas, cujo princípio de funcionamento é igual ao de todos os outros modelos.</p><table>
+<tbody>
+<tr>
+<th style="width: 35%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>Um capacitor de placas planas e paralelas é basicamente constituído de duas ou mais placas condutoras dispostas paralelamente entre si e intercaladas por camadas de material isolante (dielétrico).</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula10-82/capac.png" style="width: 95%;"/></p>
+</td>
+</tr>
+</tbody>
+</table><p> </p></section>
+<section>
+<h3>Carregamento de um capacitor</h3><table>
+<tbody>
+<tr>
+<th style="width: 45%;"> </th>
+<th style="width: 10%;"> </th>
+<th style="width: 45%;"> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>➔ PRIMEIRO ESTÁGIO: CONECTA-SE UM GERADOR</p>
+<p>As placas condutoras devem ser conectadas a um gerador elétrico; ao se fazer isso, a placa de uma das extremidades passará a comportar uma carga oposta a da outra extremidade.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula10-82/est1.png" style="width: 95%;"/></p>
+</td>
+<td> </td>
+<td style="vertical-align: super;">
+<p>➔ SEGUNDO ESTÁGIO: DESCONECTA-SE O GERADOR</p>
+<p>Ao se desconectar as placas do gerador, as placas continuarão carregadas, 1) porque elas não têm para onde mover-se e 2) porque as cargas concentradas numa das extremidades se deixam atrair pelas cargas da outra extremidade e, como há um dielétrico as separando, elas ficam estacionadas nesta situação.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula10-82/est2.png" style="width: 95%;"/></p>
+</td>
+</tr>
+</tbody>
+</table><p> </p><p>➔ CAPACITÂNCIA OU CAPACIDADE</p><p>A capacitância de um capacitor é uma grandeza física que indica a quantidade de cargas que um capacitor é capaz de armazenar por unidade de tensão:</p><p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;C&amp;space;=\frac{Q}{U}"/></p><p>Podemos também encontrar a capacitância por meio da fórmula:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;C&amp;space;=\frac{\varepsilon&amp;space;.&amp;space;A}{d}"/></p><p>Em que:</p><p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\varepsilon"/> é a permissividade elétrica do material dielétrico</p><p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;A"/> é a área das placas</p><p>◦ <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;d"/> é a espessura do dielétrico</p><p> </p><p>A unidade de medida para capacitância no SI é o:</p><p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[C]=\frac{C(coulomb)}{V(volt)}=F(farad)"/></p><p> </p><p>➔ GRÁFICO CARGA X TENSÃO</p><p>A área abaixo do gráfico da carga armazenada em função da tensão para capacitores nos indicará a energia potencial armazenada.</p><table>
+<tbody>
+<tr>
+<th class="width: 50%"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula10-82/grafico_capa.png" style="width: 95%;"/></p>
+</td>
+<td> </td>
+<td>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;E_P&amp;space;\equiv&amp;space;A&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;E_P=\frac{Q.U}{2}"/></p>
+<p>ao substituirmos o Q, de acordo com a equação da capacitância, teremos:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;E_P&amp;space;=&amp;space;\frac{(C.U).U}{2}&amp;space;\&amp;space;\rightarrow&amp;space;\"/><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;E_P&amp;space;=&amp;space;\frac{C.U^2}{2}&amp;space;\&amp;space;\"/></p>
+</td>
+</tr>
+</tbody>
+</table><p> </p><div class="row-deg"> </div><p> </p></section>
+<section>
+<h3>Associação de capacitores</h3><p>Podemos associar capacitores de dois modos:</p><ul>
+<ul>
+<li>
+<p><strong>Associação em série:</strong></p>
+<table>
+<tbody>
+<tr>
+<th style="width: 40%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula10-82/serie.png" style="width: 50%;"/></p>
+</td>
+<td>
+<p>Neste tipo de associação, a carga de todos os capacitores é igual a carga fornecida pelo gerador elétrico (Q1 = Q2 = Q3 = QN). A tensão, entretanto, é diferente entre os seus polos.</p>
+<p>Para calcularmos a capacitância total de um sistema de capacitores em série, aplicamos a fórmula:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;C_e_q&amp;space;=&amp;space;\frac{1}{C_1}+\frac{1}{C_2}+...+\frac{1}{C_n}"/></p>
+<p>Obs.: A carga liberada por este sistema será igual a carga de apenas um dos capacitores (QRES = Q1 = Q2 = Q3 = QN); pois devido as camadas dielétricas, apenas metade das cargas dos dois capacitores das extremidade podem ser descarregadas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</ul><p> </p><ul>
+<li>
+<p><strong>Associação em paralelo:</strong></p>
+<table>
+<tbody>
+<tr>
+<th style="width: 40%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula10-82/para.png" style="width: 90%;"/></p>
+</td>
+<td>
+<p>Neste tipo de associação, os capacitores podem possuir diferentes valores de cargas armazenadas. A tensão, entretanto, será a mesma.</p>
+<p>Para calcularmos a capacitância total de um sistema de capacitores em série, aplicamos a fórmula:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;C_e_q&amp;space;=&amp;space;C_1&amp;space;+&amp;space;C_2&amp;space;+&amp;space;...&amp;space;+&amp;space;C_n"/></p>
+<p>Obs.: A carga liberada por este sistema será igual a soma das cargas de todos os capacitores (QRES + Q1 + Q2 + Q3 + QN); pois nem todas as cargas pode ser liberadas as camadas dielétricas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul><p> </p><p> </p><p> </p><p> </p></section>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>
