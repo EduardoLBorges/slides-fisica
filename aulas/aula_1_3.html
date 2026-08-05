@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula1-3: Introdução à cinemática · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Cinemática</div>
+        <h1>Aula1-3: Introdução à cinemática</h1>
+        <div class="aula-num">Aula 1-3</div>
+    </div>
+</section>
+<section>
+<p>Ao estudarmos um objeto, precisamos, antes de tudo, sabermos responder:</p>
+<p>    ◦ Ele está em repouso ou em movimento?</p>
+<p>    ◦ Qual é a distância percorrida?</p>
+<p>    ◦ Qual é o seu deslocamento?</p>
+<p>    ◦ A partir de qual referencial estamos estudando-o?</p>
+<p>    ◦ Trata-se de um ponto material ou de um corpo extenso?</p>
+<p> </p>
+<p>Para responder tais questões é, porém, antes preciso discutir os conceitos a seguir:</p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Referencial</h3>
+<p>É uma estrutura geométrica imaginária – a partir da qual nós estudamos um problema –, formada por eixos perpendiculares entre si, e com marcações de distância a partir de um ponto de origem)</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 40%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img alt="Plano cartesiano bidimensional" src="https://webfisica.com/imagens-fisica/aulas/aula1-3/cartesiano.png" style="width: 70%;"/></p>
+</td>
+<td>
+<p>Observe que, uma vez definido o referencial, podemos estabelecer a localização de um ponto, em qualquer lugar da superfície, usando apenas dois valores. Chamamos a sequência destes dois valores de par ordenado (x, y)</p>
+</td>
+</tr>
+<tr>
+<td><img alt="Plano cartesiano tridimensional" src="https://webfisica.com/imagens-fisica/aulas/aula1-3/cartesiano3d.png" style="width: 90%;"/></td>
+<td>
+<p>Se Formos estudar um objeto que está no espaço, podemos localizá-lo, acrescentando um número ao par ordenado, formando então um terno ordenado (x, y, z)</p>
+</td>
+</tr>
+<tr></tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg-50"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Corpo em repouso e em movimento</h3>
+<ul>
+<li>
+<p><strong>Corpo em repouso:</strong> Dizemos que o corpo está em repouso em relação a um referencial quando a sua posição não se altera à medida que o tempo passa.<br/><br/></p>
+</li>
+<li>
+<p><strong>Corpo em movimento:</strong> Dizemos que o corpo está em movimento em relação a um referencial quando a sua posição se altera à medida que o tempo passa.</p>
+</li>
+</ul>
+<p> </p>
+<div class="row-deg-50"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Distância percorrida e deslocamente</h3>
+<ul>
+<ul>
+<li>
+<p><strong>Distância percorrida:</strong> Ao percorrermos um espaço, passamos por infinitos pontos. A soma destes infinitos pontos compõe uma curva (também pode ser uma reta). O comprimento desta curva é o que chamamos de distância percorrida. Essa grandeza é escalar e não tem nenhum importância para a física.</p>
+</li>
+</ul>
+</ul>
+<p> </p>
+<ul>
+<ul>
+<li>
+<p><strong>Deslocamento:</strong> No deslocamento, não levamos em consideração todos os pontos pelos quais passamos, mas apenas o ponto inicial e o final. O deslocamento é uma grandeza vetorial de grande importância para a física.</p>
+</li>
+</ul>
+</ul>
+<p class="img_row"><img alt="Borboleta executando um deslocamento que é maior do que a distância percorrida" src="https://webfisica.com/imagens-fisica/aulas/aula1-3/dif.png" style="width: 80%;"/></p>
+<p> </p>
+<div class="row-deg-50"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Ponto material e corpo extenso</h3>
+<ul>
+<li>
+<p><strong>Ponto material:</strong> Consideramos um objeto estudado um ponto material quando as suas dimensões (comprimento, largura ou altura) são desprezíveis para a resolução do problema, isto é, quando não precisamos levá-los em consideração para resolver o problema proposto.<br/><br/></p>
+</li>
+<li>
+<p><strong>Corpo extenso:</strong> Consideramos um objeto um corpo extenso quando é preciso levar em consideração pelo menos uma de suas dimensões.</p>
+</li>
+</ul>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

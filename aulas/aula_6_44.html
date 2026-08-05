@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula6-44: Propagação de calor · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Termologia</div>
+        <h1>Aula6-44: Propagação de calor</h1>
+        <div class="aula-num">Aula 6-44</div>
+    </div>
+</section>
+<section>
+<p>Nas aulas anteriores, aprendemos que o calor é a energia que flui, espontaneamente, de um corpo de maior temperatura para um corpo de menor temperatura. O calor pode fluir de 3 diferentes maneiras:</p>
+<p> </p>
+<ul>
+<li>
+<p><strong>Condução:</strong> Neste processo, as partículas mais agitadas (de maior temperatura), agitam as partículas adjacentes, fazendo, assim, com que a energia, passando de uma a uma, flua. Em outras palavras, podemos dizer que a condução é o modo de propagação de calor que se dá por transferência de energia entre as partículas de um determinado meio. Ocorre com maior intensidade nos sólidos, em seguida nos líquidos e com baixíssima intensidade nos gases, e não ocorre no vácuo, pois não há partículas neste meio. Podemos medir a condução de temperatura por meio do conceito de fluxo de calor, através da equação de Fourier:</p>
+<br/>
+<p>FLUXO DE CALOR: É a quantidade de energia que atravessa determina área (ou volume) por unidade de tempo</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\Phi&amp;space;=&amp;space;\frac{\Delta&amp;space;Q}{\Delta&amp;space;t}"/></p>
+<p>⚛ A unidade de medida para fluxo de calor é o:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[\Phi]&amp;space;=&amp;space;\frac{J}{s}&amp;space;=&amp;space;W&amp;space;(whatt)"/></p>
+<br/>
+<p>➔ EQUAÇÃO DE FOURIER: É uma equação que nos fornece o fluxo de calor num meio em função de três variáveis: área da secção transversal, gradiente de temperatura e coeficiente de condutividade térmica do material.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\Phi&amp;space;=&amp;space;K&amp;space;.&amp;space;A&amp;space;.&amp;space;g"/></p>
+<p>Em que:</p>
+<p>◦ A: área da secção transversal do condutor</p>
+<p>◦ g: gradiente de temperatura, que é a razão entre a diferença de temperatura entre as extremidades do condutor pelo seu comprimento: <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;g&amp;space;=&amp;space;\frac{\theta_2&amp;space;-&amp;space;\theta_1}{L}&amp;space;=&amp;space;\frac{\Delta&amp;space;\theta}{L}"/></p>
+<p>◦ K: coeficiente de condutividade térmica do material que compõe o corpo</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-44/equa.png" style="width: 85%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<table class="table-model-1" id="tb1"><caption>
+<p>Coeficiente K de algumas substâncias</p>
+</caption>
+<thead>
+<tr>
+<th>
+<p>Material</p>
+</th>
+<th>
+<p>K (cal/cm.s.°C)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Alumínio</p>
+</td>
+<td>
+<p>0,5</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Aço</p>
+</td>
+<td>
+<p>0,11</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Água</p>
+</td>
+<td>
+<p>0,0014</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Ar</p>
+</td>
+<td>
+<p>0,00006</p>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<th style="width: 70%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td><br/><br/><br/>
+<ul class="lista">
+<li>
+<p><strong>Convecção:</strong> Neste processo, o calor é transmitido através do movimento de massa que compõe um fluido (Ocorre apenas em fluidos[gases e líquidos]). A massa de ar é aquecida, tem o seu volume expandido, consequentemente, terá a sua densidade reduzida e, em seguida, se movimentará para cima, ao passo que o restante do fluido (que não teve alterações em sua densidade) desce. Este movimento se repete, fazendo transitar energia, continuamente.</p>
+</li>
+</ul>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-44/conv.png" style="width: 50%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/><br/><br/></p>
+<ul class="lista">
+<li>
+<p><strong>Irradiação (ou radiação):</strong> Corpos também podem trocar energia através de ondas eletromagnéticas (as ondas eletromagnéticas capazes de transportar energia térmica são, por vezes, chamadas radiação térmica, para distingui-las das demais [sinais eletromagnéticos e radiação nuclear]). Neste tipo de propagação, não há necessidade de um meio material para a sua efetivação, podendo haver propagação mesmo no vácuo.</p>
+<br/>
+<table>
+<tbody>
+<tr>
+<th style="width: 70%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>Uma fogueira, por exemplo, é capaz de emitir ondas eletromagnéticas que fazem o ambiente aquecer, elevando a sua energia térmica, ao passo que a energia do fogo diminui. Notem que este transito energético é de duas vias: energia do ambiente chega até o fogo e energia do fogo chega até o ambiente. Apenas se a fogueira estiver numa temperatura maior que o ambiente haverá fluxo de calor da fogueira para o ambiente. Isto acontece porque a emissão de radiação é proporcional ao quadruplo da temperatura do corpo. Esta relação é descrita pela lei de Stefan-Boltzmann.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-44/fog.png" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+<p>➔ EQUAÇÃO DE STEFAN-BOLTZMANN: É a equação que descreve a potência da emissividade em função do tempo.</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;P&amp;space;=&amp;space;\varepsilon&amp;space;.&amp;space;\sigma&amp;space;.&amp;space;A&amp;space;.&amp;space;T^4"/></p>
+<p>Em que:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\varepsilon"/>: é a constante de emissividade do corpo</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\sigma"/>: é a constante de Stefan-Boltzmann, que vale: <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\sigma&amp;space;=&amp;space;5,67.10^{-8}&amp;space;\&amp;space;W.m^{-2}.K^{-4}."/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;A"/>: é a área do objeto emissor</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;T"/>: é a temperatura do objeto emissor, em kelvin, evidentemente.</p>
+</li>
+</ul>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

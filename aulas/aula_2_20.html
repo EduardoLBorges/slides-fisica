@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula2-20: Energia cinética · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Dinâmica</div>
+        <h1>Aula2-20: Energia cinética</h1>
+        <div class="aula-num">Aula 2-20</div>
+    </div>
+</section>
+<section>
+<p>A <strong>energia cinética</strong> é uma propriedade que um corpo estudado pode possuir. É uma propriedade que “se instala” no corpo sempre que este possuir massa e estiver dotado de velocidade. Essa grandeza física – Energia cinética – é a energia presente no objeto analisado devido a sua velocidade. Podemos obtê-la através da seguinte fórmula:</p>
+<div class="formulas">
+<p>$${ K = \frac{m . v^2}{2} }$$</p>
+</div>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Teorema trabalho-energia cinética</h3>
+<p>Este teorema afirma que o trabalho realizado por uma força resultante sobre um corpo qualquer no decorrer de um intervalo de tempo é igual à variação de energia cinética do corpo ocorrida neste mesmo intervalo de tempo.</p>
+<div class="formulas">
+<p>$${ W_{FR} = \Delta K }$$</p>
+</div>
+<p> </p>
+<p>⚛ Demonstração (Não muito ortodoxa):</p>
+<p>Para demonstrarmos este teorema por meio de uma matemática mais acessível, analisemos uma situação simplificada, em que a força resultante atua de modo totalmente paralelo ao movimento:</p>
+<div class="formulas">
+<p>$${ W_{FR} = F_R . a }$$</p>
+<p>$${ \ \rightarrow \ W = \left ( m . a \right ) . d }$$</p>
+</div>
+<p>Observe, agora, a equação de Torricelli:</p>
+<div class="formulas">
+<p>$${ v^2 = v_0^2 + 2.a.d }$$</p>
+<p>$${ \ \rightarrow \ a.d = \frac{v^2-v_0^2}{2} }$$</p>
+</div>
+<p>Substituindo o produto da aceleração pelo espaço percorrido, teremos:</p>
+<div class="formulas">
+<p>$${ W = m . \left ( \frac{v^2 - v_0^2}{2} \right ) = \frac{m.v^2}{2} - \frac{m.v_0^2}{2} }$$</p>
+<p>$${ \ \rightarrow \ W = K - K_0 }$$</p>
+</div>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

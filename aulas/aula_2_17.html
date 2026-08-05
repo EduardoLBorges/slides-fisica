@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula2-17: Plano inclinado com atrito · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Dinâmica</div>
+        <h1>Aula2-17: Plano inclinado com atrito</h1>
+        <div class="aula-num">Aula 2-17</div>
+    </div>
+</section>
+<section>
+<p>Obs.: Antes de resolver os exercícios propostos nesta aula, revise a aula 2.15.</p>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 60%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>O plano inclinado estudado nesta aula é praticamente o mesmo já analisado na aula 2.5; diferencia-se daquele, no entanto, no fato de que aqui passamos a considerar a existência de mais uma força: a força de atrito entre a superfície do objeto potencialmente deslizante e a superfície do plano.</p>
+<p>O modo de se resolver os exercícios é o mesmo apresentado na aula pregressa.</p>
+</td>
+<td>
+<p style="text-align: center;"><img alt="diagrama de plano inclinado com atrito" src="https://webfisica.com/imagens-fisica/aulas/aula2-17/plano.png" style="width: 70%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

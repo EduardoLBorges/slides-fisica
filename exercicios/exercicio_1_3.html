@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de exercícios 1-3: Introdução à cinemática · WebFísica</title>
+    <meta name="description" content="Lista de exercícios: Lista de exercícios 1-3: Introdução à cinemática">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/exercicio.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="ex-page">
+        <header class="ex-header">
+            <div class="ex-badge">Exercícios</div>
+            <h1 class="ex-titulo">Lista de exercícios 1-3: Introdução à cinemática</h1>
+            <div class="ex-meta">
+                <span class="ex-cap-badge">Cinemática</span>
+                <span class="ex-num">Lista 1-3</span>
+            </div>
+        </header>
+
+        <main class="ex-conteudo">
+            
+<div class="item-exercicio">
+<b>01. </b>
+                                A respeito da ideia de referencial, marque a alternativa correta:
+<p>a) O Sol, por ter uma massa correspondente a 98% de toda a massa do sistema solar, deve ser sempre considerado o referencial para quaisquer fenômenos.</p>
+<p>b) Os fenômenos devem sempre ser analisados a partir de um referencial parado.</p>
+<p>c) Referencial é o corpo em movimento retilíneo uniforme a partir do qual se analisam os movimentos.</p>
+<p>d) Referencial é o corpo a partir do qual os fenômenos são analisados.</p>
+<p>e) O movimento e o repouso são absolutos e não dependem de um referencial.</p>
+</div>
+<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-01" style="display:none">
+<p>GABARITO: d</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>02. </b>
+                                Um professor de Física, durante uma de suas aulas, perguntou aos alunos:“Por que podemos dizer que estamos todos em movimento mesmo que sentados em nossas carteiras?”
+<p>Ao dar a resposta correta, um dos alunos disse:</p>
+<p>a) Porque o Sol sempre é o referencial adotado, uma vez que é o corpo mais massivo do sistema solar; então, estamos executando o movimento de translação com a Terra.</p>
+<p>b) Porque se adotarmos um referencial no espaço, como a Lua, a Terra estará em movimento e nós nos movimentamos com o planeta.</p>
+<p>c) Porque a Terra executa um movimento de translação ao redor de seu próprio eixo.</p>
+<p>d) Porque nada pode permanecer totalmente parado.</p>
+</div>
+<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-02" style="display:none">
+<p>GABARITO: b</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>03. </b>
+                                A respeito dos conceitos de movimento, repouso, trajetória e referencial, marque a alternativa correta.
+<p>a) A trajetória é o caminho feito por um corpo independentemente do referencial adotado.</p>
+<p>b) Movimento e repouso são conceitos relativos, pois dependem da trajetória adotada pelo móvel.</p>
+<p>c) O referencial é o corpo a partir do qual as observações dos fenômenos são feitas. O Sol é considerado um referencial privilegiado porque é o corpo mais massivo do sistema solar.</p>
+<p>d) A trajetória é o caminho executado por um móvel em relação a um referencial adotado.</p>
+<p>e) Mesmo que a Terra seja tomada como referencial, nunca poderemos dizer que os prédios e as demais construções estão em repouso.</p>
+</div>
+<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-03" style="display:none">
+<p>GABARITO: d</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>04. </b>
+                                Considere a seguinte situação: um ônibus movendo-se numa estrada e duas pessoas: Uma (A) sentada no ônibus e outra (B) parada na estrada, ambas observando uma lâmpada instalada no teto do ônibus. “A” diz: A lâmpada não se move em relação a mim, uma vez que a distância que nos separa permanece constante. “B” diz: A lâmpada está em movimento uma vez que ela está se afastando de mim.
+<p>a) “A” está errada e “B” está certa.</p>
+<p>b) “A” está certa e “B” está errada.</p>
+<p>c) Ambas estão erradas.</p>
+<p>d) Cada uma, dentro do seu ponto de observação, está certa.</p>
+</div>
+<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-04" style="display:none">
+<p>GABARITO: c</p>
+</div>
+<div class="row"></div>
+
+        </main>
+    </div>
+
+    <script>
+        function mostrar(botao, div) {
+            var el = document.getElementById(div);
+            var btn = document.getElementById(botao);
+            if (el.style.display === 'none' || el.style.display === '') {
+                el.style.display = 'block';
+                btn.textContent = 'Ocultar resposta';
+            } else {
+                el.style.display = 'none';
+                btn.textContent = 'Exibir resposta';
+            }
+        }
+    </script>
+</body>
+</html>

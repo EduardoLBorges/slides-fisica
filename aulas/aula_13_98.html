@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula13-98: Radiação de corpo negro · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Física Moderna</div>
+        <h1>Aula13-98: Radiação de corpo negro</h1>
+        <div class="aula-num">Aula 13-98</div>
+    </div>
+</section>
+<section>
+<h3>Corpo negro</h3>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>Um corpo negro é um objeto físico ideal que, quando observado, apenas emite luz gerada por si próprio. Isto é, ele não reflete luz de outras fontes; ele pode até absorver luz de fontes externas, mas toda a luz que ele emite é proveniente de mecanismos interiores ao objeto.</p>
+<p>As estrelas são objetos que geralmente se assemelham a um corpo negro.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-98/corponegro.png" style="width: 50%;"/></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Um pedaço de carvão incandescente também se assemelha a um corpo negro; pois boa parte das ondas eletromagnéticas que ele emite são geradas por ele mesmo. Ele também reflete um pouco de radiação do ambiente, o que acaba descaracterizando sua qualidade de corpo negro ideal.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-98/carvao.png" style="width: 50%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</section>
+<section>
+<h3>Espectro de emissão de um corpo negro: Um desafio para os cientistas</h3>
+<p>Como surgimento da espectroscopia, muitos cientistas começaram a estudar o espectro de emissão de radiação dos corpos negros e obtiveram resultados experimentais como o ilustrado a baixo.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>Observe que, na medida em que a temperatura do corpo é elevada, ele começa a emitir mais radiação e mais, especificamente, radiação de menor comprimento de onda.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-98/rad.gif" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Apartir deste momento, tendo em mãos o espectro de emissão de radiação de um corpo negro, o grande desafio da física passou a ser descrever este gráfico através de uma lei física.</p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Abordagem de Rayleigh-Jeans</h3>
+<p>John William Strutt, terceiro Barão de barão de Rayleigh (★ 1842 <strong>—</strong> 1919 ✝) e James Hopwood Jeans (★ 1877 <strong>—</strong> 1946 ✝) tentaram descrerver a emissão de radiação de corpo negro a partir de uma abordagem centrada unicamente em análise dimensional. Esta tentiva os conduzio para a fórmula de Rayleigh-Jeans:</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\bar{u}(\nu,&amp;space;T)=\frac{8.\pi.\nu^2.K.T}{c^3}"/></p>
+<p>Como é possível observar no gráfico ao lado, a lei funciona relativamente bem para descrever a densidade de emissão de radiação para baixas frequências, mas é falha para descrever a emissão para altas frequências. A fórmula sugere que a densidade de emissão destas frequências cresce infinitamente; o que claramente não se coaduna com as observações nem com a física, pois isto feriria a lei de conservação de energia. Esta inconsistência, apresentada pela lei de Rayleigh-Jeans, ficou conhecida como <em>catástrofe ultra-violeta</em></p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-98/rj.png" style="width: 80%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</section>
+<section>
+<h3>Abordagem de Wien</h3>
+<p>Wilhelm Wien (★ 1864 <strong>—</strong> 1928 ✝), a partir da equação de rayleigh-Jeans, também tentou extrair uma lei capaz de descrever a emissão de radiação do corpo negro. A equação a que ele chegou foi a seguinte:</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\bar{u}(\nu,&amp;space;T)=C.\frac{8.\pi.\nu^2.K.T}{c^3}.e^{\frac{h.\nu}{K.T}}"/></p>
+<p>Como é possível observar no gráfico ao lado, ao contrário da lei de Rayleigh-Jeanas, a lei de Wien funciona relativamente bem para descrever a densidade de emissão de radiação para altas frequências, mas é falha para descrever a emissão para baixas frequências. Assim como ocorre com a lei de Rayleigh-Jeans, esta fórmula sugere que a densidade de emissão destas frequências cresce infinitamente; o que claramente não se coaduna com as observações nem com a física, pois isto feriria a lei de conservação de energia.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-98/wien.png" style="width: 80%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>A Lei de Max Planck (1901)</h3>
+<p>O físico alemão Max Plank (★ 1858 <strong>—</strong> 1947 ✝) foi quem resolveu o problema. Tentando adaptar as leis de Rayleigh-Jeans e Wien, ele conseguiu conjugá-las e formular uma equação que descrevia muito bem todo o espectro de radiação.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\bar{u}(\nu,&amp;space;T)=\frac{8.\pi.h.\nu^3}{e^{\frac{h.\nu}{K.T}}-1}"/></p>
+<p>No entanto, esta formula, a princípio, apenas representava a descrição de um fenômeno físico de díficil explicação em termos da física clássica.</p>
+<p>Para dar um significado físico para a lei que obtivera, Planck propõe que a energia irradiada por um corpo negro pode assumir apenas valores discretos, podendo assumir os valores:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;E&amp;space;=&amp;space;n.h.\nu,&amp;space;\&amp;space;\&amp;space;n&amp;space;\in&amp;space;\mathbb{N}"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-98/planck.png" style="width: 80%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>Com este feito, Max Planck inicia uma revolação científica, fundando a física quântica; pois a partir de então passa-se a entender que a energia não pode assumir qualquer valor na natureza, como se imaginava, mas, sim, apenas valores múltiplos de uma quantidade fundamental. Dizemos então que a explicação deste misterioso fenônomeno nos revelou que a energia é quantizada.</p>
+<p> </p>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

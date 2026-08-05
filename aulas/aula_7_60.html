@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula7-60: Análise algébrica das lentes esféricas · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Óptica</div>
+        <h1>Aula7-60: Análise algébrica das lentes esféricas</h1>
+        <div class="aula-num">Aula 7-60</div>
+    </div>
+</section>
+<section>
+<h3>Equação de Gauss</h3>
+<p>No estudo de lentes, aplica-se, também, com a mesma convenção de sinais, a equação de gauss (estudada em aulas anteriores):</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\frac{1}{f}=\frac{1}{p}+\frac{1}{p'}"/></p>
+<p>É importante ressaltar que em se tratando de lentes, o foco será negativo para lentes convergentes e assumirá valor negativo para lentes divergentes</p>
+<p> </p>
+</section>
+<section>
+<h3>Aumento linear transversal</h3>
+<p>É um coeficiente que indica o tamanho da imagem gerada (conceito já estudado em aulas anteriores):</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;A&amp;space;=&amp;space;\frac{i}{o}&amp;space;=&amp;space;\frac{-p'}{p}"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Equação dos construtores de lentes (equação de Halley)</h3>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 30%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula7-60/const.png" style="width: 85%;"/></p>
+</td>
+<td>
+<p>Como aprendemos anteriormente, as lentes esféricas são formadas a partir da intersecção entre duas esferas. Assim sendo, o foco dependerá dos raios destas esferas, segundo a seguinte expressão:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\frac{1}{f}=(\frac{n_l}{n_m}-1)(\frac{1}{R_1}+\frac{1}{R_2})"/></p>
+<p>Em que:</p>
+<p>◦ <em>f</em> é o foco</p>
+<p>◦ <em>n<sub>l</sub> é o índice de refração da lente</em></p>
+<p>◦ <em>n<sub>m</sub> é o índice de refração do meio</em></p>
+<p>◦ <em>R<sub>1</sub> e R<sub>2</sub> são os raios das esferas que originam as lentes (R será positivo sempre que o círculo formar uma face côncava, se for convexa, ele assumirá um valor negativo)</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Vergência da lente (V)</h3>
+<p>É um coeficiente que indica a capacidade da lente em convergir ou divergir os raios:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;V&amp;space;=&amp;space;\frac{1}{f}"/></p>
+<p>A unidade de medida para a vergência é:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[V]&amp;space;=&amp;space;\frac{1}{m}=di&amp;space;(dioptrias)"/></p>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

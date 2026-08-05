@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula13-100: Raios X · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Física Moderna</div>
+        <h1>Aula13-100: Raios X</h1>
+        <div class="aula-num">Aula 13-100</div>
+    </div>
+</section>
+<section>
+<h3>A descoberta do raio <em>X</em></h3>
+<p>Em 1985, trabalhando em seu laboratório, o físico alemão Wilhelm Conrad Röntgen (★ 1845 <strong>—</strong> 1923 ✝) descobriu os raios <em>X</em> a partir de manipuções da ampola de Faraday-Crokes:</p>
+<p>A uma ampola com gás interior em rarefação eram conectados dois condutores que acoplavam-se a um gerador. Quando o gerador era colocado em atividade, um dos condutores ficava eletrizado negativamente (cátodo) e o outro ficava eletrizado positivamente (anôdo). Fazendo-se isto, passa a existir no equipamento, devido a DDP entre os condutores, a tendência de que os elétrons sejam ejetados do cátodo e rumem em direção ao anôdo. Esta tendência é potencializada quando um novo circuito é anexado ao equipamento. Este novo circuito é composto de um resistor ligado a um novo gerador. Este resistor é posicionado próximo ao cátodo. Quanto este novo gerador é acionado, o efeito Joule gera um aumento de temperatura no gerador, que transmite calor para o cátodo, fazendo com que a temperatura aumente nele; com o cátodo aquecido, a ejeção de elétrons é facilitada.</p>
+<p>Todo este aparato é regulado para que os elétrons sejam ejetados do cátodo e se encaminhem aceleradamente para o anôdo, de modo que o atinjam com uma velocidade de aproximadamente 10% da velocidade da luz no vácuo (<em>v ≅ 0.1c</em>). Ao colidirem com a placa do anôdo, Röntigen percebeu que raios eram emanados desta placa e, quando era colocada uma placa fotográfica no curso destes raios, ela era sensibilizada; percebeu também que muitos materiais eram transparentes a sua passagem, incluindo o corpo humano, excetuando-se os ossos. Röntigen chamou estes raios misteriosos de raios <em>X</em></p>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 45%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-100/ampola.png" style="width: 95%;"/></p>
+</td>
+<td style="vertical-align: super;">
+<h3>Explicação clássica</h3>
+<p>No contexto da física clássica, sabemos, deste os estudos produzidos por James Clerk Maxwell (★ 1831 <strong>—</strong> 1879 ✝) sobre eletromagnetismo, que cargas aceleradas produzem campos eletromagnéticos que se propagam pelo espaço. Deste modo, os elétrons que se chocavam com o anôdo produziam ondas eletromagnéticas. Este fenômeno, da geração de ondas por frenagem é chamado de <em>bremsstrahlung</em>. Como a desaceleração descrita acima é consideravelmente acentuada, as ondas eletromagnéticas geradas por ela eram razoavelmente energéticas e explicavam as características observadas por Röntigen.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+</section>
+<section>
+<div class="addend w70r">
+<h3>Cargas aceleradas geram ondas eletromagnéticas</h3>
+<p style="text-align: center;"><a href="https://www.compadre.org/osp/EJSS/4126/154.htm" rel="noopener" target="_blank"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-100/cargas.gif" style="width: 75%;"/></a></p>
+</div>
+<div style="clear: both;"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Problemas com a interpretação clássica</h3>
+<p>Como vimos, a física clássica parecia explicar bem o fenômeno da emissão dos raios <em>X</em>. Entretanto, ao se analisar o espectro de emissão desta radiação, constamos que a física clássica esbarra novamente em limitações, pois o gráfico de emissão obtido experimentalmente apresenta um espectro não previsto na análise clássica.</p>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 70%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula13-100/problem.png" style="width: 95%;"/></p>
+</td>
+<td style="vertical-align: super;">
+<p>O espectro identificado na natureza se assemelha ao espectro previsto classicamente. O que o difere das predições clássicas é a presença de picos de intensidade para determinadas frequências de ondas.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

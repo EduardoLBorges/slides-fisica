@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula12-97: Conversão massa-energia · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Termodinâmica</div>
+        <h1>Aula12-97: Conversão massa-energia</h1>
+        <div class="aula-num">Aula 12-97</div>
+    </div>
+</section>
+<section>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-97/massas.png" style="width: 80%;"/></p>
+<p> </p>
+</td>
+<td style="vertical-align: super;">
+<p>No instante (a), temos duas massas, <em>m<sub>1</sub></em> e <em>m<sub>2</sub></em>. Há um gancho móvel e uma mola fixada em <em>m<sub>1</sub></em>;</p>
+<br/>
+<p>No instante (b), as duas massas são acopladas por intermédio do gancho de <em>m<sub>1</sub></em>;</p>
+<br/>
+<p>No instante (c), o gancho é levantado e as molas são desacopladas e se afastam movendo-se com velocidades <em>v<sub>1</sub></em> e <em>v<sub>2</sub></em>.</p>
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>A energia em (b) será apenas a energia de repouso do sistema:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;E&amp;space;=&amp;space;M.c^2"/></p>
+<p> </p>
+<p>E a energia em (c) será a energia de repouso somada a energia cinética:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;E&amp;space;=&amp;space;m_1.c^2&amp;space;+&amp;space;m_2.c^2&amp;space;+&amp;space;K_1&amp;space;+&amp;space;K_2"/></p>
+<p> </p>
+<p>Pela lei da conservação de energia, podemos dizer que a energia em (b) é igual a energia em (c):</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;M.c^2&amp;space;=&amp;space;m_1.c^2&amp;space;+&amp;space;m_2.c^2&amp;space;+&amp;space;K_1&amp;space;+&amp;space;K_2"/></p>
+<p> </p>
+<p>Porque <em>K<sub>1</sub></em> e <em>K<sub>2</sub></em> são sempre números positivos, podemos afirmar então que:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;M.c^2&amp;space;&gt;&amp;space;m_1.c^2&amp;space;+&amp;space;m_2.c^2&amp;space;\&amp;space;\rightarrow&amp;space;\"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;M&amp;space;&gt;&amp;space;m_1&amp;space;+&amp;space;m_2"/></p>
+<p>Ou seja, de (b) para (c) parte da massa do sistema foi convertida em energia, de modo que a soma das massas individuais dos corpos em (c) é menor do que a massa (b).</p>
+<p> </p>
+<p>Esta energia cinética em (c) é igual a energia necessária (trabalho) para se formar o sistema em (b):</p>
+<p> </p>
+<p> </p>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

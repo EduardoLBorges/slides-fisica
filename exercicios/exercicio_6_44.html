@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de exercícios 6-44: Propagação de calor · WebFísica</title>
+    <meta name="description" content="Lista de exercícios: Lista de exercícios 6-44: Propagação de calor">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/exercicio.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="ex-page">
+        <header class="ex-header">
+            <div class="ex-badge">Exercícios</div>
+            <h1 class="ex-titulo">Lista de exercícios 6-44: Propagação de calor</h1>
+            <div class="ex-meta">
+                <span class="ex-cap-badge">Termologia</span>
+                <span class="ex-num">Lista 6-44</span>
+            </div>
+        </header>
+
+        <main class="ex-conteudo">
+            
+<div class="item-exercicio">
+<b>01. </b>
+                                Marque a alternativa correta a respeito dos processos de propagação de calor.
+<p>a) Os processos de propagação de calor por condução e convecção ocorrem em todos os tipos de meios.</p>
+<p>b) O processo de irradiação de calor ocorre somente no vácuo.</p>
+<p>c) A convecção é o processo de propagação de calor que proporciona o efeito das brisas marítimas.</p>
+<p>d) A condução térmica ocorre somente em líquidos.</p>
+<p>e) A irradiação é um processo de transferência de calor que ocorre por meio de ondas eletromagnéticas pertencentes ao espectro visível.</p>
+</div>
+<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-01" style="display:none">
+<p>GABARITO: c)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>02. </b>
+                                (Enem 2016) Num experimento, um professor deixa duas bandejas de mesma massa, uma de plástico e outra de alumínio, sobre a mesa do laboratório. Após algumas horas, ele pede aos alunos que avaliem a temperatura das duas bandejas, usando para isso o tato. Seus alunos afirmam, categoricamente, que a bandeja de alumínio encontra-se numa temperatura mais baixa. Intrigado, ele propõe uma segunda atividade, em que coloca um cubo de gelo sobre cada uma das bandejas, que estão em equilíbrio térmico com o ambiente, e os questiona em qual delas a taxa de derretimento do gelo será maior.
+<p>O aluno que responder corretamente ao questionamento do professor dirá que o derretimento ocorrerá</p>
+<p>a) mais rapidamente na bandeja de alumínio, pois ela tem uma maior condutividade térmica que a de plástico.</p>
+<p>b) mais rapidamente na bandeja de plástico, pois ela tem inicialmente uma temperatura mais alta que a de alumínio.</p>
+<p>c) mais rapidamente na bandeja de plástico, pois ela tem uma maior capacidade térmica que a de alumínio.</p>
+<p>d) mais rapidamente na bandeja de alumínio, pois ela tem um calor específico menor que a de plástico.</p>
+<p>e) com a mesma rapidez nas duas bandejas, pois apresentarão a mesma variação de temperatura.</p>
+</div>
+<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-02" style="display:none">
+<p>GABARITO: a)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>03. </b>
+                                (UFAL 85) Selecione a alternativa que supre as omissões das afirmações seguintes:
+<p>I - O calor do Sol chega até nós por _____________.</p>
+<p>II - Uma moeda bem polida fica ____________ quente do que uma moeda revestida de tinta preta, quando ambas são expostas ao sol.</p>
+<p>III - Numa barra metálica aquecida numa extremidade, a propagação do calor se dá para a outra extremidade por ___________.</p>
+<table class="opc">
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) radiação - menos - convecção.</p>
+<p>b) convecção - mais - radiação.</p>
+<p>c) radiação - menos - condução.</p>
+</td>
+<td>
+<p>d) convecção - mais - condução.</p>
+<p>e) condução - mais – radiação.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-03" style="display:none">
+<p>GABARITO: c)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>04. </b>
+                                (PUC-RS) No inverno, usamos roupas de lã baseados no fato de a lã:
+<table class="opc">
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) ser uma fonte de calor.</p>
+<p>b) ser um bom absorvente de calor.</p>
+<p>c) ser um bom condutor de calor.</p>
+</td>
+<td>
+<p>d) impedir que o calor do corpo se propague para o meio exterior.</p>
+<p>e) Nenhuma das alternativas.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-04" onclick="mostrar(this.id, 'div-04')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-04" style="display:none">
+<p>GABARITO: d)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>05. </b>
+                                Julgue as afirmações a seguir:
+<p>I – A transferência de calor de um corpo para outro ocorre em virtude da diferença de temperatura entre eles;</p>
+<p>II – A convecção térmica é um processo de propagação de calor que ocorre apenas nos sólidos;</p>
+<p>III – O processo de propagação de calor por irradiação não precisa de um meio material para ocorrer.</p>
+<p>Estão corretas:</p>
+<table class="opc">
+<th></th>
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) Apenas I.</p>
+<p>b) Apenas I e II.</p>
+</td>
+<td>
+<p>c) I, II e III.</p>
+<p>d) Apenas I e II.</p>
+</td>
+<td>
+<p>e) Apenas II e III.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-05" onclick="mostrar(this.id, 'div-05')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-05" style="display:none">
+<p>GABARITO: d)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>06. </b>
+                                Sobre os processos de propagação de calor, analise as alternativas a seguir e marque a incorreta:
+<p>a) a convecção é observada em líquidos e gases.</p>
+<p>b) a condução de calor pode ocorrer em meios materiais e no vácuo.</p>
+<p>c) o processo de propagação de calor por irradiação pode ocorrer sem a existência de meio material;</p>
+<p>d) o calor é uma forma de energia que pode se transferir de um corpo para outro em virtude da diferença de temperatura entre eles.</p>
+<p>e) O processo de convecção térmica consiste na movimentação de partes do fluido dentro do próprio fluido em razão da diferença de densidade entre as partes do fluido.</p>
+</div>
+<input class="exibir" id="botao-06" onclick="mostrar(this.id, 'div-06')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-06" style="display:none">
+<p>GABARITO: b)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>07. </b>
+                                (UFSCar) Um recipiente cilíndrico de vidro tem área da base relativamente pequena se comparada com sua altura. Ele contém água em temperatura ambiente até quase a sua borda e é colocado sobre a chama de um fogão, como ilustra a figura.
+<p>A transmissão do calor por meio das moléculas da água durante seu aquecimento ocorre apenas por</p>
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex7.png"/></p>
+<table class="opc">
+<th></th>
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) condução.</p>
+<p>b) convecção.</p>
+</td>
+<td>
+<p>c) irradiação.</p>
+<p>d) condução e convecção.</p>
+</td>
+<td>
+<p>e) convecção e irradiação.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-07" onclick="mostrar(this.id, 'div-07')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-07" style="display:none">
+<p>GABARITO: b)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>08. </b>
+                                (Enem PPL 2013) É comum nos referirmos a dias quentes como dias “de calor”. Muitas vezes ouvimos expressões como “hoje está calor” ou “hoje o calor está muito forte” quando a temperatura ambiente está alta.
+<p>No contexto científico, é correto o significado de “calor” usado nessas expressões?</p>
+<p>a) Sim, pois o calor de um corpo depende de sua temperatura.</p>
+<p>b) Sim, pois calor é sinônimo de alta temperatura.</p>
+<p>c) Não, pois calor é energia térmica em trânsito.</p>
+<p>d) Não, pois calor é a quantidade de energia térmica contida em um corpo.</p>
+<p>e) Não, pois o calor é diretamente proporcional à temperatura, mas são conceitos diferentes.</p>
+</div>
+<input class="exibir" id="botao-08" onclick="mostrar(this.id, 'div-08')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-08" style="display:none">
+<p>GABARITO: c)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>09. </b>
+                                (Acafe-SC) Preparar um bom churrasco é uma arte e, em todas as famílias, sempre existe um que se diz bom no preparo. Em algumas casas, a quantidade de carne assada é grande e se come no almoço e no jantar. Para manter as carnes aquecidas o dia todo, alguns utilizam uma caixa de isopor revestida de papel alumínio. A figura a seguir mostra, em corte lateral, uma caixa de isopor revestida de alumínio com carnes no seu interior.
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex9.png"/></p>
+<p>Considerando o exposto, assinale a alternativa correta que completa as lacunas das frases a seguir.
+A caixa de isopor funciona como recipiente adiabático. O isopor tenta ______ a troca de calor com o meio por ________ e o alumínio tenta impedir _________.</p>
+<table class="opc">
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) impedir - convecção - irradiação do calor</p>
+<p>b) facilitar - condução - convecção</p>
+</td>
+<td>
+<p>c) impedir - condução - irradiação do calor</p>
+<p>d) facilitar - convecção - condução</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-09" onclick="mostrar(this.id, 'div-09')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-09" style="display:none">
+<p>GABARITO: c)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>10. </b>
+                                (Enem PPL 2013)
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex10.png"/></p>
+<p>Quais são os processos de propagação de calor relacionados à fala de cada personagem?</p>
+<table class="opc">
+<th></th>
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) Convecção e condução.</p>
+<p>b) Convecção e irradiação.</p>
+</td>
+<td>
+<p>c) Condução e convecção.</p>
+<p>d) Irradiação e convecção.</p>
+</td>
+<td>
+<p>e) Irradiação e condução.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-10" onclick="mostrar(this.id, 'div-10')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-10" style="display:none">
+<p>GABARITO: e)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>11. </b>
+                                (UFSM) Em 2009, foi construído na Bolívia um hotel com a seguinte peculiaridade: todas as suas paredes são formadas por blocos de sal cristalino. Uma das características físicas desse material é sua condutividade térmica relativamente baixa, igual a 6 W/(m.°C). A figura a seguir mostra como a temperatura varia através da parede do prédio.
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex11.png"/></p>
+<p>Qual é o valor, em W/m2, do módulo do fluxo de calor por unidade de área que atravessa a parede?</p>
+<table class="opc">
+<th></th>
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) 125.</p>
+<p>b) 800.</p>
+</td>
+<td>
+<p>c) 1200.</p>
+<p>d) 2400.</p>
+</td>
+<td>
+<p>e) 3000.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-11" onclick="mostrar(this.id, 'div-11')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-11" style="display:none">
+<a class="light">
+<img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/r11.png"/>
+</a>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>12. </b>
+                                (UNICAMP) Um isolamento térmico eficiente é um constante desafio a ser superado para que o homem possa viver em condições extremas de temperatura. Para isso, o entendimento completo dos mecanismos de troca de calor é imprescindível. Em cada uma das situações descritas a seguir, você deve reconhecer o processo de troca de calor envolvido.
+<p>I. As prateleiras de uma geladeira doméstica são grades vazadas, para facilitar fluxo de energia térmica até o congelador por […]</p>
+<p>II. O único processo de troca de calor que pode ocorrer no vácuo é por […].</p>
+<p>II. Em uma garrafa térmica, é mantido vácuo entre as paredes duplas de vidro para evitar que o calor saia ou entre por [….].</p>
+<p>Na ordem, os processos de troca de calor utilizados para preencher as lacunas corretamente são:</p>
+<table class="opc">
+<th></th>
+<th></th>
+<tr>
+<td>
+<p>a) Condução, convecção e radiação.</p>
+<p>b) Condução, radiação e convecção.</p>
+</td>
+<td>
+<p>c) Convecção, condução e radiação.</p>
+<p>d) Convecção, radiação e condução.</p>
+</td>
+</tr>
+</table>
+</div>
+<input class="exibir" id="botao-12" onclick="mostrar(this.id, 'div-12')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-12" style="display:none">
+<p>GABARITO: d)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>13. </b>
+                                (EXAME NACIONAL 2012) Qualquer que seja a temperatura a que se encontre, um corpo emite sempre radiação eletromagnética, devido aos movimentos de agitação térmica das partículas que o constituem.
+<p>O espectro da radiação térmica emitida por um corpo é um espectro contínuo em que o comprimento de onda da radiação de máxima intensidade emitida depende da temperatura a que o corpo se encontra: à medida que a temperatura, T, do corpo aumenta, o comprimento de onda ao qual ocorre a emissão de radiação de máxima intensidade, λ máxima , diminui proporcionalmente.</p>
+<p>A taxa temporal de emissão de energia de um corpo, sob a forma de radiação térmica, a partir da sua superfície, é proporcional à quarta potência da temperatura absoluta da superfície do corpo, dependendo também da sua área superficial e de uma constante chamada emissividade.</p>
+<p>Ao mesmo tempo que emite, um corpo também absorve radiação eletromagnética da sua vizinhança.</p>
+<p>Quando um corpo está em equilíbrio com a sua vizinhança, emite e absorve energia, como radiação, à mesma taxa temporal.</p>
+<div class="cit"><p>R. A. Serway, J. W. Jewett, Jr., Princípios de Física, vol. II,
+Pioneira Thomson Learning, 2004 (adaptado)</p></div>
+<br/>
+<p><b>13.1. </b> A Figura 1 apresenta uma parte do gráfico da intensidade da radiação
+emitida por um corpo, a uma determinada temperatura, em função do comprimento de onda.</p>
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex13.png" style="width:60%"/></p>
+<p>À temperatura considerada, o corpo emite</p>
+<p>(A) apenas radiação visível.</p>
+<p>(B) radiação de máxima intensidade no visível.</p>
+<p>(C) apenas radiação ultravioleta.</p>
+<p>(D) radiação de máxima intensidade no ultravioleta.</p>
+<br/>
+<div class="row50"></div>
+<br/>
+<p><b>13.2.</b> Traduza por uma expressão matemática a lei enunciada no final do segundo
+parágrafo do texto.</p>
+<br/>
+<div class="row50"></div>
+<br/>
+<p><b>13.3.</b> Qual é a unidade do Sistema Internacional em que se exprime a taxa temporal de emissão de energia de um corpo?</p>
+<br/>
+<div class="row50"></div>
+<br/>
+<p><b>13.4.</b> Se a temperatura absoluta da superfície de um corpo aumentar duas vezes, a taxa temporal de emissão de energia do corpo, sob a forma de radiação térmica, a partir da sua superfície, aumentará</p>
+<p>(A) duas vezes.</p>
+<p>(B) quatro vezes.</p>
+<p>(C) oito vezes.</p>
+<p>(D) dezasseis vezes.</p>
+<br/>
+<div class="row50"></div>
+<br/>
+<p><b>13.5.</b> A Terra emite e absorve radiação a uma taxa temporal __________, pelo
+que a temperatura média da sua superfície __________.</p>
+<p>(A) igual ... varia</p>
+<p>(B) diferente ... varia</p>
+<p>(C) igual ... não varia</p>
+<p>(D) diferente ... não varia</p>
+</div>
+<input class="exibir" id="botao-13" onclick="mostrar(this.id, 'div-13')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-13" style="display:none">
+<p>13.1. (D)</p>
+<br/>
+<br/>
+<p>13.2. λ = K/T</p>
+<br/>
+<br/>
+<p>13.3. W (watt), no SI</p>
+<br/>
+<br/>
+<p>13.4. (D)</p>
+<br/>
+<br/>
+<p>13.5. (C)</p>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>14. </b>
+                                (EXAME NACIONAL 2010) Os astronautas da missão Apollo 15 implantaram sensores que permitiram medir, num dado local, os valores de condutividade térmica da camada mais superficial da Lua (camada A) e de uma camada mais profunda (camada B).
+<p>Esses valores encontram-se registados na tabela seguinte.</p>
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex14.png" style="width:70%"/></p>
+<p>Comparando porções das camadas A e B, de igual área e submetidas à mesma diferença de temperatura, mas, sendo a espessura da camada B dupla da espessura da camada A, é de prever que a taxa temporal de transmissão de energia como calor seja cerca de...</p>
+<p>(A) 2 vezes superior na camada B.</p>
+<p>(B) 4 vezes superior na camada B.</p>
+<p>(C) 8 vezes superior na camada B.</p>
+<p>(D) 16 vezes superior na camada B.</p>
+</div>
+<input class="exibir" id="botao-14" onclick="mostrar(this.id, 'div-14')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-14" style="display:none">
+<a class="light">
+<img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/r14.png"/>
+</a>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>15. </b>
+                                (EXAME NACIONAL 2009) A placa de cobre, maciça e homogénea, de espessura l, representada na figura 3, permite a dissipação de energia de uma fonte quente (placa metálica X), mantida a uma temperatura constante, Τ X , para uma fonte fria (placa metálica Y), mantida a uma temperatura constante, Τ Y.
+<p class="img_row"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios6-44/ex15.png" style="width:40%"/></p>
+<p><b>15.1. </b> Identifique o mecanismo de transferência de energia como calor entre as placas X e Y, através da placa de cobre.</p>
+<br/>
+<p><b>15.2. </b> Identifique a propriedade física que permite distinguir bons e maus condutores de calor.</p>
+<br/>
+<p><b>15.3. </b> Selecione a única alternativa que permite obter uma afirmação correta.</p>
+<p>Se a placa de cobre for substituída por outra, idêntica, mas com metade da espessura, a energia transferida por unidade de tempo, entre as placas X e Y,</p>
+<p>(A) reduz-se a 1/2.</p>
+<p>(B) quadruplica.</p>
+<p>(C) duplica.</p>
+<p>(D) Reduz-se a 1/4.</p>
+<br/>
+<p><b>15.4. </b> Selecione a única alternativa que contém os termos que preenchem, sequencialmente, os espaços seguintes, de modo a obter uma afirmação correta.</p>
+<p>A placa X encontra-se a uma temperatura _____ à temperatura da placa Y, sendo o comprimento de onda da radiação mais intensa emitida pela placa X _____ do que o comprimento de onda da radiação mais intensa emitida pela placa Y.</p>
+<p>(A) superior ... maior</p>
+<p>(B) inferior ... menor</p>
+<p>(C) superior ... menor</p>
+<p>(D) inferior ... maior</p>
+</div>
+<input class="exibir" id="botao-15" onclick="mostrar(this.id, 'div-15')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-15" style="display:none">
+<p>15.1. Condução.</p>
+<br/>
+<p>15.2. Condutividade térmica.</p>
+<br/>
+<p>15.3. duplica.</p>
+<br/>
+<p>15.4. (C)</p>
+</div>
+<div class="row"></div>
+
+        </main>
+    </div>
+
+    <script>
+        function mostrar(botao, div) {
+            var el = document.getElementById(div);
+            var btn = document.getElementById(botao);
+            if (el.style.display === 'none' || el.style.display === '') {
+                el.style.display = 'block';
+                btn.textContent = 'Ocultar resposta';
+            } else {
+                el.style.display = 'none';
+                btn.textContent = 'Exibir resposta';
+            }
+        }
+    </script>
+</body>
+</html>

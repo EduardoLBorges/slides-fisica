@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula12-93: Transformadas de Lorentz · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Termodinâmica</div>
+        <h1>Aula12-93: Transformadas de Lorentz</h1>
+        <div class="aula-num">Aula 12-93</div>
+    </div>
+</section>
+<section>
+<h3>Transformadas de Lorentz (Abordagem de Lorentz)</h3>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>Tão logo que surgiu as equações de maxwell, os cientistas perceberam que a aplicação das transformadas de Galileu para descrever o compotamento de ondas eletromagnéticas em outros referenciais apresentava graves problemas do ponto de vista físico.</p>
+<p>Na intenção de romper com as contradições da física de seu tempo, Um cientista holândes, Hendrik Lorentz (★ 1853 <strong>—</strong> 1928 ✝), tentou curar as transformadas de Galileu sugerindo haver um fator de correção <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\gamma"/> capaz de corrigí-las:</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/hendrik.jpg" style="width: 40%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>➔ TRANSFORMADAS DE GALILEU</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 45%;"> </th>
+<th style="width: 27%;"> </th>
+<th style="width: 27%;"> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/def2.png" style="width: 95%;"/></p>
+</td>
+<td>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;x'&amp;space;=&amp;space;x&amp;space;-&amp;space;v.t"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;y'&amp;space;=&amp;space;y"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;z'&amp;space;=&amp;space;z"/></p>
+</td>
+<td>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;x&amp;space;=&amp;space;x'&amp;space;+&amp;space;v.t"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;y&amp;space;=&amp;space;y'"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;z&amp;space;=&amp;space;z'"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/><br/></p>
+<p>➔ TENTATIVA DE CORREÇÃO</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 45%;"> </th>
+<th style="width: 27%;"> </th>
+<th style="width: 27%;"> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p style="padding-right: 10%;">Observe que agora diferenciaremos as notações para os tempos marcados em diferentes referenciais, pois nada nos garante que os tempos passem igualmente em ambos.</p>
+<p> </p>
+<p> </p>
+</td>
+<td>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;x'=&amp;space;\gamma(x-v.t)"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;y'&amp;space;=&amp;space;y"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;z'&amp;space;=&amp;space;z"/></p>
+</td>
+<td>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;x=&amp;space;\gamma(x'+v.t')"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;y&amp;space;=&amp;space;y'"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;z&amp;space;=&amp;space;z'"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>Substituindo <em>x'</em> na quação de <em>x</em>, teremos:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;x&amp;space;=&amp;space;\gamma.[\gamma.(x-v.t)+v.t']&amp;space;\&amp;space;\rightarrow&amp;space;\"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;t'=\gamma.t+(\frac{1-\gamma^2}{\gamma.v}).x"/></p>
+<p>Note que <em>t</em> e <em>t'</em>, sengundo a correção proposta, agora já não mais se equivalem, e que dependem do espaço.</p>
+<p> </p>
+<p>Reesecrevendo o que obtivemos até aqui:</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 45%;"> </th>
+<th style="width: 27%;"> </th>
+<th style="width: 27%;"> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p style="padding-right: 10%;"> </p>
+<p> </p>
+<p> </p>
+</td>
+<td>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;x'&amp;space;=&amp;space;\gamma.(x-v.t)"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;y'&amp;space;=&amp;space;y"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;z'&amp;space;=&amp;space;z"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;t'=\gamma.t+(\frac{1-\gamma^2}{\gamma.v}).x"/></p>
+</td>
+<td style="vertical-align: super;">
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;x&amp;space;=&amp;space;\gamma.(x'+v.t')"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;y&amp;space;=&amp;space;y'"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;z&amp;space;=&amp;space;z'"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Para encontrarmos o valor do fator de correção, admitiremos como premissa que a velocidade da luz é contante igual a <em>c</em>. Ou seja, a velocidade da luz é a mesma para os dois referenciais.</p>
+<p> </p>
+<p>Imaginemos agora que um feixe de luz foi disparado em um dos referenciais, em <em>t = 0</em>, então:</p>
+<p> </p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(S)&amp;space;\rightarrow&amp;space;x&amp;space;=&amp;space;c.t&amp;space;"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(S')&amp;space;\rightarrow&amp;space;x'&amp;space;=&amp;space;c.t'"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;\gamma.(x-v.t)=c.[\gamma.t+(\frac{1-\gamma^2}{\gamma.v}).x]"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;x=c.t.\left&amp;space;[\frac{\gamma+\frac{v}{c}.\gamma}{\gamma-\frac{(1-\gamma^2)}{\gamma.v}.c}&amp;space;\right&amp;space;]"/></p>
+<p>Observe que o termo entre colchetes deve valer 1:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\left&amp;space;[\frac{\gamma+\frac{v}{c}.\gamma}{\gamma-\frac{(1-\gamma^2)}{\gamma.v}.c}&amp;space;\right&amp;space;]=1&amp;space;\&amp;space;\rightarrow&amp;space;\"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\gamma=\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}"/></p>
+<p>Em posse agora do valor de correção, temos as transformadas de Lorentz:</p>
+<table class="transformation">
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td class="col1">
+<h3>TRANSFORMAÇÃO <em> de S em S'</em></h3>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;x'=&amp;space;\frac{x-v.t}{\sqrt{1-\frac{v^2}{c^2}}}&amp;space;=\gamma(x-v.t)"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;y'&amp;space;=&amp;space;y"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;z'&amp;space;=&amp;space;z"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;t'=\frac{t-\frac{v.x}{c^2}}{\sqrt{1-\frac{c^2}{v^2}}}&amp;space;=&amp;space;\gamma.\left&amp;space;(&amp;space;t-\frac{v.x}{c^2}&amp;space;\right&amp;space;)"/></p>
+</td>
+<td class="col2">
+<h3>TRANSFORMAÇÃO <em> de S' em S</em></h3>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;x=&amp;space;\frac{x'+v.t'}{\sqrt{1-\frac{v^2}{c^2}}}&amp;space;=\gamma(x'+v.t')"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;y&amp;space;=&amp;space;y'"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;z&amp;space;=&amp;space;z'"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;t=\frac{t'+\frac{v.x'}{c^2}}{\sqrt{1-\frac{c^2}{v^2}}}&amp;space;=&amp;space;\gamma.\left&amp;space;(&amp;space;t'+\frac{v.x'}{c^2}&amp;space;\right&amp;space;)"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Transformadas de Lorentz (Abordagem de Einstein)</h3>
+<p>Os postulados da relatividade são:</p>
+<p class="formula_imp"><em> 1. As leis da física são as mesmas para quaisquer referenciais; não existe referencial privilegiado.<br/>2. A velocidade da luz no vácuo tem o mesmo valor para todos os referenciais. </em></p>
+<p> </p>
+<table>
+<tbody>
+<tr>
+<th style="width: 42%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p>Imagine a seguinte situação: Dentro de um automóvel existe um relógio de luz, o seu funcionamento consiste em disparar do chão do veículo um pulso de luz que, ao ser disparado em direção ao teto, encontra lá um espelho que o reflete, fazendo-o retornar ao ponto de disparo onde ele é capturado novamente. O tempo marcado por este relógio corresponde ao tempo necerrário para que este processo seja executado.</p>
+<p>Dentro do veículo temos um observador, que chamaremos de B. Junto a superficie terrestre, observando o automóvel que se move, temos o observador A.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/im1.png" style="width: 60%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>TEMPO DECORRIDO PARA O EVENTO SEGUNDO O OBSERVADOR "B"</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 15%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;t_B=\frac{2.h}{c}"/></p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/obb.png" style="width: 45%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>TEMPO DECORRIDO PARA O EVENTO SEGUNDO O OBSERVADOR "A"</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/oba.png" style="width: 70%;"/></p>
+<p>Analizando o triângulo retângulo e aplicando pitágoras, obteremos:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;t_A=\frac{2.h}{c}.\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}=\frac{2.h}{c}.\frac{1}{\sqrt{1-\beta^2}}"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;t_A=t_B.\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Tempo próprio (<em>t<sub>0</sub></em>)</h3>
+<p>Chamamos de tempo próprio o tempo medido no referêncial em que os eventos que demarcam o intervalo de tempo acontencem no mesmo local.</p>
+<p>O tempo próprio sempre será menor ou igual ao tempo não próprio:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\Delta&amp;space;t=&amp;space;\gamma.&amp;space;\Delta&amp;space;t_o" title="\huge \Delta t= \gamma. \Delta t_o"/></p>
+<p> </p>
+<p>Ex.:</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>1) Um ciclo do relógio de luz é demarcado por dois eventos: a emissão do raio luminoso e a recepção deste raio. Observe que no exemplo ao lado, ambos os eventos, tanto a emissão quanto a recepção do raio, acontecem no mesmo local para o observador que está no interior do veículo. Com efeito, o tempo marcado por ele é o tempo próprio. E este tempo será necessariamente menor ou igual (caso o veículo esteja em repouso com respeito ao observador de fora) ao tempo marcado pelo observador de fora.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/tempo1.png" style="width: 90%;"/></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: super;">
+<p>2) Uma nave espacial viaja do planeta Terra até Urano. O tempo de viagem é demarcado por dois eventos: Nave sobre a terra e nave sobre Urano. Observem que estes dois eventos se dão no mesmo lugar no referêncial preso a nave viajante, logo o tempo medido na nave é o tempo próprio.</p>
+</td>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/tempo2.png" style="width: 90%;"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Contração de Lorentz</h3>
+<p>Medir comprimentos pressupões que realizemos duas medidas simultaneamente. No entanto, as transformadas de Lorentz dizem que um evento simultâneo em um referêncial pode não ser simultâneo em outro. Para contornar tal situação, mediremos, em cada referêncial, o tempo que o objeto medido demora para passar diante de um determinado ponto. Sabendo-se este tempo e a velocidade entre os referenciais, teremos a medida desejada.</p>
+<p> </p>
+<p>Extraíremos a fórmula que nos permite calcular a medida a partir do exemplo a seguir. O objetivo é calcular o comprimento da nave espacial.</p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/contracao1.png" style="width: 80%;"/></p>
+<p>Perceba que o comprimento marcado em <em>S</em> é dado por:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;L=V.\Delta&amp;space;t"/></p>
+<p>E por analogia podemos medir o comprimento em <em>S'</em> através de:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;L'=V.\Delta&amp;space;t'"/></p>
+<p>Sabemos que próprio é o tempo medido em <em>S</em>.</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\Delta&amp;space;t&amp;space;=&amp;space;\Delta&amp;space;t_0&amp;space;&lt;&amp;space;\Delta&amp;space;t'"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\&amp;space;\Delta&amp;space;t&amp;space;=&amp;space;\frac{\Delta&amp;space;t'}{\gamma}"/></p>
+<p>Misturando estas equações, chegaremos na fórmula da contração de Lorentz:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;L&amp;space;=&amp;space;\frac{L_0}{\gamma}"/></p>
+<p> </p>
+</section>
+<section>
+<div class="addend w70r">
+<h3>Comprimento próprio (<em>L<sub>0</sub></em>).</h3>
+<p>O comprimento próprio de um objeto é o comprimento tomado no referencial em este objeto encontra-se estático.</p>
+<p> </p>
+</div>
+<div style="clear: both;"> </div>
+<p><br/><br/></p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Intervalo espaço-temporal (<em>S<sup>2</sup></em>)</h3>
+<p>O intervalo espaço temporal é um quantidade que permanece constante de um referêncial para outro. Para obtermos a relação, analisaremos o seguinte experimento:</p>
+<p> </p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula12-93/teste.png" style="width: 95%;"/></p>
+<p>Se escrevermos o teorema de pitágoras para os dois triângulos retângulos destacados, poderemos unir as expressões por intermédio da altura, que é a mesma nos dois casos. Assim, obteremos:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(c.\Delta&amp;space;t')^2&amp;space;-&amp;space;(v'.\Delta&amp;space;t')^2=(c.\Delta&amp;space;t'')^2&amp;space;-&amp;space;(v''.\Delta&amp;space;t'')^2"/></p>
+<p>Assim, concluimos que o invariante relativístico é:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(c.\Delta&amp;space;t)^2&amp;space;-&amp;space;(v.\Delta&amp;space;t)^2&amp;space;=&amp;space;constante"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;S^2=(c.\Delta&amp;space;t)^2&amp;space;-&amp;space;(\Delta&amp;space;x)^2&amp;space;=&amp;space;constante"/></p>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

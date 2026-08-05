@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de exercícios 4-31: Centro de massa e centro de gravidade · WebFísica</title>
+    <meta name="description" content="Lista de exercícios: Lista de exercícios 4-31: Centro de massa e centro de gravidade">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/exercicio.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="ex-page">
+        <header class="ex-header">
+            <div class="ex-badge">Exercícios</div>
+            <h1 class="ex-titulo">Lista de exercícios 4-31: Centro de massa e centro de gravidade</h1>
+            <div class="ex-meta">
+                <span class="ex-cap-badge">Estática</span>
+                <span class="ex-num">Lista 4-31</span>
+            </div>
+        </header>
+
+        <main class="ex-conteudo">
+            
+<div class="item-exercicio">
+<b>01. </b>
+                                (Enem 2012) O mecanismo que permite articular uma porta (de um móvel ou de acesso) é a dobradiça. Normalmente, são necessárias duas ou mais dobradiças para que a porta seja fixada no móvel ou no portal, permanecendo em equilíbrio e podendo ser articulada com facilidade. No plano, o diagrama vetorial das forças que as dobradiças exercem na porta está representado em:
+<p style="text-align: center"><img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/ex1.png"/></p>
+</div>
+<input class="exibir" id="botao-01" onclick="mostrar(this.id, 'div-01')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-01" style="display:none">
+<a class="light">
+<img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/r1.png"/>
+</a>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>02. </b>
+                                (UNIFESP) A Massa da Terra é aproximadamente 80 vezes a massa da Lua e a distância entre os centros de massa desses astros é aproximadamente 60 vezes o raio da Terra. A respeito do sistema Terra-Lua pode-se afirmar que
+<p>a) a Lua gira em torno da Terra com órbita elíptica e em um dos focos dessa órbita está o centro de massa da Terra.</p>
+<p>b) a Lua gira em torno da Terra com órbita circular e o centro de massa da Terra está no centro dessa órbita.</p>
+<p>c) a Terra e a Lua giram em torno de um ponto comum, o centro de massa do sistema Terra-Lua, localizado no interior da Terra.</p>
+<p>d) a Terra e a Lua giram em torno de um ponto comum, o centro de massa do sistema Terra=Lua,, localizado no meio da distância entre os centros de massa da Terra e da Lua.</p>
+<p>e) a Terra e a Lua giram em torno de um ponto comum, o centro de massa do sistema Terra-Lua, localizado no interior da Lua.</p>
+</div>
+<input class="exibir" id="botao-02" onclick="mostrar(this.id, 'div-02')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-02" style="display:none">
+<a class="light">
+<img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/r2.png"/>
+</a>
+</div>
+<div class="row"></div>
+<div class="item-exercicio">
+<b>03. </b>
+                                O centro de gravidade de um corpo é o ponto em que o peso total do corpo se concentra. Considere uma porca de metal, marque a alternativa que corresponde ao seu centro de gravidade.
+<p>a) No centro do furo.</p>
+<p>b) Na lateral da porca.</p>
+<p>c) Na parte superior da porca.</p>
+<p>d) Na parte inferior da porca.</p>
+<p>e) Na borda interna da porca.</p>
+</div>
+<input class="exibir" id="botao-03" onclick="mostrar(this.id, 'div-03')" type="button" value="Exibir resposta"/>
+<div class="questao" id="div-03" style="display:none">
+<a class="light">
+<img src="https://webfisica.com/imagens-fisica/exercicios/exercicios4-31/r3.png"/>
+</a>
+</div>
+<div class="row"></div>
+
+        </main>
+    </div>
+
+    <script>
+        function mostrar(botao, div) {
+            var el = document.getElementById(div);
+            var btn = document.getElementById(botao);
+            if (el.style.display === 'none' || el.style.display === '') {
+                el.style.display = 'block';
+                btn.textContent = 'Ocultar resposta';
+            } else {
+                el.style.display = 'none';
+                btn.textContent = 'Exibir resposta';
+            }
+        }
+    </script>
+</body>
+</html>

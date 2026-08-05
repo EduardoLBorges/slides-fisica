@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula2-25: Colisões · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Dinâmica</div>
+        <h1>Aula2-25: Colisões</h1>
+        <div class="aula-num">Aula 2-25</div>
+    </div>
+</section>
+<section>
+<p>Colisões são interações entre dois ou mais corpos em que, geralmente, há a atuação de grandes forças em curtos intervalos de tempo. As colisões, por vezes, também são chamadas de choques mecânicos.</p>
+<p>Podemos dividir uma colisão em estágios, correspondentes ao período anterior, durante e depois da colisão. Neste processo, é importante ressaltar que o momentum linear sempre se conservará, isto é, o momentum linear antes, durante e depois da colisão permanece o mesmo. Diferentemente do que ocorre com o momentum, a enercia cinética poderá ou não se conservar: caso ela se conserve, temos um caso de <em>colisão perfeitamente elástica</em>; se a energia cinética se conservar parcialmente, então teremos um caso de <em>colisão parcialmente elástica</em>; caso a energia se perca totalmente, indo a zero, então teremos um caso de <em>colisão inelástica</em>.</p>
+<p> </p>
+<p>➔ COEFICIENTE DE RESTITUIÇÃO</p>
+<p>Trata-se de um valor obtido a partir da razão entre os módulos da velocidade relativa de aproximação dos corpos (antes do choque) e da velocidade relativa de afastamento dos corpos. Este coeficiente, indiretamente, é indicador da quantidade de energia cinética que se conservará nesta colisão. Ele estará entre 0 e 1; quanto mais próximo estiver de 1, maior será a energia cinética conservada no sistema.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 60%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-25/elastica1.png" style="width: 95%;"/></p>
+</td>
+<td>
+<p>Observe que como para haver colisão é preciso que a velocidade de "a" seja superior de a "b", então a velocidade relativa de aproximação será dada por:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v_a_p=v_a_0&amp;space;-v_b_0"/></p>
+<p>Por argumento análogo, calculamos a velocidade relativa de afastamento através da expressão:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v_a_f=v_a&amp;space;-v_b"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;e&amp;space;=&amp;space;\frac{|v_a_f|}{|v_a_p|}=\frac{|v_b&amp;space;-&amp;space;v_a|}{|v_a_0&amp;space;-&amp;space;v_b_0|}"/></p>
+<p> </p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Colisões perfeitamente elásticas</h3>
+<p>Neste tipo de colisão, por um instante, no momento em que os corpos se tocarem, eles aglutinar-se-ão transformando parte da energia cinética envolvida no sistema em energia potencial e, em seguida, esta energia potencial será totalmente restuida aos corpos, conservando, então, a energia cinética antes e depois do choque.</p>
+<p> </p>
+<p>➔ COEFICIENTE DE RESTITUIÇÃO PARA COLISÕES PERFEITAMENTE ELÁSTICAS</p>
+<p>Sempre que estivermos diante de uma colisão perfeitamente elástica, o coeficiente de restituição valerá:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;e&amp;space;=&amp;space;\frac{|v_a_f|}{|v_a_p|}=1"/></p>
+<p> </p>
+<p>➔ EQUAÇÃO DAS VELOCIDADES FINAIS PARA COLISÕES ELÁSTICAS</p>
+<div class="desktop">
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v_a&amp;space;=&amp;space;(\frac{m_a-m_b}{m_a_+m_b}).v_a_0+(\frac{2.m_b}{m_a+m_b}).v_b_0"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v_b&amp;space;=&amp;space;(\frac{2.m_a}{m_a+m_b}).v_a_0+(\frac{m_b-m_a}{m_a+m_b}).v_b_0"/></p>
+</div>
+<div class="mobile">
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v_a&amp;space;=&amp;space;(\frac{m_a-m_b}{m_a_+m_b}).v_a_0+(\frac{2.m_b}{m_a+m_b}).v_b_0"/></p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v_b&amp;space;=&amp;space;(\frac{2.m_a}{m_a+m_b}).v_a_0+(\frac{m_b-m_a}{m_a+m_b}).v_b_0"/></p>
+</div>
+<p><br/><br/></p>
+<div class="demo">
+<p style="text-align: center;">MEDIDA DO COEFICIENTE DE RESTITUIÇÃO - COLISÕES ELÁSTICAS: DEMONSTRAÇÃO</p>
+<br/>
+<p>Considerando que o momentum linear se conserva, podemos escrever:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;Q_0&amp;space;=&amp;space;Q&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;m_a.v_a_0+m_b.v_b_0"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;=m_a.v_a+m_b.v_b"/> eq.(1)</p>
+<p>Reescrevendo a equação:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.(v_a_0-v_a)=m_b.(v_b-v_b_0)"/>, eq. (2)</p>
+<br/>
+<p>Considerando agora que energia cinética também se conserva, podemos escrever:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;K_0&amp;space;=&amp;space;K&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;\frac{1}{2}.(m_a.v_a_0^2&amp;space;+m_b.v_b_0^2)"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;=&amp;space;\frac{1}{2}.(m_a.v_a^2+m_b.v_b^2)"/></p>
+<p>Reescrevendo a equação:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.(v_a_0^2&amp;space;-&amp;space;v_a^2)=m_b.(v_b^2-v_b_0^2)&amp;space;\&amp;space;\rightarrow&amp;space;\"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.(v_a_0&amp;space;-&amp;space;v_a).(v_a_0&amp;space;+v_a)"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;=&amp;space;m_b.(v_b&amp;space;-&amp;space;v_b_0).(v_b&amp;space;+&amp;space;v_b_0)"/>, eq. (3)</p>
+<br/>
+<p>Para finalmente obtermos uma expressão que relacione as velocidades iniciais com as finais, dividimos a equação 3 pela 2:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{eq.&amp;space;(3)}{eq.(2)}&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;v_a_0+v_a=v_b+v_b_0&amp;space;\&amp;space;\rightarrow&amp;space;\"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v_a_0&amp;space;-&amp;space;v_b_0&amp;space;=&amp;space;v_b&amp;space;-v_a"/>, eq. (4)</p>
+<p>Perceba que a equação (3) nos revela que o valor das velocidades relativas antes e depois da colisão se preservam, o que faz sentido, já que a energia cinética do sistema é constante.</p>
+<br/>
+<div class="row-deg"> </div>
+<br/>
+<p style="text-align: center;">FORMULA DAS VELOCIDADES FINAIS - COLISÕES ELÁSTICAS: DEMONSTRAÇÃO</p>
+<br/>
+<p>eq. (1): <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.v_a_0+m_b.v_b_0=m_a.v_a+m_b.v_b&amp;space;\"/></p>
+<p>eq. (4): <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v_a_0-v_b_0=v_b-v_a&amp;space;\&amp;space;\rightarrow&amp;space;\"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v_b=v_a_0+v_a-v_b_0" title="\huge v_b=v_a_0+v_a-v_b_0"/></p>
+<p>Agora substituimos a equação obtida a partir da 4 na equação 1:</p>
+<p style="text-align: left;"><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.v_a_0+m_b.v_b_0="/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.v_a+m_b.(v_a_0+v_a-v_b_0)&amp;space;\&amp;space;\rightarrow&amp;space;\" title="\huge m_a.v_a+m_b.(v_a_0+v_a-v_b_0) \ \rightarrow \"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(m_a-m_b).v_a_0+2.m_b.v_b_0="/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;(m_a+m_b).v_a&amp;space;\&amp;space;\rightarrow&amp;space;\"/></p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v_a&amp;space;=&amp;space;(\frac{m_a-m_b}{m_a_+m_b}).v_a_0+(\frac{2.m_b}{m_a+m_b}).v_b_0"/>, eq. (5)</p>
+<p>Para encontrarmos a formala da velocidade final para o corpo b; basta substituirmos a eq. (5) na eq. (4).</p>
+</div>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Colisões totalmente inelásticas</h3>
+<p>Neste tipo de colisão, por um instante, no momento em que os corpos se tocarem, eles aglutinar-se-ão dissipando energia e deste modo, unidos, permacerão a excutar o movimento. Neste tipo de colisão há a maior dissipação possível de energia cinética.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 60%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula2-25/total_i.png" style="width: 95%;"/></p>
+</td>
+<td>
+<p>COEFICIENTE DE RESTITUIÇÃO</p>
+<p>Como a velocidade de afastamento é nula, este coeficiente será igualmente nulo:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;e&amp;space;=&amp;space;\frac{|v_a_f|}{|v_a_p|}=0"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Podemos chegar a uma fórmula para a velocidade final dos corpos, aplicando a lei de conservação do momento linear:</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;Q_o=Q&amp;space;\&amp;space;\rightarrow&amp;space;\"/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;m_a.v_a_0&amp;space;+&amp;space;m_b.v_b_0&amp;space;=&amp;space;(m_a+m_b).v"/></p>
+<p>Portanto:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{m_a.v_a_0&amp;space;+&amp;space;m_b.v_b_0&amp;space;}{(m_a+m_b)}"/></p>
+<p> </p>
+<p>➔ VARIAÇÃO DE ENERGIA CINÉTICA</p>
+<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\Delta&amp;space;K&amp;space;=&amp;space;K&amp;space;-&amp;space;K_0&amp;space;="/><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\left&amp;space;(&amp;space;\frac{m_a.v_a_0^2}{2}+\frac{m_b.v_b_0^2}{2}&amp;space;\right&amp;space;)-\frac{(m_a+m_b).v^2}{2}"/></p>
+<p>Desenvolvendo a expressão, chegaremos:</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\Delta&amp;space;K&amp;space;=&amp;space;-\frac{m_a.m_b}{2.(m_a+m_b)}.(v_a_0-v_b_0)^2"/></p>
+<p>Observe que a variação é sempre negativa.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Colisões parcialmente elásticas</h3>
+<p> </p>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Aula6-42: Troca de calor entre substâncias · WebFísica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/slide.css">
+    <script src="../js/tema.js"></script>
+</head>
+<body>
+    <a id="btn-voltar" href="../index.html">← Menu</a>
+
+    <div class="reveal">
+        <div class="slides">
+            <section>
+    <div class="capa">
+        <div class="badge">Termologia</div>
+        <h1>Aula6-42: Troca de calor entre substâncias</h1>
+        <div class="aula-num">Aula 6-42</div>
+    </div>
+</section>
+<section>
+<h3>Troca de calor sem mudança de fase</h3>
+<p> </p>
+<p>PRINCÍPIO DA IGUALDADE DAS TROCAS DE CALOR</p>
+<p>Corpos de diferentes temperaturas quando colocados num calorímetro (recipiente que não permite troca de calor com o meio externo), trocarão calor entre si até atingirem o equilíbrio térmico. A soma da quantidade de calor trocada entre eles será sempre nula.</p>
+<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\sum&amp;space;Q_r&amp;space;+&amp;space;\sum&amp;space;Q_f&amp;space;=&amp;space;0"/></p>
+<p>Obs.: Por convenção, o calor fornecido é negativo e o calor recebido é positivo.</p>
+<table>
+<tbody>
+<tr>
+<th style="width: 50%;"> </th>
+<th> </th>
+</tr>
+<tr>
+<td><img src="https://webfisica.com/imagens-fisica/aulas/aula6-42/troca.png" style="width: 90%;"/></td>
+<td> </td>
+<td>
+<p>A figura ao lado mostra um corpo A que troca calor com um corpo B. Este princípio nos garante que a quantidade de calor fornecida por A é igual, em módulo, à quantidade de calor recebida por B. Como o calor recebido é positivo e o calor cedido é negativo, a soma dos calores trocados é nula.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>GRÁFICO <em>TEMPERATURAS (CORPO A E B) X TEMPO</em></p>
+<p><br/><br/></p>
+<p style="text-align: center;"><img src="https://webfisica.com/imagens-fisica/aulas/aula6-42/grafico.png" style="width: 50%;"/></p>
+<p> </p>
+<div class="row-deg"> </div>
+<p> </p>
+</section>
+<section>
+<h3>Troca de calor com mudança de fase (estado físico)</h3>
+<p> </p>
+<p>Como vimos anteriormente, o calor empenhado na transformação de fase de uma substância é <em>chamado calor</em> latente. Este calor possui diferentes valores para diferentes mudanças de estados físicos, por exemplo: o calor latente para transformar gelo em água líquida é diferente do calor latente necessário para converter água em vapor de água.</p>
+<p> </p>
+<table class="table-model-1" id="tb_2"><caption>
+<p>Calor latente de algumas substâncias</p>
+</caption>
+<thead>
+<tr>
+<th>
+<p>Substância</p>
+</th>
+<th>
+<p>Calor latente de fusão (cal/g)</p>
+</th>
+<th>
+<p>Calor latente de vaporização (cal/g)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Água</p>
+</td>
+<td>
+<p>80</p>
+</td>
+<td>
+<p>540</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Álcool</p>
+</td>
+<td>
+<p>25</p>
+</td>
+<td>
+<p>204</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Alumínio</p>
+</td>
+<td>
+<p>95</p>
+</td>
+<td>
+<p>2500</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Mercúrio</p>
+</td>
+<td>
+<p>2,7</p>
+</td>
+<td>
+<p>70</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Chumbo</p>
+</td>
+<td>
+<p>6,8</p>
+</td>
+<td>
+<p>200</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Cobre</p>
+</td>
+<td>
+<p>65</p>
+</td>
+<td>
+<p>1600</p>
+</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script>
+        // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
+        document.querySelectorAll('.slides section').forEach(section => {
+            if (section.querySelector('hr')) {
+                let parent = section.parentNode;
+                let html = section.innerHTML;
+                let partes = html.split(/<hr\s*\/?>/i);
+                if (partes.length > 1) {
+                    let next = section.nextSibling;
+                    partes.forEach(parte => {
+                        if (parte.trim()) {
+                            let novaSecao = document.createElement('section');
+                            novaSecao.innerHTML = parte;
+                            parent.insertBefore(novaSecao, next);
+                        }
+                    });
+                    section.remove();
+                }
+            }
+        });
+
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            controls: true,
+            progress: true,
+            center: true,
+        });
+    </script>
+</body>
+</html>
