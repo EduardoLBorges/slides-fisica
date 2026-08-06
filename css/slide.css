@@ -154,17 +154,16 @@
     border-radius: 4px;
     padding: 8px;
     max-height: 400px;
-    max-width: 90% !important;
-    width: auto !important;
-    height: auto !important;
-    vertical-align: middle;
+    max-width: 90%;
+    width: auto;
+    height: auto;
     margin: 8px auto;
     object-fit: contain;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     display: block;
 }
 
-/* Fórmulas inline */
+/* Fórmulas inline — display: inline-block permite o vertical-align */
 .reveal section img[src*="codecogs"],
 .reveal section img.formula,
 .reveal section img.formula_imp {
@@ -173,6 +172,7 @@
     box-shadow: none;
     margin: 4px 2px;
     display: inline-block;
+    vertical-align: middle;   /* alinha com o texto ao redor */
     background: rgba(255,255,255,0.92);
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="utf-8">
     <title>Aula1-4: Movimento retilíneo uniforme (MRU)</title>
@@ -7,152 +8,162 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/slide.css">
     <script src="../js/tema.js"></script>
 </head>
+
 <body>
     <a id="btn-voltar" href="../index.html">← Menu</a>
 
     <div class="reveal">
         <div class="slides">
             <section>
-    <div class="capa">
-        <div class="badge">Cinemática</div>
-        <h1>Aula1-4: Movimento retilíneo uniforme (MRU)</h1>
-        <div class="aula-num">Aula 1-4</div>
-    </div>
-</section>
-<section>
-<p>Dizemos que um corpo está em movimento sempre que, a cada instante, ele muda de
-                            posição com respeito a um referencial. Chamamos este movimento de
-                            retilíneo quando esta alteração de movimento acontece numa única
-                            dimenção, isto é, em cima de uma linha. Quando o movimento, além
-                            de ser retilíneo, ocorre sob uma velocidade constante, ou seja, ele percorre
-                            espaços iguais em intervalos de tempos iguais, dizemos, então, que é
-                            movimento retilíneo uniforme.</p>
-<p style="text-align: center;"><img alt="Animação de veículo em movimento retilíneo uniforme" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/mu.gif" style="width: 90%;"/>
-</p>
-<p><br/><br/></p>
-<div class="row-deg"> </div>
-<p> </p>
-</section>
-<section>
-<h3>Velocidade média</h3>
-<p>Trata-se da grandeza física que indica a agilidade, a ligeireza com que o corpo
-                            percorre os espaços. Podemos calculá-la fazendo-se a razão de um
-                            deslocamento percorrido pelo móvel <img src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;S"/>
-                            pela quantidade de tempo necessário para percorrê-lo <img src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;t"/>.
-                        </p>
-<p> </p>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}"/>
-</p>
-<p> </p>
-<p>A unidade de medida para a velocidade de acordo como o sistema internacional é o
-                            “metros por segundo”, entretanto também usa-se, amiúde, o
-                            “quilômetros por hora”:</p>
-<p> </p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{m}{s}"/>
-                               ou    <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{km}{m}"/>
-</p>
-<p> </p>
-</section>
-<section>
-<div class="adendo">
-<h3>Conversão entre as unidades de medida</h3>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{1&amp;space;km}{1&amp;space;h}&amp;space;=&amp;space;\frac{1000&amp;space;m}{&amp;space;3600&amp;space;s}&amp;space;=\frac{1&amp;space;m}{3,6s}"/>
-<img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\frac{m}{s}=\frac{3,6km}{h}"/>
-</p>
-<p>Conforme nos anuncia a relação acima, para converter de “metros por
-                                segundo” para “quilômetros por horas”, devemos multiplicar por
-                                3,6. E para converter de “quilômetros por horas” para “metros
-                                por segundo”, devemos dividir por este valor.</p>
-<p style="text-align: center;"><img alt="Diagrama de conversão de m/s em km/h" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/conver.png" style="width: 40%;"/></p>
-</div>
-<p> </p>
-<div class="row-deg"> </div>
-<p> </p>
-</section>
-<section>
-<h3>Equação horária do espaço</h3>
-<p>É a equação capaz de nos fornece o espaço em função
-                            percorrido pelo móvel em função do tempo, do horário. Para
-                            deduzi-la, basta manipularmos algebricamente a equação da velocidade,
-                            apresentada anteriormente:</p>
-<p> </p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}&amp;space;=&amp;space;\frac{S&amp;space;-&amp;space;S_0}{t}&amp;space;\rightarrow"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;S&amp;space;-&amp;space;S_0&amp;space;=v.t\rightarrow&amp;space;S&amp;space;=&amp;space;S_o&amp;space;+&amp;space;v.t&amp;space;\rightarrow"/>
-<img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;S&amp;space;=&amp;space;S_0&amp;space;+&amp;space;v.t"/>
-</p>
-<p> </p>
-<div class="row-deg"> </div>
-<p> </p>
-</section>
-<section>
-<h3>Gráficos do MRU</h3>
-<table>
-<tbody>
-<tr>
-<th style="width: 30%;"> </th>
-<th style="width: 4%;"> </th>
-<th style="width: 30%;"> </th>
-<th style="width: 4%;"> </th>
-<th style="width: 30%;"> </th>
-</tr>
-<tr>
-<td style="vertical-align: super;">
-<p style="text-align: center;">ACELERAÇÃO X TEMPO</p>
-<br/>
-<p>Aceleração é a taxa de variação do tempo
-                                            em função da velocidade. Como estamos lidando com MRU e,
-                                            portanto, a velocidade é constante, não muda, logo esta
-                                            grandeza valerá sempre 0. Por isto este gráfico sempre
-                                            apresentará uma reta horizontal na marca do valor zero para a
-                                            aceleração.</p>
-</td>
-<td> </td>
-<!--******** -->
-<td style="vertical-align: super;">
-<p style="text-align: center;">VELOCIDADE X TEMPO</p>
-<br/>
-<p>Como a velocidade é constante, não se altera com o tempo, o
-                                            gráfico apresentará sempre uma reta horizontal que corta o
-                                            eixo da velocidade no valor de velocidade correspondente.</p>
-</td>
-<td> </td>
-<!--******** -->
-<td style="vertical-align: super;">
-<p style="text-align: center;">ESPAÇO X TEMPO</p>
-<br/>
-<p>O gráfico do espaço pelo tempo será caracterizado por
-                                            uma reta oblíqua que corta o eixo do espaço no ponto
-                                            correspondente a posição inicial do móvel. Se esta reta
-                                            dor acendente, estamos a falar de móvel regido por velocidade
-                                            positiva. Se a reta for decrescente, trata-se de uma velocidade negativa. O
-                                            grau de inclinação da reta é proporcional ao
-                                            módulo desta velocidade.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><img alt="Gráfico característico da aceleração por tempo em MRU" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/ac.png" style="width: 100%;"/>
-</p>
-</td>
-<td> </td>
-<!--******** -->
-<td>
-<p><img alt="Gráfico característico da velocidade por tempo em MRU" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/vel.png" style="width: 100%;"/>
-</p>
-</td>
-<td> </td>
-<!--******** -->
-<td>
-<p><img alt="Gráfico característico do espaço por tempo em MRU" src="https://webfisica.com/imagens-fisica/aulas/aula1-4/pos.png" style="width: 100%;"/>
-</p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
+                <div class="capa">
+                    <div class="badge">Cinemática</div>
+                    <h1>Aula1-4: Movimento retilíneo uniforme (MRU)</h1>
+                    <div class="aula-num">Aula 1-4</div>
+                </div>
+            </section>
+            <section>
+                <p>Dizemos que um corpo está em movimento sempre que, a cada instante, ele muda de
+                    posição com respeito a um referencial. Chamamos este movimento de
+                    retilíneo quando esta alteração de movimento acontece numa única
+                    dimenção, isto é, em cima de uma linha. Quando o movimento, além
+                    de ser retilíneo, ocorre sob uma velocidade constante, ou seja, ele percorre
+                    espaços iguais em intervalos de tempos iguais, dizemos, então, que é
+                    movimento retilíneo uniforme.</p>
+                <p style="text-align: center;"><img alt="Animação de veículo em movimento retilíneo uniforme"
+                        src="https://webfisica.com/imagens-fisica/aulas/aula1-4/mu.gif" style="width: 90%;" />
+                </p>
+                <p><br /><br /></p>
+            </section>
+            <section>
+                <h3>Velocidade média</h3>
+                <p>Trata-se da grandeza física que indica a agilidade, a ligeireza com que o corpo
+                    percorre os espaços. Podemos calculá-la fazendo-se a razão de um
+                    deslocamento percorrido pelo móvel <img
+                        src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;S" />
+                    pela quantidade de tempo necessário para percorrê-lo <img
+                        src="https://latex.codecogs.com/gif.latex?\dpi{50}&amp;space;\huge&amp;space;\Delta&amp;space;t" />.
+                </p>
+                <p><img class="formula_imp"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}" />
+                </p>
+                <p>A unidade de medida para a velocidade de acordo como o sistema internacional é o
+                    “metros por segundo”, entretanto também usa-se, amiúde, o
+                    “quilômetros por hora”:</p>
+                <p><img class="formula"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{m}{s}" />
+                       ou    <img class="formula"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;[v]&amp;space;=&amp;space;\frac{km}{m}" />
+                </p>
+            </section>
+            <section>
+                <div class="adendo">
+                    <h3>Conversão entre as unidades de medida</h3>
+                    <p><img class="formula"
+                            src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\frac{1&amp;space;km}{1&amp;space;h}&amp;space;=&amp;space;\frac{1000&amp;space;m}{&amp;space;3600&amp;space;s}&amp;space;=\frac{1&amp;space;m}{3,6s}" />
+                        <img class="formula"
+                            src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\frac{m}{s}=\frac{3,6km}{h}" />
+                    </p>
+                    <p>Conforme nos anuncia a relação acima, para converter de “metros por
+                        segundo” para “quilômetros por horas”, devemos multiplicar por
+                        3,6. E para converter de “quilômetros por horas” para “metros
+                        por segundo”, devemos dividir por este valor.</p>
+                    <p style="text-align: center;"><img alt="Diagrama de conversão de m/s em km/h"
+                            src="https://webfisica.com/imagens-fisica/aulas/aula1-4/conver.png" style="width: 40%;" />
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h3>Equação horária do espaço</h3>
+                <p>É a equação capaz de nos fornece o espaço em função
+                    percorrido pelo móvel em função do tempo, do horário. Para
+                    deduzi-la, basta manipularmos algebricamente a equação da velocidade,
+                    apresentada anteriormente:</p>
+                <p><img class="formula"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;v&amp;space;=&amp;space;\frac{\Delta&amp;space;S}{\Delta&amp;space;t}&amp;space;=&amp;space;\frac{S&amp;space;-&amp;space;S_0}{t}&amp;space;\rightarrow" /> <img
+                        class="formula"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;S&amp;space;-&amp;space;S_0&amp;space;=v.t\rightarrow&amp;space;S&amp;space;=&amp;space;S_o&amp;space;+&amp;space;v.t&amp;space;\rightarrow" />
+                    <img class="formula_imp"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;S&amp;space;=&amp;space;S_0&amp;space;+&amp;space;v.t" />
+                </p>
+            </section>
+            <section>
+                <h3>Gráficos do MRU</h3>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="width: 30%;"> </th>
+                            <th style="width: 4%;"> </th>
+                            <th style="width: 30%;"> </th>
+                            <th style="width: 4%;"> </th>
+                            <th style="width: 30%;"> </th>
+                        </tr>
+                        <tr style="font-size: 0.7em;">
+                            <td style="vertical-align: super;">
+                                <p style="text-align: center;">ACELERAÇÃO X TEMPO</p>
+                                <br />
+                                <p>Aceleração é a taxa de variação do tempo
+                                    em função da velocidade. Como estamos lidando com MRU e,
+                                    portanto, a velocidade é constante, não muda, logo esta
+                                    grandeza valerá sempre 0. Por isto este gráfico sempre
+                                    apresentará uma reta horizontal na marca do valor zero para a
+                                    aceleração.</p>
+                            </td>
+                            <td> </td>
+                            <!--******** -->
+                            <td style="vertical-align: super;">
+                                <p style="text-align: center;">VELOCIDADE X TEMPO</p>
+                                <br />
+                                <p>Como a velocidade é constante, não se altera com o tempo, o
+                                    gráfico apresentará sempre uma reta horizontal que corta o
+                                    eixo da velocidade no valor de velocidade correspondente.</p>
+                            </td>
+                            <td> </td>
+                            <!--******** -->
+                            <td style="vertical-align: super;">
+                                <p style="text-align: center;">ESPAÇO X TEMPO</p>
+                                <br />
+                                <p>O gráfico do espaço pelo tempo será caracterizado por
+                                    uma reta oblíqua que corta o eixo do espaço no ponto
+                                    correspondente a posição inicial do móvel. Se esta reta
+                                    dor acendente, estamos a falar de móvel regido por velocidade
+                                    positiva. Se a reta for decrescente, trata-se de uma velocidade negativa. O
+                                    grau de inclinação da reta é proporcional ao
+                                    módulo desta velocidade.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><img alt="Gráfico característico da aceleração por tempo em MRU"
+                                        src="https://webfisica.com/imagens-fisica/aulas/aula1-4/ac.png"
+                                        style="width: 100%;" />
+                                </p>
+                            </td>
+                            <td> </td>
+                            <!--******** -->
+                            <td>
+                                <p><img alt="Gráfico característico da velocidade por tempo em MRU"
+                                        src="https://webfisica.com/imagens-fisica/aulas/aula1-4/vel.png"
+                                        style="width: 100%;" />
+                                </p>
+                            </td>
+                            <td> </td>
+                            <!--******** -->
+                            <td>
+                                <p><img alt="Gráfico característico do espaço por tempo em MRU"
+                                        src="https://webfisica.com/imagens-fisica/aulas/aula1-4/pos.png"
+                                        style="width: 100%;" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
         </div>
     </div>
@@ -190,4 +201,5 @@
         });
     </script>
 </body>
+
 </html>
