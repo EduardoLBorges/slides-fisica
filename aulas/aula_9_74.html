@@ -130,6 +130,7 @@
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/plugin/math/math.min.js"></script>
     <script>
         // Permite quebrar slides dinamicamente ao inserir <hr> diretamente em arquivos gerados no site/aulas/
         document.querySelectorAll('.slides section').forEach(section => {
@@ -159,6 +160,7 @@
             controls: true,
             progress: true,
             center: true,
+            plugins: [ RevealMath.KaTeX ]
         });
     </script>
 </body>
