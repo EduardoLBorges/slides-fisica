@@ -1,345 +1,345 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* ── Tokens ──────────────────────────── */
 :root {
-    --primary: #6c63ff;
-    --primary-glow: rgba(108,99,255,0.35);
-    --accent: #f7c59f;
-    --bg: #0b0b14;
-    --surface: #13131f;
-    --surface2: #1d1d2e;
-    --border: rgba(255,255,255,0.07);
-    --text: #dde1f5;
-    --text-strong: #ffffff;
-    --muted: #7779a0;
-    --radius: 14px;
-    --header-h: 64px;
+    /* Paleta escura acadêmica: azul-ardósia profundo + ouro discreto */
+    --primary:      #8b9ecf;       /* azul-ardósia claro */
+    --primary-dim:  #4a5a8a;       /* azul médio */
+    --accent:       #c9a84c;       /* ouro academic */
+    --bg:           #0d0e13;       /* quase-preto azulado */
+    --surface:      #13151e;
+    --surface2:     #1c1f2c;
+    --border:       rgba(139,158,207,0.12);
+    --border-strong:rgba(139,158,207,0.25);
+    --text:         #cdd3e8;
+    --text-strong:  #eef0f8;
+    --muted:        #6a7299;
+    --radius:       4px;            /* menos arredondado = mais acadêmico */
+    --header-h:     60px;
+    --font-serif:   'Crimson Text', Georgia, serif;
+    --font-sans:    'Outfit', system-ui, sans-serif;
 }
 
-/* Tema claro: controlado via JS (data-tema) OU preferência do sistema */
+/* Tema claro — papel creme / linho */
 @media (prefers-color-scheme: light) {
     :root:not([data-tema="escuro"]) {
-        --primary: #5a52d5;
-        --primary-glow: rgba(90, 82, 213, 0.2);
-        --accent: #e59d60;
-        --bg: #f4f5f8;
-        --surface: #ffffff;
-        --surface2: #eef0f5;
-        --border: rgba(0, 0, 0, 0.1);
-        --text: #333344;
-        --text-strong: #111118;
-        --muted: #5c5e7b;
+        --primary:       #3a4e82;
+        --primary-dim:   #5569a8;
+        --accent:        #8a6820;
+        --bg:            #f7f5f0;   /* creme */
+        --surface:       #fefdfa;
+        --surface2:      #eeeae2;
+        --border:        rgba(58,78,130,0.14);
+        --border-strong: rgba(58,78,130,0.3);
+        --text:          #2a2d3e;
+        --text-strong:   #0e1019;
+        --muted:         #6b6e88;
     }
 }
 
 [data-tema="claro"] {
-    --primary: #5a52d5;
-    --primary-glow: rgba(90, 82, 213, 0.2);
-    --accent: #e59d60;
-    --bg: #f4f5f8;
-    --surface: #ffffff;
-    --surface2: #eef0f5;
-    --border: rgba(0, 0, 0, 0.1);
-    --text: #333344;
-    --text-strong: #111118;
-    --muted: #5c5e7b;
+    --primary:       #3a4e82;
+    --primary-dim:   #5569a8;
+    --accent:        #8a6820;
+    --bg:            #f7f5f0;
+    --surface:       #fefdfa;
+    --surface2:      #eeeae2;
+    --border:        rgba(58,78,130,0.14);
+    --border-strong: rgba(58,78,130,0.3);
+    --text:          #2a2d3e;
+    --text-strong:   #0e1019;
+    --muted:         #6b6e88;
 }
 
 html { scroll-behavior: smooth; }
 
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-sans);
     background: var(--bg);
     color: var(--text);
     min-height: 100vh;
-    transition: background 0.3s, color 0.3s;
     padding-top: var(--header-h);
+    transition: background 0.3s, color 0.3s;
 }
 
-/* ── Header sticky ────────────────────── */
+/* ── Header ──────────────────────────── */
 .site-header {
     position: fixed;
     top: 0; left: 0; right: 0;
     height: var(--header-h);
     z-index: 1000;
     background: var(--surface);
-    border-bottom: 1px solid var(--border);
-    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-strong);
     display: flex;
     align-items: center;
-    padding: 0 24px;
-    gap: 16px;
+    padding: 0 32px;
+    gap: 20px;
     transition: background 0.3s, border-color 0.3s;
 }
 
+/* Linha dourada decorativa no topo do header */
+.site-header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    opacity: 0.6;
+}
 
+.site-titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.site-disciplina {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-strong);
+    letter-spacing: 0.01em;
+}
+
+.site-subtitulo {
+    font-family: var(--font-sans);
+    font-size: 0.6rem;
+    font-weight: 500;
+    color: var(--accent);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
 
 .header-search {
     flex: 1;
-    max-width: 460px;
+    max-width: 420px;
     margin: 0 auto;
 }
 
 .header-search input {
     width: 100%;
-    padding: 9px 16px;
-    border-radius: 8px;
-    border: 1px solid var(--border);
+    padding: 8px 14px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-strong);
     background: var(--surface2);
     color: var(--text);
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.9rem;
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
     outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s, background 0.3s;
+    transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .header-search input::placeholder { color: var(--muted); }
 
 .header-search input:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px var(--primary-glow);
+    box-shadow: 0 0 0 2px rgba(139,158,207,0.2);
 }
 
-/* Botão de tema no header */
+/* Botão de tema */
 #btn-tema {
     flex-shrink: 0;
-    background: var(--surface2);
-    color: var(--text);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 7px 14px;
-    font-family: 'Outfit', sans-serif;
-    font-size: 13px;
-    font-weight: 600;
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    padding: 6px 12px;
+    font-family: var(--font-sans);
+    font-size: 12px;
+    font-weight: 500;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
+    gap: 5px;
+    letter-spacing: 0.04em;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
     white-space: nowrap;
 }
 #btn-tema:hover {
-    background: var(--primary);
-    color: #fff;
-    border-color: var(--primary);
-    transform: translateY(-1px);
-}
-
-/* ── Título da apostila no header ───── */
-.site-titulo {
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
-    flex-shrink: 0;
-}
-
-.site-disciplina {
-    font-size: 1rem;
-    font-weight: 700;
     color: var(--text-strong);
-    letter-spacing: 0.01em;
+    border-color: var(--primary);
+    background: var(--surface2);
 }
 
-.site-subtitulo {
-    font-size: 0.68rem;
-    font-weight: 400;
-    color: var(--muted);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-/* ── Chips de navegação por capítulo ──── */
+/* ── Navegação de capítulos ───────────── */
 .cap-nav {
-    max-width: 1100px;
-    margin: 32px auto;
-    padding: 0 24px;
+    max-width: 960px;
+    margin: 32px auto 0;
+    padding: 20px 32px 0;
     display: flex;
-    gap: 8px;
+    gap: 6px;
     flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
 }
 
 .cap-chip {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
-    padding: 5px 12px;
-    border-radius: 999px;
+    gap: 4px;
+    padding: 4px 10px;
+    border-radius: 2px;
     border: 1px solid var(--border);
-    background: var(--surface);
+    background: transparent;
     color: var(--muted);
-    font-size: 0.75rem;
-    font-weight: 600;
+    font-size: 0.72rem;
+    font-weight: 500;
     text-decoration: none;
+    letter-spacing: 0.03em;
     white-space: nowrap;
-    transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.15s;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
 .cap-chip:hover {
-    background: var(--primary);
-    color: #fff;
-    border-color: var(--primary);
-    transform: translateY(-1px);
+    background: var(--surface2);
+    color: var(--text);
+    border-color: var(--border-strong);
 }
 
-.cap-chip .chip-num {
-    font-size: 0.65rem;
-    opacity: 0.7;
+.chip-num {
+    font-size: 0.62rem;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.02em;
 }
 
 /* ── Feedback de busca ───────────────── */
 .busca-vazia {
     display: none;
     text-align: center;
-    padding: 60px 24px;
+    padding: 80px 24px;
     color: var(--muted);
 }
 
 .busca-vazia.visivel { display: block; }
 
 .busca-vazia-icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 16px;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .busca-vazia h3 {
-    font-size: 1.1rem;
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--text);
     margin-bottom: 8px;
 }
 
 .busca-vazia p {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     color: var(--muted);
 }
 
 .busca-contador {
-    max-width: 1100px;
-    margin: 0 auto 16px;
-    padding: 0 24px;
-    font-size: 0.82rem;
+    max-width: 960px;
+    margin: 12px auto 0;
+    padding: 0 32px;
+    font-size: 0.78rem;
     color: var(--muted);
-    min-height: 20px;
-    transition: opacity 0.2s;
+    font-style: italic;
+    min-height: 18px;
 }
 
 /* ── Conteúdo ────────────────────────── */
 .conteudo {
-    max-width: 1100px;
+    max-width: 960px;
     margin: 0 auto;
-    padding: 0 24px 80px;
+    padding: 0 32px 80px;
 }
 
 /* ── Bloco de capítulo ───────────────── */
 .capitulo-bloco {
-    margin-bottom: 48px;
+    margin-bottom: 40px;
+    padding-top: 32px;
 }
 
 .capitulo-header {
     display: flex;
-    align-items: center;
-    gap: 14px;
+    align-items: baseline;
+    gap: 16px;
     margin-bottom: 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-strong);
 }
 
 .cap-badge {
-    background: var(--primary);
-    color: #fff;
-    border-radius: 8px;
-    padding: 4px 12px;
-    font-size: 0.75rem;
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
     font-weight: 700;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
     white-space: nowrap;
+    padding: 2px 0;
+    flex-shrink: 0;
 }
 
 .cap-nome {
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 600;
     color: var(--text-strong);
+    letter-spacing: 0.01em;
 }
 
 .cap-count {
     margin-left: auto;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     color: var(--muted);
     white-space: nowrap;
+    font-style: italic;
 }
 
-/* ── Grid de aulas ───────────────────── */
+/* ── Grid de aulas ── lista de sumário ── */
 .aulas-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 4px 20px;
 }
 
 .aula-card {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    padding: 16px 20px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
+    gap: 4px;
+    padding: 10px 12px;
+    background: transparent;
+    border-left: 2px solid transparent;
     text-decoration: none;
     color: var(--text);
-    transition: background 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    transition: background 0.15s, border-color 0.15s;
     position: relative;
-    overflow: hidden;
-}
-
-.aula-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0;
-    width: 3px; height: 100%;
-    background: var(--primary);
-    opacity: 0;
-    transition: opacity 0.2s;
+    border-radius: 0;
 }
 
 .aula-card:hover {
     background: var(--surface2);
-    border-color: rgba(108,99,255,0.4);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    border-left-color: var(--accent);
 }
 
-.aula-card:hover::before {
-    opacity: 1;
-}
-
-/* Indicação visual de aula visitada */
-.aula-card:has(.aula-titulo-card:visited)::after {
-    content: '✓';
-    position: absolute;
-    top: 10px; right: 12px;
-    font-size: 0.65rem;
-    color: var(--primary);
-    opacity: 0.5;
+/* Aula visitada: tom discretamente mais fraco */
+.aula-titulo-card:visited {
+    color: var(--muted);
 }
 
 .aula-num {
-    font-size: 0.7rem;
+    font-size: 0.62rem;
     font-weight: 600;
-    color: var(--primary);
-    letter-spacing: 0.05em;
+    color: var(--accent);
+    letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
 .aula-titulo-card {
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.4;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.45;
     color: var(--text);
     text-decoration: none;
     flex: 1;
-}
-
-.aula-titulo-card:visited {
-    color: var(--muted);
 }
 
 .aula-titulo-card::after {
@@ -349,69 +349,62 @@ body {
     z-index: 1;
 }
 
+/* ── Footer do card ─────────────────── */
+.aula-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 2px;
+}
+
 .aula-arrow {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--muted);
     align-self: flex-end;
-    transition: color 0.2s, transform 0.2s;
+    margin-left: auto;
+    transition: color 0.15s, transform 0.15s;
 }
 
 .aula-card:hover .aula-arrow {
     color: var(--primary);
-    transform: translateX(4px);
+    transform: translateX(3px);
+}
+
+.btn-exercicio {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+    position: relative;
+    z-index: 2;
+}
+
+.btn-exercicio:hover {
+    color: var(--text-strong);
+    border-color: var(--border-strong);
+    background: var(--surface2);
 }
 
 /* ── hidden (busca) ──────────────────── */
 .aula-card.hidden { display: none; }
 .capitulo-bloco.hidden { display: none; }
 
-/* ── Footer do card ─────────────────── */
-.aula-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: auto;
-    gap: 8px;
-}
-
-.btn-exercicio {
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 3px 10px;
-    border-radius: 6px;
-    border: 1px solid rgba(108,99,255,0.45);
-    background: rgba(108,99,255,0.12);
-    color: var(--primary);
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-decoration: none;
-    white-space: nowrap;
-    transition: background 0.2s, border-color 0.2s, transform 0.15s;
-    position: relative;
-    z-index: 2;
-}
-
-.btn-exercicio:hover {
-    background: rgba(108,99,255,0.28);
-    border-color: var(--primary);
-    transform: translateY(-1px);
-}
-
-/* ── Footer ──────────────────────────── */
-footer {
-    text-align: center;
-    padding: 24px;
-    color: var(--muted);
-    font-size: 0.8rem;
-    border-top: 1px solid var(--border);
-}
-
 /* ── Responsivo ──────────────────────── */
-@media (max-width: 600px) {
-    .site-logo-text { display: none; }
-    .header-search { max-width: none; }
+@media (max-width: 640px) {
+    .site-header { padding: 0 16px; gap: 12px; }
+    .conteudo { padding: 0 16px 60px; }
+    .cap-nav { padding: 16px 16px 16px; }
+    .busca-contador { padding: 0 16px; }
+    .capitulo-bloco { padding-top: 24px; }
     #btn-tema span { display: none; }
-    .hero { padding: 40px 16px 32px; }
-    .cap-nav { gap: 6px; }
 }
