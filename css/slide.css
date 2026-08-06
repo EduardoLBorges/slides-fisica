@@ -1,86 +1,10 @@
 /* ═══════════════════════════════════════════════════════
    SLIDE.CSS — Estética acadêmica, otimizado para projetor
    Prioridades: alto contraste · fonte grande · hierarquia clara
+   Tokens e botões compartilhados: ver base.css
    ═══════════════════════════════════════════════════════ */
 
-/* ── Tokens ── */
-:root {
-    --primary:      #9bafd4;       /* azul-ardósia claro */
-    --primary-dim:  #3d5080;
-    --accent:       #c9a84c;       /* ouro acadêmico */
-    --bg:           #0c0d12;       /* quase-preto frio — baixa emissão no projetor */
-    --surface:      #141620;
-    --surface-alt:  #1c1f2e;
-    --border:       rgba(155,175,212,0.18);
-    --border-strong:rgba(155,175,212,0.35);
-    --text:         #dde2f2;       /* alto contraste para distância */
-    --text-strong:  #f2f4fb;
-    --text-accent:  #d4c27a;       /* ouro claro para ênfase */
-    --muted:        #7a84a8;
-    --font-serif:   'Crimson Text', Georgia, 'Times New Roman', serif;
-    --font-sans:    'Outfit', system-ui, sans-serif;
-}
-
-/* Tema claro — papel de projeção (sem glare) */
-@media (prefers-color-scheme: light) {
-    :root:not([data-tema="escuro"]) {
-        --primary:       #2a3d70;
-        --primary-dim:   #3a5090;
-        --accent:        #7a5c14;
-        --bg:            #f0ede6;  /* creme — menos glare que branco puro */
-        --surface:       #f8f5ee;
-        --surface-alt:   #e6e1d5;
-        --border:        rgba(42,61,112,0.18);
-        --border-strong: rgba(42,61,112,0.35);
-        --text:          #1a1d2e;
-        --text-strong:   #080910;
-        --text-accent:   #5a3d00;
-        --muted:         #5a607e;
-    }
-}
-
-[data-tema="claro"] {
-    --primary:       #2a3d70;
-    --primary-dim:   #3a5090;
-    --accent:        #7a5c14;
-    --bg:            #f0ede6;
-    --surface:       #f8f5ee;
-    --surface-alt:   #e6e1d5;
-    --border:        rgba(42,61,112,0.18);
-    --border-strong: rgba(42,61,112,0.35);
-    --text:          #1a1d2e;
-    --text-strong:   #080910;
-    --text-accent:   #5a3d00;
-    --muted:         #5a607e;
-}
-
-/* ── Botão de tema (fixo, fora dos slides) ── */
-#btn-tema {
-    position: fixed;
-    top: 14px;
-    right: 14px;
-    z-index: 9999;
-    background: var(--surface);
-    color: var(--muted);
-    border: 1px solid var(--border-strong);
-    border-radius: 3px;
-    padding: 5px 11px;
-    font-family: var(--font-sans);
-    font-size: 12px;
-    font-weight: 500;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-    letter-spacing: 0.04em;
-    transition: color 0.2s, border-color 0.2s, background 0.2s;
-    white-space: nowrap;
-}
-#btn-tema:hover {
-    color: var(--text-strong);
-    border-color: var(--accent);
-    background: var(--surface-alt);
-}
+@import url('./base.css');
 
 /* ── Reveal.js — viewport e base ── */
 .reveal-viewport { background: var(--bg); }
@@ -274,33 +198,4 @@
     padding: 2px 8px;
     font-size: 12px;
     letter-spacing: 0.04em;
-}
-
-/* ── Botão Voltar ── */
-#btn-voltar {
-    position: fixed;
-    top: 14px;
-    left: 14px;
-    z-index: 9999;
-    background: var(--surface);
-    color: var(--muted);
-    border: 1px solid var(--border-strong);
-    border-radius: 3px;
-    padding: 5px 12px;
-    font-family: var(--font-sans);
-    font-size: 13px;
-    font-weight: 500;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    letter-spacing: 0.03em;
-    transition: color 0.2s, border-color 0.2s, background 0.2s;
-}
-
-#btn-voltar:hover {
-    color: var(--text-strong);
-    border-color: var(--accent);
-    background: var(--surface-alt);
 }
