@@ -19,39 +19,85 @@
         }
     }
 
-    function criarBotao() {
-        const btn = document.createElement('button');
-        btn.id = 'btn-tema';
-        btn.setAttribute('aria-label', 'Alternar tema');
-        btn.addEventListener('click', () => {
+    function criarControles() {
+        const container = document.createElement('div');
+        container.id = 'top-right-controls';
+
+        // Lógica de Escala de Fonte
+        let fontScale = parseFloat(localStorage.getItem('font-scale')) || 1.0;
+
+        const btnFontMinus = document.createElement('button');
+        btnFontMinus.className = 'btn-circle-small';
+        btnFontMinus.innerHTML = 'A-';
+        btnFontMinus.setAttribute('title', 'Reduzir fonte');
+        
+        const fontIndicator = document.createElement('span');
+        fontIndicator.className = 'font-scale-indicator';
+        fontIndicator.innerHTML = `${Math.round(fontScale * 100)}%`;
+        fontIndicator.setAttribute('title', 'Clique duplo para restaurar 100%');
+
+        fontIndicator.addEventListener('dblclick', () => {
+            fontScale = 1.0;
+            updateFont();
+        });
+
+        const btnFontPlus = document.createElement('button');
+        btnFontPlus.className = 'btn-circle-small';
+        btnFontPlus.innerHTML = 'A+';
+        btnFontPlus.setAttribute('title', 'Aumentar fonte');
+        
+        const updateFont = () => {
+            document.documentElement.style.setProperty('--font-scale', fontScale.toFixed(2));
+            localStorage.setItem('font-scale', fontScale.toFixed(2));
+            fontIndicator.innerHTML = `${Math.round(fontScale * 100)}%`;
+        };
+
+        btnFontMinus.addEventListener('click', () => {
+            fontScale = Math.max(0.6, fontScale - 0.1);
+            updateFont();
+        });
+
+        btnFontPlus.addEventListener('click', () => {
+            fontScale = Math.min(2.0, fontScale + 0.1);
+            updateFont();
+        });
+
+        const btnTema = document.createElement('button');
+        btnTema.id = 'btn-tema';
+        btnTema.setAttribute('aria-label', 'Alternar tema');
+        btnTema.addEventListener('click', () => {
             const atual = document.documentElement.getAttribute('data-tema') || 'escuro';
             aplicarTema(atual === 'escuro' ? 'claro' : 'escuro');
         });
 
+        container.appendChild(btnFontMinus);
+        container.appendChild(fontIndicator);
+        container.appendChild(btnFontPlus);
+        container.appendChild(btnTema);
+
         // Insere no .site-header (index) ou no body (slides/exercícios)
-        // O posicionamento fixo em páginas sem header é tratado pelo base.css
         const header = document.querySelector('.site-header');
         if (header) {
-            header.appendChild(btn);
+            header.appendChild(container);
         } else {
-            document.body.appendChild(btn);
+            document.body.appendChild(container);
         }
-
-        return btn;
     }
 
-    // Aplica tema imediatamente para evitar flash
+    // Aplica tema e fonte imediatamente para evitar flash
     const tema = temaAtual();
     document.documentElement.setAttribute('data-tema', tema);
+    const initialFontScale = parseFloat(localStorage.getItem('font-scale')) || 1.0;
+    document.documentElement.style.setProperty('--font-scale', initialFontScale);
 
-    // Cria o botão após o DOM estar pronto
+    // Cria os controles após o DOM estar pronto
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
-            criarBotao();
+            criarControles();
             aplicarTema(tema);
         });
     } else {
-        criarBotao();
+        criarControles();
         aplicarTema(tema);
     }
 
