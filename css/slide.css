@@ -201,7 +201,7 @@
 }
 
 /* ── Fim de Aula Overlay ── */
-#fim-aula-overlay {
+#fim-aula-overlay, #inicio-aula-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -219,11 +219,11 @@
     transition: opacity 0.4s ease;
 }
 
-[data-tema="claro"] #fim-aula-overlay {
+[data-tema="claro"] #fim-aula-overlay, [data-tema="claro"] #inicio-aula-overlay {
     background: rgba(255, 255, 255, 0.3);
 }
 
-#fim-aula-overlay.ativo {
+#fim-aula-overlay.ativo, #inicio-aula-overlay.ativo {
     opacity: 1;
     pointer-events: auto;
 }
