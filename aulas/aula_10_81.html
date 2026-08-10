@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="utf-8">
     <title>Aula10-81: Geradores elétricos e associação de geradores</title>
@@ -7,148 +8,226 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/slide.css">
     <script src="../js/tema.js"></script>
 </head>
+
 <body>
     <a id="btn-voltar" href="../index.html">← Menu</a>
 
     <div class="reveal">
         <div class="slides">
             <section>
-    <div class="capa">
-        <div class="badge">Eletrodinâmica</div>
-        <h1>Aula10-81: Geradores elétricos e associação de geradores</h1>
-        <div class="aula-num">Aula 10-81</div>
-    </div>
-</section>
-<section>
-<h3>Geradores elétricos</h3>
-<p>Um gerador elétrico é um dispositivo capaz de converter diferentes formas de energia, como energia mecânica, química e solar, em energia elétrica. Toda a energia elétrica gerada pelo gerador é chamada força eletromotriz; esta energia, após ser gerada, é, em parte, indesejavelmente perdida para o ambiente e a energia que resta após esta perda é chamada de tensão. A tensão é a energia que abastecerá o circuito.</p>
-<ul>
-<ul>
-<li>
-<p><strong>Geradores elétricos ideais:</strong> chamamos de ideal o gerador em que desprezamos a sua resistência interna e a energia perdida em consequência dela. Num gerador ideal, portanto, a força eletromotriz é igual a tensão e elas nunca variam.</p>
-</li>
-</ul>
-</ul>
-<ul>
-<li>
-<p><strong>Geradores elétricos reais:</strong> São os geradores em que são considerados as suas resistências internas. O comportamento destes geradores é descrito pela equação característica do gerador elétrico.</p>
-</li>
-</ul>
-<p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_gerador.png" style="width: 60%;"/></p>
-</section>
-<section>
-<h3>Equação característica do gerador elétrico</h3>
-<p>Os geradores, como quaisquer outros dispositivos elétricos, também possuem resistência elétrica. Esta resistência é chamada resistência interna do gerador, e ela varia de acordo com a corrente que passa através dele. Assim sendo, podemos inferir que nem toda a energia produzida pelo gerador é usada para a aplicação desejada. A energia que ele é capaz de produzir é chamada força eletromotriz; a energia que ele “entrega” é denominada tensão ou DDP Podemos encontrar a tensão fornecida por um gerador por meio da seguinte equação:</p>
-<table>
-<tbody>
-<tr>
-<th style="width: 50%;"> </th>
-<th> </th>
-</tr>
-<tr>
-<td>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;U&amp;space;=&amp;space;\varepsilon&amp;space;-R.i"/></p>
-<p>Em que U é a tensão, ε é a força eletromotriz, r é a resistência interna do gerador e i a intensidade de corrente elétrica.</p>
-</td>
-<td>
-<p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_eq.png" style="width: 80%;"/></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>➔ CURVA CARACTERÍSTICA DO GERADOR</p>
-<table>
-<tbody>
-<tr>
-<th style="width: 50%;"> </th>
-<th> </th>
-</tr>
-<tr>
-<td>
-<p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_curva.png" style="width: 40%;"/></p>
-</td>
-<td>
-<p>O gráfico ao lado ilustra o queda de tensão que ocorre quando se eleva a intensidade de corrente que atravessa o gerador.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>➔ CURTO-CIRCUITO</p>
-<p>Chamamos de curto-circuito um gerador elétrico cujos polos estão conectados por um condutor de resistência elétrica desprezível. Nesta ocasião, a tensão é nula e a intensidade de corrente (corrente de curto-circuito) é máxima.</p>
-</section>
-<section>
-<h3>Associação de geradores</h3>
-<p>Assim como ocorre com os resistores, podemos também associar geradores. Eles podem ser associados de dois modos:</p>
-<ul>
-<li>
-<p><strong>Associação em série:</strong></p>
-</li>
-</ul>
-<table>
-<tbody>
-<tr>
-<th style="width: 55%;"> </th>
-<th> </th>
-</tr>
-<tr>
-<td>
-<p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_serie.png" style="width: 95%;"/></p>
-</td>
-<td>
-<p>A associação em série de geradores fará aumentar a força eletromotriz fornecida ao circuito (a tensão entre os pontos a e b); este tipo de associação também fará aumentar a resistência interna do conjunto de geradores. A nova força eletromotriz fornecida por um conjunto de geradores ligados em série é igual a soma das forças eletromotrizes de todos os geradores que integram o conjunto:</p>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;U_R&amp;space;=&amp;space;U_1&amp;space;+&amp;space;U_2&amp;space;+&amp;space;...&amp;space;+&amp;space;U_n"/></p>
-<p>A nova resistência interna imposta pelo conjunto de geradores conectados em série é igual a soma das resistência de cada um dos geradores que integram o conjunto:</p>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;r_R&amp;space;=&amp;space;r_1&amp;space;+&amp;space;r_2&amp;space;+&amp;space;...&amp;space;+&amp;space;r_n"/></p>
-</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>
-<p><strong>Associação em paralelo</strong></p>
-<p>A associação em paralelo de geradores de igual força eletromotriz (não se é uma boa prática conectar paralelamente geradores de forças eletromotriz diferentes) resultara num sistema de geradores que possui a mesma força eletromotriz dos geradores que o constitui:</p>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;U_R&amp;space;=&amp;space;U_1&amp;space;=&amp;space;U_2&amp;space;=&amp;space;U_n"/></p>
-<p>Agora, se esta associação não oferece vantagem ao circuito atinente a força eletromotriz, o mesmo não acontece em termos de resistência. Neste tipos de ligação, como os geradores conectam-se em paralelo, devemos considerar que as resistências internas deles também estão ligados em paralelo; o que resulta num sistema de resistência resultante menor do que a resistência dos geradores que o constitui:</p>
-<p><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\frac{1}{r_R}=\frac{1}{r_1}+\frac{1}{r_2}+...+\frac{1}{r_n}"/></p>
-</li>
-</ul>
-<p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_para.png" style="width: 65%;"/></p>
-</section>
-<section>
-<h3>Lei de Ohm-Pouillet</h3>
-<p>É uma equação que relaciona a intensidade de corrente elétrica com as outras variáveis de um sistema alimentador por um gerador elétrico.</p>
-<p>Ao analisarmos um circuito alimentado por um gerador real, teremos:</p>
-<table>
-<tbody>
-<tr>
-<th style="width: 40%;"> </th>
-<th> </th>
-</tr>
-<tr>
-<td>
-<p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_lei100.png" style="width: 70%;"/></p>
-</td>
-<td>
-<p>Para o gerador, aplicando a equação característica:</p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;U_A_B&amp;space;=&amp;space;\varepsilon&amp;space;-&amp;space;r.i"/></p>
-<p>Para o resistor, aplicando a primeira lei de Ohm:</p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;U_A_B&amp;space;=&amp;space;R.i"/></p>
-<p>Unindo-as, obteremos:</p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\varepsilon&amp;space;-&amp;space;r.i&amp;space;=R.i&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;\varepsilon&amp;space;=&amp;space;i(R+r)"/> <img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\"/><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;i&amp;space;=&amp;space;\frac{\varepsilon}{R+r}"/></p>
-</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section>
-<h3>Rendimento do gerador elétrico</h3>
-<p>É um valor que exprimi o quão aproveitável é a energia produzida por um gerador, este valor pode ser obtido através da razão entre potência útil por potência produzida.</p>
-<p><img class="formula" src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\eta&amp;space;=&amp;space;\frac{P_u}{P_t}-\frac{U.i}{\varepsilon.i}&amp;space;\&amp;space;\rightarrow&amp;space;\"/><img class="formula_imp" src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\eta&amp;space;=&amp;space;\frac{U}{\varepsilon}"/></p>
-</section>
+                <div class="capa">
+                    <div class="badge">Eletrodinâmica</div>
+                    <h1>Aula10-81: Geradores elétricos e associação de geradores</h1>
+                    <div class="aula-num">Aula 10-81</div>
+                </div>
+            </section>
+            <section>
+                <h3>Geradores elétricos</h3>
+                <p>Um gerador elétrico é um dispositivo capaz de converter diferentes formas de energia, como energia
+                    mecânica, química e solar, em energia elétrica. Toda a energia elétrica gerada pelo gerador é
+                    chamada força eletromotriz; esta energia, após ser gerada, é, em parte, indesejavelmente perdida
+                    para o ambiente e a energia que resta após esta perda é chamada de tensão. A tensão é a energia que
+                    abastecerá o circuito.</p>
+            </section>
+            <section>
+                <ul>
+                    <ul>
+                        <li>
+                            <p><strong>Geradores elétricos ideais:</strong> chamamos de ideal o gerador em que
+                                desprezamos a sua resistência interna e a energia perdida em consequência dela. Num
+                                gerador ideal, portanto, a força eletromotriz é igual a tensão e elas nunca variam.</p>
+                        </li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>
+                        <p><strong>Geradores elétricos reais:</strong> São os geradores em que são considerados as suas
+                            resistências internas. O comportamento destes geradores é descrito pela equação
+                            característica do gerador elétrico.</p>
+                    </li>
+                </ul>
+                <p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_gerador.png"
+                        style="width: 60%;" /></p>
+            </section>
+            <section>
+                <h3>Equação característica do gerador elétrico</h3>
+                <p>Os geradores, como quaisquer outros dispositivos elétricos, também possuem resistência elétrica. Esta
+                    resistência é chamada resistência interna do gerador, e ela varia de acordo com a corrente que passa
+                    através dele. Assim sendo, podemos inferir que nem toda a energia produzida pelo gerador é usada
+                    para a aplicação desejada. A energia que ele é capaz de produzir é chamada força eletromotriz; a
+                    energia que ele “entrega” é denominada tensão ou DDP Podemos encontrar a tensão fornecida por um
+                    gerador por meio da seguinte equação:</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="width: 50%;"> </th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><img class="formula_imp"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;U&amp;space;=&amp;space;\varepsilon&amp;space;-R.i" />
+                                </p>
+                                <p>Em que U é a tensão, ε é a força eletromotriz, r é a resistência interna do gerador e
+                                    i a intensidade de corrente elétrica.</p>
+                            </td>
+                            <td>
+                                <p style="text-align: center;"><img
+                                        src="../imagens/imagens-fisica_aulas_aula10-81_eq.png" style="width: 80%;" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <p>➔ CURVA CARACTERÍSTICA DO GERADOR</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="width: 50%;"> </th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align: center;"><img
+                                        src="../imagens/imagens-fisica_aulas_aula10-81_curva.png" style="width: 40%;" />
+                                </p>
+                            </td>
+                            <td>
+                                <p>O gráfico ao lado ilustra o queda de tensão que ocorre quando se eleva a intensidade
+                                    de corrente que atravessa o gerador.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <p>➔ CURTO-CIRCUITO</p>
+                <p>Chamamos de curto-circuito um gerador elétrico cujos polos estão conectados por um condutor de
+                    resistência elétrica desprezível. Nesta ocasião, a tensão é nula e a intensidade de corrente
+                    (corrente de curto-circuito) é máxima.</p>
+            </section>
+            <section>
+                <h3>Associação de geradores</h3>
+                <p>Assim como ocorre com os resistores, podemos também associar geradores. Eles podem ser associados de
+                    dois modos:</p>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <p><strong>Associação em série:</strong></p>
+                    </li>
+                </ul>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="width: 55%;"> </th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align: center;"><img
+                                        src="../imagens/imagens-fisica_aulas_aula10-81_serie.png" style="width: 95%;" />
+                                </p>
+                            </td>
+                            <td>
+                                <p>A associação em série de geradores fará aumentar a força eletromotriz fornecida ao
+                                    circuito (a tensão entre os pontos a e b); este tipo de associação também fará
+                                    aumentar a resistência interna do conjunto de geradores. A nova força eletromotriz
+                                    fornecida por um conjunto de geradores ligados em série é igual a soma das forças
+                                    eletromotrizes de todos os geradores que integram o conjunto:</p>
+                                <p><img class="formula_imp"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;U_R&amp;space;=&amp;space;U_1&amp;space;+&amp;space;U_2&amp;space;+&amp;space;...&amp;space;+&amp;space;U_n" />
+                                </p>
+                                <p>A nova resistência interna imposta pelo conjunto de geradores conectados em série é
+                                    igual a soma das resistência de cada um dos geradores que integram o conjunto:</p>
+                                <p><img class="formula_imp"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;r_R&amp;space;=&amp;space;r_1&amp;space;+&amp;space;r_2&amp;space;+&amp;space;...&amp;space;+&amp;space;r_n" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <ul>
+                    <li style="font-size: 0.7em;">
+                        <p><strong>Associação em paralelo</strong></p>
+                        <p>A associação em paralelo de geradores de igual força eletromotriz (não se é uma boa prática
+                            conectar paralelamente geradores de forças eletromotriz diferentes) resultara num sistema de
+                            geradores que possui a mesma força eletromotriz dos geradores que o constitui:</p>
+                        <p><img class="formula_imp"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;U_R&amp;space;=&amp;space;U_1&amp;space;=&amp;space;U_2&amp;space;=&amp;space;U_n" />
+                        </p>
+                        <p>Agora, se esta associação não oferece vantagem ao circuito atinente a força eletromotriz, o
+                            mesmo não acontece em termos de resistência. Neste tipos de ligação, como os geradores
+                            conectam-se em paralelo, devemos considerar que as resistências internas deles também estão
+                            ligados em paralelo; o que resulta num sistema de resistência resultante menor do que a
+                            resistência dos geradores que o constitui:</p>
+                        <p><img class="formula_imp"
+                                src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\frac{1}{r_R}=\frac{1}{r_1}+\frac{1}{r_2}+...+\frac{1}{r_n}" />
+                        </p>
+                    </li>
+                </ul>
+                <p style="text-align: center;"><img src="../imagens/imagens-fisica_aulas_aula10-81_para.png"
+                        style="width: 65%;" /></p>
+            </section>
+            <section>
+                <h3>Lei de Ohm-Pouillet</h3>
+                <p>É uma equação que relaciona a intensidade de corrente elétrica com as outras variáveis de um sistema
+                    alimentador por um gerador elétrico.</p>
+                <p>Ao analisarmos um circuito alimentado por um gerador real, teremos:</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th style="width: 40%;"> </th>
+                            <th> </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align: center;"><img
+                                        src="../imagens/imagens-fisica_aulas_aula10-81_lei100.png"
+                                        style="width: 70%;" /></p>
+                            </td>
+                            <td>
+                                <p>Para o gerador, aplicando a equação característica:</p>
+                                <p><img class="formula"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;U_A_B&amp;space;=&amp;space;\varepsilon&amp;space;-&amp;space;r.i" />
+                                </p>
+                                <p>Para o resistor, aplicando a primeira lei de Ohm:</p>
+                                <p><img class="formula"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;U_A_B&amp;space;=&amp;space;R.i" />
+                                </p>
+                                <p>Unindo-as, obteremos:</p>
+                                <p><img class="formula"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\varepsilon&amp;space;-&amp;space;r.i&amp;space;=R.i&amp;space;\&amp;space;\rightarrow&amp;space;\&amp;space;\varepsilon&amp;space;=&amp;space;i(R+r)" />
+                                    <img class="formula"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\rightarrow&amp;space;\" /><img
+                                        class="formula_imp"
+                                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;i&amp;space;=&amp;space;\frac{\varepsilon}{R+r}" />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h3>Rendimento do gerador elétrico</h3>
+                <p>É um valor que exprimi o quão aproveitável é a energia produzida por um gerador, este valor pode ser
+                    obtido através da razão entre potência útil por potência produzida.</p>
+                <p><img class="formula"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{60}&amp;space;\huge&amp;space;\eta&amp;space;=&amp;space;\frac{P_u}{P_t}-\frac{U.i}{\varepsilon.i}&amp;space;\&amp;space;\rightarrow&amp;space;\" /><img
+                        class="formula_imp"
+                        src="https://latex.codecogs.com/gif.latex?\dpi{80}&amp;space;\huge&amp;space;\eta&amp;space;=&amp;space;\frac{U}{\varepsilon}" />
+                </p>
+            </section>
 
         </div>
     </div>
@@ -184,8 +263,9 @@
             controls: true,
             progress: true,
             center: true,
-            plugins: [ RevealMath.KaTeX ]
+            plugins: [RevealMath.KaTeX]
         });
     </script>
 </body>
+
 </html>
