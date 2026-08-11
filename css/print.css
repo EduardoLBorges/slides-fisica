@@ -348,23 +348,45 @@
         background: transparent !important;
     }
 
-    /* ── Imagens Acadêmicas ── */
+    /* ── Cabeçalhos Sem Órfãos (Evita que o título fique isolado no fim da página) ── */
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6,
+    html:not(.print-pdf) .reveal h1, html:not(.print-pdf) .reveal h2, html:not(.print-pdf) .reveal h3 {
+        page-break-after: avoid !important;
+        break-after: avoid !important;
+    }
+
+    /* ── Proteção de Imagens e Figuras (Anti-Corte entre Páginas) ── */
+    img,
+    figure,
+    picture,
+    figcaption,
     .reveal section img,
     html:not(.print-pdf) .reveal section img,
     .ex-page img {
         background: #ffffff !important;
         border: none !important;
         padding: 0 !important;
-        max-height: 90mm !important;
+        max-height: 120mm !important;
         max-width: 85% !important;
         width: auto !important;
         height: auto !important;
-        margin: 6pt auto !important;
+        margin: 8pt auto !important;
         object-fit: contain !important;
         display: block !important;
         box-shadow: none !important;
         page-break-inside: avoid !important;
         break-inside: avoid !important;
+        -webkit-column-break-inside: avoid !important;
+    }
+
+    /* Contêineres de imagens (evita que o parágrafo ou div que embrulha a imagem seja partido) */
+    .reveal section figure,
+    .reveal section p:has(img),
+    .reveal section div:has(> img) {
+        display: block !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        margin: 6pt 0 !important;
     }
 
     /* Fórmulas inline */
@@ -385,6 +407,8 @@
         border: none !important;
         box-shadow: none !important;
         background: transparent !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
     }
 
     /* ── Bloco de Citação / Adendos ── */
