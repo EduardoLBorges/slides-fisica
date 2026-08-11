@@ -130,9 +130,25 @@
                         <span class="icon">←</span>
                         Aula Anterior
                     </a>
+                    <button id="btn-exportar-pdf" class="btn-circular" type="button">
+                        <span class="icon">📄</span>
+                        Exportar PDF
+                    </button>
                 </div>
             `;
             document.body.appendChild(overlayInicio);
+
+            const btnPdf = overlayInicio.querySelector('#btn-exportar-pdf');
+            if (btnPdf) {
+                btnPdf.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    overlayInicio.classList.remove('ativo');
+                    document.querySelector('.reveal')?.classList.remove('blur-reveal');
+                    setTimeout(() => {
+                        window.print();
+                    }, 150);
+                });
+            }
 
             // Determinar o link de exercícios atual
             const currentFilename = window.location.pathname.split('/').pop();

@@ -5,6 +5,7 @@
    ═══════════════════════════════════════════════════════ */
 
 @import url('./base.css');
+@import url('./print.css');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 

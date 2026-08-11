@@ -5,6 +5,7 @@
    ═══════════════════════════════════════════════════════ */
 
 @import url('./base.css');
+@import url('./print.css');
 
 /* ── Reveal.js — viewport e base ── */
 .reveal-viewport { background: var(--bg); }
@@ -103,7 +104,7 @@
 /* ── Tabelas — alto contraste, espaçamento amplo ── */
 .reveal section td,
 .reveal section th {
-    font-size: 0.76em;
+    font-size: 0.6em;
     text-align: left;
     color: var(--text);
     line-height: 1.55;
@@ -126,7 +127,7 @@
     padding: 10px 16px;   /* mais padding para projetor */
     border: 1px solid var(--border-strong);
     font-weight: 700;
-    font-size: 0.78em;
+    font-size: 0.6em;
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
@@ -142,6 +143,7 @@
     white-space: normal !important;
     overflow-wrap: break-word;
     word-break: break-word;
+    font-size: 0.6em;
 }
 
 .reveal tr:nth-child(even) td {

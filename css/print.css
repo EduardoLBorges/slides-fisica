@@ -1,0 +1,460 @@
+/* ═══════════════════════════════════════════════════════════════════
+   PRINT.CSS — Layout de Impressão Acadêmico A4 (Times New Roman 12pt)
+   Formatação acadêmica formal em fundo branco e fluxo contínuo.
+   Sobrescreve com alta especificidade as regras nativas do Reveal.js.
+   ═══════════════════════════════════════════════════════════════════ */
+
+@media print {
+
+    /* ── Reset global de impressão ── */
+    *,
+    *::before,
+    *::after {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+        box-sizing: border-box !important;
+        background-color: transparent;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    /* ── Configuração de página A4 retrato ── */
+    @page {
+        size: A4 portrait;
+        margin: 15mm 15mm 15mm 15mm;
+    }
+
+    /* ── Ocultar elementos de UI interativos e navegacionais ── */
+    #btn-voltar,
+    #btn-exportar-pdf,
+    #top-right-controls,
+    #fim-aula-overlay,
+    #inicio-aula-overlay,
+    .reveal .controls,
+    .reveal .progress,
+    .reveal .slide-number,
+    .reveal .speaker-notes,
+    .reveal aside.notes,
+    button.exibir,
+    input.exibir {
+        display: none !important;
+    }
+
+    /* ── Fundo Branco e Tipografia Acadêmica Base (Times New Roman 12pt) ── */
+    html,
+    body,
+    html:not(.print-pdf),
+    html:not(.print-pdf) body,
+    html.print-pdf,
+    html.print-pdf body {
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-family: 'Times New Roman', Times, 'Crimson Text', Georgia, serif !important;
+        font-size: 12pt !important;
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    /* ── Ajustes do container Reveal (Sobrescrevendo reveal.min.css) ── */
+    .reveal-viewport,
+    .reveal,
+    html:not(.print-pdf) .reveal,
+    html.print-pdf .reveal {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        overflow: visible !important;
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        font-family: 'Times New Roman', Times, 'Crimson Text', Georgia, serif !important;
+        font-size: 12pt !important;
+        transform: none !important;
+        transition: none !important;
+        filter: none !important;
+    }
+
+    /* ── Container dos slides ── */
+    .reveal .slides,
+    html:not(.print-pdf) .reveal .slides,
+    html.print-pdf .reveal .slides {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        top: auto !important;
+        left: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: none !important;
+        overflow: visible !important;
+        perspective: none !important;
+        background: #ffffff !important;
+        display: block !important;
+        text-align: left !important;
+    }
+
+    /* ── Seções em Fluxo Contínuo (Removendo page-break-after: always e paddings de 60px do Reveal) ── */
+    .reveal .slides section,
+    .reveal .slides section section,
+    html:not(.print-pdf) .reveal .slides section,
+    html:not(.print-pdf) .reveal .slides section section,
+    html:not(.print-pdf) .reveal .slides section:last-of-type,
+    html.print-pdf .reveal .slides section,
+    html.print-pdf .reveal .slides section section {
+        display: block !important;
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        transform: none !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        overflow: visible !important;
+        page-break-after: auto !important;
+        break-after: auto !important;
+        page-break-inside: auto !important;
+        break-inside: auto !important;
+        margin: 0 0 10pt 0 !important;
+        padding: 0 !important;
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    /* ── Slide de Capa Acadêmica (Integração no Topo da Página) ── */
+    .reveal .capa,
+    html:not(.print-pdf) .reveal .capa {
+        display: block !important;
+        text-align: center !important;
+        padding: 0 0 12pt 0 !important;
+        margin-bottom: 14pt !important;
+        background: #ffffff !important;
+        border-bottom: 1.5pt solid #000000 !important;
+        min-height: 0 !important;
+        height: auto !important;
+        position: relative !important;
+        page-break-after: auto !important;
+        break-after: auto !important;
+    }
+
+    .reveal .capa::before {
+        display: none !important;
+    }
+
+    .reveal .capa .badge,
+    html:not(.print-pdf) .reveal .capa .badge {
+        display: inline-block !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 10pt !important;
+        font-weight: bold !important;
+        letter-spacing: 0.1em !important;
+        text-transform: uppercase !important;
+        color: #000000 !important;
+        border: 1pt solid #000000 !important;
+        padding: 2pt 8pt !important;
+        margin-bottom: 6pt !important;
+        border-radius: 0 !important;
+        background: #ffffff !important;
+    }
+
+    /* ── Cabeçalhos Acadêmicos (Sobrescrevendo os 28pt, 24pt, 22pt do Reveal) ── */
+    .reveal h1,
+    html:not(.print-pdf) .reveal h1,
+    .reveal .capa h1,
+    html:not(.print-pdf) .reveal .capa h1 {
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 16pt !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        color: #000000 !important;
+        margin: 4pt 0 6pt 0 !important;
+        line-height: 1.3 !important;
+        text-align: center !important;
+    }
+
+    .reveal h2,
+    html:not(.print-pdf) .reveal h2 {
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 14pt !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        color: #000000 !important;
+        margin: 10pt 0 4pt 0 !important;
+        text-align: left !important;
+    }
+
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6,
+    .reveal section h3,
+    html:not(.print-pdf) .reveal h3,
+    html:not(.print-pdf) .reveal h4,
+    html:not(.print-pdf) .reveal h5,
+    html:not(.print-pdf) .reveal h6,
+    html:not(.print-pdf) .reveal section h3 {
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 13pt !important;
+        font-weight: bold !important;
+        font-style: normal !important;
+        color: #000000 !important;
+        margin: 10pt 0 4pt 0 !important;
+        padding-bottom: 2pt !important;
+        border-bottom: 1pt solid #000000 !important;
+        text-transform: none !important;
+        letter-spacing: 0 !important;
+        text-align: left !important;
+    }
+
+    .reveal .capa .aula-num {
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 11pt !important;
+        color: #333333 !important;
+        letter-spacing: 0.05em !important;
+    }
+
+    /* ── Texto Corrido e Listas (Sobrescrevendo os 20pt do Reveal com 12pt) ── */
+    .reveal p,
+    .reveal li,
+    .reveal td,
+    .reveal th,
+    .reveal div,
+    .reveal span,
+    .reveal a,
+    .reveal section p,
+    .reveal section li,
+    .reveal section span,
+    .reveal section div,
+    html:not(.print-pdf) .reveal p,
+    html:not(.print-pdf) .reveal li,
+    html:not(.print-pdf) .reveal td,
+    html:not(.print-pdf) .reveal th,
+    html:not(.print-pdf) .reveal div,
+    html:not(.print-pdf) .reveal span,
+    html:not(.print-pdf) .reveal a,
+    .ex-page p,
+    .ex-page li,
+    .ex-page span,
+    .ex-page div {
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 12pt !important;
+        color: #000000 !important;
+        line-height: 1.4 !important;
+        text-align: justify !important;
+        margin: 3pt 0 !important;
+        background: transparent !important;
+    }
+
+    /* Removendo parágrafos vazios ou que contenham apenas <br> para evitar espaços entre seções */
+    .reveal section p:empty,
+    .reveal section p > br:only-child {
+        display: none !important;
+    }
+
+    .reveal section ul,
+    .reveal section ol,
+    html:not(.print-pdf) .reveal ul,
+    html:not(.print-pdf) .reveal ol,
+    .ex-page ul,
+    .ex-page ol {
+        margin: 4pt 0 6pt 18pt !important;
+        padding: 0 !important;
+    }
+
+    .reveal strong,
+    .ex-page strong,
+    .ex-page b {
+        color: #000000 !important;
+        font-weight: bold !important;
+    }
+
+    .reveal em,
+    .ex-page em {
+        font-style: italic !important;
+    }
+
+    .reveal a,
+    .ex-page a {
+        color: #000000 !important;
+        text-decoration: none !important;
+    }
+
+    /* ── Tabelas Acadêmicas Formalizadas (Fundo Branco, Times New Roman 12pt) ── */
+    .reveal table,
+    html:not(.print-pdf) .reveal table,
+    .ex-page table {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 8pt 0 !important;
+        border-collapse: collapse !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        border-top: 1.5pt solid #000000 !important;
+        border-bottom: 1.5pt solid #000000 !important;
+        background: #ffffff !important;
+    }
+
+    .reveal th,
+    html:not(.print-pdf) .reveal th,
+    .ex-page th {
+        background: #ffffff !important;
+        color: #000000 !important;
+        padding: 4pt 6pt !important;
+        border-bottom: 1pt solid #000000 !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 12pt !important;
+        font-weight: bold !important;
+        text-transform: none !important;
+        letter-spacing: 0 !important;
+    }
+
+    .reveal td,
+    html:not(.print-pdf) .reveal td,
+    .ex-page td {
+        padding: 4pt 6pt !important;
+        border-bottom: 0.5pt solid #dddddd !important;
+        background: #ffffff !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 12pt !important;
+        color: #000000 !important;
+        vertical-align: top !important;
+    }
+
+    .reveal tr:nth-child(even) td,
+    html:not(.print-pdf) .reveal tr:nth-child(even) td,
+    .ex-page tr:nth-child(even) td {
+        background: #ffffff !important;
+    }
+
+    .reveal td *,
+    .reveal th *,
+    html:not(.print-pdf) .reveal td *,
+    html:not(.print-pdf) .reveal th *,
+    .ex-page td *,
+    .ex-page th * {
+        margin: 0 !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 12pt !important;
+        color: inherit !important;
+        background: transparent !important;
+    }
+
+    /* ── Imagens Acadêmicas ── */
+    .reveal section img,
+    html:not(.print-pdf) .reveal section img,
+    .ex-page img {
+        background: #ffffff !important;
+        border: none !important;
+        padding: 0 !important;
+        max-height: 90mm !important;
+        max-width: 85% !important;
+        width: auto !important;
+        height: auto !important;
+        margin: 6pt auto !important;
+        object-fit: contain !important;
+        display: block !important;
+        box-shadow: none !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    /* Fórmulas inline */
+    .reveal section img[src*="codecogs"],
+    .reveal section img.formula,
+    .reveal section img.formula_imp,
+    html:not(.print-pdf) .reveal section img[src*="codecogs"],
+    html:not(.print-pdf) .reveal section img.formula,
+    html:not(.print-pdf) .reveal section img.formula_imp,
+    .ex-page img[src*="codecogs"],
+    .ex-page img.formula,
+    .ex-page img.formula_imp {
+        max-height: 22pt !important;
+        padding: 0 2pt !important;
+        margin: 0 2pt !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        border: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+    }
+
+    /* ── Bloco de Citação / Adendos ── */
+    .reveal .addend,
+    .reveal .adendo,
+    html:not(.print-pdf) .reveal .addend,
+    html:not(.print-pdf) .reveal .adendo {
+        text-align: left !important;
+        background: #ffffff !important;
+        border: 1pt solid #000000 !important;
+        border-left: 2.5pt solid #000000 !important;
+        border-radius: 0 !important;
+        padding: 6pt 10pt !important;
+        margin: 8pt 0 !important;
+        width: 100% !important;
+        font-style: italic !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    .reveal .slides section::after {
+        display: none !important;
+        content: none !important;
+    }
+
+    /* ── Suporte à Impressão de Exercícios ── */
+    .ex-page {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: #ffffff !important;
+    }
+
+    .ex-header {
+        margin-bottom: 12pt !important;
+        padding-bottom: 10pt !important;
+        border-bottom: 1.5pt solid #000000 !important;
+    }
+
+    .ex-header::before {
+        display: none !important;
+    }
+
+    .ex-badge, .ex-cap-badge {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: 1pt solid #000000 !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 10pt !important;
+        border-radius: 0 !important;
+    }
+
+    .ex-titulo {
+        font-family: 'Times New Roman', Times, serif !important;
+        font-size: 16pt !important;
+        color: #000000 !important;
+        font-style: normal !important;
+        font-weight: bold !important;
+    }
+
+    .item-exercicio,
+    .questao {
+        background: #ffffff !important;
+        border: none !important;
+        border-left: 2pt solid #000000 !important;
+        border-radius: 0 !important;
+        padding: 6pt 10pt !important;
+        margin-bottom: 8pt !important;
+        font-size: 12pt !important;
+        line-height: 1.4 !important;
+        box-shadow: none !important;
+    }
+}
