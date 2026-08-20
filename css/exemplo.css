@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════
-   EXERCICIO.CSS — Estética acadêmica, fácil leitura
+   EXEMPLO.CSS — Estética acadêmica, fácil leitura
    Prioridades: contraste alto · tipografia clara · espaçamento generoso
    Tokens e botões compartilhados: ver base.css
    ═══════════════════════════════════════════════════════ */
@@ -90,15 +90,15 @@ body {
     font-style: italic;
 }
 
-/* ── Lista de exercícios ── */
+/* ── Lista de exemplos ── */
 .ex-conteudo {
     display: flex;
     flex-direction: column;
-    gap: 28px;   /* mais espaço entre exercícios = mais fácil de seguir */
+    gap: 28px;   /* mais espaço entre exemplos = mais fácil de seguir */
 }
 
-/* ── Cada exercício ── */
-.item-exercicio {
+/* ── Cada exemplo ── */
+.item-exemplo {
     background: var(--surface);
     border: 1px solid var(--border);
     border-left: 3px solid var(--border-strong);
@@ -109,7 +109,7 @@ body {
     color: var(--text);
 }
 
-.item-exercicio b {
+.item-exemplo b {
     color: var(--accent);
     font-weight: 700;
 }
@@ -161,7 +161,7 @@ button.exibir[data-aberto="true"] {
 .row { display: none; }
 
 /* ── Tabelas ── */
-.item-exercicio table,
+.item-exemplo table,
 .questao table {
     border-collapse: collapse;
     margin: 14px 0;
@@ -170,8 +170,8 @@ button.exibir[data-aberto="true"] {
     max-width: 100%;
 }
 
-.item-exercicio table td,
-.item-exercicio table th,
+.item-exemplo table td,
+.item-exemplo table th,
 .questao table td,
 .questao table th {
     padding: 8px 16px;   /* células mais espaçosas */
@@ -180,7 +180,7 @@ button.exibir[data-aberto="true"] {
     vertical-align: top;
 }
 
-.item-exercicio table th,
+.item-exemplo table th,
 .questao table th {
     background: var(--surface2);
     color: var(--text-strong);
@@ -190,14 +190,14 @@ button.exibir[data-aberto="true"] {
     text-transform: uppercase;
 }
 
-.item-exercicio table tr:nth-child(even) td {
+.item-exemplo table tr:nth-child(even) td {
     background: var(--surface2);
 }
 
-.item-exercicio p, .questao p { margin-bottom: 6px; }
+.item-exemplo p, .questao p { margin-bottom: 6px; }
 
 /* ── Imagens ── */
-.item-exercicio img, .questao img {
+.item-exemplo img, .questao img {
     max-width: 100%;
     border-radius: 3px;
     background: rgba(255,255,255,0.95);
@@ -210,5 +210,5 @@ button.exibir[data-aberto="true"] {
 /* ── Responsivo ── */
 @media (max-width: 600px) {
     .ex-page { padding: 60px 16px 60px; }
-    .item-exercicio { padding: 16px 18px; }
+    .item-exemplo { padding: 16px 18px; }
 }

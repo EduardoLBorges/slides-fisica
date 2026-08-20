@@ -434,7 +434,7 @@
         content: none !important;
     }
 
-    /* ── Suporte à Impressão de Exercícios ── */
+    /* ── Suporte à Impressão de Exemplos ── */
     .ex-page {
         max-width: 100% !important;
         margin: 0 !important;
@@ -469,7 +469,7 @@
         font-weight: bold !important;
     }
 
-    .item-exercicio,
+    .item-exemplo,
     .questao {
         background: #ffffff !important;
         border: none !important;

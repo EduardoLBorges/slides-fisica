@@ -299,7 +299,7 @@ body {
     transform: translateX(3px);
 }
 
-.btn-exercicio {
+.btn-exemplo {
     display: inline-flex;
     align-items: center;
     gap: 3px;
@@ -318,7 +318,7 @@ body {
     z-index: 2;
 }
 
-.btn-exercicio:hover {
+.btn-exemplo:hover {
     color: var(--text-strong);
     border-color: var(--border-strong);
     background: var(--surface2);
