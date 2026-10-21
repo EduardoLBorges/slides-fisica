@@ -2,7 +2,7 @@
   {
     "numero": 1,
     "ano": 2025,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 6,
     "texto": "1 - ENEM 2025\n\n    Réguas elétricas são dispositivos que permitem a ligação segura e\nsimultânea de dois ou mais aparelhos eletroeletrônicos à rede elétrica.\nUma estudante comprou uma régua com seis tomadas, conforme a\nfigura. Essa régua suporta uma intensidade máxima de corrente\nelétrica igual a 20 A. Acima desse valor, o fusível de segurança da\nrégua se rompe, inutilizando-a até que um novo fusível seja instalado.\nConsidere as potências nominais de alguns aparelhos eletroeletrônicos\napresentadas no quadro.\n\n\n\n\n     Em um dia quente, a estudante mantém o computador e o\ncondicionador de ar portátil ligados à régua permanentemente. Nessa\nsituação, ela tenta realizar algumas atividades, uma de cada vez,\nutilizando a mesma régua, na seguinte ordem:\n\n    1.o – imprimir um trabalho escolar;\n    2.o – fazer um café com a cafeteira;\n    3.o – ligar a luminária;\n    4.o – secar os cabelos.\n\n\f   Sabe-se que a régua foi ligada à tensão elétrica de 110 V,\nadequada para o funcionamento desses aparelhos.\n\n    Considerando a ordem das tentativas, quantas atividades a\nestudante conseguiu realizar sem queimar o fusível?\n\n    (A) 4\n    (B) 3\n    (C) 2\n    (D) 1\n    (E) 0",
     "alternativa": "D",
@@ -22,7 +22,7 @@
   {
     "numero": 3,
     "ano": 2025,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 8,
     "texto": "3 - ENEM 2025\n\n    A tirinha ilustra um processo físico em que uma onda sonora,\nproduzida pela Mônica, causa a quebra das taças de cristal. O\nfenômeno ondulatório que provoca a quebra das taças só é possível\nem razão de uma característica da voz produzida pela Mônica naquele\nmomento, que, diferentemente do que sugere a tirinha, não está\nrelacionada à sua intensidade.\n\n\n\n\n                                  Disponível em: https://artedafisicapibid.blogspot.com.\n                                                   Acesso em: 23 nov. 2021 (adaptado).\n\n\n\n    Esse fenômeno e a característica associada à voz da Mônica são,\nrespectivamente,\n\n    (A) reflexão e comprimento de onda.\n    (B) ressonância e frequência.\n    (C) interferência e velocidade.\n    (D) ressonância e timbre.\n    (E) reflexão e amplitude.",
     "alternativa": "B",
@@ -33,7 +33,7 @@
   {
     "numero": 4,
     "ano": 2025,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 9,
     "texto": "4 - ENEM 2025\n\n    A Figura 1 apresenta o esquema de um tubo de imagem em que\num filamento, na posição A, libera elétrons por efeito termiônico. Esses\nelétrons formam um feixe estreito, que é acelerado por campos\nelétricos em direção à parte interna da tela. Nesse caminho, o feixe de\nelétrons passa por outro campo elétrico, na região B, atingindo, em\nseguida, a parte interna da tela do tubo, a qual é recoberta por um\nmaterial que emite luz ao receber o impacto dos elétrons.\n\n\n\n\n    Na Figura 2, a carga negativa representa o feixe de elétrons que é\nacelerado e, posteriormente, atinge um ponto da tela. O campo elétrico\nna região B apresenta a seguinte configuração:\n\n\n\n\n                                      Grupo de Reelaboração do Ensino de Física. Física 3:\n                                   eletromagnetismo. São Paulo: Edusp, 2000 (adaptado).\n\n\f    Nessa situação, qual ponto da tela será atingido pelo feixe de\nelétrons?\n\n     (A) 1\n     (B) 2\n     (C) 3\n     (D) 4\n     (E) 5",
     "alternativa": "B",
@@ -94,7 +94,7 @@
   {
     "numero": 9,
     "ano": 2025,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 15,
     "texto": "9 - ENEM 2025\n\n    Em sua maioria, os equipamentos eletrônicos domésticos\ndemandam baixa potência elétrica em corrente contínua. Para\nalimentá-los, uma fonte externa ou embutida transforma a corrente\nalternada em corrente contínua de baixa tensão. Entretanto, cada\nequipamento tem suas especificidades, e muitas vezes não é possível\nsimplesmente trocar essas fontes sem levar em conta a tensão, a\ncorrente ou a potência elétrica de saída.\n\n    Considere um equipamento de resistência elétrica RC que funciona\ncorretamente apenas em um dado valor de tensão. Porém, a única\nfonte de alimentação disponível fornece uma tensão 20% superior à\ntensão recomendada. Para adaptar essa fonte ao aparelho, a\nassociação de um resistor de proteção RP, de potência adequada, se\nfaz necessária.\n\n    A configuração adequada do circuito e o valor do resistor de\nproteção, em relação ao valor da resistência do equipamento, são:\n\n\f     (A)\n\n\n\n\n     (B)\n\n\n\n\n     (C)\n\n\n\n\n     (D)\n\n\n\n\n     (E)",
     "alternativa": "E",
@@ -109,7 +109,7 @@
   {
     "numero": 10,
     "ano": 2025,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 17,
     "texto": "10 - ENEM 2025\n\n     O nível sonoro, em decibel (dB), é calculado pela expressão:\n\n\n\n\n    Uma conversa normal entre duas pessoas gera sons de níveis\nsonoros entre 50 e 60 dB, enquanto pessoas gritando podem gerar\nsons de níveis superiores a 100 dB. Supondo que, no centro de um\nestádio de futebol, foram realizadas medidas para avaliar o ruído médio\nde uma pessoa gritando a palavra “gol” em diferentes posições das\narquibancadas. O valor médio obtido, considerando um grande número\nde medidas, foi de 100 dB. Com esse dado, estimou-se o ruído sonoro\nproduzido por 10000 pessoas, distribuídas aleatoriamente nas\narquibancadas, enquanto gritavam, simultaneamente, a palavra “gol”.\n\n    O valor médio estimado para o ruído produzido por essas pessoas,\nna posição central desse estádio hipotético, foi de\n\n     (A) 60 dB.\n     (B) 104 dB.\n     (C) 140 dB.\n     (D) 400 dB.\n     (E) 800 dB.",
     "alternativa": "C",
@@ -142,7 +142,7 @@
   {
     "numero": 13,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 18,
     "texto": "13 - ENEM 2021\n\n   O adaptador de tomada tipo T (Figura 1) é um acessório utilizado\nem domicílios para ligar vários aparelhos eletrodomésticos em uma\n\n\fúnica tomada. Conectar três aparelhos de alta potência em um mesmo\nadaptador pode superaquecê-lo e, consequentemente, provocar um\nincêndio. O circuito da Figura 2A representa um aparelho de resistência\nelétrica R ligado ao adaptador de resistência elétrica r. Na Figura 2B\nestá representado um circuito com três aparelhos de resistência\nelétrica R ligados ao mesmo adaptador. Em ambos os circuitos, os\npontos C e D são os terminais de uma mesma tomada elétrica.\nConsidere todos os resistores ôhmicos.\n\n\n\n\n    Comparando-se a Figura 2B com a Figura 2A, verifica-se que o\npossível superaquecimento do adaptador de tomada acontece em\ndecorrência do aumento da\n\n\f     (A) tensão em R.\n     (B) corrente em R.\n     (C) tensão entre C e D.\n     (D) corrente entre C e D.\n     (E) resistência equivalente entre C e D.",
     "alternativa": "D",
@@ -153,7 +153,7 @@
   {
     "numero": 14,
     "ano": 2021,
-    "tema": "Eletricidade",
+    "tema": "Mecânica",
     "paginaPdf": 20,
     "texto": "14 - ENEM 2021\n\n    A resolução de um instrumento de medição é definida como a\nmenor variação de uma grandeza que pode ser medida. O paquímetro\né um instrumento de medição de grandezas de comprimento linear.\nUm fabricante de componentes para portões eletrônicos produz eixos\ncom diâmetros diferentes e possui paquímetros com resoluções de\n0,02 mm (paquímetro A) e 0,05mm (paquímetro B). Um funcionário\ndessa empresa mediu um eixo com diâmetro nominal de 11,0 mm com\nuso do paquímetro A, e outro eixo com diâmetro nominal de 12,5 mm\ncom o paquímetro B.\n\n    Quais são as possíveis leituras obtidas com o uso dos paquímetros\nA e B, em milímetro, respectivamente?\n\n     (A) 11,01 e 12,50\n     (B) 11,02 e 12,51\n     (C) 11,04 e 12,55\n     (D) 11,05 e 12,50\n     (E) 11,06 e 12,54",
     "alternativa": "C",
@@ -189,7 +189,7 @@
   {
     "numero": 18,
     "ano": 2017,
-    "tema": "Óptica",
+    "tema": "Outros",
     "paginaPdf": 22,
     "texto": "18 - ENEM 2017\n\n     TEXTO I\n\n    No cordel intitulado Senhor dos Anéis, de autoria de Gonçalo\nFerreira da Silva, lê-se a sextilha:\n\n     A distância em relação\n     Ao nosso planeta amado\n     Pouco menos que a do Sol\n     Ele está distanciado\n     E menos denso que a água\n     Quando no normal estado\n\n\f                                        MEDEIROS, A.; AGRA, J. T. M., A astronomia na literatura de cordel,\n                                                              Física na Escola, n. 1, abr. 2010 (fragmento).\n\n\n\n     TEXTO II\n\n       Distâncias médias dos planetas ao Sol e suas densidades médias\n\n\n\n\n                        u.a. = 149 600 000 km, é a unidade astronômica. *Planeta clássico, **Planeta-anão\n        Características dos planetas. Disponível em www.astronoo.com. Acesso em: 8 nov. 2019 (adaptado).\n\n\n\n    Considerando os versos da sextilha e as informações da tabela, a\nqual planeta o cordel faz referência?\n\n     (A) Mercúrio.\n     (B) Júpiter.\n     (C) Urano.\n     (D) Saturno.\n     (E) Netuno.",
     "alternativa": "D",
@@ -284,7 +284,7 @@
   {
     "numero": 26,
     "ano": 2014,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 30,
     "texto": "26 - ENEM 2014\n\n    O fenômeno da levitação de corpos ocorre, na Terra, quando a força\ngravitacional a equilibrada, fazendo com que um objeto paire no ar.\n    O som pode fazer objetos levitarem, fenômeno chamado de levitação\nacústica. Um levitador acústicos deve conter um transdutor, que uma\nsuperfície vibratória que emite o som, e um refletor. Ambos têm\nsuperfícies côncavas para focalizar o som, conforme a ilustração:\n\n\n\n\n                    Disponível em: http://ciencia.hsw.uol.com.br. Acesso em: 28 fev. 2021 (adaptado).\n\n\f    Para que haja a levitação indicada na figura, a força que equilibra o\npeso do objeto deve ser decorrente da\n\n     (A) ação mecânica direta do transdutor sobre o objeto.\n     (B) ressonância que ocorre entre a onda sonora e o objeto.\n     (C) pressão que o som emitido pelo transdutor aplica no objeto.\n     (D) interferência destrutiva do som que anula o movimento do objeto.\n     (E) diferença de pressão dos sons emitido e refletido aplicada no objeto.",
     "alternativa": "E",
@@ -372,7 +372,7 @@
   {
     "numero": 34,
     "ano": 2004,
-    "tema": "Ondulatória",
+    "tema": "Outros",
     "paginaPdf": 37,
     "texto": "34 - ENEM 2004\n\n    Comprimam-se todos os 4,5 bilhões de anos de tempo geológico em\num só ano. Nesta escala, as rochas mais antigas reconhecidas datam de\nmarço. Os seres vivos apareceram inicialmente nos mares, em maio. As\nplantas e animais terrestres surgiram no final de novembro.\n\n\n\n\n    Na escala de tempo acima, o sistema solar surgiu no início de\njaneiro e vivemos hoje à meia-noite de 31 de dezembro. Nessa mesma\nescala, Pedro Álvares Cabral chegou ao Brasil também no mês de\ndezembro, mais precisamente na\n\n     (A) manhã do dia 01.\n     (B) tarde do dia 10.\n     (C) noite do dia 15.\n     (D) tarde do dia 20.\n     (E) noite do dia 31.",
     "alternativa": "E",
@@ -414,7 +414,7 @@
   {
     "numero": 38,
     "ano": 2002,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 39,
     "texto": "38 - ENEM 2002\n\n   Entre as inúmeras recomendações dadas para a economia de\nenergia elétrica em uma residência, destacamos as seguintes:\n\n    • Substitua     lâmpadas      incandescentes    por   fluorescentes\ncompactas.\n    • Evite usar o chuveiro elétrico com a chave na posição “inverno\" ou\n\"quente\".\n\n\f    • Acumule uma quantidade de roupa para ser passada a ferro\nelétrico de uma só vez.\n    • Evite o uso de tomadas múltiplas para ligar vários aparelhos\nsimultaneamente.\n    • Utilize, na instalação elétrica, fios de diâmetros recomendados\nàs suas finalidades.\n\n    A característica comum a todas essas recomendações é a proposta\nde economizar energia através da tentativa de, no dia-a-dia, reduzir\n\n     (A) a potência dos aparelhos e dispositivos elétricos.\n     (B) o tempo de utilização dos aparelhos e dispositivos.\n     (C) o consumo de energia elétrica convertida em energia térmica.\n     (D) o consumo de energia térmica convertida em energia elétrica.\n     (E) o consumo de energia elétrica através de correntes de fuga.",
     "alternativa": "C",
@@ -432,7 +432,7 @@
   {
     "numero": 40,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 41,
     "texto": "40 - ENEM 2009\n\n    O Inmetro procedeu à análise de garrafas térmicas com ampolas\nde vidro, para manter o consumidor informado sobre a adequação dos\nprodutos aos Regulamentos e Normas Técnicas. Uma das análises é a\nde eficiência térmica. Nesse ensaio, verifica-se a capacidade da garrafa\ntérmica de conservar o líquido aquecido em seu interior por\ndeterminado tempo. A garrafa é completada com água a 90ºC até o\nvolume total. Após 3 horas, a temperatura do líquido é medida e deve\nser, no mínimo, de 81ºC para garrafas com capacidade de 1 litro, pois\no calor específico da água é igual a 1 cal/gºC.\n\n                   Disponível em: http://www.inmetro.gov.br/consumidor/produtos/garrafavidro.asp.\n                                                               Acesso em: 3 maio 2009 (adaptado)\n\n\n\n    Atingindo a água 81ºC nesse prazo, a energia interna do sistema\ne a quantidade de calor perdida para o meio são, respectivamente,\n\n     (A) constante e de 900 cal.\n     (B) menor e de 900 cal.\n     (C) maior e de 900 cal.\n     (D) maior e de 9.000 cal.\n     (E) menor e de 9.000 cal.",
     "alternativa": "E",
@@ -453,7 +453,7 @@
   {
     "numero": 42,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 42,
     "texto": "42 - ENEM 2016\n\n   Nos dias frios, é comum ouvir expressões como: “Esta roupa é\nquentinha” ou então “Feche a janela para o frio não entrar”. As\nexpressões do senso comum utilizadas estão em desacordo com o\nconceito de calor da termodinâmica. A roupa não é “quentinha”, muito\nmenos o frio “entra” pela janela.\n\n\f    A utilização das expressões “roupa é quentinha” e “para o frio não\nentrar” é inadequada, pois o(a)\n\n    (A) roupa absorve a temperatura do corpo da pessoa, e o frio não\nentra pela janela, o calor é que sai por ela.\n    (B) roupa não fornece calor por ser um isolante térmico, e o frio\nnão entra pela janela, pois é a temperatura da sala que sai por ela.\n    (C) roupa não é uma fonte de temperatura, e o frio não pode entrar\npela janela, pois o calor está contido na sala, logo o calor é que sai por ela.\n    (D) calor não está contido num corpo, sendo uma forma de energia\nem trânsito de um corpo de maior temperatura para outro de menor\ntemperatura.\n    (E) calor está contido no corpo da pessoa, e não na roupa, sendo\numa forma de temperatura em trânsito de um corpo mais quente para\num corpo mais frio.",
     "alternativa": "D",
@@ -462,7 +462,7 @@
   {
     "numero": 43,
     "ano": 2010,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 43,
     "texto": "43 - ENEM 2010\n\n    Com o objetivo de se testar a eficiência de fornos de micro-ondas,\nplanejou-se o aquecimento em 10°C de amostras de diferentes\nsubstâncias, cada uma com determinada massa, em cinco fornos de\nmarcas distintas. Nesse teste, cada forno operou à potência máxima.\nO forno mais eficiente foi aquele que\n\n     O forno mais eficiente foi aquele que:\n\n    (A) forneceu a maior quantidade de energia às amostras.\n    (B) cedeu energia à amostra de maior massa em mais tempo.\n    (C) forneceu a maior quantidade de energia em menos tempo.\n    (D) cedeu energia à amostra de menor calor específico mais\nlentamente.\n    (E) forneceu a menor quantidade de energia às amostras em\nmenos tempo.",
     "alternativa": "C",
@@ -471,7 +471,7 @@
   {
     "numero": 44,
     "ano": 2015,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 44,
     "texto": "44 - ENEM 2015\n\n     As altas temperaturas de combustão e o atrito entre suas peças\nmóveis são alguns dos fatores que provocam o aquecimento dos\nmotores à combustão interna. Para evitar o superaquecimento e\nconsequentes danos a esses motores, foram desenvolvidos os atuais\nsistemas de refrigeração, em que um fluido arrefecedor com\npropriedades especiais circula pelo interior do motor, absorvendo o\ncalor que, ao passar pelo radiador, é transferido para a atmosfera.\n\n    Qual propriedade o fluido arrefecedor deve possuir para cumprir\nseu objetivo com maior eficiência?\n\n     (A) Alto calor específico.\n     (B) Alto calor latente de fusão.\n     (C) Baixa condutividade térmica.\n     (D) Baixa temperatura de ebulição.\n     (E) Alto coeficiente de dilatação térmica.",
     "alternativa": "A",
@@ -480,7 +480,7 @@
   {
     "numero": 45,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 44,
     "texto": "45 - ENEM 2020\n\n    Um fabricante de termômetros orienta em seu manual de\ninstruções que o instrumento deve ficar três minutos em contato com\no corpo para aferir a temperatura. Esses termômetros são feitos com\no bulbo preenchido com mercúrio conectado a um tubo capilar de vidro.\n\n    De acordo com a termodinâmica, esse procedimento se justifica,\npois é necessário que\n\n     (A) o termômetro e o corpo tenham a mesma energia interna.\n     (B) a temperatura do corpo passe para o termômetro.\n     (C) o equilíbrio térmico entre os corpos seja atingido.\n     (D) a quantidade de calor dos corpos seja a mesma.\n     (E) o calor do termômetro passe para o corpo.",
     "alternativa": "C",
@@ -500,7 +500,7 @@
   {
     "numero": 47,
     "ano": 2013,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 45,
     "texto": "47 - ENEM 2013\n\n    É comum nos referirmos a dias quentes como dias “de calor”.\nMuitas vezes ouvimos expressões como “hoje está calor” ou “hoje o\ncalor está muito forte” quando a temperatura ambiente está alta.\n\n\f    No contexto científico, é correto o significado de “calor” usado\nnessas expressões?\n\n   (A) Sim, pois o calor de um corpo depende de sua temperatura.\n   (B) Sim, pois calor é sinônimo de alta temperatura.\n   (C) Não, pois calor é energia térmica em trânsito.\n   (D) Não, pois calor é a quantidade de energia térmica contida em\num corpo.\n   (E) Não, pois o calor é diretamente proporcional à temperatura,\nmas são conceitos diferentes.",
     "alternativa": "C",
@@ -509,7 +509,7 @@
   {
     "numero": 48,
     "ano": 2002,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 46,
     "texto": "48 - ENEM 2002\n\n    Numa área de praia, a brisa marítima é uma consequência da\ndiferença no tempo de aquecimento do solo e da água, apesar de\nambos estarem submetidos às mesmas condições de irradiação solar.\nNo local (solo) que se aquece mais rapidamente, o ar fica mais quente\ne sobe, deixando uma área de baixa pressão, provocando o\ndeslocamento do ar da superfície que está mais fria (mar).\n\n\n\n\n     À noite, ocorre um processo inverso ao que se verifica durante o dia\n\n\f    Como a água leva mais tempo para esquentar (de dia), mas\ntambém leva mais tempo para esfriar (à noite), o fenômeno noturno\n(brisa terrestre) pode ser explicado da seguinte maneira:\n\n    (A) O ar que está sobre a água se aquece mais; ao subir, deixa\numa área de baixa pressão, causando um deslocamento de ar do\ncontinente para o mar.\n    (B) O ar mais quente desce e se desloca do continente para a água,\na qual não conseguiu reter calor durante o dia.\n    (C) O ar que está sobre o mar se esfria e dissolve-se na água;\nforma-se, assim, um centro de baixa pressão, que atrai o ar quente do\ncontinente.\n    (D) O ar que está sobre a água se esfria, criando um centro de alta\npressão que atrai massas de ar continental.\n    (E) O ar sobre o solo, mais quente, é deslocado para o mar,\nequilibrando a baixa temperatura do ar que está sobre o mar.",
     "alternativa": "A",
@@ -521,7 +521,7 @@
   {
     "numero": 49,
     "ano": 2015,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 47,
     "texto": "49 - ENEM 2015\n\n     Uma garrafa térmica tem como função evitar a troca de calor entre\no líquido nela contido e o ambiente, mantendo a temperatura de seu\nconteúdo constante. Uma forma de orientar os consumidores na compra\nde uma garrafa térmica seria criar um selo de qualidade, como se faz\natualmente para informar o consumo de energia de eletrodomésticos. O\nselo identificaria cinco categorias e informaria a variação de temperatura\n\n\fdo conteúdo da garrafa, depois de decorridas seis horas de seu\nfechamento, por meio de uma porcentagem do valor inicial da\ntemperatura de equilíbrio do líquido na garrafa. O quadro apresenta as\ncategorias e os intervalos de variação percentual da temperatura.\n\n\n\n\n    Para atribuir uma categoria a um modelo de garrafa térmica, são\npreparadas e misturadas, em uma garrafa, duas amostras de água, uma\na 10ºC e outra a 40ºC, na proporção de um terço de água fria para dois\nterços de água quente. A garrafa é fechada. Seis horas depois, abre-se\na garrafa e mede-se a temperatura da água, obtendo-se 16ºC.\n\n     Qual selo deveria ser posto na garrafa térmica testada?\n\n     (A) A\n     (B) B\n     (C) C\n     (D) D\n     (E) E",
     "alternativa": "D",
@@ -681,7 +681,7 @@
   {
     "numero": 64,
     "ano": 2014,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 60,
     "texto": "64 - ENEM 2014\n\n    O sonar é um equipamento eletrônico que permite a localização de\nobjetos e a medida de distâncias no fundo do mar, pela emissão de\nsinais sônicos e ultrassônicos e a recepção dos respectivos ecos. O\nfenômeno do eco corresponde à reflexão de uma onda sonora por um\nobjeto, a qual volta ao receptor pouco tempo depois de o som ser\nemitido. No caso do ser humano, o ouvido é capaz de distinguir sons\nseparados por, no mínimo, 0,1 segundo.\n\n    Considerando uma condição em que a velocidade do som no ar é 340\nm/s, qual é a distância mínima a que uma pessoa deve estar de um\nanteparo refletor para que se possa distinguir o eco do som emitido?\n\n     (A) 17 m\n     (B) 34 m\n     (C) 68 m\n     (D) 1 700 m\n     (E) 3 400 m",
     "alternativa": "A",
@@ -690,7 +690,7 @@
   {
     "numero": 65,
     "ano": 2016,
-    "tema": "Ondulatória",
+    "tema": "Mecânica",
     "paginaPdf": 60,
     "texto": "65 - ENEM 2016\n\n     A invenção e o acoplamento entre engrenagens revolucionaram a\nciência na época e propiciaram a invenção de várias tecnologias, como\nos relógios. Ao construir um pequeno cronômetro, um relojoeiro usa o\nsistema de engrenagens mostrado. De acordo com a figura, um motor\né ligado ao eixo e movimenta as engrenagens fazendo o ponteiro girar.\nA frequência do motor é de 18 RPM, e o número de dentes das\nengrenagens está apresentado no quadro.\n\n\f     A frequência de giro do ponteiro, em RPM, é\n\n     (A) 1.\n     (B) 2.\n     (C) 4.\n     (D) 81.\n     (E) 162.",
     "alternativa": "B",
@@ -837,7 +837,7 @@
   {
     "numero": 78,
     "ano": 2013,
-    "tema": "Mecânica",
+    "tema": "Outros",
     "paginaPdf": 72,
     "texto": "78 - ENEM 2013\n\n    O sistema somatossensorial nos informa o que ocorre tanto na\nsuperfície do corpo como em seu interior, e processa muitas classes de\ndiferentes estímulos, como pressão, temperatura, toque, posição. Em\numa experiência, após vendar os olhos do indivíduo, foram feitos\ntoques com as duas pontas de um compasso em diversas partes do\ncorpo e em diferentes distâncias, visando à identificação das regiões e\ndistâncias onde eram sentidos um ou dois toques. Os locais do corpo,\na quantidade de toques que foram sentidos e a distância entre as duas\npontas do compasso estão apresentados na tabela:\n\n\n\n\n                          DINIZ, C. W. P. Desvendando o corpo dos animais. Belém: UFPA, 2004.\n\n\n\n   As diferenças observadas entre as várias regiões do corpo refletem\nque a densidade dos receptores\n\n    (A) não é a mesma em todos os pontos, existindo regiões com\nmaior capacidade de discriminação e sensibilidade, como o indicador e\no polegar.\n    (B) apresenta pequena diferenciação entre os diversos pontos,\nexistindo regiões com menor capacidade de discriminação e\nsensibilidade, como o indicador e a panturrilha.\n\n\f    (C) apresenta pequena diferenciação entre os diversos pontos,\ndiferenciando-se em regiões com maior capacidade de discriminação e\nsensibilidade, como as costas e o antebraço.\n    (D) não é a mesma em todos os pontos, existindo regiões com\nmaior capacidade de discriminação e sensibilidade, como o panturrilha\ne as costas.\n    (E) se equivale, existindo pontos que manifestam uma maior\nsensibilidade e discriminação, como as costas e o antebraço.",
     "alternativa": "A",
@@ -872,7 +872,7 @@
   {
     "numero": 81,
     "ano": 2013,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 75,
     "texto": "81 - ENEM 2013\n\n    Para realizar um experimento com uma garrafa PET cheia d”água,\nperfurou-se a lateral da garrafa em três posições a diferentes alturas.\nCom a garrafa tampada, a água não vazou por nenhum dos orifícios,\ne, com a garrafa destampada, observou-se o escoamento da água\nconforme ilustrado na figura.\n\n\n\n\n    Como a pressão atmosférica interfere no escoamento da água, nas\nsituações com a garrafa tampada e destampada, respectivamente?\n\n    (A) Impede a saída de água, por ser maior que a pressão interna;\nnão muda a velocidade de escoamento, que só depende da pressão da\ncoluna de água.\n    (B) Impede a saída de água, por ser maior que a pressão interna;\naltera a velocidade de escoamento, que é proporcional à pressão\natmosférica na altura do furo.\n\n\f    (C) Impede a entrada de ar, por ser menor que a pressão interna;\naltera a velocidade de escoamento, que é proporcional à pressão\natmosférica na altura do furo.\n    (D) Impede a saída de água, por ser maior que a pressão interna;\nregula a velocidade de escoamento, que só depende da pressão\natmosférica.\n    (E) Impede a entrada de ar, por ser menor que a pressão interna;\nnão muda a velocidade de escoamento, que só depende da pressão da\ncoluna de água.",
     "alternativa": "A",
@@ -1056,7 +1056,7 @@
   {
     "numero": 98,
     "ano": 2011,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 89,
     "texto": "98 - ENEM 2011\n\n    Um tipo de vaso sanitário que vem substituindo as válvulas de\ndescarga está esquematizado na figura. Ao acionar a alavanca, toda a\nágua do tanque é escoada e aumenta o nível no vaso, até cobrir o sifão.\nDe acordo com o Teorema de Stevin, quanto maior a profundidade,\n\n\fmaior a pressão. Assim, a água desce levando os rejeitos até o sistema\nde esgoto. A válvula da caixa de descarga se fecha e ocorre o seu\nenchimento. Em relação às válvulas de descarga, esse tipo de sistema\nproporciona maior economia de água.\n\n\n\n\n              Faça você mesmo. Disponível em: http:// www.facavocemesmo.net. Acesso em 22 jul. 2010\n\n\n\n     A característica de funcionamento que garante essa economia é devida\n\n     (A) à altura do sifão de água.\n     (B) ao volume do tanque de água.\n     (C) à altura do nível de água no vaso.\n     (D) ao diâmetro do distribuidor de água.\n     (E) à eficiência da válvula de enchimento do tanque.",
     "alternativa": "B",
@@ -1148,7 +1148,7 @@
   {
     "numero": 106,
     "ano": 2010,
-    "tema": "Termologia",
+    "tema": "Fluidos",
     "paginaPdf": 97,
     "texto": "106 - ENEM 2010\n\n    Com a frequente adulteração de combustíveis, além de fiscalização,\nhá necessidade de prover meios para que o consumidor verifique a\nqualidade do combustível. Para isso, nas bombas de combustível existe\n\n\fum densímetro, semelhante ao ilustrado na figura. Um tubo de vidro\nfechado fica imerso no combustível, devido ao peso das bolinhas de\nchumbo colocadas no seu interior. Uma coluna vertical central marca a\naltura de referência, que deve ficar abaixo ou no nível do combustível\npara indicar que sua densidade está adequada. Como o volume do líquido\nvaria com a temperatura mais que o do vidro, a coluna vertical é\npreenchida com mercúrio para compensar variações de temperatura.\n\n\n\n\n     De acordo com o texto, a coluna de mercúrio, quando aquecida,\n\n     (A) indica a variação da densidade do combustível com a\ntemperatura.\n     (B) mostra a diferença de altura da coluna a ser corrigida.\n     (C) mede a temperatura ambiente no momento do abastecimento.\n     (D) regula a temperatura do densímetro de acordo com a do\nambiente.\n     (E) corrige a altura de referência de acordo com a densidade do\nlíquido.",
     "alternativa": "E",
@@ -1184,7 +1184,7 @@
   {
     "numero": 109,
     "ano": 2024,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 100,
     "texto": "109 - ENEM 2024\n\n   Placas solares comuns dependem de dias ensolarados para gerar\nenergia. Mas podemos gerar eletricidade com a ajuda de gotas de\nchuva, revestindo placas solares com uma fina camada de grafeno. Os\n\n\fíons dissociados a partir da água da chuva       tornam a combinação\ngrafeno e água da chuva um par perfeito para geração de energia. O\nprocesso requer apenas uma camada de grafeno para que grande\nquantidade de elétrons       se movimente ao longo da superfície.\n\n\n\n\n                                     TANG, Q. et al. A Solar Cell that is Triggered by Sun and Rain.\n                                Angewandte Chemie International Edition, n. 55, 2016 (adaptado).\n\n\n\n      Ao produzir eletricidade em dias chuvosos, o grafeno\n\n   (A) oxida os cátions dissolvidos na água da chuva.\n   (B) impede a difusão da água através das placas solares.\n   (C) diminui a energia de ativação da reação no pseudocapacitor.\n   (D) forma um compósito não metálico com os íons na água da\nchuva.\n   (E) gera uma diferença de potencial pela interação dos elétrons\ncom os cátions",
     "alternativa": "E",
@@ -1197,7 +1197,7 @@
   {
     "numero": 110,
     "ano": 2024,
-    "tema": "Eletricidade",
+    "tema": "Óptica",
     "paginaPdf": 101,
     "texto": "110 - ENEM 2024\n\n     Em aeroportos, por razões de segurança, os passageiros devem\nter suas bagagens de mão examinadas antes do embarque, passando-\n\n\fas em esteiras para sua inspeção por aparelhos de raios X. Nessas\ninspeções, os passageiros são orientados a retirar seus computadores\nportáteis (notebooks ou laptops) de malas, mochilas ou bolsas para\npassá-los isoladamente pela esteira.\n\n      Que explicação física justifica esse procedimento?\n\n    (A) Os raios X não interagem com os componentes metálicos do\ncomputador, o que impede a formação de imagens.\n    (B) Os raios X desmagnetizam o disco rígido do computador,\nquando refratados pelos componentes metálicos das bagagens de mão.\n    (C) Os raios X aquecem os materiais metálicos encontrados em\nbagagens de mão, quando refletidos pelos componentes do\ncomputador.\n    (D) Os raios X não atravessam os componentes densos do\ncomputador, o que impede a visualização de objetos que estão à frente\nou atrás deles.\n    (E) Os raios X ionizam os materiais metálicos normalmente\nencontrados em bagagens de mão, quando difratados pelos\ncomponentes do computador.",
     "alternativa": "D",
@@ -1242,7 +1242,7 @@
   {
     "numero": 114,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 105,
     "texto": "114 - ENEM 2021\n\n    Para gerar energia elétrica em uma hidrelétrica é necessário\nintegrar a vazão do rio, a quantidade de água disponível em\ndeterminado período de tempo e os desníveis do relevo, sejam eles\nnaturais, como as quedas-d’água, ou criados artificialmente. Existem\ndois tipos de unidades de geração de energia: acumulação e fio-d’água.\nAs unidades de acumulação são localizadas em locais com altas\nquedas-d’água e, dado o seu grande porte, permitem o acúmulo de\ngrande quantidade de água. As unidades a fio-d’água geram energia\ncom o fluxo de água do rio, ou seja, pela vazão com mínimo ou nenhum\nacúmulo do recurso hídrico.\n\n   Em uma região existem rios com potencial para geração de\nenergia. No intuito de construir uma unidade de fio-d’água, deve-se\ncomparar as características desses rios.\n\n                             Atlas de energia elétrica do Brasil. Disponível em: www.fisica.net.\n                                                           Acesso em: 4 dez. 2018 (adaptado).\n\n\n\n    A principal grandeza física desses rios que deve ser observada é\no(a)\n\n      (A) velocidade de correnteza maior.\n      (B) deslocamento vertical do relevo maior.\n      (C) área de secção transversal do leito menor.\n      (D) volume de água por unidade de tempo menor.\n      (E) quantidade de massa de água por unidade de tempo menor.",
     "alternativa": "A",
@@ -1272,7 +1272,7 @@
   {
     "numero": 117,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 107,
     "texto": "117 - ENEM 2020\n\n     Os manuais de refrigerador apresentam a recomendação de que o\nequipamento não deve ser instalado próximo a fontes de calor, como\nfogão e aquecedores, ou em local onde incida diretamente a luz do sol.\nA instalação em local inadequado prejudica o funcionamento do\nrefrigerador e aumenta o consumo de energia.\n\n   O não atendimento dessa recomendação resulta em aumento do\nconsumo de energia porque\n\n    (A) o fluxo de calor por condução no condensador sofre\nconsiderável redução.\n    (B) a temperatura da substância refrigerante no condensador\ndiminui mais rapidamente.\n    (C) o fluxo de calor promove significativa elevação da temperatura\nno interior do refrigerador.\n    (D) a liquefação da substância refrigerante no condensador exige\nmais trabalho do compressor.\n    (E) as correntes de convecção nas proximidades do condensador\nocorrem com maior dificuldade.",
     "alternativa": "D",
@@ -1299,7 +1299,7 @@
   {
     "numero": 119,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 109,
     "texto": "119 - ENEM 2020\n\n    BTU é a sigla para British Thermal Unit (Unidade Térmica Inglesa),\nque é definida como a quantidade de calor necessária para elevar a\ntemperatura de 1 libra (0,45 kg) de água de 59,5°F a 60,5 °F sob\npressão constante de 1 atmosfera. A unidade BTU é utilizada, de forma\nerrônea, por diversos profissionais como sendo a potência de\nresfriamento do aparelho.\n\n                    RODITI, I. Dicionário Houaiss de Física. Rio de Janeiro: Objetiva, 2005 (adaptado).\n\n\f   Como se pode representar corretamente a unidade de potência\ncom base na definição de BTU?\n\n      (A) BTU × h−1\n      (B) BTU × m2\n      (C) BTU × h−1× m2\n      (D) BTU × h\n      (E) BTU × m−2",
     "alternativa": "A",
@@ -1317,7 +1317,7 @@
   {
     "numero": 121,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Outros",
     "paginaPdf": 111,
     "texto": "121 - ENEM 2021\n\n    As radiações ionizantes são caracterizadas por terem energia\nsuficiente para arrancar elétrons de um átomo. Ao interagirem com os\ntecidos do corpo humano, dão origem a diversos efeitos, que podem\nlevar à morte de células. Os principais tipos de radiação ionizante são\nas radiações gama (originadas em transições nucleares), raios X\n(originados em transições eletrônicas), alfa (núcleos de hélio), elétrons\ne nêutrons. O quadro apresenta algumas propriedades para esses\ndiferentes tipos de radiação.\n\n\n\n\n   Para uma mesma intensidade de radiação, a que tem o menor\npoder de penetração em tecidos é a radiação\n\n      (A) alfa.\n      (B) gama.\n      (C) raios X.\n      (D) elétrons.\n      (E) nêutrons.",
     "alternativa": "A",
@@ -1339,7 +1339,7 @@
   {
     "numero": 123,
     "ano": 2021,
-    "tema": "Ondulatória",
+    "tema": "Óptica",
     "paginaPdf": 112,
     "texto": "123 - ENEM 2021\n\n    Alguns cinemas apresentam uma tecnologia em que as imagens\ndos filmes parecem tridimensionais, baseada na utilização de óculos\n\n\f3D. Após atravessar cada lente dos óculos, as ondas luminosas, que\ncompõem as imagens do filme, emergem vibrando apenas na direção\nvertical ou apenas na direção horizontal.\n\n    Com base nessas informações, o funcionamento dos óculos 3D\nocorre por meio do fenômeno ondulatório de\n\n      (A) difração.\n      (B) dispersão.\n      (C) reflexão.\n      (D) refração.\n      (E) polarização.",
     "alternativa": "E",
@@ -1359,7 +1359,7 @@
   {
     "numero": 125,
     "ano": 2019,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 114,
     "texto": "125 - ENEM 2019\n\n    Quando se considera a extrema velocidade com que a luz se\nespalha por todos os lados e que, quando vêm de diferentes lugares,\nmesmo totalmente opostos, [os raios luminosos] se atravessam uns\naos outros sem se atrapalharem, compreende-se que, quando vemos\num objeto luminoso, isso não poderia ocorrer pelo transporte de uma\nmatéria que venha do objeto até nós, como uma flecha ou bala\natravessa o ar; pois certamente isso repugna bastante a essas duas\npropriedades da luz, principalmente a última.\n\n\f                         HUYGENS, C. In: MARTINS, R. A. Tratado sobre a luz, de Cristian Huygens.\n                                       Caderno de História e Filosofia da Ciência, supl. 4, 1986.\n\n\n\n      O texto contesta que concepção acerca do comportamento da luz?\n\n    (A) O entendimento de que a luz precisa de um meio de\npropagação, difundido pelos defensores da existência do éter.\n    (B) O modelo ondulatório para a luz, o qual considera a\npossibilidade de interferência entre feixes luminosos.\n    (C) O modelo corpuscular defendido por Newton, que descreve a\nluz como um feixe de partículas.\n    (D) A crença na velocidade infinita da luz, defendida pela maioria\ndos filósofos gregos.\n    (E) A ideia defendida pelos gregos de que a luz era produzida pelos\nolhos.",
     "alternativa": "C",
@@ -1388,7 +1388,7 @@
   {
     "numero": 128,
     "ano": 2019,
-    "tema": "Mecânica",
+    "tema": "Óptica",
     "paginaPdf": 116,
     "texto": "128 - ENEM 2019\n\n   Um professor percebeu que seu apontador a laser, de luz\nmonocromática, estava com o brilho pouco intenso. Ele trocou as\n\n\fbaterias do apontador e notou que a intensidade luminosa aumentou\nsem que a cor do laser se alterasse. Sabe-se que a luz é uma onda\neletromagnética e apresenta propriedades como amplitude,\ncomprimento de onda, fase, frequência e velocidade.\n\n   Dentre as propriedades de ondas citadas, aquela associada ao\naumento do brilho do laser é o(a)\n\n      (A) amplitude.\n      (B) frequência.\n      (C) fase da onda.\n      (D) velocidade da onda.\n      (E) comprimento de onda.",
     "alternativa": "A",
@@ -1408,7 +1408,7 @@
   {
     "numero": 130,
     "ano": 2018,
-    "tema": "Ondulatória",
+    "tema": "Óptica",
     "paginaPdf": 118,
     "texto": "130 - ENEM 2018\n\n     A figura representa um prisma óptico, constituído de um material\ntransparente, cujo índice de refração é crescente com a frequência da\nluz que sobre ele incide. Um feixe luminoso, composto por luzes\nvermelha, azul e verde, incide na face A, emerge na face B e, após ser\nrefletido por um espelho, incide num filme para fotografia colorida,\nrevelando três pontos.\n\n\n\n\n   Observando os pontos luminosos revelados no filme, de baixo para\ncima, constatam-se as seguintes cores:\n\n\f      (A) Vermelha, verde, azul.\n      (B) Verde, vermelha, azul.\n      (C) Azul, verde, vermelha.\n      (D) Verde, azul, vermelha.\n      (E) Azul, vermelha, verde.",
     "alternativa": "A",
@@ -1419,7 +1419,7 @@
   {
     "numero": 131,
     "ano": 2018,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 119,
     "texto": "131 - ENEM 2018\n\n    O sonorizador é um dispositivo físico implantado sobre a superfície\nde uma rodovia de modo que provoque uma trepidação e ruído quando\nda passagem de um veículo sobre ele, alertando para uma situação\natípica à frente, como obras, pedágios ou travessia de pedestres. Ao\npassar sobre os sonorizadores, a suspensão do veículo sofre vibrações\nque produzem ondas sonoras, resultando em um barulho peculiar.\nConsidere um veículo que passe com velocidade constante igual a 108\nkm/h sobre um sonorizador cujas faixas são separadas por uma\ndistância de 8 cm.\n\n                           Disponível em: www.denatran.gov.br. Acesso em: 2 set. 2015 (adaptado).\n\n\n\n    A frequência da vibração do automóvel percebida pelo condutor\ndurante a passagem nesse sonorizador é mais próxima de\n\n        (A) 8,6 hertz.\n        (B) 13,5 hertz.\n        (C) 375 hertz.\n        (D) 1 350 hertz.\n        (E) 4 860 hertz.",
     "alternativa": "C",
@@ -1428,7 +1428,7 @@
   {
     "numero": 132,
     "ano": 2018,
-    "tema": "Ondulatória",
+    "tema": "Óptica",
     "paginaPdf": 119,
     "texto": "132 - ENEM 2018\n\n     Muitos primatas, incluindo nós humanos, possuem visão\ntricromática: têm três pigmentos visuais na retina sensíveis à luz de\numa determinada faixa de comprimentos de onda. Informalmente,\n\n\fembora os pigmentos em si não possuam cor, estes são conhecidos\ncomo pigmentos “azul\", “verde\" e “vermelho\" e estão associados à cor\nque causa grande excitação (ativação). A sensação que temos ao\nobservar um objeto colorido decorre da ativação relativa dos três\npigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa\nde 530 nm (retângulo I no gráfico), não excitaríamos o pigmento\n“azul\", o pigmento “verde\" seria ativado ao máximo e o “vermelho\"\nseria ativado em aproximadamente 75%, e isso nos daria a sensação\nde ver uma cor amarelada. Já uma luz na faixa de comprimento de\nonda de 600 nm (retângulo II) estimularia o pigmento “verde\" um\npouco e o “vermelho\" em cerca de 75%, e isso nos daria a sensação\nde ver laranja-avermelhado. No entanto, há características genéticas\npresentes em alguns indivíduos, conhecidas coletivamente como\nDaltonismo, em que um ou mais pigmentos não funcionam\nperfeitamente.\n\n\n\n\n              Disponível em: www.comprehensivephysiology.com. Acesso em: 3 ago. 2012 (adaptado)\n\n\n\n    Caso estimulássemos a retina de um indivíduo com essa\ncaracterística, que não possuísse o pigmento conhecido como “verde\",\ncom as luzes de 530 nm e 600 nm na mesma intensidade luminosa,\nesse indivíduo seria incapaz de\n\n\f    (A) identificar o comprimento de onda do amarelo, uma vez que\nnão possui o pigmento “verde”.\n    (B) ver o estímulo de comprimento de onda laranja, pois não\nhaveria estimulação de um pigmento visual.\n    (C) detectar ambos os comprimentos de onda, uma vez que a\nestimulação dos pigmentos estaria prejudicada.\n    (D) visualizar o estímulo do comprimento de onda roxo, já que este\nse encontra na outra ponta do espectro.\n    (E) distinguir os dois comprimentos de onda, pois ambos\nestimulam o pigmento “vermelho” na mesma intensidade.",
     "alternativa": "E",
@@ -1439,7 +1439,7 @@
   {
     "numero": 133,
     "ano": 2018,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 121,
     "texto": "133 - ENEM 2018\n\n    Alguns modelos mais modernos de fones de ouvido contam com\numa fonte de energia elétrica para poderem funcionar. Esses novos\nfones têm um recurso, denominado “Cancelador de Ruídos Ativo”,\nconstituído de um circuito eletrônico que gera um sinal sonoro\nsemelhante ao sinal externo de frequência fixa. No entanto, para que\no cancelamento seja realizado, o sinal sonoro produzido pelo circuito\nprecisa apresentar simultaneamente características específicas bem\ndeterminadas. Quais são as características do sinal gerado pelo circuito\ndesse tipo de fone de ouvido?\n\n    (A) Sinal com mesma amplitude, mesma frequência e diferença de\nfase igual a 90° em relação ao sinal externo.\n    (B) Sinal com mesma amplitude, mesma frequência e diferença de\nfase igual a 180° em relação ao sinal externo.\n    (C) Sinal com mesma amplitude, mesma frequência e diferença de\nfase igual a 45° em relação ao sinal externo.\n    (D) Sinal de amplitude maior, mesma frequência e diferença de\nfase igual a 90° em relação ao sinal externo.\n    (E) Sinal com mesma amplitude, mesma frequência e mesma fase\ndo sinal externo.",
     "alternativa": "B",
@@ -1448,7 +1448,7 @@
   {
     "numero": 134,
     "ano": 2018,
-    "tema": "Eletricidade",
+    "tema": "Ondulatória",
     "paginaPdf": 122,
     "texto": "134 - ENEM 2018\n\n    Nos manuais de instalação de equipamentos de som há o alerta\naos usuários para que observem a correta polaridade dos fios ao\nrealizarem as conexões das caixas de som. As figuras ilustram o\nesquema de conexão das caixas de som de um equipamento de som\nmono, no qual os alto-falantes emitem as mesmas ondas. No primeiro\ncaso, a ligação obedece às especificações do fabricante e no segundo\nmostra uma ligação na qual a polaridade está invertida.\n\n\n\n\n    O que ocorre com os alto-falantes E e D se forem conectados de\nacordo com o segundo esquema?\n\n\f     (A) O alto-falante E funciona normalmente e o D entra em curto-\ncircuito e não emite som.\n     (B) O alto-falante E emite ondas sonoras com frequências ligeiramente\ndiferentes do alto-falante D provocando o fenômeno de batimento.\n     (C) O alto-falante E emite ondas sonoras com frequências e fases\ndiferentes do alto-falante D provocando o fenômeno conhecido como ruído.\n     (D) O alto-falante E emite ondas sonoras que apresentam um\nlapso de tempo em relação às emitidas pelo alto-falante D provocando\no fenômeno de reverberação.\n     (E) O alto-falante E emite ondas sonoras em oposição de fase às\nemitidas pelo alto-falante D provocando o fenômeno de interferência\ndestrutiva nos pontos equidistantes aos alto-falantes.",
     "alternativa": "E",
@@ -1468,7 +1468,7 @@
   {
     "numero": 136,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 124,
     "texto": "136 - ENEM 2020\n\n      Os ventos solares são fenômenos caracterizados por feixes de\npartículas carregadas, lançadas pelo Sol, no espaço, em alta\nvelocidade. Somente uma pequena fração dessas partículas atinge a\natmosfera nos polos, provocando as auroras. A chegada dessas\npartículas à superfície pode gerar efeitos indesejáveis, interferindo nas\ntelecomunicações, no tráfego aéreo e nas linhas de transmissão de\nenergia elétrica.\n\n      Esses efeitos são minimizados na Terra pela ação de seu (sua)\n\n      (A) ionosfera.\n      (B) campo geomagnético.\n      (C) camada de ozônio.\n      (D) campo gravitacional.\n      (E) atmosfera.",
     "alternativa": "B",
@@ -1477,7 +1477,7 @@
   {
     "numero": 137,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 124,
     "texto": "137 - ENEM 2020\n\n    Em uma usina geradora de energia elétrica, seja através de uma\nqueda-d’água ou através de vapor sob pressão, as pás do gerador são\npostas a girar. O movimento relativo de um ímã em relação a um\nconjunto de bobinas produz um fluxo magnético variável através delas,\ngerando uma diferença de potencial em seus terminais. Durante o\nfuncionamento de um dos geradores, o operador da usina percebeu\n\n\fque houve um aumento inesperado da diferença de potencial elétrico\nnos terminais das bobinas.\n\n    Nessa situação, o aumento do módulo da diferença de potencial\nobtida nos terminais das bobinas resulta do aumento do(a)\n\n    (A) intervalo de tempo em que as bobinas ficam imersas no campo\nmagnético externo, por meio de uma diminuição de velocidade no eixo\nde rotação do gerador.\n    (B) fluxo magnético através das bobinas, por meio de um aumento\nem sua área interna exposta ao campo magnético aplicado.\n    (C) intensidade do campo magnético no qual as bobinas estão\nimersas, por meio de aplicação de campos magnéticos mais intensos.\n    (D) rapidez com que o fluxo magnético varia através das bobinas,\npor meio de um aumento em sua velocidade angular.\n    (E) resistência interna do condutor que constitui as bobinas, por\nmeio de um aumento na espessura dos terminais.",
     "alternativa": "D",
@@ -1486,7 +1486,7 @@
   {
     "numero": 138,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 125,
     "texto": "138 - ENEM 2021\n\n    Duas esferas carregadas com cargas iguais em módulo e sinais\ncontrários estão ligadas por uma haste rígida isolante na forma de\nhaltere. O sistema se movimenta sob ação da gravidade numa região\nque tem um campo magnético horizontal uniforme , da esquerda para\na direita. A imagem apresenta o sistema visto de cima para baixo, no\nmesmo sentido da aceleração da gravidade     que atua na região.\n\n\f    Visto de cima, o diagrama esquemático das forças magnéticas que\natuam no sistema, no momento inicial em que as cargas penetram na\nregião de campo magnético, está representado em\n\n\n\n\n      (A)\n\n\n\n\n      (B)\n\n\n\n      (C)\n\n\n\n\n      (D)\n\n\n\n\n      (E)",
     "alternativa": "A",
@@ -1541,7 +1541,7 @@
   {
     "numero": 142,
     "ano": 2022,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 129,
     "texto": "142 - ENEM 2022\n\n    Pretende-se construir um banheiro em uma área externa, no qual\nserão instalados dois chuveiros elétricos que podem ser ligados\nsimultaneamente, cada um com consumo de 5,5 kW. A tensão\n\n\fdisponível na rede elétrica é de 220 V. Sabe-se que quanto maior for\na área de seção reta de um cabo elétrico maior será a intensidade de\ncorrente que ele conseguirá suportar, porém, maior será o seu custo.\nPortanto, deve ser selecionado o cabo de menor área de seção reta\nque seja capaz de suportar a corrente requerida para a instalação.\n     No quadro são apresentados os valores nominais de área de seção\nreta de cabos elétricos comumente encontrados no mercado (com\nisolamento térmico), com suas correspondentes correntes máximas.\n\n\n\n\n                        ABNT. NBR 5410/2004: método de referência B1 para cabos de cobre com\n                            isolamento em ERP ou XLPE (90 ºC) com dois condutores carregados .\n                        Disponível em: www.iar.unicamp.br. Acesso em: 30 out. 2015 (adaptado).\n\n\n\n   O cabo que apresenta o menor custo e que suporta a corrente total\nnecessária na fiação dos chuveiros é o que tem a área de seção reta,\nem mm2, igual a:\n\n      (A) 0,5\n      (B) 1,5\n      (C) 2,5\n      (D) 6,0\n      (E) 16,0",
     "alternativa": "D",
@@ -1552,7 +1552,7 @@
   {
     "numero": 143,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 130,
     "texto": "143 - ENEM 2021\n\n    O Brasil possui um nível de irradiação solar tão alto que mesmo no\nlocal menos ensolarado do país é possível gerar mais eletricidade solar\nque no local mais ensolarado da Alemanha, que investe muito no\ndesenvolvimento e implantação de plantas fotovoltaicas.\n\n\f    No ano de 2013, a quantidade de energia elétrica gerada em toda\na Alemanha a partir de células solares, cuja eficiência média é de 15%,\nsomou 30 000 GWh em uma área estimada de 170 km2. Por sua vez,\nno chamado cinturão solar brasileiro, a irradiação chega a atingir 2 200\nkWh/m2 anuais. Uma alternativa de geração de energia elétrica nessa\nregião é a instalação de células solares como as da Alemanha, que\npodem abastecer milhões de residências. No Brasil, nos últimos anos,\no consumo médio residencial foi da ordem de 2 000 kWh anuais.\n\n                     PIERRO, B. Para aproveitar o sol. Pesquisa Fapesp, n. 258, ago. 2017 (adaptado).\n\n\n\n    O número de residências, em milhões, que poderiam ser\nabastecidas caso fossem instalados, no cinturão solar brasileiro,\npainéis solares com área e eficiência equivalentes aos utilizados na\nAlemanha é mais próximo de:\n\n      (A) 2,3\n      (B) 15\n      (C) 28\n      (D) 56,1\n      (E) 187",
     "alternativa": "C",
@@ -1561,7 +1561,7 @@
   {
     "numero": 144,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 131,
     "texto": "144 - ENEM 2021\n\n    No manual de instruções de um conjunto de 30 lâmpadas idênticas,\nusadas para enfeite, está especificado que o conjunto deve ser ligado\nem uma rede elétrica de 120 V resultando em uma corrente total de\n4,5 A. No entanto, o manual não informa a potência nominal de cada\nlâmpada para a aquisição de lâmpadas individuais de reposição em\ncaso de queima. Depois de ligar o conjunto, percebe-se que, ao retirar\nqualquer lâmpada, um terço das demais não acende.\n\n      Qual a potência nominal de cada lâmpada?\n\n\f      (A) 4W\n      (B) 18W\n      (C) 55W\n      (D) 180W\n      (E) 540W",
     "alternativa": "B",
@@ -1581,7 +1581,7 @@
   {
     "numero": 146,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 132,
     "texto": "146 - ENEM 2020\n\n    Nos chuveiros elétricos, a água entra em contato com uma\nresistência aquecida por efeito Joule. A potência dissipada pelo\naparelho varia em função da tensão à qual está ligado e do valor da\nresistência elétrica escolhida com a chave seletora. No quadro estão\nindicados valores de tensão e as possíveis resistências para cinco\nmodelos de chuveiro. Nesse quadro, o valor das resistências é medido\na partir da extremidade esquerda.\n\n\f      Qual chuveiro apresenta a maior potência elétrica?\n\n      (A) A\n      (B) B\n      (C) C\n      (D) D\n      (E) E",
     "alternativa": "C",
@@ -1603,7 +1603,7 @@
   {
     "numero": 148,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 134,
     "texto": "148 - ENEM 2020\n\n      As células fotovoltaicas (placas semicondutoras compostas de\nsilício) são os componentes principais dos painéis solares e são capazes\nde converter, com certa eficiência, parte da energia dos raios solares\nem energia elétrica. Essa conversão é causada pelo fenômeno físico\ndenominado “efeito fotoelétrico”, que pode ocorrer em uma variedade\nde materiais, incluindo metais e semicondutores.\n\n    Na superfície dos metais, a sequência de eventos que caracteriza\nesse efeito, de forma simplificada, é a\n\n      (A) absorção de fótons e a emissão de elétrons.\n      (B) absorção de elétrons e a emissão de fótons.\n      (C) emissão de fótons e a absorção de elétrons.\n      (D) absorção e a emissão de elétrons.\n      (E) absorção e a emissão de fótons.",
     "alternativa": "A",
@@ -1713,7 +1713,7 @@
   {
     "numero": 158,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 143,
     "texto": "158 - ENEM 2021\n\n    Na cidade de São Paulo, as ilhas de calor são responsáveis pela\nalteração da direção do fluxo da brisa marítima que deveria atingir a\nregião de mananciais. Mas, ao cruzar a ilha de calor, a brisa marítima\nagora encontra um fluxo de ar vertical, que transfere para ela energia\ntérmica absorvida das superfícies quentes da cidade, deslocando-a\npara altas altitudes. Dessa maneira, há condensação e chuvas fortes\nno centro da cidade, em vez de na região de mananciais. A imagem\napresenta os três subsistemas que trocam energia nesse fenômeno.\n\n\f     No processo de fortes chuvas no centro da cidade de São Paulo, há\ndois mecanismos dominantes de transferência de calor: entre o Sol e\na ilha de calor, e entre a ilha de calor e a brisa marítima.\n\n                                           VIVEIROS, M. Ilhas de calor afastam chuvas de represas.\n                            Disponível em: www2.feis.unesp.br. Acesso em: 3 dez. 2019 (adaptado).\n\n\n\n      Esses mecanismos são, respectivamente,\n\n      (A) irradiação e convecção.\n      (B) irradiação e irradiação.\n      (C) condução e irradiação.\n      (D) convecção e irradiação.\n      (E) convecção e convecção.",
     "alternativa": "A",
@@ -1724,7 +1724,7 @@
   {
     "numero": 159,
     "ano": 2023,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 144,
     "texto": "159 - ENEM 2023\n\n     Em uma indústria alimentícia, para produção de doce de leite,\nutiliza-se um tacho de parede oca com uma entrada para vapor de\nágua a 120 °C e uma saída para água líquida em equilíbrio com o vapor\na 100 °C. Ao passar pela parte oca do tacho, o vapor de água\ntransforma-se em líquido, liberando energia. A parede transfere essa\nenergia para o interior do tacho, resultando na evaporação de água e\nconsequente concentração do produto.\n\n    No processo de concentração do produto, é utilizada energia\nproveniente\n\n      (A) somente do calor latente de vaporização.\n      (B) somente do calor latente de condensação.\n      (C) do calor sensível e do calor latente de vaporização.\n      (D) do calor sensível e do calor latente de condensação.\n      (E) do calor latente de condensação e do calor latente de vaporização.",
     "alternativa": "D",
@@ -1745,7 +1745,7 @@
   {
     "numero": 161,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 146,
     "texto": "161 - ENEM 2020\n\n    As panelas de pressão reduzem o tempo de cozimento dos\nalimentos por elevar a temperatura de ebulição da água. Os usuários\nconhecedores do utensílio normalmente abaixam a intensidade do fogo\nem panelas de pressão após estas iniciarem a saída dos vapores.\n\n      Ao abaixar o fogo, reduz-se a chama, pois assim evita-se o(a)\n\n      (A) aumento da pressão interna e os riscos de explosão.\n      (B) dilatação da panela e a desconexão com sua tampa.\n      (C) perda da qualidade nutritiva do alimento.\n      (D) deformação da borracha de vedação.\n      (E) consumo de gás desnecessário.",
     "alternativa": "E",
@@ -1765,7 +1765,7 @@
   {
     "numero": 163,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 147,
     "texto": "163 - ENEM 2020\n\n     Tanto a conservação de materiais biológicos como o resfriamento de\ncertos fotodetectores exigem baixas temperaturas que não são facilmente\natingidas por refrigeradores. Uma prática comum para atingi-las é o uso\nde nitrogênio líquido, obtido pela expansão adiabática do gás N2, contido\nem um recipiente acoplado a um êmbolo, que resulta no resfriamento em\ntemperaturas que chegam até seu ponto de liquefação em −196 °C. A\nfigura exibe o esboço de curvas de pressão em função do volume ocupado\npor uma quantidade de gás para os processos isotérmico e adiabático. As\ndiferenças entre esses processos podem ser identificadas com base na\nprimeira lei da termodinâmica, que associa a variação de energia interna\nà diferença entre o calor trocado com o meio exterior e o trabalho\nrealizado no processo.\n\n\n\n\n      A expansão adiabática viabiliza o resfriamento do N2 porque\n\n\f    (A) a entrada de calor que ocorre na expansão por causa do\ntrabalho contribui para a diminuição da temperatura.\n    (B) a saída de calor que ocorre na expansão por causa do trabalho\ncontribui para a diminuição da temperatura.\n    (C) a variação da energia interna é nula e o trabalho é associado\ndiretamente ao fluxo de calor, que diminui a temperatura do sistema.\n    (D) a variação da energia interna é nula e o trabalho é associado\ndiretamente à entrada de frio, que diminui a temperatura do sistema.\n    (E) o trabalho é associado diretamente à variação de energia\ninterna e não há troca de calor entre o gás e o ambiente.",
     "alternativa": "E",
@@ -1814,7 +1814,7 @@
   {
     "numero": 168,
     "ano": 2019,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 151,
     "texto": "168 - ENEM 2019\n\n    O objetivo de recipientes isolantes térmicos é minimizar as trocas\nde calor com o ambiente externo. Essa troca de calor é proporcional à\ncondutividade térmica k e à área interna das faces do recipiente, bem\ncomo à diferença de temperatura entre o ambiente externo e o interior\ndo recipiente, além de ser inversamente proporcional à espessura das\nfaces.\n\n      A fim de avaliar a qualidade de dois recipientes A (40 cm × 40\ncm × 40 cm) e B (60 cm × 40 cm × 40 cm), de faces de mesma\nespessura, uma estudante compara suas condutividades térmicas kA e\nkB. Para isso suspende, dentro de cada recipiente, blocos idênticos de\ngelo a 0 °C, de modo que suas superfícies estejam em contato\napenas com o ar.\n\n    Após um intervalo de tempo, ela abre os recipientes enquanto\nambos ainda contêm um pouco de gelo e verifica que a massa de gelo\nque se fundiu no recipiente B foi o dobro da que se fundiu no\nrecipiente A.\n\n      A razão é mais próxima de\n\n      (A) 0,50.\n      (B) 0,67.\n      (C) 0,75.\n\n\f      (D) 1,33.\n      (E) 2,00.",
     "alternativa": "B",
@@ -1834,7 +1834,7 @@
   {
     "numero": 170,
     "ano": 2018,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 152,
     "texto": "170 - ENEM 2018\n\n    Para preparar uma sopa instantânea, uma pessoa aquece em um\nforno micro-ondas 500 g de água em uma tigela de vidro de 300 g. A\ntemperatura inicial da tigela e da água era de 6 “C. Com o forno de\nmicro-ondas funcionando a uma potência de 800 W, a tigela e a água\natingiram a temperatura de 40 °C em 2,5 min. Considere que os\ncalores específicos do vidro e da sopa são, respectivamente, 0,2  e\n1,0     , e que 1 cal=4,2 J.\n\n\f    Que percentual aproximado da potência usada pelo micro-ondas é\nefetivamente convertido em calor para o aquecimento?\n\n      (A) 11,8%\n      (B) 45,0%\n      (C) 57,1%\n      (D) 66,7%\n      (E) 78,4%",
     "alternativa": "D",
@@ -1846,7 +1846,7 @@
   {
     "numero": 171,
     "ano": 2017,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 153,
     "texto": "171 - ENEM 2017\n\n     Rudolf Diesel patenteou um motor a combustão interna de elevada\neficiência, cujo ciclo está esquematizado no diagrama pressão x\nvolume. O ciclo Diesel é composto por quatro etapas, duas das quais\nsão transformações adiabáticas. O motor de Diesel é caracterizado pela\ncompressão de ar apenas, com a injeção do combustível no final.\n\n\n\n\n      No ciclo Diesel, o calor é absorvido em:\n\n      (A) A → B e C → D, pois em ambos ocorre realização de trabalho.\n      (B) A → B e B → C, pois em ambos ocorre elevação da temperatura.\n\n\f    (C) C → D, pois representa uma expansão adiabática e o sistema\nrealiza trabalho.\n    (D) A → B, pois representa uma compressão adiabática em que\nocorre elevação da temperatura.\n    (E) B → C, pois representa expansão isobárica em que o sistema\nrealiza trabalho e a temperatura se eleva.",
     "alternativa": "E",
@@ -1866,7 +1866,7 @@
   {
     "numero": 173,
     "ano": 2017,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 154,
     "texto": "173 - ENEM 2017\n\n    No manual fornecido pelo fabricante de uma ducha elétrica de 220\nV é apresentado um gráfico com a variação da temperatura da água\nem função da vazão para três condições (morno, quente e\nsuperquente). Na condição superquente, a potência dissipada é de 6\n500 W. Considere o calor específico da água igual a 4 200 J/(kg °C) e\ndensidade da água igual a 1 kg/L\n\n\f    Com base nas informações dadas, a potência na condição morno\ncorresponde a que fração da potência na condição superquente?\n\n      (A)\n\n      (B)\n\n      (C)\n\n      (D)\n\n      (E)",
     "alternativa": "D",
@@ -1882,7 +1882,7 @@
   {
     "numero": 174,
     "ano": 2017,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 155,
     "texto": "174 - ENEM 2017\n\n    As especificações de um chuveiro elétrico são: potência de 4 000\nW, consumo máximo mensal de 21,6 kWh e vazão máxima de 3 L/min.\nEm um mês, durante os banhos, esse chuveiro foi usado com vazão\nmáxima, consumindo o valor máximo de energia especificado. O calor\nespecífico da água é de 4 200 J/(kg °C) e sua densidade é igual a 1\nkg/L.\n\n\f    A variação da temperatura da água usada nesses banhos foi mais\npróxima de\n\n      (A) 16 °C.\n      (B) 19 °C.\n      (C) 37 °C.\n      (D) 57 °C.\n      (E) 60 °C.",
     "alternativa": "B",
@@ -1891,7 +1891,7 @@
   {
     "numero": 175,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 156,
     "texto": "175 - ENEM 2016\n\n     Num experimento, um professor deixa duas bandejas de mesma\nmassa, uma de plástico e outra de alumínio, sobre a mesa do\nlaboratório. Após algumas horas, ele pede aos alunos que avaliem a\ntemperatura das duas bandejas, usando para isso o tato. Seus alunos\nafirmam, categoricamente, que a bandeja de alumínio encontra-se\nnuma temperatura mais baixa. Intrigado, ele propõe uma segunda\natividade, em que coloca um cubo de gelo sobre cada uma das\nbandejas, que estão em equilíbrio térmico com o ambiente, e os\nquestiona em qual delas a taxa de derretimento do gelo será maior.\n\n    O aluno que responder corretamente ao questionamento do\nprofessor dirá que o derretimento ocorrerá\n\n     (A) mais rapidamente na bandeja de alumínio, pois ela tem uma\nmaior condutividade térmica que a de plástico.\n     (B) mais rapidamente na bandeja de plástico, pois ela tem\ninicialmente uma temperatura mais alta que a de alumínio.\n     (C) mais rapidamente na bandeja de plástico, pois ela tem uma\nmaior capacidade térmica que a de alumínio.\n     (D) mais rapidamente na bandeja de alumínio, pois ela tem um\ncalor especifico menor que a de plástico.\n     (E) com a mesma rapidez nas duas bandejas, pois apresentarão a\nmesma variação de temperatura.",
     "alternativa": "A",
@@ -1941,7 +1941,7 @@
   {
     "numero": 180,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 160,
     "texto": "180 - ENEM 2016\n\n    Num dia em que a temperatura ambiente é de 37 °C, uma pessoa,\ncom essa mesma temperatura corporal, repousa à sombra. Para\nregular sua temperatura corporal e mantê-la constante, a pessoa libera\ncalor através da evaporação do suor. Considere que a potência\nnecessária para manter seu metabolismo é 120 W e que, nessas\ncondições, 20% dessa energia é dissipada pelo suor, cujo calor de\nvaporização é igual ao da água (540 cal/g). Utilize 1 cal igual a 4 J.\n\n    Após duas horas nessa situação, que quantidade de água essa\npessoa deve ingerir para repor a perda pela transpiração?\n\n      (A) 0,08 g\n      (B) 0,44 g\n      (C) 1,30 g\n      (D) 1,80 g\n      (E) 80,0 g",
     "alternativa": "E",
@@ -1950,7 +1950,7 @@
   {
     "numero": 181,
     "ano": 2015,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 160,
     "texto": "181 - ENEM 2015\n\n    O ar atmosférico pode ser utilizado para armazenar o excedente\nde energia gerada no sistema elétrico, diminuindo seu desperdício, por\nmeio do seguinte processo: água e gás carbônico são inicialmente\nremovidos do ar atmosférico e a massa de ar restante é resfriada até\n-198°C. Presente na proporção de 78% dessa massa de ar, o\n\n\fnitrogênio gasoso é liquefeito, ocupando um volume 700 vezes menor.\nA energia excedente do sistema elétrico é utilizada nesse processo,\nsendo parcialmente recuperada quando o nitrogênio líquido, exposto à\ntemperatura ambiente, entra em ebulição e se expande, fazendo girar\nturbinas que convertem energia mecânica em energia elétrica.\n\n                                    MACHADO, R. Disponível em: www.correiobraziliense.com.br.\n                                                             Acesso em: 9 set. 2013 (adaptado).\n\n\n   No processo      descrito,   o     excedente         de     energia        elétrica       é\narmazenado pela\n\n    (A) expansão do nitrogênio durante a ebulição.\n    (B) absorção de calor pelo nitrogênio durante a ebulição.\n    (C) realização de trabalho sobre o nitrogênio durante a liquefação.\n    (D) retirada de água e gás carbônico da atmosfera antes do\nresfriamento.\n    (E) liberação de calor do nitrogênio para a vizinhança durante a\nliquefação.",
     "alternativa": "C",
@@ -1999,7 +1999,7 @@
   {
     "numero": 186,
     "ano": 2014,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 164,
     "texto": "186 - ENEM 2014\n\n     Para a proteção contra curtos-circuitos em residências são utilizados\ndisjuntores, compostos por duas lâminas de metais diferentes, com suas\nsuperfícies soldadas uma à outra, ou seja, uma lâmina bimetálica. Essa\nlâmina toca o contato elétrico, fechando o circuito e deixando a corrente\nelétrica passar. Quando da passagem de uma corrente superior à\nestipulada (limite), a lâmina se curva para um dos lados, afastando-se do\ncontato elétrico e, assim, interrompendo o circuito. Isso ocorre porque os\nmetais da lâmina possuem uma característica física cuja resposta é\ndiferente para a mesma corrente elétrica que passa no circuito.\n\n    A característica física que deve ser observada para a escolha dos\ndois metais dessa lâmina bimetálica é o coeficiente de\n\n      (A) dureza.\n      (B) elasticidade.\n      (C) dilatação térmica.\n      (D) compressibilidade.\n      (E) condutividade elétrica.",
     "alternativa": "C",
@@ -2039,7 +2039,7 @@
   {
     "numero": 190,
     "ano": 2012,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 167,
     "texto": "190 - ENEM 2012\n\n    Em dias com baixas temperaturas, as pessoas utilizam casacos ou\nblusas de lã com o intuito de minimizar a sensação de frio. Fisicamente,\nesta sensação ocorre pelo fato de o corpo humano liberar calor, que é\na energia transferida de um corpo para outro em virtude da diferença\nde temperatura entre eles.\n\n      A utilização de vestimenta de lã diminui a sensação de frio, porque\n\n     (A) utilização de vestimenta de lã diminui a sensação de frio,\nporque A possui a propriedade de gerar calor.\n     (B) é constituída de material denso, o que não permite a entrada\ndo ar frio.\n     (C) diminui a taxa de transferência de calor do corpo humano para\no meio externo.\n     (D) tem como principal característica a absorção de calor,\nfacilitando o equilíbrio térmico.\n     (E) está em contato direto com o corpo humano, facilitando a\ntransferência de calor por condução.",
     "alternativa": "C",
@@ -2059,7 +2059,7 @@
   {
     "numero": 192,
     "ano": 2012,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 168,
     "texto": "192 - ENEM 2012\n\n   Chuveiros elétricos possuem uma chave para regulagem da\ntemperatura verão/inverno e para desligar o chuveiro. Além disso, é\n\n\fpossível regular a temperatura da água, abrindo ou fechando o registro.\nAbrindo, diminui–se a temperatura e fechando, aumenta–se.\nAumentando–se o fluxo da água há uma redução na sua temperatura, pois\n\n    (A) aumenta-se a área da superfície da água dentro do chuveiro,\naumentando a perda de calor por radiação.\n    (B) aumenta-se o calor específico da água, aumentando a dificuldade\ncom que a massa de água se aquece no chuveiro.\n    (C) diminui-se a capacidade térmica do conjunto água/chuveiro,\ndiminuindo também a capacidade do conjunto de se aquecer.\n    (D) diminui-se o contato entre a corrente elétrica do chuveiro e a\nágua, diminuindo também a sua capacidade de aquecê-la.\n    (E) diminui-se o tempo de contato entre a água e a resistência do\nchuveiro, diminuindo a transferência de calor de uma para a outra.",
     "alternativa": "E",
@@ -2088,7 +2088,7 @@
   {
     "numero": 195,
     "ano": 2011,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 170,
     "texto": "195 - ENEM 2011\n\n    Uma opção não usual, para o cozimento do feijão, é o uso de uma\ngarrafa térmica. Em uma panela, coloca-se uma parte de feijão e três\npartes de água e deixa-se ferver o conjunto por cerca de 5 minutos,\nlogo após transfere-se todo o material para uma garrafa térmica.\nAproximadamente 8 horas depois, o feijão estará cozido.\n\n      O cozimento do feijão ocorre dentro da garrafa térmica, pois\n\n    (A) a água reage com o feijão, e essa reação é exotérmica.\n    (B) o feijão continua absorvendo calor da água que o envolve, por\nser um processo endotérmico.\n\n\f    (C) o sistema considerado é praticamente isolado, não permitindo\nque o feijão ganhe ou perca energia.\n    (D) a garrafa térmica fornece energia suficiente para o cozimento\ndo feijão, uma vez iniciada a reação.\n    (E) a energia envolvida na reação aquece a água, que mantém\nconstante a temperatura, por ser um processo exotérmico.",
     "alternativa": "B",
@@ -2139,7 +2139,7 @@
   {
     "numero": 201,
     "ano": 2010,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 175,
     "texto": "201 - ENEM 2010\n\n    Sob pressão normal (ao nível do mar), a água entra em ebulição\nà temperatura de 100 ºC. Tendo por base essa informação, um\ngaroto residente em uma cidade litorânea fez a seguinte\nexperiência:\n\n    • Colocou uma caneca metálica contendo água no fogareiro do\nfogão de sua casa.\n\n    • Quando a água começou a ferver, encostou cuidadosamente a\nextremidade mais estreita de uma seringa de injeção, desprovida de\nagulha, na superfície do líquido e, erguendo o êmbolo da seringa,\naspirou certa quantidade de água para seu interior, tapando-a em\nseguida.\n\n     • Verificando após alguns instantes que a água da seringa havia\nparado de ferver, ele ergueu o êmbolo da seringa, constatando,\nintrigado, que a água voltou a ferver após um pequeno\ndeslocamento do êmbolo.\n\n    Considerando o procedimento anterior, a água volta a ferver\nporque esse deslocamento:\n\n\f    (A) permite a entrada de calor do ambiente externo para o interior\nda seringa.\n    (B) provoca, por atrito, um aquecimento da água contida na\nseringa.\n    (C) produz um aumento de volume que aumenta o ponto de\nebulição da água.\n    (D) proporciona uma queda de pressão no interior da seringa que\ndiminui o ponto de ebulição da água.\n    (E) possibilita uma diminuição da densidade da água que facilita\nsua ebulição.",
     "alternativa": "D",
@@ -2179,7 +2179,7 @@
   {
     "numero": 205,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 179,
     "texto": "205 - ENEM 2009\n\n     Considere a forma de funcionamento de um equipamento que\nutiliza um ciclo de transferência de calor de um ambiente interno para\num ambiente externo. Um fluido, normalmente um gás, circula por um\nsistema fechado dentro do ambiente interno, retirando o calor desse\nambiente devido a um processo de evaporação. O calor absorvido pelo\nfluido é levado para o condensador, que dissipa o calor conduzido pelo\nfluido para o ambiente externo. Esse fluido é, então, forçado por um\ncompressor a circular novamente pelo sistema fechado, dando\ncontinuidade ao processo de esfriamento do ambiente interno.\n\n                       KUGLER, Henrique. Ciência Hoje. v. 42, n. 252. p. 46–47, set. 2008 (adaptado).\n\n\n\n      No texto acima, descreve–se o funcionamento básico de um\n\n\f      (A) isqueiro.\n      (B) refrigerador.\n      (C) nebulizador.\n      (D) liquidificador.\n      (E) forno de micro-ondas.",
     "alternativa": "B",
@@ -2199,7 +2199,7 @@
   {
     "numero": 207,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 181,
     "texto": "207 - ENEM 2009\n\n    A invenção da geladeira proporcionou uma revolução no\naproveitamento dos alimentos, ao permitir que fossem armazenados e\ntransportados por longos períodos. A figura apresentada ilustra o\nprocesso cíclico de funcionamento de uma geladeira, em que um gás\nno interior de uma tubulação é forçado a circular entre o congelador e\na parte externa da geladeira. É por meio dos processos de compressão,\nque ocorre na parte externa, e de expansão, que ocorre na parte\ninterna, que o gás proporciona a troca de calor entre o interior e o\nexterior da geladeira.\n\n\n\n\n                Disponível em: http://home.howstuffworks.com. Acesso em: 19 out. 2008 (adaptado).\n\n\n\n    (A) a expansão do gás é um processo que cede a energia\nnecessária ao resfriamento da parte interna da geladeira.\n    (B) o calor flui de forma não-espontânea da parte mais fria, no\ninterior, para a mais quente, no exterior da geladeira.\n\n\f     (C) a quantidade de calor cedida ao meio externo é igual ao calor\nretirado da geladeira.\n     (D) a eficiência é tanto maior quanto menos isolado termicamente\ndo ambiente externo for o seu compartimento interno.\n     (E) a energia retirada do interior pode ser devolvida à geladeira\nabrindo-se a sua porta, o que reduz seu consumo de energia.",
     "alternativa": "B",
@@ -2210,7 +2210,7 @@
   {
     "numero": 208,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 182,
     "texto": "208 - ENEM 2009\n\n    Na natureza, a água, por meio de processos físicos, passa pelas\nfases líquida, gasosa e sólida perfazendo o ciclo hidrológico. A\ndistribuição da água na Terra é condicionada por esse ciclo, e as\nmudanças na temperatura do planeta poderão influenciar as\nproporções de água nas diferentes fases desse ciclo. O diagrama\nabaixo mostra as transformações de fase pelas quais a água passa, ao\nser aquecida com o fornecimento de energia a uma taxa constante.\n\n\n\n\n    Considerando–se o diagrama de mudanças de fases da água e\nsabendo–se que os calores latentes de fusão e de vaporização da água\nvalem, respectivamente, 80 cal/g e 540 cal/g, conclui–se que\n\n    (A) a temperatura da água permanece constante durante os\nprocessos de mudança de fase.\n    (B) a energia necessária para fundir 10 g de gelo é maior que a\nnecessária para evaporar a mesma massa de água.\n\n\f    (C) a água, para mudar de fase, libera energia a uma taxa de 540\ncal/g quando a temperatura aumenta de 0 ºC até 100 ºC.\n    (D) a temperatura da água varia proporcionalmente à energia que\nela recebe, ou seja, 80 cal/g durante o processo de fusão.\n    (E) a temperatura da água varia durante o processo de vaporização\nporque ela está recebendo uma quantidade de energia constante.",
     "alternativa": "A",
@@ -2221,7 +2221,7 @@
   {
     "numero": 209,
     "ano": 2008,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 183,
     "texto": "209 - ENEM 2008\n\n    A energia geotérmica tem sua origem no núcleo derretido da Terra,\nonde as temperaturas atingem 4.000 °C. Essa energia é primeiramente\nproduzida pela decomposição de materiais radiativos dentro do\nplaneta. Em fontes geotérmicas, a água, aprisionada em um\nreservatório subterrâneo, é aquecida pelas rochas ao redor e fica\nsubmetida a altas pressões, podendo atingir temperaturas de até 370\n°C sem entrar em ebulição. Ao ser liberada na superfície, à pressão\nambiente, ela se vaporiza e se resfria, formando fontes ou gêiseres. O\nvapor de poços geotérmicos é separado da água e é utilizado no\nfuncionamento de turbinas para gerar eletricidade. A água quente pode\nser utilizada para aquecimento direto ou em usinas de dessalinização.\n\n       HINRICHS, Roger A. Energia e Meio Ambiente. São Paulo: Pioneira Thomson Learning, 2003 (adaptado).\n\n\n\n      Sob o aspecto da conversão de energia, as usinas geotérmicas\n\n    (A) funcionam com base na conversão de energia potencial\ngravitacional em energia térmica.\n    (B) transformam inicialmente a energia solar em energia cinética\ne, depois, em energia térmica.\n    (C) podem aproveitar a energia química transformada em térmica\nno processo de dessalinização.\n    (D) assemelham-se às usinas nucleares no que diz respeito à\nconversão de energia térmica em cinética e, depois, em elétrica.\n    (E) utilizam a mesma fonte primária de energia que as usinas\nnucleares, sendo, portanto, semelhantes os riscos decorrentes de ambas.",
     "alternativa": "D",
@@ -2230,7 +2230,7 @@
   {
     "numero": 210,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 184,
     "texto": "210 - ENEM 2009\n\n     A eficiência de um coletor solar depende de uma série de variáveis.\nNa tabela abaixo, são mostradas diferenças na radiação solar incidente\nem diferentes capitais brasileiras localizadas em ordem crescente da\nlatitude.\n\n    Energia útil avaliada como média anual para um sistema de\naquecimento de água via energia solar. (Coletores solares inclinados\nde um ângulo igual à latitude, acrescentados mais 10º)\n\n\n\n\n     *Energia útil média: índice de aproveitamento da energia solar\nincidente.\n     Observação: o sistema de aquecimento conta com uma área de 4\nm2 de coletores solares.\n\n                                        LA ROVERE, E., et al. Economia e tecnologia da energia.\n                             Rio de Janeiro, Editora Marco Zero/ Finep. p. 331. 1985 (adaptado).\n\n\n\n   Considerando os dados mostrados na tabela, na transformação da\nenergia luminosa, observa-se que\n\n    (A) a radiação solar média coletada independe do tamanho da\nsuperfície de captação do coletor solar.\n    (B) a energia útil média, um índice a ser considerado na\ncomparação com outras opções energéticas, decresce com o aumento\nda latitude.\n\n\f     (C) a diferença de radiação solar incidente nas capitais listadas,\napesar de ser maior que 20%, deixa de ser determinante em algumas\nsituações.\n     (D) as temperaturas alcançadas independem da temperatura\ninicial da água no processo de aquecimento da água por meio de\ncoletores solares.\n     (E) Curitiba, entre as capitais citadas, é inadequada para a\nutilização de energia solar porque é a capital onde ocorrem as maiores\nperdas de energia térmica para o ambiente.",
     "alternativa": "C",
@@ -2263,7 +2263,7 @@
   {
     "numero": 213,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 187,
     "texto": "213 - ENEM 2009\n\n     O Sol representa uma fonte limpa e inesgotável de energia para o\nnosso planeta. Essa energia pode ser captada por aquecedores solares,\narmazenada e convertida posteriormente em trabalho útil. Considere\ndeterminada região cuja insolação — potência solar incidente na\nsuperfície da Terra — seja de 800 watts/m2 . Uma usina termossolar\nutiliza concentradores solares parabólicos que chegam a dezenas de\nquilômetros de extensão. Nesses coletores solares parabólicos, a luz\nrefletida pela superfície parabólica espelhada é focalizada em um\nreceptor em forma de cano e aquece o óleo contido em seu interior a\n400 °C. O calor desse óleo é transferido para a água, vaporizando-a\nem uma caldeira. O vapor em alta pressão movimenta uma turbina\nacoplada a um gerador de energia elétrica.\n\n\f    Considerando que a distância entre a borda inferior e a borda\nsuperior da superfície refletora tenha 6 m de largura e que focaliza no\nreceptor os 800 watts/m2 de radiação provenientes do Sol, e que o\ncalor específico da água é 1 cal g-1 ºC-1 = 4.200 J kg-1 ºC-1, então o\ncomprimento linear do refletor parabólico necessário para elevar a\ntemperatura de 1 m³ (equivalente a 1 t) de água de 20 °C para 100\n°C, em uma hora, estará entre\n\n      (A) 15 m e 21 m.\n      (B) 22 m e 30 m.\n      (C) 105 m e 125 m.\n      (D) 680 m e 710 m.\n      (E) 6.700 m e 7.150 m.",
     "alternativa": "A",
@@ -2274,7 +2274,7 @@
   {
     "numero": 214,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 188,
     "texto": "214 - ENEM 2009\n\n    De maneira geral, se a temperatura de um líquido comum\naumenta, ele sofre dilatação. O mesmo não ocorre com a água, se ela\nestiver a uma temperatura próxima a de seu ponto de congelamento.\nO gráfico mostra como o volume específico (inverso da densidade) da\nágua varia em função da temperatura, com uma aproximação na\nregião entre 0 °C e 10 °C, ou seja, nas proximidades do ponto de\ncongelamento da água.\n\n\f                  HALLIDAY & RESNICK. Fundamentos de Física. Gravitação, ondas e termodinâmica.\n                                             V.2. Rio de Janeiro: Livros Técnicos e Científicos, 1991.\n\n\n\n    A partir do gráfico, é correto concluir que o volume ocupado por\ncerta massa de água\n\n      (A) diminui em menos de 3% ao se resfriar de 100 °C a 0 °C.\n      (B) aumenta em mais de 0,4% ao se resfriar de 4 °C a 0 °C.\n      (C) diminui em menos de 0,04% ao se aquecer de 0 °C a 4 °C.\n      (D) aumenta em mais de 4% ao se aquecer de 4 °C a 9 °C.\n      (E) aumenta em menos de 3% ao se aquecer de 0 °C a 100 °C.",
     "alternativa": "C",
@@ -2318,7 +2318,7 @@
   {
     "numero": 218,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 193,
     "texto": "218 - ENEM 2009\n\n    Em grandes metrópoles, devido a mudanças na superfície terrestre\n— asfalto e concreto em excesso, por exemplo — formam-se ilhas de\ncalor. A resposta da atmosfera a esse fenômeno é a precipitação\nconvectiva. Isso explica a violência das chuvas em São Paulo, onde as\nilhas de calor chegam a ter 2 a 3 graus centígrados de diferença em\nrelação ao seu entorno.\n\n                                Revista Terra da Gente. Ano 5, n° 60, Abril 2009 (adaptado).\n\n\n\n    As características físicas, tanto do material como da estrutura\nprojetada de uma edificação, são a base para compreensão de resposta\ndaquela tecnologia construtiva em termos de conforto ambiental. Nas\nmesmas condições ambientais (temperatura, umidade e pressão), uma\nquadra terá melhor conforto térmico se\n\n    (A) pavimentada com material de baixo calor específico, pois\nquanto menor o calor especifico de determinado material, menor será\na variação térmica sofrida pelo mesmo ao receber determinada\nquantidade de calor.\n    (B) pavimentada com material de baixa capacidade térmica, pois\nquanto menor a capacidade térmica de determinada estrutura, menor\nserá a variação térmica sofrida por ela ao receber determinada\nquantidade de calor.\n    (C) pavimentada com material de alta capacidade térmica, pois\nquanto maior a capacidade térmica de determinada estrutura, menor\nserá a variação térmica sofrida por ela ao receber determinada\nquantidade de calor.\n    (D) possuir um sistema de vaporização, pois ambientes mais\númidos permitem uma mudança de temperatura lenta, já que o vapor\nd'água possui a capacidade de armazenar calor sem grandes alterações\ntérmicas, devido ao baixo calor específico da água (em relação à\nmadeira, por exemplo).\n\n\f    (E) possuir um sistema de sucção do vapor d'água, pois ambientes\nmais secos permitem uma mudança de temperatura lenta, já que o\nvapor d'água possui a capacidade de armazenar calor sem grandes\nalterações térmicas, devido ao baixo calor específico da água (em\nrelação à madeira, por exemplo).",
     "alternativa": "C",
@@ -2338,7 +2338,7 @@
   {
     "numero": 220,
     "ano": 2007,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 195,
     "texto": "220 - ENEM 2007\n\n     O uso mais popular de energia solar está associado ao\nfornecimento de água quente para fins domésticos. Na figura ao lado,\né ilustrado um aquecedor de água constituído de dois tanques pretos\ndentro de uma caixa termicamente isolada e com cobertura de vidro,\nos quais absorvem energia solar.\n\n                                 HINRICHS, R. A.; KLEINBACH, M. Energia e meio ambiente\n                               São Paulo: Thompson, 3.ª ed., 2004, p. 529 (com adaptações).\n\n\n\n\n      Nesse sistema de aquecimento,\n\n    (A) os tanques, por serem de cor preta, são maus absorvedores de\ncalor e reduzem as perdas de energia.\n    (B) a cobertura de vidro deixa passar a energia luminosa e reduz\na perda de energia térmica utilizada para o aquecimento.\n\n\f    (C) a água circula devido à variação de energia luminosa existente\nentre os pontos X e Y.\n    (D) a camada refletiva tem como função armazenar energia\nluminosa.\n    (E) o vidro, por ser bom condutor de calor, permite que se\nmantenha constante a temperatura no interior da caixa.",
     "alternativa": "B",
@@ -2358,7 +2358,7 @@
   {
     "numero": 222,
     "ano": 2024,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 196,
     "texto": "222 - ENEM 2024\n\n    A transferência de calor por radiação pode ser observada\nrealizando-se a experiência de colocar a mesma quantidade de água\n\n\fquente em dois copos metálicos com as mesmas características, sendo\nque a superfície externa de um deles é pintada de preto (copo 1), e a\ndo outro é espelhada (copo 2). Sabe-se que todo material emite e\nabsorve energia radiante e que bons emissores são também bons\nabsorvedores dessa energia.\n\n\n\n\n   Ao se colocar um termômetro dentro de cada copo observa-se,\napós alguns minutos, que a temperatura da água\n\n      (A) dos dois copos diminui igualmente.\n      (B) do copo 1 diminui, e a do copo 2 permanece a mesma.\n      (C) do copo 2 diminui, e a do copo 1 permanece a mesma.\n      (D) do copo 1 diminui mais rapidamente do que a do copo 2.\n      (E) do copo 2 diminui mais rapidamente do que a do copo 1",
     "alternativa": "D",
@@ -2369,7 +2369,7 @@
   {
     "numero": 223,
     "ano": 2023,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 197,
     "texto": "223 - ENEM 2023\n\n    O fogão por indução funciona a partir do surgimento de uma\ncorrente elétrica induzida no fundo da panela, com consequente\ntransformação de energia elétrica em calor por efeito Joule. A principal\nvantagem desses fogões é a eficiência energética, que é\nsubstancialmente maior que a dos fogões convencionais.\n\n      A corrente elétrica mencionada é induzida por\n\n\f      (A) radiação.\n      (B) condução.\n      (C) campo elétrico variável.\n      (D) campo magnético variável.\n      (E) ressonância eletromagnética.",
     "alternativa": "D",
@@ -2434,7 +2434,7 @@
   {
     "numero": 229,
     "ano": 2018,
-    "tema": "Outros",
+    "tema": "Eletricidade",
     "paginaPdf": 202,
     "texto": "229 - ENEM 2018\n\n    Em uma manhã ensolarada, uma jovem vai até um parque para\nacampar e ler. Ela monta sua barraca próxima de seu carro, de uma\nárvore e de um quiosque de madeira. Durante sua leitura, a jovem não\npercebe a aproximação de uma tempestade com muitos relâmpagos.\nA melhor maneira de essa jovem se proteger dos relâmpagos é\n\n      (A) entrar no carro.\n      (B) entrar na barraca.\n      (C) entrar no quiosque.\n      (D) abrir um guarda-chuva.\n      (E) ficar embaixo da árvore.",
     "alternativa": "A",
@@ -2521,7 +2521,7 @@
   {
     "numero": 238,
     "ano": 2017,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 208,
     "texto": "238 - ENEM 2017\n\n    O manual de uma ducha elétrica informa que seus três níveis de\naquecimento (morno, quente e superquente) apresentam as seguintes\nvariações de temperatura da água em função de sua vazão:\n\n\n\n\n    Utiliza-se um disjuntor para proteger o circuito dessa ducha contra\nsobrecargas elétricas em qualquer nível de aquecimento. Por padrão,\no disjuntor é especificado pela corrente nominal igual ao múltiplo de 5\nA imediatamente superior à corrente máxima do circuito. Considere\nque a ducha deve ser ligada em 220 V e que toda a energia é dissipada\natravés da resistência do chuveiro e convertida em energia térmica\ntransferida para a água, que apresenta calor específico de 4,2 Jg°C e\ndensidade de 1 000 gl.\n\n      O disjuntor adequado para a proteção dessa ducha é especificado por:\n\n      (A) 60 A\n      (B) 30 A\n      (C) 20 A\n\n\f      (D) 10 A\n      (E) 5 A",
     "alternativa": "B",
@@ -2591,7 +2591,7 @@
   {
     "numero": 245,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 213,
     "texto": "245 - ENEM 2016\n\n    A magneto hipertermia é um procedimento terapêutico que se\nbaseia na elevação da temperatura das células de uma região\nespecífica do corpo que estejam afetadas por um tumor. Nesse tipo de\ntratamento, nanopartículas magnéticas são fagocitadas pelas células\ntumorais, e um campo magnético alternado externo é utilizado para\npromover a agitação das nanopartículas e consequente aquecimento\nda célula.\n\n      A elevação de temperatura descrita ocorre porque\n\n    (A) o campo magnético gerado pela oscilação das nanopartículas é\nabsorvido pelo tumor.\n    (B) o campo magnético alternado faz as nanopartículas girarem,\ntransferindo calor por atrito.\n    (C) as nanopartículas interagem magneticamente com as células\ndo corpo, transferindo calor.\n    (D) o campo magnético alternado fornece calor para as\nnanopartículas que o transfere às células do corpo.\n    (E) as nanopartículas são aceleradas em um único sentido em\nrazão da interação com o campo magnético, fazendo-as colidir com as\ncélulas e transferir calor.",
     "alternativa": "B",
@@ -2855,7 +2855,7 @@
   {
     "numero": 270,
     "ano": 2001,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 233,
     "texto": "270 - ENEM 2001\n\n   Para diminuir as perdas térmicas de uma geladeira, podem ser\ntomados alguns cuidados operacionais:\n\n    I. Distribuir os alimentos nas prateleiras deixando espaços vazios\nentre eles, para que ocorra a circulação do ar frio para baixo e do\nquente para cima.\n    II. Manter as paredes do congelador com camada bem espessa de\ngelo, para que o aumento da massa de gelo aumente a troca de calor\nno congelador.\n    III. Limpar o radiador (\"grade\" na parte de trás) periodicamente,\npara que a gordura e a poeira que nele se depositam não reduzam a\ntransferência de calor para o ambiente. Para uma geladeira tradicional\né correto indicar, apenas,\n\n      (A) a operação I.\n      (B) a operação II.\n      (C) as operações I e II.\n      (D) as operações I e III.\n      (E) as operações II e III.",
     "alternativa": "D",
@@ -3040,7 +3040,7 @@
   {
     "numero": 287,
     "ano": 2015,
-    "tema": "Outros",
+    "tema": "Ondulatória",
     "paginaPdf": 248,
     "texto": "287 - ENEM 2015\n\n     Durante uma aula experimental de física, os estudantes\nconstruíram um sistema ressonante com pêndulos simples. As\ncaracterísticas de cada pêndulo são apresentadas no quadro.\nInicialmente, os estudantes colocaram apenas o pêndulo A para oscilar.\n\n\n\n\n      Quais pêndulos, além desse, passaram também a oscilar?\n\n      (A) 1, 2, 3, 4 e 5.\n      (B) 1, 2 e 3.\n\n\f      (C) 1 e 4.\n      (D) 1 e 5.\n      (E) 3 e 4.",
     "alternativa": "D",
@@ -3082,7 +3082,7 @@
   {
     "numero": 291,
     "ano": 2015,
-    "tema": "Termologia",
+    "tema": "Óptica",
     "paginaPdf": 251,
     "texto": "291 - ENEM 2015\n\n    Será que uma miragem ajudou a afundar o Titanic? O fenômeno\nótico conhecido como Fata Morgana pode fazer com que uma falsa\nparede de água apareça sobre o horizonte molhado. Quando as\ncondições são favoráveis, a luz refletida pela água fria pode ser\ndesviada por uma camada incomum de ar quente acima, chegando até\n\n\fo observador, vinda de muitos ângulos diferentes. De acordo com\nestudos de pesquisadores da Universidade de San Diego, uma Fata\nMorgana pode ter obscurecido os icebergs da visão da tripulação que\nestava a bordo do Titanic. Dessa forma, a certa distância, o horizonte\nverdadeiro fica encoberto por uma névoa escurecida, que se parece\nmuito com águas calmas no escuro.\n\n                              Disponível em: http://apod.nasa.gov. Acesso em: 6 set. 2012 (adaptado).\n\n\n\n   O fenômeno ótico que, segundo os pesquisadores, provoca a Fata\nMorgana é a\n\n      (A) ressonância.\n      (B) refração.\n      (C) difração.\n      (D) reflexão.\n      (E) difusão.",
     "alternativa": "B",
@@ -3091,7 +3091,7 @@
   {
     "numero": 292,
     "ano": 2014,
-    "tema": "Eletricidade",
+    "tema": "Óptica",
     "paginaPdf": 252,
     "texto": "292 - ENEM 2014\n\n    É comum aos fotógrafos tirar fotos coloridas em ambientes\niluminados por lâmpadas fluorescentes, que contém uma forte\ncomposição de luz verde. A consequência desse fato na fotografia é\nque todos os objetos claros, principalmente os brancos, aparecerão\nesverdeados. Para equilibrar as cores, deve-se usar um filtro adequado\npara diminuir a intensidade da luz verde que chega aos sensores da\ncâmera fotográfica. Na escolha desse filtro, utiliza-se o conhecimento\nda composição das cores-luz primárias: vermelho, verde e azul; e das\ncores-luz secundárias: amarelo = vermelho + verde, ciano = verde +\nazul e magenta = vermelho + azul.\n\n                         Disponível em: http://nautillus.fls.uc.pt. Acesso em: 20 maio 2014 (adaptado).\n\n\n\n    Na situação descrita, qual deve ser o filtro utilizado para que a\nfotografia apresente as cores naturais dos objetos?\n\n\f      (A) Ciano.\n      (B) Verde.\n      (C) Amarelo.\n      (D) Magenta.\n      (E) Vermelho.",
     "alternativa": "D",
@@ -3185,7 +3185,7 @@
   {
     "numero": 302,
     "ano": 2014,
-    "tema": "Termologia",
+    "tema": "Óptica",
     "paginaPdf": 259,
     "texto": "302 - ENEM 2014\n\n    Uma proposta de dispositivo capaz de indicar a qualidade da\ngasolina vendidas em postos e, consequentemente, evitar fraudes,\npoderia utilizar o conceito de refração luminosa. Nesse sentido, a\ngasolina não adulterada, na temperatura ambiente, apresenta razão\nentre os senos dos raios incidente e refratado igual a 1,4. Desse modo,\nfazendo incidir o feixe de luz proveniente do ar com um ângulo fixo e\nmaior que zero, qualquer modificação no ângulo do feixe refratado\nindicará a adulteração no combustível.\n\n\f   Em uma fiscalização rotineira, o teste apresentou o valor de 1,9.\nQual foi o comportamento do raio refratado?\n\n      (A) Mudou de sentido.\n      (B) Sofreu reflexão total.\n      (C) Atingiu o valor do ângulo limite.\n      (D) Direcionou-se para a superfície de separação.\n      (E) Aproximou-se da normal à superfície de separação.",
     "alternativa": "E",
@@ -3279,7 +3279,7 @@
   {
     "numero": 312,
     "ano": 2013,
-    "tema": "Eletricidade",
+    "tema": "Ondulatória",
     "paginaPdf": 265,
     "texto": "312 - ENEM 2013\n\n    Em viagens de avião, é solicitado aos passageiros o desligamento\nde todos os aparelhos cujo funcionamento envolva a emissão ou a\nrecepção de ondas eletromagnéticas. O procedimento é utilizado para\neliminar fontes de radiação que possam interferir nas comunicações\nvia rádio dos pilotos com a torre de controle.\n\n\f   A propriedade das ondas emitidas que justifica o procedimento\nadotado é o fato de:\n\n      (A) terem fases opostas.\n      (B) serem ambas audíveis.\n      (C) terem intensidades inversas.\n      (D) serem de mesma amplitude.\n      (E) terem frequências próximas.",
     "alternativa": "E",
@@ -3288,7 +3288,7 @@
   {
     "numero": 313,
     "ano": 2013,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 266,
     "texto": "313 - ENEM 2013\n\n      Devido à sua resistência mecânica, baixa condutividade térmica e\ntransparência à luz, o vidro tem sido cada vez mais utilizado na construção\ncivil, aplicado em portas, janelas e telhados. Sua transparência é\nimportante porque resulta em uma grande economia da energia elétrica\nusada na iluminação interna do ambiente. Microscopicamente, a\ntransparência ocorre devido à forma com que a luz incidente interage com\nos elétrons dos átomos que compõem o material vítreo.\n\n      A transparência pode ser explicada, considerando–se que a luz\n\n    (A) é absorvida pelos elétrons e é transformada em calor.\n    (B) é absorvida pelos elétrons e reemitida em todas as direções.\n    (C) não é absorvida pelos elétrons e é espalhada em diversas\ndireções.\n    (D) não é absorvida pelos elétrons e continua seu caminho em\ntrajetórias regulares.\n    (E) é absorvida pelos elétrons e reemitida de volta pela mesma\ntrajetória de onde veio.",
     "alternativa": "D",
@@ -3433,7 +3433,7 @@
   {
     "numero": 328,
     "ano": 2011,
-    "tema": "Ondulatória",
+    "tema": "Óptica",
     "paginaPdf": 276,
     "texto": "328 - ENEM 2011\n\n    Para que uma substância seja colorida ela deve absorver luz na\nregião do visível. Quando uma amostra absorve luz visível, a cor que\npercebemos é a soma das cores restantes que são refletidas ou\ntransmitidas pelo objeto. A Figura 1 mostra o espectro de absorção para\numa substância e é possível observar que há um comprimento de onda\nem que a intensidade de absorção é máxima. Um observador pode\nprever a cor dessa substância pelo uso da roda de cores (Figura 2): o\ncomprimento de onda correspondente à cor do objeto é encontrado no\nlado oposto ao comprimento de onda da absorção máxima.\n\n\n\n\n                                   Brown, T. Química a Ciência Central. 2005 (adaptado).\n\n\f      Qual a cor da substância que deu origem ao espectro da Figura 1?\n\n      (A) Azul.\n      (B) Verde.\n      (C) Violeta.\n      (D) Laranja.\n      (E) Vermelho",
     "alternativa": "E",
@@ -3464,7 +3464,7 @@
   {
     "numero": 331,
     "ano": 2010,
-    "tema": "Ondulatória",
+    "tema": "Óptica",
     "paginaPdf": 279,
     "texto": "331 - ENEM 2010\n\n    Um grupo de cientistas liderado por pesquisadores do Instituto de\nTecnologia da Califórnia (Caltech), nos Estados Unidos, construiu o\nprimeiro metamaterial que apresenta valor negativo do índice de\nrefração relativo para a luz visível. Denomina-se metamaterial um\nmaterial óptico artificial, tridimensional, formado por pequenas\nestruturas menores do que o comprimento de onda da luz, o que lhe\ndá propriedades e comportamentos que não são encontrados em\nmateriais naturais. Esse material tem sido chamado de “canhoto”.\n\n               Disponível em: http://inovacaotecnologica.com.br. Acesso em: 28 abr. 2010 (adaptado).\n\n\n\n     Considerando o comportamento atípico desse metamaterial, qual é a\nfigura que representa a refração da luz ao passar do ar para esse meio?\n\n\n\n\n      (A)\n\n\n\n\n      (B)\n\n\f      (C)\n\n\n\n\n      (D)\n\n\n\n\n      (E)",
     "alternativa": "D",
@@ -3649,7 +3649,7 @@
   {
     "numero": 349,
     "ano": 2014,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 294,
     "texto": "349 - ENEM 2014\n\n    Fusíveis são dispositivos de proteção de um circuito elétrico,\nsensíveis ao excesso de corrente elétrica. Os modelos mais simples\nconsistem de um filamento metálico de baixo ponto de fusão, que se\nfunde quando a corrente ultrapassa determinado valor, evitando que\nas demais partes do circuito sejam danificadas. A figura mostra um\ndiagrama de um circuito em que o fusível F protege um resistor R de\n12 Ω, uma lâmpada L de 6 W e um alto-falante que conduz 1 A.\n\n\f    Sabendo que esse fusível foi projetado para trabalhar com uma\ncorrente até 20% maior que a corrente nominal que atravessa esse\ncircuito, qual é o valor, em ampères, da corrente máxima que o fusível\nF permite passar?\n\n      (A) 1,0.\n      (B) 1,5.\n      (C) 2,0.\n      (D) 2,5.\n      (E) 3,0.",
     "alternativa": "E",
@@ -3713,7 +3713,7 @@
   {
     "numero": 355,
     "ano": 2014,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 299,
     "texto": "355 - ENEM 2014\n\n    Os manuais dos fornos micro-ondas desaconselham, sob pena de\nperda da garantia, que eles sejam ligados em paralelo juntamente a\noutros aparelhos eletrodomésticos por meio de tomadas múltiplas,\npopularmente conhecidas como \"benjamins\" ou \"tês\", devido ao alto\nrisco de incêndio e derretimento dessas tomadas, bem como daquelas\ndos próprios aparelhos.\n\n      Os riscos citados são decorrentes da\n\n    (A) resistividade da conexão, que diminui devido à variação de\ntemperatura do circuito.\n    (B) corrente elétrica superior ao máximo que a tomada múltipla\npode suportar.\n    (C) resistência elétrica elevada na conexão simultânea de\naparelhos eletrodomésticos.\n    (D) tensão insuficiente para manter todos os aparelhos\neletrodomésticos em funcionamento.\n    (E) intensidade do campo elétrico elevada, que causa o\nrompimento da rigidez dielétrica da tomada múltipla.",
     "alternativa": "B",
@@ -3722,7 +3722,7 @@
   {
     "numero": 356,
     "ano": 2013,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 300,
     "texto": "356 - ENEM 2013\n\n    Um eletricista analisa o diagrama de uma instalação elétrica\nresidencial para planejar medições de tensão e corrente em uma\ncozinha. Nesse ambiente existem uma geladeira (G) uma tornada (T)\ne uma lâmpada (L), conforme a figura. O eletricista deseja medir a\ntensão elétrica aplicada a geladeira, a corrente total e a corrente na\nlâmpada. Para isso, ele dispõe de um voltímetro (V) e dois\namperímetros (a).\n\n\n\n\n    Para realizar essas medidas, o esquema da ligação desses\ninstrumentos está representado em:\n\n\n\n\n      (A)\n\n\n\n\n      (B)\n\n\n\n\n      (C)\n\n\f      (D)\n\n\n\n\n      (E)",
     "alternativa": "E",
@@ -3787,7 +3787,7 @@
   {
     "numero": 362,
     "ano": 2013,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 305,
     "texto": "362 - ENEM 2013\n\n    Medir temperatura é fundamental em muitas aplicações, e\napresentar a leitura em mostradores digitais é bastante prático. O seu\nfuncionamento é baseado na correspondência entre valores de\ntemperatura e de diferença de potencial elétrico.\n    Por exemplo, podemos usar o circuito elétrico apresentado, no qual\no elemento sensor de temperatura ocupa um dos braços do circuito\n(Rs) e a dependência da resistência com a temperatura é conhecida)\n\n\n\n\n    Para um valor de temperatura em que Rs = 100 Ω, a leitura\napresentada pelo voltímetro será de\n\n      (A) + 6,2 V.\n      (B) + 1,7 V.\n      (C) + 0,3 V.\n      (D) – 0,3 V.\n      (E) – 6,2 V",
     "alternativa": "D",
@@ -3855,7 +3855,7 @@
   {
     "numero": 368,
     "ano": 2011,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 310,
     "texto": "368 - ENEM 2011\n\n     Uma residência possui dois aparelhos de TV, duas geladeiras, um\ncomputador, um ferro elétrico e oito lâmpadas incandescentes. A\nresistência elétrica de cada equipamento está representada pela figura\nI. A tensão elétrica que alimenta a rede da residência é de 120 V\n\n\n\n\n    Um eletricista fez duas ligações, que se encontram representadas\npelas figuras II e III.\n\n\n\n\n   Com base nas informações, verifica-se que a corrente indicada pelo\namperímetro da figura\n\n\f      (A) II registrará uma corrente de 10 A.\n      (B) II registrará uma corrente de 12 A.\n      (C) II registrará uma corrente de 0,10 A.\n      (D) III registrará uma corrente de 16,6 A.\n      (E) III registrará uma corrente de 0,14 A.",
     "alternativa": "A",
@@ -3927,7 +3927,7 @@
   {
     "numero": 375,
     "ano": 2010,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 316,
     "texto": "375 - ENEM 2010\n\n    A resistência elétrica de um fio é determinada pela suas dimensões\ne pelas propriedades estruturais do material. A condutividade (σ)\ncaracteriza a estrutura do material, de tal forma que a resistência de\num fio pode ser determinada conhecendo-se L, o comprimento do fio\ne A, a área de seção reta. A tabela relaciona o material à sua respectiva\nresistividade em temperatura ambiente.\n\n\n\n\n    Mantendo-se as mesmas dimensões geométricas, o fio que\napresenta menor resistência elétrica é aquele feito de:\n\n      (A) tungstênio.\n      (B) alumínio.\n      (C) ferro.\n      (D) cobre.\n      (E) prata.",
     "alternativa": "E",
@@ -3969,7 +3969,7 @@
   {
     "numero": 379,
     "ano": 2010,
-    "tema": "Termologia",
+    "tema": "Eletricidade",
     "paginaPdf": 319,
     "texto": "379 - ENEM 2010\n\n    Quando ocorre um curto-circuito em uma instalação elétrica, como\nna figura, a resistência elétrica total do circuito diminui muito,\nestabelecendo–se nele uma corrente muito elevada.\n\n\n\n\n    O superaquecimento da fiação, devido a esse aumento da corrente\nelétrica, pode ocasionar incêndios, que seriam evitados instalando–se\nfusíveis e disjuntores que interrompem essa corrente, quando a\n\n\fmesma atinge um valor acima do especificado nesses dispositivos de\nproteção.\n    Suponha que um chuveiro instalado em uma rede elétrica de 110\nV, em uma residência, possua três posições de regulagem da\ntemperatura da água. Na posição verão utiliza 2 100 W, na posição\nprimavera, 2 400 W, e na posição inverno, 3 200 W.\n\n                          GREF. Física 3: Eletromagnetismo. São Paulo: EDUSP, 1993 (adaptado).\n\n\n\n     Deseja–se que o chuveiro funcione em qualquer uma das três\nposições de regulagem de temperatura, sem que haja riscos de\nincêndio. Qual deve ser o valor mínimo adequado do disjuntor a ser\nutilizado?\n\n      (A) 40 A\n      (B) 30 A\n      (C) 25 A\n      (D) 23 A\n      (E) 20 A",
     "alternativa": "B",
@@ -3989,7 +3989,7 @@
   {
     "numero": 381,
     "ano": 2010,
-    "tema": "Eletricidade",
+    "tema": "Ondulatória",
     "paginaPdf": 321,
     "texto": "381 - ENEM 2010\n\n    Duas irmãs que dividem o mesmo quarto de estudos combinaram de\ncomprar duas caixas com tampas para guardarem seus pertences dentro\nde suas caixas, evitando, assim, a bagunça sobre a mesa de estudos.\nUma delas comprou uma metálica, e a outra, uma caixa de madeira de\nárea e espessura lateral diferentes, para facilitar a identificação. Um dia\nas meninas foram estudar para a prova de Física e, ao se acomodarem\nna mesa de estudos, guardaram seus celulares ligados dentro de suas\ncaixas. Ao longo desse dia, uma delas recebeu ligações telefônicas,\nenquanto os amigos da outra tentavam ligar e recebiam a mensagem de\nque o celular estava fora da área de cobertura ou desligado.\n\n   Para explicar essa situação, um físico deveria afirmar que o\nmaterial da caixa, cujo telefone celular não recebeu as ligações é de\n\n    (A) madeira, e o telefone não funcionava porque a madeira não é\num bom condutor de eletricidade.\n    (B) metal, e o telefone não funcionava devido à blindagem\neletrostática que o metal proporcionava.\n    (C) metal, e o telefone não funcionava porque o metal refletia todo\ntipo de radiação que nele incidia.\n    (D) metal, e o telefone não funcionava porque a área lateral da\ncaixa de metal era maior.\n    (E) madeira, e o telefone não funcionava porque a espessura desta\ncaixa era maior que a espessura da caixa de metal.",
     "alternativa": "B",
@@ -4028,7 +4028,7 @@
   {
     "numero": 385,
     "ano": 2009,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 325,
     "texto": "385 - ENEM 2009\n\n    O manual de instruções de um aparelho de ar-condicionado\napresenta a seguinte tabela, com dados técnicos para diversos\nmodelos:\n\n\n\n\n             Disponível em: http://www.institucional.brastemp.com.br. Acesso em: 13 jul. 2009 (adaptado).\n\n\n\n    Considere-se que um auditório possua capacidade para 40\npessoas, cada uma produzindo uma quantidade média de calor, e que\npraticamente todo o calor que flui para fora do auditório o faz por meio\ndos aparelhos de ar-condicionado. Nessa situação, entre as\ninformações listadas, aquelas essenciais para se determinar quantos\ne/ou quais aparelhos de ar-condicionado são precisos para manter,\ncom lotação máxima, a temperatura interna do auditório agradável e\nconstante, bem como determinar a espessura da fiação do circuito\nelétrico para a ligação desses aparelhos, são\n\n\f      (A) vazão de ar e potência.\n      (B) vazão de ar e corrente elétrica – ciclo frio.\n      (C) eficiência energética e potência.\n      (D) capacidade de refrigeração e frequência.\n      (E) capacidade de refrigeração e corrente elétrica – ciclo frio.",
     "alternativa": "E",
@@ -4221,7 +4221,7 @@
   {
     "numero": 403,
     "ano": 2019,
-    "tema": "Mecânica",
+    "tema": "Óptica",
     "paginaPdf": 341,
     "texto": "403 - ENEM 2019\n\n    Uma das formas de se obter energia elétrica é usar uma lente\nconvergente circular para concentrar os raios de sol em um único\nponto, aquecendo um dispositivo localizado nesse ponto a uma\ntemperatura elevada. Com a transformação da energia luminosa em\nenergia térmica, pode ser criado vapor-d’água que moverá uma turbina\ne gerará energia elétrica. Para projetar um sistema de geração de\nenergia elétrica, a fim de alimentar um chuveiro elétrico de 2000 W de\npotência, sabe-se que, neste local, a energia recebida do Sol é\n1000 W/m2.\n\n    Esse sistema apresenta taxa de eficiência de conversão em energia\nelétrica de 50% da energia solar incidente. Considere\n\n\f    Qual deve ser, em metro, o raio da lente para que esse sistema\nsatisfaça aos requisitos do projeto?\n\n      (A) 0,28\n      (B) 0,32\n      (C) 0,40\n      (D) 0,80\n      (E) 1,11",
     "alternativa": "E",
@@ -4243,7 +4243,7 @@
   {
     "numero": 405,
     "ano": 2019,
-    "tema": "Mecânica",
+    "tema": "Eletricidade",
     "paginaPdf": 343,
     "texto": "405 - ENEM 2019\n\n    As redes de alta tensão para transmissão de energia elétrica geram\ncampo magnético variável o suficiente para induzir corrente elétrica no\narame das cercas. Tanto os animais quanto os funcionários das\npropriedades rurais ou das concessionárias de energia devem ter muito\ncuidado ao se aproximarem de uma cerca quando esta estiver próxima\na uma rede de alta tensão, pois, se tocarem no arame da cerca,\npoderão sofrer choque elétrico.\n\n      Para minimizar este tipo de problema, deve-se:\n\n\f      (A) Fazer o aterramento dos arames da cerca.\n      (B) Acrescentar fusível de segurança na cerca.\n      (C) Realizar o aterramento da rede de alta tensão.\n      (D) Instalar fusível de segurança na rede de alta tensão.\n      (E) Utilizar fios encapados com isolante na rede de alta tensão.",
     "alternativa": "B",
@@ -4348,7 +4348,7 @@
   {
     "numero": 416,
     "ano": 2013,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 351,
     "texto": "416 - ENEM 2013\n\n    Em um experimento foram utilizadas duas garrafas PET, uma\npintada de branco e a outra de preto, acopladas cada uma a um\ntermômetro. No ponto médio da distância entre as garrafas, for\nmantida acessa, durante alguns minutos, uma lâmpada incandescente.\nEm seguida a lâmpada foi desligada. Durante o experimento, foram\nmonitoradas as temperaturas das garrafas: (a) enquanto a lâmpada\npermaneceu acessa e (b) após a lâmpada ser desligada e atingirem\nequilíbrio térmico com o ambiente.\n\n\n\n\n   A taxa de variação da temperatura da garrafa preta, em\ncomparação à da branca, durante todo experimento, foi.\n\n\f      (A) igual no aquecimento e igual no resfriamento.\n      (B) maior no aquecimento e igual no resfriamento.\n      (C) menor no aquecimento e igual no resfriamento.\n      (D) maior no aquecimento e menor no resfriamento.\n      (E) maior no aquecimento e maior no resfriamento.",
     "alternativa": "E",
@@ -4359,7 +4359,7 @@
   {
     "numero": 417,
     "ano": 2013,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 352,
     "texto": "417 - ENEM 2013\n\n    Aquecedores solares usados em residências têm o objetivo de\nelevar a temperatura da água até 70° C. No entanto, a temperatura\nideal de água para um banho é de 30° C. Por isso, deve-se misturar a\nágua aquecida com a água à temperatura ambiente de um outro\nreservatório, que se encontra a 25° C.\n\n   Qual a razão entre a massa de água quente e a massa de água fria\nna mistura para um banho à temperatura ideal?\n\n      (A) 0,111.\n      (B) 0,125.\n      (C) 0,357.\n      (D) 0,428.\n      (E) 0,833.",
     "alternativa": "B",
@@ -4626,7 +4626,7 @@
   {
     "numero": 444,
     "ano": 2023,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 374,
     "texto": "444 - ENEM 2023\n\n    O manual de um automóvel alerta sobre os cuidados em relação à\npressão do ar no interior dos pneus. Recomenda-se que a pressão seja\nverificada com os pneus frios (à temperatura ambiente). Um motorista,\ndesatento a essa informação, realizou uma viagem longa sobre o\nasfalto quente e, em seguida, verificou que a pressão P0 no interior dos\npneus não era a recomendada pelo fabricante. Na ocasião, a\ntemperatura dos pneus era T0. Após um longo período em repouso, os\npneus do carro atingiram a temperatura ambiente T. Durante o\nresfriamento, não há alteração no volume dos pneus e na quantidade\nde ar no seu interior. Considere o ar dos pneus um gás perfeito\n(também denominado gás ideal).\n\n    Durante o processo de resfriamento, os valores de pressão em\nrelação à temperatura (P × T) são representados pelo gráfico:\n\n\f      (A)\n\n\n\n\n      (B)\n\n\n\n\n      (C)\n\n\n\n\n      (D)\n\n\f      (E)",
     "alternativa": "E",
@@ -4664,7 +4664,7 @@
   {
     "numero": 447,
     "ano": 2023,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 378,
     "texto": "447 - ENEM 2023\n\n    O bluetooth é uma tecnologia de comunicação sem fio, de curto\nalcance, presente em diferentes dispositivos eletrônicos de consumo.\nEla permite que aparelhos eletrônicos diferentes se conectem e\ntroquem dados entre si. No padrão bluetooth, denominado de Classe\n2, as antenas transmitem sinais de potência igual a 2,4 mW e\npossibilitam conectar dois dispositivos distanciados até 10 m.\nConsidere que essas antenas se comportam como fontes puntiformes\nque emitem ondas eletromagnéticas esféricas e que a intensidade do\nsinal é calculada pela potência por unidade de área. Considere 3 como\nvalor aproximado para π.\n\n    Para que o sinal de bluetooth seja detectado pelas antenas, o valor\nmínimo de sua intensidade, em W/m2, é mais próximo de\n\n      (A) 2,0 × 10–6.\n      (B) 2,0 × 10–5.\n      (C) 2,4 × 10–5.\n      (D) 2,4 × 10–3.\n      (E) 2,4 × 10–1.",
     "alternativa": "A",
@@ -4710,7 +4710,7 @@
   {
     "numero": 451,
     "ano": 2023,
-    "tema": "Ondulatória",
+    "tema": "Óptica",
     "paginaPdf": 381,
     "texto": "451 - ENEM 2023\n\n      Informações digitais — dados — são gravadas em discos ópticos,\ncomo CD e DVD, na forma de cavidades microscópicas. A gravação e a\nleitura óptica dessas informações são realizadas por um laser (fonte de\nluz monocromática). Quanto menores as dimensões dessas cavidades,\nmais dados são armazenados na mesma área do disco. O fator\nlimitante para a leitura de dados é o espalhamento da luz pelo efeito\nde difração, fenômeno que ocorre quando a luz atravessa um obstáculo\ncom dimensões da ordem de seu comprimento de onda. Essa limitação\nmotivou o desenvolvimento de lasers com emissão em menores\ncomprimentos de onda, possibilitando armazenar e ler dados em\ncavidades cada vez menores.\n\n   Em qual região espectral se situa o comprimento de onda do laser\nque otimiza o armazenamento e a leitura de dados em discos de uma\nmesma área?\n\n\f      (A) Violeta.\n      (B) Azul.\n      (C) Verde.\n      (D) Vermelho.\n      (E) Infravermelho.",
     "alternativa": "A",
@@ -4719,7 +4719,7 @@
   {
     "numero": 452,
     "ano": 2023,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 382,
     "texto": "452 - ENEM 2023\n\n     O petróleo é uma matéria-prima muito valiosa e métodos\ngeofísicos são úteis na sua prospecção. É possível identificar a\ncomposição de materiais estratificados medindo-se a velocidade de\npropagação do som (onda mecânica) através deles. Considere que uma\ncamada de 450 m de um líquido se encontra presa no subsolo entre\nduas camadas rochosas, conforme o esquema. Um pulso acústico (que\ngera uma vibração mecânica) é emitido a partir da superfície do solo,\nonde são posteriormente recebidas duas vibrações refletidas (ecos). A\nprimeira corresponde à reflexão do pulso na interface superior do\nlíquido com a camada rochosa. A segunda vibração deve-se à reflexão\ndo pulso na interface inferior. O tempo entre a emissão do pulso e a\nchegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após\na emissão do pulso.\n\n                      Emissor e detector de pulsos\n\n\f      A velocidade do som na camada líquida, em metro por segundo, é\n\n      (A) 270.\n      (B) 540.\n      (C) 818.\n      (D) 1 500.\n      (E) 1 800.",
     "alternativa": "D",
@@ -4730,7 +4730,7 @@
   {
     "numero": 453,
     "ano": 2023,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 383,
     "texto": "453 - ENEM 2023\n\n    Na tirinha de Mauricio de Sousa, os personagens Cebolinha e\nCascão fazem uma brincadeira utilizando duas latas e um barbante. Ao\nperceberem que o som pode ser transmitido através do barbante,\nresolvem alterar o comprimento do barbante para ficar cada vez mais\nextenso. As demais condições permaneceram inalteradas durante a\nbrincadeira.\n\n\n\n\n                   SOUSA, M. Disponível em: www.monica.com.br. Acesso em: 2 out. 2012 (adaptado).\n\n\n\n    Na prática, à medida que se aumenta o comprimento do barbante,\nocorre a redução de qual característica da onda sonora?\n\n      (A) Altura.\n      (B) Período.\n      (C) Amplitude.\n      (D) Velocidade.\n      (E) Comprimento de onda.",
     "alternativa": "C",
@@ -4816,7 +4816,7 @@
   {
     "numero": 461,
     "ano": 2022,
-    "tema": "Mecânica",
+    "tema": "Óptica",
     "paginaPdf": 390,
     "texto": "461 - ENEM 2022\n\n    Em 2002, um mecânico da cidade mineira de Uberaba (MG) teve\numa ideia para economizar o consumo de energia elétrica e iluminar a\nprópria casa num dia de sol. Para isso, ele utilizou garrafas plásticas\nPET com água e cloro, conforme ilustram as figuras. Cada garrafa foi\nfixada ao telhado de sua casa em um buraco com diâmetro igual ao da\ngarrafa, muito maior que o comprimento de onda da luz. Nos últimos\ndois anos, sua ideia já alcançou diversas partes do mundo e deve\natingir a marca de 1 milhão de casas utilizando a “luz engarrafada”.\n\n\n\n\n                     ZOBEL, G. Brasileiro inventor de “Iuz engarrafada” tem ideia espalhada pelo mundo.\n                                      Disponível em: www.bbc.com. Acesso em 23 jun. 2022 (adaptado)\n\n\n\n   Que fenômeno             óptico        explica       o     funcionamento              da      “luz\nengarrafada”?\n\n      (A) Difração.\n      (B) Absorção.\n      (C) Polarização.\n      (D) Reflexão.\n      (E) Refração.",
     "alternativa": "E",
@@ -4827,7 +4827,7 @@
   {
     "numero": 462,
     "ano": 2022,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 391,
     "texto": "462 - ENEM 2022\n\n    No dia 14 de julho de 2015, a sonda espacial norte-americana New\nHorizons atingiu o ponto mais próximo que qualquer artefato humano\nesteve do planeta-anão Plutão. Neste instante a distância da sonda à\nTerra era de aproximadamente 5 bilhões de quilômetros. As primeiras\nimagens de Plutão não chegaram à Terra instantaneamente quando\nenviadas através de um sinal de rádio, pois a velocidade da luz é de 3\nx 108 m/s.\n\n                NOGUEIRA, S. Uma jornada até Plutão. Pesquisa Fapesp, n. 234, ago. 2015. Disponível em:\n                                    https://revistapesquisa.fapesp.br. Acesso em: 2 jul. 2019 (adaptado).\n\n\n\n    No momento da máxima aproximação de Plutão, o valor mais\npróximo do tempo decorrido entre o envio de uma imagem pela antena\ntransmissora da sonda e sua recepção por uma antena receptora na\nTerra é\n\n      (A) 4,6 x 10³ s.\n      (B) 9,3 x 10³ s.\n      (C) 1,6 x 10¹ s.\n      (D) 1,7 x 10⁴ s.\n      (E) 3,4 x 10⁴ s.",
     "alternativa": "D",
@@ -4863,7 +4863,7 @@
   {
     "numero": 465,
     "ano": 2022,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 394,
     "texto": "465 - ENEM 2022\n\n    O sinal sonoro oriundo da queda de um grande bloco de gelo de\numa geleira é detectado por dois dispositivos situados em um barco,\nsendo que o detector A está imerso em água e o B, na proa da\nembarcação. Sabe-se que a velocidade do som na água é de 1 540 m/s\ne no ar é de 340 m/s.\n\n\f    Os gráficos indicam, em tempo real, o sinal sonoro detectado pelos\ndois dispositivos, os quais foram ligados simultaneamente em um\ninstante anterior à queda do bloco de gelo. Ao comparar pontos\ncorrespondentes desse sinal em cada dispositivo, é possível obter\ninformações sobre a onda sonora\n\n\n\n\n      A distância L, em metro, entre o barco e a geleira é mais próxima de\n\n      (A) 339 000.\n      (B) 78 900.\n      (C) 14 400.\n      (D) 5 240.\n      (E) 100.",
     "alternativa": "D",
@@ -4909,7 +4909,7 @@
   {
     "numero": 469,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 398,
     "texto": "469 - ENEM 2021\n\n   As notas musicais, assim como a grande maioria dos sons\nencontrados na natureza, são complexas e formadas pela\n\n\fsuperposição de várias ondas senoidais. A figura apresenta três\ncomponentes harmônicas e a composição resultante, construídas na\nmesma escala, para um instrumento sonoro. Essa composição\ncarrega uma “assinatura sônica” ou timbre do corpo que a produz.\n\n\n\n\n                               RODRIGUES, F. V. Fisiologia da música: uma abordagem comparativa (Revisão).\n        Revista da Biologia, v.2, jun. 2008. Disponível em: www.ib.usp.br. Acesso em 22 jun. 2012 (adaptado).\n\n\n\n      Essas componentes harmônicas apresentam iguais\n\n      (A) amplitude e velocidade.\n      (B) amplitude e frequência.\n      (C) frequência e velocidade.\n      (D) amplitude e comprimento de onda.\n      (E) frequência e comprimento de onda.",
     "alternativa": "A",
@@ -4949,7 +4949,7 @@
   {
     "numero": 472,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 402,
     "texto": "472 - ENEM 2021\n\n    A relação de Newton-Laplace estabelece que o módulo volumétrico\nde um fluido é diretamente proporcional ao quadrado da velocidade do\nsom (em metro por segundo) no fluido e à sua densidade (em\nquilograma    por    metro   cúbico),   com   uma    constante    de\nproporcionalidade adimensional.\n\n    Nessa relação, a unidade de medida adequada para o módulo\nvolumétrico é\n\n      (A) kg.m-2.s-1\n      (B) kg.m-1.s-2\n      (C) kg.m-5.s2\n      (D) kg-1.m1.s2\n      (E) kg-1.m5.s-2",
     "alternativa": "B",
@@ -4974,7 +4974,7 @@
   {
     "numero": 474,
     "ano": 2021,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 404,
     "texto": "474 - ENEM 2021\n\n     O sino dos ventos é composto por várias barras metálicas de\nmesmo material e espessura, mas de comprimentos diferentes,\nconforme a figura.\n\n\n\n\n    Considere f1 e v1, respectivamente, como a frequência fundamental\ne a velocidade de propagação do som emitido pela barra de menor\ncomprimento, e f2 e v2 são essas mesmas grandezas para o som\nemitido pela barra de maior comprimento.\n\n    As relações entre as frequências fundamentais e entre as\nvelocidades de propagação são, respectivamente,\n\n\f      (A) f1 < f2 e v1 < v2\n      (B) f1 < f2 e v1 = v2\n      (C) f1 < f2 e v1 > v2\n      (D) f1 > f 2 e v1 = v2\n      (E) f1 > f2 e v1 > v2",
     "alternativa": "D",
@@ -5018,7 +5018,7 @@
   {
     "numero": 478,
     "ano": 2020,
-    "tema": "Eletricidade",
+    "tema": "Ondulatória",
     "paginaPdf": 407,
     "texto": "478 - ENEM 2020\n\n    Alguns modelos mais modernos de fones de ouvido têm um\nrecurso, denominado “cancelador de ruídos ativo”, constituído de um\ncircuito eletrônico que gera um sinal sonoro semelhante ao sinal\nexterno (ruído), exceto pela sua fase oposta.\n\n    Qual fenômeno físico é responsável pela diminuição do ruído\nnesses fones de ouvido?\n\n      (A) Difração.\n      (B) Reflexão.\n      (C) Refração.\n\n\f      (D) Interferência.\n      (E) Efeito Doppler.",
     "alternativa": "D",
@@ -5048,7 +5048,7 @@
   {
     "numero": 481,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 409,
     "texto": "481 - ENEM 2020\n\n     Dois engenheiros estão verificando se uma cavidade perfurada no\nsolo está de acordo com o planejamento de uma obra, cuja\nprofundidade requerida é de 30 m. O teste é feito por um dispositivo\n\n\fdenominado oscilador de áudio de frequência variável, que permite\nrelacionar a profundidade com os valores da frequência de duas\nressonâncias consecutivas, assim como em um tubo sonoro fechado. A\nmenor frequência de ressonância que o aparelho mediu foi 135 Hz.\nConsidere que a velocidade do som dentro da cavidade perfurada é de\n360 m s-1.\n\n    Se a profundidade estiver de acordo com o projeto, qual será o\nvalor da próxima frequência de ressonância que será medida?\n\n      (A) 137 Hz.\n      (B) 138 Hz.\n      (C) 141 Hz.\n      (D) 144 Hz.\n      (E) 159 Hz.",
     "alternativa": "C",
@@ -5068,7 +5068,7 @@
   {
     "numero": 483,
     "ano": 2020,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 411,
     "texto": "483 - ENEM 2020\n\n    Os fones de ouvido tradicionais transmitem a música diretamente\npara os nossos ouvidos. Já os modelos dotados de tecnologia redutora\nde ruído — Cancelamento de Ruído (CR) — além de transmitirem\nmúsica, também reduzem todo ruído inconsistente à nossa volta, como\no barulho de turbinas de avião e aspiradores de pó. Os fones de ouvido\nCR não reduzem realmente barulhos irregulares como discursos e\nchoros de bebês. Mesmo assim, a supressão do ronco das turbinas do\navião contribui para reduzir a “fadiga de ruído”, um cansaço persistente\nprovocado pela exposição a um barulho alto por horas a fio. Esses\naparelhos também permitem que nós ouçamos músicas ou assistamos\na vídeos no trem ou no avião a um volume muito menor (e mais\nseguro).\n\n                      Disponível em: http://tecnologia.uol.com.br. Acesso em: 21 abr. 2015 (adaptado).\n\n\n\n    A tecnologia redutora de ruído CR utilizada na produção de fones\nde ouvido baseia-se em qual fenômeno ondulatório?\n\n      (A) absorção.\n      (B) interferência.\n      (C) polarização.\n      (D) reflexão.\n      (E) difração.",
     "alternativa": "B",
@@ -5097,7 +5097,7 @@
   {
     "numero": 486,
     "ano": 2018,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 413,
     "texto": "486 - ENEM 2018\n\n    Talvez você já tenha bebido suco usando dois canudinhos iguais.\nEntretanto, pode-se verificar que, se colocar um canudo imerso no suco\ne outro do lado de fora do líquido, fazendo a sucção simultaneamente\nem ambos, você terá dificuldade em bebê-lo.\n\n      Essa dificuldade ocorre porque o(a)\n\n    (A) força necessária para a sucção do ar e do suco\nsimultaneamente dobra de valor\n    (B) densidade do ar é menor que a do suco, portanto, o volume de\nar aspirado é muito maior que o volume de suco.\n    (C) velocidade com que o suco sobe deve ser constante nos dois\ncanudos, o que é impossível com um dos canudos de fora.\n    (D) peso da coluna de suco é consideravelmente maior que o peso\nda coluna de ar, o que dificulta a sucção do líquido.\n    (E) pressão no interior da boca assume praticamente o mesmo\nvalor daquela que atua sobre o suco.",
     "alternativa": "E",
@@ -5155,7 +5155,7 @@
   {
     "numero": 492,
     "ano": 2017,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 418,
     "texto": "492 - ENEM 2017\n\n    Alguns tipos de dessalinizadores usam o processo de osmose\nreversa para obtenção de água potável a partir da água salgada. Nesse\nmétodo, utiliza-se um recipiente contendo dois compartimentos\nseparados por uma membrana semipermeável: em um deles coloca-se\nágua salgada e no outro recolhe-se a água potável. A aplicação de\npressão mecânica no sistema faz a água fluir de um compartimento\npara o outro. O movimento das moléculas de água através da\nmembrana é controlado pela pressão osmótica e pela pressão\nmecânica aplicada.\n\n    Para que ocorra esse processo é necessário que as resultantes das\npressões osmótica e mecânica apresentem\n\n      (A) mesmo sentido e mesma intensidade.\n      (B) sentidos opostos e mesma intensidade.\n      (C) sentidos opostos e maior intensidade da pressão osmótica.\n      (D) mesmo sentido e maior intensidade da pressão osmótica.\n      (E) sentidos opostos e maior intensidade da pressão mecânica.",
     "alternativa": "E",
@@ -5164,7 +5164,7 @@
   {
     "numero": 493,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 418,
     "texto": "493 - ENEM 2016\n\n     Um navio petroleiro é capaz de transportar milhares de toneladas\nde carga. Neste caso, uma grande quantidade de massa consegue\nflutuar.\n\n      Nesta situação, o empuxo é\n\n      (A) maior que a força peso do petroleiro.\n      (B) igual à força peso do petroleiro.\n      (C) maior que a força peso da água deslocada.\n      (D) igual à força peso do volume submerso do navio.\n      (E) igual à massa da água deslocada.",
     "alternativa": "B",
@@ -5202,7 +5202,7 @@
   {
     "numero": 497,
     "ano": 2016,
-    "tema": "Óptica",
+    "tema": "Mecânica",
     "paginaPdf": 421,
     "texto": "497 - ENEM 2016\n\n    A corrida dos 100 m rasos é uma das principais provas do atletismo\ne qualifica o homem mais rápido do mundo. Um corredor de elite foi\ncapaz de percorrer essa distância em 10 s, com 41 passadas. Ele iniciou\na corrida com o pé direito.\n\n    O período de oscilação do pé direito desse corredor foi mais\npróximo de\n\n      (A) 1/10 s.\n      (B) 1/4 s.\n      (C) 1/2 s.\n      (D) 2 s.\n      (E) 4 s.",
     "alternativa": "C",
@@ -5222,7 +5222,7 @@
   {
     "numero": 499,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 422,
     "texto": "499 - ENEM 2016\n\n     Para lavar e refrescar o ambiente, que estava a 40 °C, uma pessoa\nresolveu jogar água sobre um piso de granito. Ela observou que o\nlíquido se concentrou em algumas regiões, molhando parcialmente a\nsuperfície. Ao adicionar detergente sobre essa água, a pessoa verificou\nque o líquido se espalhou e deixou o piso totalmente molhado.\n\n      A molhabilidade da superfície foi melhorada em função da\n\n      (A) solubilidade do detergente em água ser alta.\n      (B) tensão superficial da água ter sido reduzida.\n      (C) pressão de vapor da água ter sido diminuída.\n      (D) densidade da solução ser maior que a da água.\n      (E) viscosidade da solução ser menor que a da água.",
     "alternativa": "B",
@@ -5231,7 +5231,7 @@
   {
     "numero": 500,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Termologia",
     "paginaPdf": 422,
     "texto": "500 - ENEM 2016\n\n    Para a instalação de um aparelho de ar-condicionado, é sugerido\nque ele seja colocado na parte superior da parede do cômodo, pois a\nmaioria dos fluidos (líquidos e gases), quando aquecidos, sofrem\nexpansão, tendo sua densidade diminuída e sofrendo um deslocamento\nascendente. Por sua vez, quando são resfriados, tornam-se mais\ndensos e sofrem um deslocamento descendente.\n\n\f    A sugestão apresentada no texto minimiza o consumo de energia,\nporque\n\n   (A) diminui a umidade do ar dentro do cômodo.\n   (B) aumenta a taxa de condução térmica para fora do cômodo.\n   (C) torna mais fácil o escoamento da água para fora do cômodo.\n   (D) facilita a circulação das correntes de ar frio e quente dentro do\ncômodo.\n   (E) diminui a taxa de emissão de calor por parte do aparelho para\ndentro do cômodo.",
     "alternativa": "D",
@@ -5258,7 +5258,7 @@
   {
     "numero": 503,
     "ano": 2016,
-    "tema": "Termologia",
+    "tema": "Ondulatória",
     "paginaPdf": 424,
     "texto": "503 - ENEM 2016\n\n   O eletrocardiograma, exame utilizado para avaliar o estado do\ncoração de um paciente, trata-se do registro da atividade elétrica do\ncoração ao longo de um certo intervalo de tempo. A figura representa\no eletrocardiograma de um paciente adulto, descansado, não fumante,\nem um ambiente com temperatura agradável. Nessas condições. é\nconsiderado normal um ritmo cardíaco entre 60 e 100 batimentos por\nminuto.\n\n\n\n\n   Com base no eletrocardiograma apresentado, identifica-se que a\nfrequência cardíaca do paciente é\n\n\f      (A) normal.\n      (B) acima do valor ideal.\n      (C) abaixo do valor ideal.\n      (D) próxima do limite inferior.\n      (E) próxima do limite superior",
     "alternativa": "C",
@@ -5269,7 +5269,7 @@
   {
     "numero": 504,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Ondulatória",
     "paginaPdf": 425,
     "texto": "504 - ENEM 2016\n\n    Uma ambulância A em movimento retilíneo e uniforme aproxima-\nse de um observador O, em repouso. A sirene emite um som de\nfrequência constante fA. O desenho ilustra as frentes de onda do som\nemitido pela ambulância. O observador possui um detector que\nconsegue registrar, no esboço de um gráfico, a frequência da onda\nsonora detectada em função do tempo fO(t), antes e depois da\npassagem da ambulância por ele.\n\n       Qual esboço gráfico representa a frequência\n\n\f      (A)\n\n\n\n\n      (B)\n\n\n\n\n      (C)\n\n\n\n\n      (D)\n\n\f      (E)",
     "alternativa": "D",
@@ -5285,7 +5285,7 @@
   {
     "numero": 505,
     "ano": 2016,
-    "tema": "Mecânica",
+    "tema": "Fluidos",
     "paginaPdf": 427,
     "texto": "505 - ENEM 2016\n\n    No manual de uma torneira elétrica são fornecidas instruções\nbásicas de instalação para que o produto funcione corretamente:\n\n    • Se a torneira for conectada à caixa-d’água domiciliar, a pressão\nda água na entrada da torneira deve ser no mínimo 18 kPa e no\nmáximo 38 kPa.\n    • Para pressões da água entre 38 kPa e 75 kPa ou água proveniente\ndiretamente da rede pública, é necessário utilizar o redutor de pressão\nque acompanha o produto.\n    • Essa torneira elétrica pode ser instalada em um prédio ou em\numa casa.\n\n    Considere a massa específica da água 1 000 kg/m³ e a aceleração\nda gravidade 10 m/s².\n\n\f    Para que a torneira funcione corretamente, sem o uso do redutor\nde pressão, quais deverão ser a mínima e a máxima altura entre a\ntorneira e a caixa-d’água?\n\n      (A) 1,8 m e 3,8 m\n      (B) 1,8 m e 7,5 m\n      (C) 3,8 m e 7,5 m\n      (D) 18 m e 38 m\n      (E) 18 m e 75 m",
     "alternativa": "A",
@@ -5296,7 +5296,7 @@
   {
     "numero": 506,
     "ano": 2016,
-    "tema": "Óptica",
+    "tema": "Fluidos",
     "paginaPdf": 428,
     "texto": "506 - ENEM 2016\n\n    Sabe-se que nas proximidades dos polos do planeta Terra é comum\na formação dos icebergs, que são grandes blocos de gelo, flutuando\nnas águas oceânicas. Estudam mostram que a parte de gelo que fica\nemersa durante a flutuação corresponde aproximadamente 10% do\nseu volume total. Um estudante resolveu simular essa situação\nintroduzindo um bloquinho de gelo no interior de um recipiente\ncontendo água, observando a variação de seu nível desde o instante\nde introdução até o completo derretimento do bloquinho.\n\n    Com base nessa simulação, verifica-se que o nível da água no\nrecipiente\n\n     (A) subirá com a introdução do bloquinho de gelo e, após o\nderretimento total do gelo, esse nível subirá ainda mais.\n     (B) subirá com a introdução do bloquinho de gelo e, após o\nderretimento total do gelo, esse nível descerá, voltando ao seu valor\ninicial.\n     (C) subirá com a introdução do bloquinho de gelo e, após o\nderretimento total do gelo, esse nível permanecerá sem alteração.\n     (D) não sofrerá alteração com a introdução do bloquinho de gelo,\nporém, após seu derretimento, o nível subirá devido a um aumento em\ntorno de 10% no volume de água.\n\n\f    (E) subirá em torno de 90% do seu valor inicial com a introdução\ndo bloquinho de gelo e, após seu derretimento, o nível descerá apenas\n10% do valor inicial.",
     "alternativa": "C",
