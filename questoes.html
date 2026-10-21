@@ -28,6 +28,12 @@
       <label>Assunto<select id="topic"><option value="">Todos os assuntos</option></select></label>
       <button id="clear" type="button">Limpar filtros</button>
     </section>
+    <section class="selection-tools" aria-label="Exportar questões selecionadas">
+      <span id="selection-count" aria-live="polite">0 questões selecionadas</span>
+      <button id="select-visible" type="button">Selecionar resultados</button>
+      <button id="clear-selection" type="button">Limpar seleção</button>
+      <button id="export-selected" type="button" disabled>Exportar selecionadas em PDF</button>
+    </section>
     <p id="count" class="count" aria-live="polite">Carregando questões…</p>
     <section id="list" class="question-list" aria-live="polite"></section>
   </main>
