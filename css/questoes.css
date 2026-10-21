@@ -47,10 +47,45 @@
   .pagina-titulo { display: none; }
   .header-search { max-width: none; }
   .intro { align-items: flex-start; flex-direction: column; margin-top: 22px; }
-  .filters { flex-wrap: wrap; }
-  .filters label { flex: 1 1 130px; min-width: 0; }
-  .filters button { flex: 1 1 100%; }
-  .selection-tools button { flex: 1 1 100%; }
+  .filters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .filters label { min-width: 0; }
+  .filters select { width: 100%; }
+  .filters button { grid-column: 1 / -1; min-height: 42px; }
+  .selection-tools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .selection-tools span { grid-column: 1 / -1; margin: 0 0 2px; }
+  .selection-tools button { min-height: 42px; padding: 6px 8px; }
+  #export-selected { grid-column: 1 / -1; }
   .question { padding: 12px; }
-  .question-text { font-size: .82rem; }
+  .question-head { align-items: flex-start; gap: 8px; }
+  .question-head > div { display: grid; gap: 3px; }
+  .question-text { font-size: .92rem; overflow-wrap: anywhere; }
+  .question-figure, .figures { max-width: 100%; }
+  .question-figure img, .figures img { max-width: 100%; height: auto; max-height: 320px; }
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    height: auto;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    gap: 8px 12px;
+    padding: 10px 16px;
+  }
+  body { padding-top: 108px; }
+  .site-disciplina { font-size: 1rem; }
+  .site-header .site-subtitulo { font-size: .52rem; letter-spacing: .12em; }
+  .header-search { grid-column: 1 / -1; width: 100%; margin: 0; }
+  .header-search input { min-height: 40px; }
+  .conteudo { padding-right: 16px; padding-bottom: 60px; padding-left: 16px; }
+  .intro { margin-top: 20px; font-size: .85rem; }
+  .question-head { flex-wrap: wrap; }
+  .page { margin-left: auto; }
+}
+
+@media (max-width: 360px) {
+  .selection-tools { grid-template-columns: minmax(0, 1fr); }
+  .selection-tools button, #export-selected { grid-column: 1; }
+  .question-head { gap: 6px; }
+  .page { flex-basis: 100%; margin-left: 24px; }
 }
