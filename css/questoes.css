@@ -21,6 +21,8 @@
 .meta, .page { color: var(--muted); font-size: .73rem; }
 .page { margin-left: auto; white-space: nowrap; }
 .question-text { color: var(--text); font-size: .86rem; line-height: 1.6; white-space: pre-wrap; }
+.question-figure { display: block; width: fit-content; max-width: 100%; margin: 10px 0 14px; }
+.question-figure img { display: block; max-width: min(100%, 620px); max-height: 400px; object-fit: contain; border: 1px solid var(--border); background: #fff; }
 .figures { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px; margin: 14px 0 4px; }
 .figures a { display: block; max-width: 100%; }
 .figures img { display: block; max-width: min(100%, 620px); max-height: 400px; object-fit: contain; border: 1px solid var(--border); background: #fff; }
