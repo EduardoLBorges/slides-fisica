@@ -92,6 +92,17 @@ body {
     box-shadow: 0 0 0 2px rgba(139,158,207,0.2);
 }
 
+.cap-chip-questoes {
+    border-color: var(--accent);
+    color: var(--text-accent);
+}
+
+.cap-chip-questoes:hover {
+    background: var(--surface2);
+    border-color: var(--accent);
+    color: var(--text-strong);
+}
+
 /* ── Navegação de capítulos ───────────── */
 .cap-nav {
     max-width: 960px;

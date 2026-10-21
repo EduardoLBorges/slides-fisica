@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Banco de questões de Física do ENEM com busca, filtros e figuras.">
+  <title>Questões de Física · ENEM</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/questoes.css">
+  <script src="js/tema.js" defer></script>
+  <script src="js/questoes.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-titulo titulo-link" href="index.html">
+      <span class="site-disciplina">Física Básica</span>
+      <span class="site-subtitulo">← Voltar à apostila</span>
+    </a>
+    <div class="pagina-titulo"><span class="site-subtitulo">ENEM · QUESTÕES</span><h1>Banco de questões</h1></div>
+    <div class="header-search">
+      <input id="search" type="search" placeholder="Buscar questão…" autocomplete="off" aria-label="Buscar questão">
+    </div>
+  </header>
+  <main class="conteudo">
+    <section class="intro"><p>Questões de Física extraídas do caderno do ENEM. Filtre por ano ou assunto, pesquise nos enunciados e consulte o gabarito quando quiser.</p><a class="fonte-pdf" href="data/1000%20Quest%C3%B5es%20do%20ENEM%20-%20Ci%C3%AAncias%20da%20Natureza%20e%20Suas%20Tecnologias%20-%20F%C3%ADsica%20e%20Matem%C3%A1tica.pdf" target="_blank" rel="noopener">Abrir PDF fonte ↗</a></section>
+    <section class="filters" aria-label="Filtros de questões">
+      <label>Ano<select id="year"><option value="">Todos os anos</option></select></label>
+      <label>Assunto<select id="topic"><option value="">Todos os assuntos</option></select></label>
+      <button id="clear" type="button">Limpar filtros</button>
+    </section>
+    <p id="count" class="count" aria-live="polite">Carregando questões…</p>
+    <section id="list" class="question-list" aria-live="polite"></section>
+  </main>
+</body>
+</html>

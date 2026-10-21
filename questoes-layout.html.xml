@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="25.03.0">
+<page number="9" position="absolute" top="0" left="0" height="1262" width="892">
+	<fontspec id="0" size="15" family="ABCDEE+Calibri" color="#000000"/>
+	<fontspec id="1" size="21" family="ABCDEE+Verdana" color="#404040"/>
+	<fontspec id="2" size="21" family="ABCDEE+Verdana,Bold" color="#000000"/>
+	<fontspec id="3" size="21" family="ABCDEE+Tahoma" color="#000000"/>
+	<fontspec id="4" size="21" family="ABCDEE+Verdana" color="#000000"/>
+	<fontspec id="5" size="14" family="ABCDEE+Open Sans" color="#000000"/>
+	<fontspec id="6" size="14" family="ABCDEE+Open Sans,Bold" color="#000000"/>
+<image top="402" left="188" width="517" height="372" src="questoes-layout.html-9_1.jpg"/>
+<image top="870" left="242" width="410" height="259" src="questoes-layout.html-9_2.png"/>
+<text top="1195" left="75" width="11" height="15" font="0">9 </text>
+<text top="96" left="75" width="7" height="26" font="1"> </text>
+<text top="126" left="117" width="173" height="26" font="2"><b>4 - ENEM 2025</b></text>
+<text top="126" left="290" width="7" height="25" font="3"> </text>
+<text top="157" left="75" width="7" height="25" font="3"> </text>
+<text top="187" left="117" width="709" height="26" font="4">A Figura 1 apresenta o esquema de um tubo de imagem em que </text>
+<text top="218" left="75" width="752" height="26" font="4">um filamento, na posição A, libera elétrons por efeito termiônico. Esses </text>
+<text top="249" left="75" width="752" height="26" font="4">elétrons  formam  um  feixe  estreito,  que  é  acelerado  por  campos </text>
+<text top="279" left="75" width="752" height="26" font="4">elétricos em direção à parte interna da tela. Nesse caminho, o feixe de </text>
+<text top="310" left="75" width="752" height="26" font="4">elétrons  passa  por  outro  campo elétrico,  na  região  B,  atingindo,  em </text>
+<text top="340" left="75" width="752" height="26" font="4">seguida, a parte interna da tela do tubo, a qual é recoberta por um </text>
+<text top="371" left="75" width="620" height="26" font="4">material que emite luz ao receber o impacto dos elétrons. </text>
+<text top="752" left="705" width="7" height="26" font="4"> </text>
+<text top="778" left="117" width="709" height="26" font="4">Na Figura 2, a carga negativa representa o feixe de elétrons que é </text>
+<text top="809" left="75" width="752" height="26" font="4">acelerado e, posteriormente, atinge um ponto da tela. O campo elétrico </text>
+<text top="840" left="75" width="509" height="26" font="4">na região B apresenta a seguinte configuração: </text>
+<text top="1108" left="651" width="7" height="26" font="4"> </text>
+<text top="1135" left="469" width="294" height="18" font="5">Grupo de Reelaboração do Ensino de Física. </text>
+<text top="1135" left="763" width="59" height="18" font="6"><b>Física 3: </b></text>
+<text top="1158" left="446" width="131" height="18" font="6"><b>eletromagnetismo</b></text>
+<text top="1158" left="578" width="248" height="18" font="5">. São Paulo: Edusp, 2000 (adaptado).  </text>
+</page>
+</pdf2xml>
